@@ -14,7 +14,7 @@ install:
   - pip install --user awscli
 env:
   global:
-    - COMMIT_AUTHOR_EMAIL="open.source@ribose.com"
-    - ENCRYPTION_LABEL=TODO
+    - COMMIT_AUTHOR_EMAIL="travis-ci@ribose.com"
+    - ENCRYPTION_LABEL=a8a01b55ae26
 script:
   - make _site publish deploy

@@ -1,0 +1,14 @@
+---
+title: "Home"
+layout: page
+permalink: "/concepts"
+---
+:page-liquid:
+
+== Concepts
+
+The list of concepts.
+
+{% for concept in site.concepts %}
+* link:{{ concept.url }}[{{ concept.eng.term }} (ID: {{ concept.eng.id }})]
+{% endfor %}

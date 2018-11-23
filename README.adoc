@@ -1,0 +1,128 @@
+= Geolexica: ISO/TC 211 Terminology Database
+
+image:https://travis-ci.com/riboseinc/terms.isotc211.com.svg?branch=master[
+	Build Status, link="https://travis-ci.com/riboseinc/terms.isotc211.com"]
+
+== Introduction
+
+Geolexica is the terminology databased created by ISO/TC 211.
+
+This repository provides all necessary information for the
+https://terms.isotc211.com site. (not yet live)
+
+The site is managed by Ribose together with the ISO/TC 211 TMB.
+
+
+== Building the index
+
+[source,sh]
+----
+# removes all generated CSD files
+make dist-clean
+
+# generates all required files for Jekyll and runs `jekyll build`
+make _site
+----
+
+== Structure (and how it works)
+
+=== General
+
+There are two types of entries in this site:
+
+. Concepts
+
+. Terms, which represent concepts in a certain language
+
+=== Terminology workbook
+
+The authoritative source of this database is the terminology workbook.
+
+This is committed to the repository as `tc211-termbase.xlsx`.
+
+This file is necessary for running the `tc211-termbase-xlsx2yaml` command.
+
+
+=== Concepts
+
+Every concept is recognized by a unique ID (the "`term id`"), and contains terms
+in different languages.
+
+Here's an example of it from the `_concepts/` directory (which has to be built).
+
+[source,yaml]
+----
+eng:
+  id: 2
+  term: abbreviation
+  alt: preferred
+  definition: designation formed by omitting words or letters from a longer form and
+    designating the same concept
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  authoritative_source: ISO 1087-1:2000, 3.4.9
+  lineage_source: ISO/TS 19104:2008
+  lineage_source_similarity: 1
+  date_accepted: 2008-11-15 00:00:00.000000000 +08:00
+  review_date: 2013-01-29 00:00:00.000000000 +08:00
+  review_status: final
+  review_decision: accepted
+  review_decision_date: 2016-10-01 00:00:00.000000000 +08:00
+  review_decision_event: Publication of ISO 19104:2016
+  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
+    1087-1:2000, 3.4.9. Lineage source added as ISO/TS 19104:2008
+  release: '2'
+ara:
+  ...
+----
+
+
+=== Term
+
+A term contains multiple attributes, such as:
+
+[source,yaml]
+----
+id: 2
+term: abbreviation
+alt: preferred
+definition: designation formed by omitting words or letters from a longer form and
+  designating the same concept
+language_code: eng
+notes: []
+examples: []
+entry_status: valid
+authoritative_source: ISO 1087-1:2000, 3.4.9
+...
+----
+
+
+=== Rendering of HTML
+
+
+Jekyll is used to render YAML into HTML.
+
+NOTE: Since Jekyll Collections have this flaw where YAML files can't be directly
+rendered, a hack is implemented in the Makefile `_concepts` target,
+so that every YAML file is converted into AsciiDoc by padding `---` at the end.
+
+
+== Usage
+
+=== How to add/remove entries?
+
+* Contact the ISO/TC 211 TMB, and they will:
+** Do it in the Terminology Workbook
+** Upload the new workbook to this repository
+
+And on the next run of `make clean all` you will see your entry added on the site.
+
+
+=== Deployment
+
+Please push all changes to the `staging` branch, and changes will be automatically deployed and reflected on the staging site.
+
+If your changes are to be made public to the production site, please contact Ribose.
+

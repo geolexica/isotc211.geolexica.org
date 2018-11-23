@@ -18,3 +18,4 @@ env:
     - ENCRYPTION_LABEL=a8a01b55ae26
 script:
   - make _site publish deploy
+  - ls -al published

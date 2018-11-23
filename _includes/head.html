@@ -28,7 +28,9 @@
   <!-- end favicons -->
 
   <style type="text/css">
-      .header-iso .header-container.header-img.header-img-custom { background-image:url("/images/Banner_tc211_blur.jpg"); }
+      .header-iso .header-container.header-img.header-img-custom {
+        background-image:url("{{ "/images/Banner_tc211_blur.jpg" | relative_url }}");
+      }
   </style>
 
 <!-- <link id="staticAssetCSS0" rel="stylesheet" href="/modules/tc-template/css/isoui-framework.min.css?1526997863412" media="screen" type="text/css"/>
@@ -45,7 +47,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
       <![endif]-->
-    <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}" />
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}" />
 
     {% if jekyll.environment == 'production' and site.google_analytics %}
     {% include google-analytics.html %}

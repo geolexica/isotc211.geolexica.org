@@ -10,5 +10,5 @@ permalink: "/concepts"
 The list of concepts.
 
 {% for concept in site.concepts %}
-* link:{{ concept.url }}[{{ concept.eng.term }} (ID: {{ concept.eng.id }})]
+* link:{{ concept.url | relative_url }}[{{ concept.eng.term }} (ID: {{ concept.eng.id }})]
 {% endfor %}

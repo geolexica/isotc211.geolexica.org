@@ -9,7 +9,7 @@ permalink: "/404.html"
 
 The page you were looking does not exist here.
 
-Go to the link:/[Home] page to start again.
+Go to the link:{{ site.url | relative_url }}[Home] page to start again.
 
 
 == Copyright

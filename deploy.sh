@@ -50,6 +50,7 @@ main() {
 
   # Now let's go have some fun with the cloned repo
   pushd $DEST_DIR
+  ls -al .
   git config user.name "Travis CI"
   git config user.email "$COMMIT_AUTHOR_EMAIL"
 
@@ -63,7 +64,7 @@ main() {
 
   # Commit the "changes", i.e. the new version.
   # The delta will show diffs between new and old versions.
-  git add .
+  git add -A
   git commit -m "Deploy to GitHub Pages: ${SHA}"
 
   eval `ssh-agent -s`

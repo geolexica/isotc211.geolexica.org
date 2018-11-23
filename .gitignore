@@ -1,9 +1,8 @@
 _site
+_concepts
 .sass-cache
 .jekyll-metadata
 .saas-cache
 .DS_Store
-_concepts
-concepts
 published
 deploy_key

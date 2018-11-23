@@ -1,0 +1,33 @@
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+
+    // datatable-meetings initialization
+    $('table#datatable-meetings').DataTable({
+      "destroy": true,
+      "paging": false,
+      "info": false,
+      "searching": false,
+      "columns": [
+        null,
+        null,
+        null,
+        null,
+        { "orderable": false } /* cannot sort by note */
+      ]
+    });
+
+    // Tooltip initialization
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    });
+
+    // Popover initialization
+    $(function () {
+      $('[data-toggle="popover"]').popover()
+    })
+
+  });
+
+</script>

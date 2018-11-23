@@ -1,0 +1,19 @@
+---
+layout: page
+title: "Page not found"
+permalink: "/404.html"
+---
+:page-liquid:
+
+== Page not found
+
+The page you were looking does not exist here.
+
+Go to the link:/[Home] page to start again.
+
+
+== Copyright
+
+++++
+{% include copyright.html %}
+++++

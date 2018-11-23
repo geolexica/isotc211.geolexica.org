@@ -1,0 +1,15 @@
+---
+title: "Home"
+layout: page
+permalink: /
+---
+:page-liquid:
+
+== Introduction
+
+Welcome to Geolexica, the authoritative glossary for geographic
+information technology from ISO/TC 211.
+
+{% for post in site.posts %}
+* link:{{ post.url }}[{{ post.title }}]
+{% endfor %}

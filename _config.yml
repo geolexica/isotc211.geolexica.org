@@ -18,8 +18,8 @@ email: open.source@ribose.com
 description: >- # this means to ignore newlines until "baseurl:"
   Welcome to Geolexica, the authoritative glossary for geographic
   information technology from ISO/TC 211.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://terms.isotc211.com" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "terms.isotc211.com" # the subpath of your site, e.g. /blog
+url: "https://riboseinc.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ISOTC211
 github_username:  ISO-TC211
 

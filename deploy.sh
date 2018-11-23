@@ -64,6 +64,7 @@ main() {
 
   # Commit the "changes", i.e. the new version.
   # The delta will show diffs between new and old versions.
+  git rm -f .gitignore
   git add -A
   git commit -m "Deploy to GitHub Pages: ${SHA}"
 

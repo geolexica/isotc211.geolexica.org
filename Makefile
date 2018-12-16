@@ -20,21 +20,22 @@ all: _site
 clean:
 	rm -rf _site _concepts
 
-distclean:
+distclean: clean
 	rm -rf concepts
 
 _site: _concepts
 	bundle exec jekyll build
 
-concepts:
+concepts_data:
 	bundle exec tc211-termbase-xlsx2yaml tc211-termbase.xlsx
+	mv concepts concepts_data
 
 # Make collection YAML files into adoc files
-_concepts: concepts
-	mkdir -p _concepts
-	for filename in concepts/*.yaml; do \
+_concepts: concepts_data
+	mkdir -p $@
+	for filename in $</*.yaml; do \
 	    [ -e "$$filename" ] || continue; \
-			newpath=$${filename//concepts/_concepts}; \
+			newpath=$${filename//$<\/concept-/$@\/}; \
 	    cp $$filename $${newpath//yaml/adoc}; \
 			echo "---" >> $${newpath//yaml/adoc}; \
 	done

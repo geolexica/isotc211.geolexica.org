@@ -20,7 +20,7 @@ all: _site
 clean:
 	rm -rf _site _concepts
 
-dist-clean:
+distclean:
 	rm -rf concepts
 
 _site: _concepts
@@ -49,17 +49,5 @@ _concepts: concepts
 serve:
 	bundle exec jekyll serve
 
-.PHONY: bundle all open serve dist-clean clean
+.PHONY: bundle all open serve distclean clean
 
-
-publish:
-	mv _site published
-
-deploy_key:
-	openssl aes-256-cbc -K $(encrypted_$(ENCRYPTION_LABEL)_key) \
-		-iv $(encrypted_$(ENCRYPTION_LABEL)_iv) -in $@.enc -out $@ -d && \
-	chmod 600 $@
-
-deploy: deploy_key
-	export COMMIT_AUTHOR_EMAIL=$(COMMIT_AUTHOR_EMAIL); \
-	./deploy.sh

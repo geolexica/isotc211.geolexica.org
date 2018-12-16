@@ -1,7 +1,7 @@
 = Geolexica: ISO/TC 211 Terminology Database
 
-image:https://travis-ci.com/ISO-TC211/www.geolexica.com.svg?branch=master[
-	Build Status, link="https://travis-ci.com/ISO-TC211/www.geolexica.com"]
+image:https://travis-ci.com/ISO-TC211/geolexica.com.svg?branch=master[
+	Build Status, link="https://travis-ci.com/ISO-TC211/geolexica.com"]
 
 == Introduction
 

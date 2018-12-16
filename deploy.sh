@@ -1,5 +1,5 @@
 #!/bin/bash
-# TODO: replace this script when https://github.com/travis-ci/dpl/issues/694 is fixed
+# TODO: replace this script when https://github.com/travis-ci/dpl/issues/695 is merged
 # Taken from https://raw.githubusercontent.com/w3c/permissions/master/deploy.sh
 set -e # Exit with nonzero exit code if anything fails
 
@@ -54,7 +54,7 @@ main() {
   git config user.name "Travis CI"
   git config user.email "$COMMIT_AUTHOR_EMAIL"
 
-  # If there are no changes to the compiled out (e.g. this is a README update) then just bail.
+  # If there are no changes to the compiled output (e.g. this is a README update) then just bail.
   if [[ -z $(git status -s) ]]; then
     echo "No changes to the output on this push; exiting."
     exit 0

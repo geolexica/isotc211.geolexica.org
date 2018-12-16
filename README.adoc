@@ -1,16 +1,16 @@
 = Geolexica: ISO/TC 211 Terminology Database
 
-image:https://travis-ci.com/riboseinc/terms.isotc211.com.svg?branch=master[
-	Build Status, link="https://travis-ci.com/riboseinc/terms.isotc211.com"]
+image:https://travis-ci.com/ISO-TC211/www.geolexica.com.svg?branch=master[
+	Build Status, link="https://travis-ci.com/ISO-TC211/www.geolexica.com"]
 
 == Introduction
 
 Geolexica is the terminology databased created by ISO/TC 211.
 
 This repository provides all necessary information for the
-https://terms.isotc211.com site. (not yet live)
+https://www.geolexica.com site. (not yet complete)
 
-The site is managed by Ribose together with the ISO/TC 211 TMB.
+The site is managed by the ISO/TC 211 TMB together with Ribose.
 
 
 == Building the index

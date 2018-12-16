@@ -3,5 +3,6 @@ _site
 .jekyll-metadata
 .saas-cache
 .DS_Store
-published
-deploy_key
+_concepts
+concepts
+

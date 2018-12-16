@@ -17,5 +17,19 @@ env:
     - COMMIT_AUTHOR_EMAIL="travis-ci@ribose.com"
     - ENCRYPTION_LABEL=a8a01b55ae26
 script:
-  - make _site publish deploy
-  - ls -al published
+  - make _site
+deploy:
+  - provider: script
+    script: aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
+    skip_cleanup: true
+    on:
+      branch: master
+  - provider: script
+    script: aws s3 sync _site s3://$S3_STAGING_BUCKET_NAME --region=$AWS_REGION --delete --no-progress
+    skip_cleanup: true
+    on:
+      branch: staging
+after_deploy:
+  - aws configure set preview.cloudfront true
+  - test $TRAVIS_BRANCH = "master" && aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
+  - test $TRAVIS_BRANCH = "staging" && aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_STAGING_DISTRIBUTION_ID --paths "/*"

@@ -13,8 +13,24 @@ languages:
   - kor
   - rus
   - swe
+term_attributes:
+  - definition
+  - notes
+  - examples
+  - entry_status
+  - authoritative_source
+  - lineage_source
+  - lineage_source_similarity
+  - date_accepted
+  - review_date
+  - review_status
+  - review_decision
+  - review_decision_event
+  - review_decision_notes
+  - release
 ---
 <div class="term-container">
+  <h2 class="term-id">Term ID: {{ page.eng.id }}</h2>
 
 {% for lang in layout.languages %}
 {% include term.html %}

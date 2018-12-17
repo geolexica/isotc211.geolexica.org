@@ -7,8 +7,7 @@ permalink: "/concepts/index.html"
 
 == Concepts
 
-The list of concepts.
-
-{% for concept in site.concepts %}
-* link:{{ concept.url | relative_url }}[{{ concept.eng.term }} (ID: {{ concept.eng.id }})]
+{% assign sortedConcepts = site.concepts %}
+{% for concept in sortedConcepts %}
+* link:{{ concept.url | relative_url }}[{{ concept.termid }} {{ concept.term }}]
 {% endfor %}

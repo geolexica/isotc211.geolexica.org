@@ -49,7 +49,7 @@ collections:
 defaults:
   - scope:
       path: ""
-      type: "concept"
+      type: "concepts"
     values:
       layout: concept
 

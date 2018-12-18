@@ -5,24 +5,13 @@ image:https://travis-ci.com/ISO-TC211/geolexica.com.svg?branch=master[
 
 == Introduction
 
-Geolexica is the terminology databased created by ISO/TC 211.
+Geolexica is the site name of the online version of the ISO/TC 211 Multi Lingual Glossary of Terms.
 
 This repository provides all necessary information for the
 https://www.geolexica.com site. (not yet complete)
 
-The site is managed by the ISO/TC 211 TMB together with Ribose.
+The site is managed by the ISO/TC 211 TMG together with Ribose.
 
-
-== Building the index
-
-[source,sh]
-----
-# removes all generated CSD files
-make dist-clean
-
-# generates all required files for Jekyll and runs `jekyll build`
-make _site
-----
 
 == Structure (and how it works)
 
@@ -34,11 +23,20 @@ There are two types of entries in this site:
 
 . Terms, which represent concepts in a certain language
 
-=== Terminology workbook
+NOTE: Data stored in this structure is read from the latest published
+ISO/TC 211 "`Multi-Lingual Glossary of Terms`". Authoritative data is not
+stored in this repository.
 
-The authoritative source of this database is the terminology workbook.
 
-This is committed to the repository as `tc211-termbase.xlsx`.
+=== Multi-Lingual Glossary of Terms
+
+The authoritative source of this online termbase is the Multi-Lingual Glossary of Terms
+published by ISO/TC 211.
+
+This is committed to the repository as `tc211-termbase.xlsx`, which is derived
+from the latest `TC211_ Multi-Lingual_Glossary - 20181105_Published.xls` file,
+by manual conversion of the source file into the destination XLSX file
+provided in this repository.
 
 This file is necessary for running the `tc211-termbase-xlsx2yaml` command.
 
@@ -111,13 +109,39 @@ so that every YAML file is converted into AsciiDoc by padding `---` at the end.
 
 == Usage
 
-=== How to add/remove entries?
 
-* Contact the ISO/TC 211 TMB, and they will:
-** Do it in the Terminology Workbook
-** Upload the new workbook to this repository
+=== How to add/remove entries or suggest changes?
 
-And on the next run of `make clean all` you will see your entry added on the site.
+This terminology database is managed by the ISO/TC 211 TMG, it only considers
+requests from within ISO/TC 211.
+
+It is not a community-managed or community-sourced terminology database.
+
+. Contact the ISO/TC 211 TMG.
+
+. If a change is approved, they will publish the change in the new ISO/TC 211 "`Multi-Lingual Glossary of Terms`".
+
+. The TMG will manually upload the new MLGT to this repository.
+
+. Once the new MLGT is uploaded, the Geolexica site will be automatically deployed with the latest changes.
+.. (i.e. On the next run of `make clean all` you will see the entry added.)
+
+
+
+== Internal operations
+
+NOTE: These steps are only intended for the internal operator of the site!
+
+=== Building the index
+
+[source,sh]
+----
+# removes all generated CSD files
+make dist-clean
+
+# generates all required files for Jekyll and runs `jekyll build`
+make _site
+----
 
 
 === Deployment

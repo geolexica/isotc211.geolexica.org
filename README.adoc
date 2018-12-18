@@ -12,6 +12,8 @@ https://www.geolexica.com site. (not yet complete)
 
 The site is managed by the ISO/TC 211 TMG together with Ribose.
 
+NOTE: This repository is only meant for internal consumption!
+
 
 == Structure (and how it works)
 

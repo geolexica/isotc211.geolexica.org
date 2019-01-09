@@ -1,27 +1,14 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: "Geolexica"
+
 email: open.source@ribose.com
-description: >- # this means to ignore newlines until "baseurl:"
+
+description: >-
   Welcome to Geolexica, the authoritative glossary for geographic
   information technology from ISO/TC 211.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.geolexica.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ISOTC211
-github_username:  ISO-TC211
+
+baseurl: ""
+url: "https://geolexica.com"
+
 
 # TODO add these
 # https://www.iso.org/committee/54904.html#meetings
@@ -29,7 +16,6 @@ github_username:  ISO-TC211
 # https://www.linkedin.com/groups/4222374
 
 
-# Build settings
 markdown: kramdown
 # theme: minima
 plugins:
@@ -53,9 +39,6 @@ defaults:
     values:
       layout: concept
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock

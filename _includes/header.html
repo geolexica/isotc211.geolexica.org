@@ -1,9 +1,5 @@
-<header class="header header-iso container" role="banner">
-  <div class="rubber">
-    <div class="rubber-poweredby"></div>
-  </div>
-
-  <div class="topbar topbar-light topbar-whitecontent">
+<header role="banner">
+  <div class="topbar">
     <div class="topbar-content">
       <a class="logo poweredby riboselogo" href="https://www.ribose.com" title="Powered by Ribose"></a>
       <div class="poweredby-txt">
@@ -12,8 +8,8 @@
     </div>
   </div>
 
-  <div class="header-container header-img header-img-custom header-img-lightshadow">
-    <nav class="navbar navbar-inverse" role="navigation">
+  <div class="header-img-custom">
+    <nav>
       <div class="navbar-header">
         <a class="logo isologo" href="{{ "/" | relative_url }}" title="Home"></a>
         <div class="header-title">
@@ -26,21 +22,19 @@
         </div>
       </div>
 
-      <div class="nav-container collapse navbar-collapse nav-3levels" id="offcanvas-menu">
-        <ul class="nav-level1 nav navbar-nav verticaline verticaline-dark">
-          <li class="noChildren active firstInLevel">
+      <div class="nav-container">
+        <ul>
+          <li>
             <a href="{{ "/" | relative_url }}">Home</a>
           </li>
-          <li class="noChildren">
+          <li>
             <a href="{{ "/about" | relative_url }}">About</a>
           </li>
-          <li class="noChildren lastInLevel">
+          <li>
             <a href="{{ "/concepts" | relative_url }}">Concepts</a>
           </li>
         </ul>
       </div>
-
-      <div class="clear"></div>
     </nav>
   </div>
 </header>

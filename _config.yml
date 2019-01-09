@@ -24,7 +24,10 @@ social:
 
 
 markdown: kramdown
-# theme: minima
+
+# TODO: Move styling into theme
+#theme: isotc211
+
 plugins:
   - jekyll-feed
 

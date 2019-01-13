@@ -2,6 +2,7 @@
 
   const searchWorker = new Worker('/assets/concept-search-worker.js');
 
+  // TODO: Move to a shared module
   const LANGUAGES = [
     'eng',
     'ara',
@@ -10,11 +11,15 @@
     'kor',
   ];
 
+
+  // React-based concept browser
+  // ===========================
+
   let el = React.createElement;
 
   let fieldConfig = {
     termid: {
-      title: 'ID',
+      title: 'Ref',
       view: (item) => { return el('a', {
         href: getConceptPermalink(item),
         target: '_blank',
@@ -171,6 +176,8 @@
         items: [],
         searchQuery: {},  // string, (in future) valid
         expanded: false,
+        error: false,
+        loading: false,
       };
 
       this.handleSearchQuery = this.handleSearchQuery.bind(this);
@@ -179,7 +186,11 @@
 
     componentDidMount() {
       searchWorker.onmessage = (msg) => {
-        this.setState({ items: msg.data });
+        if (msg.data.error) {
+          this.setState({ loading: false, error: msg.data.error });
+        } else {
+          this.setState({ loading: false, error: null, items: msg.data });
+        }
       };
     }
 
@@ -188,25 +199,25 @@
     }
 
     render() {
-      var headerContents = [];
+      var headerEls = [];
       var searchString = this.state.searchQuery.string;
 
       if (searchString && searchString.length > 1) {
         let buttonLabel = this.state.expanded ? '×' : '+';
-        headerContents.push(
+        headerEls.push(
           el('button', {
-            className: 'toggle',
+            key: 'toggle',
             ref: this.toggleSwitchRef,
+            className: 'toggle',
             onClick: this.handleToggleBrowser,
           }, buttonLabel)
         );
       }
-      headerContents.push(el('span', null, 'Find a concept'));
+      headerEls.push(el('span', { key: 'title' }, 'Find a concept'));
+      headerEls.push(el('a', { key: 'link', href: '/concepts' }, '(browse all)'));
 
       var els = [
-        el('h2', { key: 'section-title', className: 'section-title' },
-          headerContents
-        ),
+        el('h2', { key: 'section-title', className: 'section-title' }, headerEls),
         el('div', { key: 'search-controls', className: 'search-controls' },
           el(SearchControls, {
             onSearchChange: this.handleSearchQuery,
@@ -215,8 +226,20 @@
         ),
       ];
 
-      if (this.state.expanded) {
-        els.push(el('div', { key: 'search-results', className: 'search-results' },
+      if (this.state.error) {
+        els.push(el(
+          'div',
+          { key: 'search-results', className: 'search-results status-message error' },
+          this.state.error));
+      } else if (this.state.loading) {
+        els.push(el(
+          'div',
+          { key: 'search-results', className: 'search-results status-message loading' },
+          'Loading…'));
+      } else if (this.state.expanded) {
+        els.push(el(
+          'div',
+          { key: 'search-results', className: 'search-results' },
           el(ConceptList, { items: this.state.items, fields })));
       }
 
@@ -224,25 +247,18 @@
     }
 
     handleSearchQuery(query) {
-      if (query.string.length > 1) {
-        this.setState({ searchQuery: query, expanded: true });
-        updateBodyClass({ searchQuery: query, expanded: true });
+      var hasQuery = query.string.length > 1;
+      if (hasQuery) {
         window.setTimeout(() => { searchWorker.postMessage(query) }, 100);
-      } else {
-        this.setState({ searchQuery: query, expanded: false });
-        updateBodyClass({ searchQuery: query, expanded: false });
       }
+      this.setState({ loading: hasQuery, searchQuery: query, expanded: hasQuery });
+      updateBodyClass({ searchQuery: query, expanded: hasQuery });
     }
 
     handleToggleBrowser() {
       this.setState((state) => {
         state.expanded = !state.expanded;
-
-        if (state.expanded) {
-          updateBodyClass({ expanded: true });
-        } else {
-          updateBodyClass({ expanded: false });
-        }
+        updateBodyClass({ expanded: state.expanded });
         return state;
       });
     }

@@ -9,7 +9,6 @@ const LANGUAGES = [
 ];
 
 var concepts = null;
-var conceptsWereRequested = false;
 var latestQuery = null;
 
 function fetchConcepts() {
@@ -67,11 +66,19 @@ async function filterAndSort(params) {
 onmessage = async function(msg) {
   latestQuery = msg.data;
 
-  let concepts = await filterAndSort(msg.data);
+  let concepts;
+  try {
+    concepts = await filterAndSort(msg.data);
+  } catch (e) {
+    postMessage({ error: "Failed to fetch concepts, please reload & try again!" });
+    return;
+  }
 
-  // Check if we got a new message while concepts were being fetched,
-  // in that case 
-  if (latestQuery.string === msg.data.string) {  // UPDATE if more parameters are supported
+  // Check if we the query changed while concepts were being fetched,
+  // in that case skip posting back the message
+  // NOTE: if more query parameters are supported, update the condition to ensure
+  // full comparison
+  if (latestQuery.string === msg.data.string) {
     postMessage(concepts);
   }
 };

@@ -13,16 +13,20 @@
         <div class="site-title">
           <h1>Geolexica</h1>
           <p>
-            The authoritative
-            geographic information terminology database
-            from ISO TC 211
+            <span class="description">
+              The authoritative
+              geographic information terminology database
+            </span>
+            <span class="committee">
+              from ISO TC 211
+            </span>
           </p>
         </div>
 
         <ul role="nav">
           {% assign nav_items = page.nav_items | default: layout.nav_items %}
-          {% for item in  nav_items %}
-            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% for item in nav_items %}
+            <li><a href="{{ site.nav[item].url | relative_url }}">{{ site.nav[item].title }}</a>
           {% endfor %}
         </ul>
       </div>
@@ -33,14 +37,35 @@
     </main>
 
     <footer>
+      {% if site.social.links %}
+        <ul class="social-links">
+          {% for link in site.social.links %}
+            <li>
+              <a href="{{ link.url }}">
+                {% if link.url contains "twitter.com" %}
+                  <i class="fab fa-twitter"></i>
+                {% elsif link.url contains "github.com" %}
+                  <i class="fab fa-github"></i>
+                {% elsif link.url contains "facebook.com" %}
+                  <i class="fab fa-facebook"></i>
+                {% elsif link.url contains "linkedin.com" %}
+                  <i class="fab fa-linkedin"></i>
+                {% else %}
+                  {{ link.title }}
+                {% endif %}
+              </a>
+          {% endfor %}
+        </ul>
+      {% endif %}
+
       <ul role="nav">
-        <li>ISO organization
-        <li>Privacy
-        <li>Contact
+        {% for item in site.footer_nav %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a>
+        {% endfor %}
       </ul>
 
       <p class="powered-by">
-        Powered by Ribose
+        Powered by <a href="{{ site.powered_by.url }}">{{ site.powered_by.title }}</a>
       </p>
 
       <p class="legal">

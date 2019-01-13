@@ -2,6 +2,7 @@
 title: "Home"
 layout: page
 permalink: "/concepts/index.html"
+nav_items: [home, about]
 ---
 :page-liquid:
 

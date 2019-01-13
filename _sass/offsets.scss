@@ -56,6 +56,13 @@ body.home > main > .news {
   }
 }
 
+body.post, body.page {
+  > main > * {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+}
+
 body.concepts > main > div {
   > h2,
   > .sectionbody > .paragraph {
@@ -64,9 +71,19 @@ body.concepts > main > div {
   }
 }
 
-body.post, body.page {
-  > main > * {
+body.concept > main {
+  > header h2 {
     margin-left: $sideOffsetBase;
     margin-right: $sideOffsetBase;
+  }
+  @media screen and (min-width: $bigscreenBreakpoint) {
+    .field {
+      margin-left: calc(#{$sideOffsetBase} - #{$logoOffset});
+      margin-right: $sideOffsetBase;
+
+      .field-name {
+        width: $logoOffset;
+      }
+    }
   }
 }

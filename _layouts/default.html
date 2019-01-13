@@ -37,28 +37,23 @@
     </main>
 
     <footer>
-      {% if site.social.links %}
-        <ul class="social-links">
-          {% for link in site.social.links %}
-            <li>
-              <a href="{{ link.url }}">
-                {% if link.url contains "twitter.com" %}
-                  <i class="fab fa-twitter"></i>
-                {% elsif link.url contains "github.com" %}
-                  <i class="fab fa-github"></i>
-                {% elsif link.url contains "facebook.com" %}
-                  <i class="fab fa-facebook"></i>
-                {% elsif link.url contains "linkedin.com" %}
-                  <i class="fab fa-linkedin"></i>
-                {% else %}
-                  {{ link.title }}
-                {% endif %}
-              </a>
-          {% endfor %}
-        </ul>
-      {% endif %}
-
       <ul role="nav">
+        {% for link in site.social.links %}
+          <li>
+            <a href="{{ link.url }}">
+              {% if link.url contains "twitter.com" %}
+                <i class="fab fa-twitter"></i>
+              {% elsif link.url contains "github.com" %}
+                <i class="fab fa-github"></i>
+              {% elsif link.url contains "facebook.com" %}
+                <i class="fab fa-facebook"></i>
+              {% elsif link.url contains "linkedin.com" %}
+                <i class="fab fa-linkedin"></i>
+              {% else %}
+                {{ link.title }}
+              {% endif %}
+            </a>
+        {% endfor %}
         {% for item in site.footer_nav %}
           <li><a href="{{ item.url }}">{{ item.title }}</a>
         {% endfor %}

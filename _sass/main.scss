@@ -23,10 +23,6 @@ body {
     font-size: 90%;
     line-height: 1.6;
 
-    > * {
-      margin-left: 1em;
-    }
-
     .logo {
       width: $logoOffset;
       margin-left: 0;
@@ -52,6 +48,9 @@ body {
       li {
         margin-left: 1em;
         white-space: nowrap;
+        &:first-child {
+          margin-left: 0;
+        }
       }
     }
 
@@ -61,7 +60,7 @@ body {
       align-items: center;
       justify-content: flex-end;
 
-      .legal {
+      > * {
         margin-left: 2em;
       }
     }

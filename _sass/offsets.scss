@@ -59,3 +59,10 @@ body.concepts > main > div {
     margin-right: $sideOffsetBase;
   }
 }
+
+body.post, body.page {
+  > main > * {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+}

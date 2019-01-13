@@ -176,6 +176,13 @@ body.home {
     }
     > main {
       flex-shrink: 1;
+      min-height: 300px;
+      // ^^ value out of thin air approximating minimally acceptable main height,
+      // otherwise on very short viewports footer overlaps main due to its flex-shrink: 1,
+      // which we want to restrict main height to viewport so that search results
+      // can be scrolled within their own div.
+      // Another (better?) solution could be to scope flex-shrink: 1
+      // to tall enough viewports with a media query.
 
       > section.browse-concepts {
         flex-shrink: 1;

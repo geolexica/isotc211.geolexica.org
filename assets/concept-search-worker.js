@@ -77,7 +77,9 @@ onmessage = async function(msg) {
   try {
     concepts = await filterAndSort(msg.data);
   } catch (e) {
+    console.error(e);
     postMessage({ error: "Failed to fetch concepts, please reload & try again!" });
+    throw e;
     return;
   }
 

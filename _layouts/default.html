@@ -3,14 +3,53 @@
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
 
-  <body>
-    {% include header.html %}
+  <body class="{{ page.bodyClass | default: layout.bodyClass }}">
+    <header>
+      <div class="site-headline">
+        <div class="parent-org-reference">
+          <a href="/" class="logo-link"><img src="{{ "/assets/logo-iso-noninverted.svg" | relative_url }}"></a>
+        </div>
+
+        <div class="site-title">
+          <h1>Geolexica</h1>
+          <p>
+            The authoritative
+            geographic information terminology database
+            from ISO TC 211
+          </p>
+        </div>
+
+        <ul role="nav">
+          {% for item in page.nav_items %}
+            <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
+          {% endfor %}
+        </ul>
+      </div>
+    </header>
 
     <main>
       {{ content }}
     </main>
 
-    {% include footer.html %}
+    <footer>
+      <ul role="nav">
+        <li>ISO organization
+        <li>Privacy
+        <li>Contact
+      </ul>
+
+      <p class="powered-by">
+        Powered by Ribose
+      </p>
+
+      <p class="legal">
+        © All Rights Reserved
+      </p>
+
+      <div class="logo">
+        <img src="{{ "/assets/logo-iso-noninverted.svg" | relative_url }}">
+      </div>
+    </footer>
 
     {% include script.html %}
   </body>

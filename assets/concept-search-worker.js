@@ -56,15 +56,15 @@ async function filterAndSort(params) {
     concepts = concepts.
       filter((item) => {
         // Only select concepts with at least one localized version matching given validity query
-        let validLocalizedItems = LANGUAGES.
+        const validLocalizedItems = LANGUAGES.
           filter((lang) => item.hasOwnProperty(lang)).
-          filter((lang) => item[lang].entry_status === (params.valid ? 'valid' : 'notValid'));
+          filter((lang) => item[lang].entry_status === params.valid);
         return validLocalizedItems.length > 0;
       }).
       map((item) => {
         // Delete localized versions that don’t match given validity query
         for (let lang of LANGUAGES) {
-          if (item[lang] && item[lang].entry_status !== (params.valid ? 'valid' : 'notValid')) {
+          if (item[lang] && item[lang].entry_status !== params.valid) {
             delete item[lang];
           }
         }

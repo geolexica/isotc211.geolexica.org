@@ -79,7 +79,7 @@ body.home {
           margin-left: -.5em;
         }
 
-        .refine-controls {
+        .refine {
           display: flex;
           flex-flow: row wrap;
           align-items: center;
@@ -88,6 +88,10 @@ body.home {
             display: flex;
             flex-flow: row nowrap;
             align-items: center;
+          }
+
+          input[type=checkbox], label {
+            cursor: pointer;
           }
         }
       }

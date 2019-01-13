@@ -3,12 +3,13 @@ title: "Home"
 layout: page
 permalink: "/concepts/index.html"
 nav_items: [home, about]
+bodyClass: concepts
 ---
 :page-liquid:
 
-== Concepts
+== All concepts
 
-{% assign sortedConcepts = site.concepts %}
+{% assign sortedConcepts = site.concepts | sort: "term" %}
 {% for concept in sortedConcepts %}
-* link:{{ concept.url | relative_url }}[{{ concept.termid }} {{ concept.term }}]
+    * link:{{ concept.url | relative_url }}[{{ concept.termid }} {{ concept.term }}]
 {% endfor %}

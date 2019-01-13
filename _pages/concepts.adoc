@@ -1,6 +1,5 @@
 ---
-title: "Home"
-layout: page
+layout: default
 permalink: "/concepts/index.html"
 nav_items: [home, about]
 bodyClass: concepts

@@ -83,6 +83,7 @@ body.concept {
     }
   }
   article.lang-ara {
+    flex-direction: row-reverse;
     .localized {
       direction: rtl;
     }

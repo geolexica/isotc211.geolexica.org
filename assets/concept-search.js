@@ -9,6 +9,13 @@
     'spa',
     'swe',
     'kor',
+    'rus',
+    'ger',
+    'fre',
+    'fin',
+    'jpn',
+    'dan',
+    'chi',
   ];
 
 

@@ -6,6 +6,13 @@ const LANGUAGES = [
   'spa',
   'swe',
   'kor',
+  'rus',
+  'ger',
+  'fre',
+  'fin',
+  'jpn',
+  'dan',
+  'chi',
 ];
 
 var concepts = null;

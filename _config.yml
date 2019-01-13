@@ -11,20 +11,39 @@ url: "https://geolexica.com"
 
 social:
   links:
-    - https://twitter.com/ISOTC211
-    - https://github.com/ISO-TC211
-    - https://www.iso.org/committee/54904.html#meetings
-    - https://www.facebook.com/groups/236669159734679/
-    - https://www.linkedin.com/groups/4222374
+    - url: https://twitter.com/ISOTC211
+    - url: https://github.com/ISO-TC211
+    - url: https://www.facebook.com/groups/236669159734679/
+    - url: https://www.linkedin.com/groups/4222374
+
+# Layouts and pages can include nav_items array referring to link IDs in frontmatter
+nav:
+  about:
+    url: /about
+    title: About
+  home:
+    url: /
+    title: Home
+
+footer_nav:
+  - url: "javascript: void 0;"
+    title: ISO organization
+  - url: https://www.iso.org/committee/54904.html#meetings
+    title: TC 211
+  - url: "javascript: void 0;"
+    title: Privacy
+  - url: "javascript: void 0;"
+    title: Contact
+
+powered_by:
+  url: open.ribose.com
+  title: Ribose
 
 
 markdown: kramdown
 
 # TODO: Move styling into theme
 #theme: isotc211
-
-plugins:
-  - jekyll-feed
 
 sass:
   style: compressed

@@ -52,7 +52,10 @@ body.home > main > .news {
   }
 }
 
-body.concepts > main > div > h2 {
-  margin-left: $sideOffsetBase;
-  margin-right: $sideOffsetBase;
+body.concepts > main > div {
+  > h2,
+  > .sectionbody > .paragraph {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
 }

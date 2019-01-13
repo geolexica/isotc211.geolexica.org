@@ -55,20 +55,15 @@
       this.handleSearchStringChange = this.handleSearchStringChange.bind(this);
       this.handleValiditySelectionChange = this.handleValiditySelectionChange.bind(this);
 
-      this.validityCheckboxRef = React.createRef();
       this.stringInputRef = React.createRef();
 
       this.state = {
-        valid: undefined,
+        valid: undefined,  // Required value of the entry_status field, or undefined
         string: '',
       };
     }
     componentDidMount() {
-      this._updateValidityCheckbox();
       this.stringInputRef.current.focus();
-    }
-    componentDidUpdate() {
-      this._updateValidityCheckbox();
     }
     render() {
       var searchControls = [
@@ -81,7 +76,7 @@
           onChange: this.handleSearchStringChange}),
       ];
 
-      if ((this.props.refineControls || []).length > 0) {
+      if (this.state.string.length > 1 && (this.props.refineControls || []).length > 0) {
         var refineControls = [];
 
         if (this.props.refineControls.indexOf('validity') >= 0) {
@@ -89,10 +84,9 @@
             el('div', { key: 'validity', className: 'validity' }, [
               el('input', {
                 key: 'validity-checkbox',
-                ref: this.validityCheckboxRef,
                 id: 'conceptSearchValidity',
                 type: 'checkbox',
-                checked: this.state.valid || false,
+                checked: this.state.valid === 'valid' || false,
                 onChange: this.handleValiditySelectionChange}),
               el('label', {
                 key: 'validity-label',
@@ -120,20 +114,12 @@
 
     handleValiditySelectionChange(evt) {
       this.setState(({ valid, string }) => {
-        if (valid == undefined) {
-          return { valid: true, string };
-        } else if (valid == true) {
-          return { valid: false, string };
-        } else {
+        if (valid === 'valid') {
           return { valid: undefined, string };
+        } else {
+          return { valid: 'valid', string };
         }
       }, () => { this.emitSearchChange() });
-    }
-
-    _updateValidityCheckbox() {
-      if (this.validityCheckboxRef.current) {
-        this.validityCheckboxRef.current.indeterminate = this.state.valid === undefined;
-      }
     }
   }
 
@@ -228,7 +214,7 @@
         el('div', { key: 'search-controls', className: 'search-controls' },
           el(SearchControls, {
             onSearchChange: this.handleSearchQuery,
-            refineControls: [],
+            refineControls: ['validity'],
           })
         ),
       ];

@@ -18,12 +18,15 @@ social:
 
 # Layouts and pages can include nav_items array referring to link IDs in frontmatter
 nav:
-  about:
-    url: /about
-    title: About
   home:
     url: /
     title: Home
+  about:
+    url: /about
+    title: About
+  concepts:
+    url: /concepts
+    title: Concepts
 
 footer_nav:
   - url: "javascript: void 0;"

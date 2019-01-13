@@ -1,0 +1,26 @@
+---
+layout: default
+bodyClass: home
+---
+
+<section class="browse-concepts">
+  <h2 class="section-title">Concepts</h2>
+  <a href="/concepts/" class="browse-concepts">Browse concepts</a>
+</section>
+
+<section class="news">
+  <h2 class="section-title">News</h2>
+
+  <div class="items">
+    {% for post in site.posts %}
+      <article class="news-item-card">
+        <h3 class="title"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <div class="excerpt">{{ post.excerpt }}</div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
+
+<script src="https://unpkg.com/react@^16/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@^16/umd/react-dom.development.js"></script>
+<script src="{{ "/assets/concept-search.js" | relative_url }}"></script>

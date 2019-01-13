@@ -9,6 +9,8 @@ bodyClass: concepts
 
 == All concepts
 
+The concepts below are sorted by term name, alphabetically with title-case terms listed first.
+
 {% assign sortedConcepts = site.concepts | sort: "term" %}
 {% for concept in sortedConcepts %}
     * link:{{ concept.url | relative_url }}[{{ concept.termid }} {{ concept.term }}]

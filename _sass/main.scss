@@ -38,7 +38,7 @@ body {
       white-space: nowrap;
     }
 
-    ul[role=nav], ul.social-links {
+    ul[role=nav] {
       list-style: none;
       margin: 0;
       padding: 0;
@@ -95,6 +95,7 @@ body {
         }
       }
       .site-title {
+        flex: 1;
         display: flex;
         flex-flow: column nowrap;
 
@@ -128,16 +129,17 @@ body {
 
       ul[role=nav] {
         align-self: flex-end;
+
         display: flex;
-
-        font-size: 80%;
-        line-height: 1.6;
-
-        text-transform: uppercase;
-        flex-flow: row wrap;
+        flex-flow: column nowrap;
+        align-items: flex-end;
         margin: 0 0 0 .4em;
         padding: 0 0 1em 0;
         list-style: none;
+
+        font-size: 80%;
+        line-height: 1.6;
+        text-transform: uppercase;
 
         li {
           margin: 0 0 0 1em;
@@ -145,14 +147,7 @@ body {
           a {
             text-decoration: none;
             font-weight: bold;
-
-            &:link, &:visited {
-            }
           }
-        }
-
-        @media screen and (min-width: $bigscreenBreakpoint) {
-          flex-flow: row nowrap;
         }
       }
     }

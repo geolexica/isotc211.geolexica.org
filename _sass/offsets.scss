@@ -8,8 +8,12 @@ body > header {
   margin: 0 $sideOffsetBase 0 calc(#{$sideOffsetBase} - #{$logoOffset});
 }
 body > footer {
+  padding: 0 $sideOffsetBase 0 $sideOffsetBase;
+
   // Hanging logo on the right
-  padding: 0 calc(#{$sideOffsetBase} - #{$logoOffset}) 0 calc(#{$sideOffsetBase} - 1em);
+  @media screen and (min-width: $bigscreenBreakpoint) {
+    padding: 0 calc(#{$sideOffsetBase} - #{$logoOffset}) 0 calc(#{$sideOffsetBase} - 1em);
+  }
 }
 
 body.home > main > section.browse-concepts {

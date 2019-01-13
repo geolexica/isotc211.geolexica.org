@@ -32,8 +32,12 @@ async function filterAndSort(params) {
     concepts = concepts.map((item) => {
       // Search all localized term names for the presence of given search string
 
-      let matchingLanguages = LANGUAGES.
-        filter((lang) => item[lang] && item[lang].term.indexOf(params.string) >= 0);
+      const queryString = params.string.toLowerCase();
+      const matchingLanguages = LANGUAGES.
+        filter((lang) => {
+          const term = (item[lang] || {}).term;
+          return term && term.toLowerCase().indexOf(params.string) >= 0;
+        });
 
       if (matchingLanguages.length > 0) {
         for (let lang of LANGUAGES) {
@@ -42,8 +46,9 @@ async function filterAndSort(params) {
           }
         }
         return item;
+      } else {
+        return null;
       }
-      return null;
     }).filter((item) => item !== null);
   }
 

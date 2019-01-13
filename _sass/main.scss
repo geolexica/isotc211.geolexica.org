@@ -1,0 +1,171 @@
+// Main layout
+// ===========
+
+body > header,
+body > main > section {
+  padding-bottom: 1em;
+}
+
+body {
+  $footerH: $logoSize + 40px;
+
+  flex: 1;
+
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: stretch;
+  margin-bottom: -$footerH;
+
+  > footer {
+    flex-shrink: 0;
+    height: $footerH;
+    margin-top: 1em;
+    font-size: 90%;
+    line-height: 1.6;
+
+    > * {
+      margin-left: 1em;
+    }
+
+    .logo {
+      width: $logoOffset;
+      margin-left: 0;
+
+      img {
+        width: $logoSize;
+        height: $logoSize;
+        display: block;
+      }
+    }
+
+    .legal {
+      white-space: nowrap;
+    }
+
+    ul[role=nav], ul.social-links {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-flow: row wrap;
+
+      li {
+        margin-left: 1em;
+        white-space: nowrap;
+      }
+    }
+
+    @media screen and (min-width: $bigscreenBreakpoint) {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: flex-end;
+
+      .legal {
+        margin-left: 2em;
+      }
+    }
+  }
+
+  > header {
+    flex-shrink: 0;
+
+    .site-headline {
+      display: flex;
+      flex-flow: row nowrap;
+
+      .parent-org-reference {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: space-between;
+        width: $logoOffset;
+
+        .logo-link {
+          height: $logoOffset;
+          width: $logoOffset;
+          display: flex;
+          flex-flow: column nowrap;
+          align-items: center;
+          justify-content: center;
+
+          img {
+            display: block;
+            height: $logoSize;
+            width: $logoSize;
+          }
+        }
+      }
+      .site-title {
+        display: flex;
+        flex-flow: column nowrap;
+
+        h1 {
+          @include titleFontFamily(true);
+
+          font-size: 210%;
+          margin: 0;
+          margin-top: 1em;
+          margin-bottom: .2em;
+          margin-left: -.12em;  // Visual alignment of capital G
+          letter-spacing: -.02em;
+        }
+
+        p {
+          margin: 0;
+          text-transform: uppercase;
+          letter-spacing: .04em;
+
+          font-size: 80%;
+          line-height: 1.6;
+
+          padding-bottom: 1em;
+          flex: 1;
+        }
+      }
+
+      ul[role=nav] {
+        align-self: flex-end;
+        display: flex;
+
+        font-size: 80%;
+        line-height: 1.6;
+
+        text-transform: uppercase;
+        flex-flow: row wrap;
+        margin: 0 0 0 .4em;
+        padding: 0 0 1em 0;
+        list-style: none;
+
+        li {
+          margin: 0 0 0 1em;
+          padding: 0;
+          a {
+            text-decoration: none;
+            font-weight: bold;
+
+            &:link, &:visited {
+            }
+          }
+        }
+
+        @media screen and (min-width: $bigscreenBreakpoint) {
+          flex-flow: row nowrap;
+        }
+      }
+    }
+
+    @media screen and (max-width: $bigscreenBreakpoint) {
+      .site-headline {
+        .parent-org-reference .logo-link img {
+          visibility: hidden;
+        }
+      }
+    }
+  }
+
+  > main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+  }
+}

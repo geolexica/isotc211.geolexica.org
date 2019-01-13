@@ -20,7 +20,8 @@
         </div>
 
         <ul role="nav">
-          {% for item in page.nav_items %}
+          {% assign nav_items = page.nav_items | default: layout.nav_items %}
+          {% for item in  nav_items %}
             <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a>
           {% endfor %}
         </ul>

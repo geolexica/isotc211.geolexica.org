@@ -32,55 +32,6 @@ input, textarea, button {
   font-family: inherit;
 }
 
-body > header {
-  margin: 0 15vw 0 calc(15vw - #{$logoOffset});
-}
-
-@mixin indented-block($offset: null) {
-  @if $offset != null {
-    margin-left: calc(15vw - #{$offset});
-  }
-  @else {
-    margin-left: 15vw;
-  }
-}
-.centered-block {
-  margin-left: 15vw;
-  margin-right: 15vw;
-}
-
-body.home > main > section.browse-concepts {
-  .section-title, .search-controls {
-    @extend .centered-block;
-  }
-  > a.browse-concepts {
-    @include indented-block(.75em);
-    display: block;
-  }
-}
-body.home.browser-expandable > main > section.browse-concepts {
-  .section-title {
-    @include indented-block($logoOffset);
-  }
-}
-
-body.home > main > .news {
-  .section-title {
-    @extend .centered-block;
-  }
-  .items {
-    .news-item-card:first-child {
-      @include indented-block(.75em);
-    }
-  }
-}
-
-body > footer {
-  > .logo {
-    margin-right: calc(15vw - #{$logoOffset});
-  }
-}
-
 html {
   height: 100%;
   display: flex;
@@ -92,7 +43,68 @@ html {
   font-size: 18px;
   font-weight: normal;
   text-transform: uppercase;
+  flex-shrink: 0;
 }
+
+
+// Offsets
+// =======
+
+$sideOffsetBase: 15vw;
+
+body > header {
+  // Hanging logo on the left
+  margin: 0 $sideOffsetBase 0 calc(#{$sideOffsetBase} - #{$logoOffset});
+}
+body > footer {
+  // Hanging logo on the right
+  padding: 0 calc(#{$sideOffsetBase} - #{$logoOffset}) 0 calc(#{$sideOffsetBase} - 1em);
+}
+
+body.home > main > section.browse-concepts {
+  .section-title, .search-controls {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+  > a.browse-concepts {
+    margin-left: calc(#{$sideOffsetBase} - .75em);
+    display: block;
+  }
+  .search-results.status-message {
+    padding-left: $sideOffsetBase;
+  }
+}
+
+body.home.browser-expandable > main > section.browse-concepts {
+  .section-title {
+    margin-left: 15vw;
+
+    @media screen and (min-width: $bigscreenBreakpoint) {
+      margin-left: calc(#{$sideOffsetBase} - #{$logoOffset});
+
+      button.toggle {
+        width: $logoOffset;
+      }
+    }
+  }
+
+}
+
+body.home > main > .news {
+  .section-title {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+  .items {
+    .news-item-card:first-child {
+      margin-left: calc(#{$sideOffsetBase} - .75em);
+    }
+  }
+}
+
+
+// Main layout
+// ===========
 
 body > header,
 body > main > section {
@@ -112,11 +124,9 @@ body {
   > footer {
     flex-shrink: 0;
     height: $footerH;
-
-    display: flex;
-    flex-flow: row nowrap;
-    align-items: center;
-    justify-content: flex-end;
+    margin-top: 1em;
+    font-size: 90%;
+    line-height: 1.6;
 
     > * {
       margin-left: 1em;
@@ -124,6 +134,7 @@ body {
 
     .logo {
       width: $logoOffset;
+      margin-left: 0;
 
       img {
         width: $logoSize;
@@ -131,21 +142,32 @@ body {
         display: block;
       }
     }
-    ul[role=nav] {
+
+    .legal {
+      white-space: nowrap;
+    }
+
+    ul[role=nav], ul.social-links {
       list-style: none;
       margin: 0;
       padding: 0;
       display: flex;
-      flex-flow: row nowrap;
+      flex-flow: row wrap;
 
       li {
-        margin-right: 1em;
-        a {
-          text-decoration: none;
-          &:link, &:visited {
-            color: $textColor;
-          }
-        }
+        margin-left: 1em;
+        white-space: nowrap;
+      }
+    }
+
+    @media screen and (min-width: $bigscreenBreakpoint) {
+      display: flex;
+      flex-flow: row nowrap;
+      align-items: center;
+      justify-content: flex-end;
+
+      .legal {
+        margin-left: 2em;
       }
     }
   }
@@ -249,10 +271,18 @@ body {
         }
       }
     }
+
+    @media screen and (max-width: $bigscreenBreakpoint) {
+      .site-headline {
+        .parent-org-reference .logo-link img {
+          visibility: hidden;
+        }
+      }
+    }
   }
 
   > main {
-    flex: 1;
+    flex: 1 0 auto;
     display: flex;
     flex-flow: column nowrap;
   }
@@ -269,8 +299,8 @@ body.home {
         overflow-y: auto;
       }
       .news-item-card {
-        min-width: 20em;
         flex-basis: 20em;
+        max-width: 90vw;
         border-radius: .5em;
         padding: 0 .75em;
         border: 1px solid #f0f0f0;
@@ -278,6 +308,9 @@ body.home {
 
         .title {
           font-weight: normal;
+          a {
+            text-decoration: none;
+          }
         }
 
         div.excerpt p {
@@ -288,6 +321,8 @@ body.home {
     }
 
     > .browse-concepts {
+      flex-shrink: 0;
+
       display: flex;
       flex-flow: column nowrap;
       align-items: flex-start;
@@ -295,12 +330,24 @@ body.home {
       background: rgba(white, 0.8);
 
       input.search-string,
-      .browse-concepts {
+      a.browse-concepts {
         background-color: #f7f7f7;
         padding: .5em .75em;
         border-radius: .5em;
         border: 0;
         cursor: pointer;
+      }
+
+      .section-title {
+        span {
+          white-space: nowrap;
+          margin-right: 1em;
+        }
+        a {
+          white-space: nowrap;
+          text-transform: none;
+          font-size: 90%;
+        }
       }
 
       a.browse-concepts {
@@ -348,6 +395,12 @@ body.home {
 
           tr.main {
             font-weight: bold;
+            td {
+              border-top: 2px solid #f0f0f0;
+            }
+            &:first-child td {
+              border-top: 0;
+            }
           }
 
           td, th {
@@ -381,15 +434,13 @@ body.home {
       > .browse-concepts {
         .section-title {
           display: flex;
-          flex-flow: row nowrap;
+          flex-flow: row wrap;
           align-items: center;
 
           button.toggle {
-            width: $logoOffset;
             background: transparent;
             border: 0;
-            padding: 0;
-            margin: 0;
+            cursor: pointer;
           }
         }
       }
@@ -401,19 +452,24 @@ body.home {
       margin-top: -1em;
       padding-bottom: 0;
 
-      .site-title p {
-        display: none;
+      .site-title .description {
+        transition: width .5s linear;
+        width: 0;
+        height: 0;
+        overflow: hidden;
+        display: inline-block;
       }
     }
     > main {
-      > .browse-concepts {
-        flex: 1;
+      flex-shrink: 1;
+
+      > section.browse-concepts {
+        flex-shrink: 1;
+        min-height: 256px;
         padding-bottom: 0;
       }
-      > .news {
-        .items {
-          display: none;
-        }
+      > section.news {
+        display: none;
       }
     }
   }

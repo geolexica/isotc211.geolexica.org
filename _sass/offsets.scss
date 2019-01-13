@@ -85,5 +85,9 @@ body.concept > main {
         width: $logoOffset;
       }
     }
+    .field.lang-ara {
+      margin-right: calc(#{$sideOffsetBase} - #{$logoOffset});
+      margin-left: $sideOffsetBase;
+    }
   }
 }

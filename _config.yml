@@ -38,10 +38,12 @@ footer_nav:
   - url: "javascript: void 0;"
     title: Contact
 
-powered_by:
-  url: open.ribose.com
-  title: Ribose
 
+key_links:
+  powered_by:
+    url: https://open.ribose.com
+    title: Ribose
+    image: /assets/logo-ribose.svg
 
 markdown: kramdown
 

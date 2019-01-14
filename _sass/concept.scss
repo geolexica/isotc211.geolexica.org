@@ -73,7 +73,6 @@ body.concept {
 
         &:after {
           content: ", ";
-          margin-left: -.2em;
         }
         &:last-child:after {
           content: "";

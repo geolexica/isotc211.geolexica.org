@@ -64,21 +64,30 @@ term_attributes:
           {% endfor %}
         {% endif %}
 
+        {% if localized_term.examples %}
+          {% for example in localized_term.examples %}
+            <p class="example">
+              <!-- <span>Example {{ forloop.index }}</span> -->
+              <em class="localized">{{ example }}</em>
+            </p>
+          {% endfor %}
+        {% endif %}
+
         <ul class="labels">
           {% if localized_term.alt %}
-            <li class="localized">{{ localized_term.alt }}
+            <li class="localized">{{ localized_term.alt }}</li>
           {% endif %}
 
           {% if localized_term.entry_status %}
-            <li>{{ localized_term.entry_status }}
+            <li>{{ localized_term.entry_status }}</li>
           {% endif %}
 
           {% if localized_term.date_accepted %}
-            <li>accepted {{ localized_term.date_accepted }}
+            <li>accepted {{ localized_term.date_accepted }}</li>
           {% endif %}
 
           {% if localized_term.date_amended %}
-            <li>last amended {{ localized_term.date_amended }}
+            <li>last amended {{ localized_term.date_amended }}</li>
           {% endif %}
         </ul>
       </div>

@@ -59,9 +59,10 @@
         {% endfor %}
       </ul>
 
-      <p class="powered-by">
-        Powered by <a href="{{ site.powered_by.url }}">{{ site.powered_by.title }}</a>
-      </p>
+      <div class="powered-by">
+        <span class="powered-by-text">Powered by</span>
+        <a href="{{ site.key_links.powered_by.url }}" class="powered-by-logo"><img src="{{ site.key_links.powered_by.image }}" alt="{{ site.key_links.powered_by.title }}"/></a>
+      </div>
 
       <p class="legal">
         © All Rights Reserved

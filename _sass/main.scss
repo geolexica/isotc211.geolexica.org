@@ -34,6 +34,22 @@ body {
       }
     }
 
+    .powered-by {
+      width: $logoOffset;
+
+      .powered-by-text {
+        font-size: 0.5em;
+        text-transform: uppercase;
+        font-weight: 600;
+        display: block;
+      }
+
+      img {
+        width: $logoSize;
+        display: block;
+      }
+    }
+
     .legal {
       white-space: nowrap;
     }

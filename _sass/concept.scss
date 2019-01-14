@@ -42,6 +42,7 @@ body.concept {
       margin-top: 0;
     }
   }
+
   article {
     border-top: 2px solid #f0f0f0;
     padding-top: 1em;
@@ -80,11 +81,13 @@ body.concept {
         }
       }
     }
-  }
-  article.lang-ara {
-    flex-direction: row-reverse;
-    .localized {
-      direction: rtl;
+
+    &.lang-ara {
+      flex-direction: row-reverse;
+      .localized {
+        direction: rtl;
+      }
     }
+
   }
 }

@@ -1,0 +1,93 @@
+// Offsets
+// =======
+
+$sideOffsetBase: 15vw;
+
+body > header {
+  // Hanging logo on the left
+  margin: 0 $sideOffsetBase 0 calc(#{$sideOffsetBase} - #{$logoOffset});
+}
+body > footer {
+  padding: 0 $sideOffsetBase 0 $sideOffsetBase;
+
+  // Hanging logo on the right
+  @media screen and (min-width: $bigscreenBreakpoint) {
+    padding: 0 calc(#{$sideOffsetBase} - #{$logoOffset}) 0 calc(#{$sideOffsetBase} - 1em);
+  }
+}
+
+body.home > main > section.browse-concepts {
+  .section-title, .search-controls {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+  > a.browse-concepts {
+    margin-left: calc(#{$sideOffsetBase} - .75em);
+    display: block;
+  }
+  .search-results.status-message {
+    padding-left: $sideOffsetBase;
+  }
+}
+
+body.home.browser-expandable > main > section.browse-concepts {
+  .section-title {
+    margin-left: 15vw;
+
+    @media screen and (min-width: $bigscreenBreakpoint) {
+      margin-left: calc(#{$sideOffsetBase} - #{$logoOffset});
+
+      button.toggle {
+        width: $logoOffset;
+      }
+    }
+  }
+}
+
+body.home > main > .news {
+  .section-title {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+  .items {
+    .news-item-card:first-child {
+      margin-left: calc(#{$sideOffsetBase} - .75em);
+    }
+  }
+}
+
+body.post, body.page {
+  > main > * {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+}
+
+body.concepts > main > div {
+  > h2,
+  > .sectionbody > .paragraph {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+}
+
+body.concept > main {
+  > header h2 {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+  @media screen and (min-width: $bigscreenBreakpoint) {
+    .field {
+      margin-left: calc(#{$sideOffsetBase} - #{$logoOffset});
+      margin-right: $sideOffsetBase;
+
+      .field-name {
+        width: $logoOffset;
+      }
+    }
+    .field.lang-ara {
+      margin-right: calc(#{$sideOffsetBase} - #{$logoOffset});
+      margin-left: $sideOffsetBase;
+    }
+  }
+}

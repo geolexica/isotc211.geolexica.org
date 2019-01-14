@@ -1,18 +1,77 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
   {% include head.html %}
 
-  <body class="theme-blue">
-  {% include header.html %}
+  <body class="{{ page.bodyClass | default: layout.bodyClass }}">
+    <header>
+      <div class="site-headline">
+        <div class="parent-org-reference">
+          <a href="/" class="logo-link"><img src="{{ "/assets/logo-iso-noninverted.svg" | relative_url }}"></a>
+        </div>
 
-    <div class="main container">
+        <div class="site-title">
+          <h1>Geolexica</h1>
+          <p>
+            <span class="description">
+              The authoritative
+              geographic information terminology database
+            </span>
+            <span class="committee">
+              from ISO TC 211
+            </span>
+          </p>
+        </div>
+
+        <ul role="nav">
+          {% assign nav_items = page.nav_items | default: layout.nav_items %}
+          {% for item in nav_items %}
+            <li><a href="{{ site.nav[item].url | relative_url }}">{{ site.nav[item].title }}</a>
+          {% endfor %}
+        </ul>
+      </div>
+    </header>
+
+    <main>
       {{ content }}
-    </div>
+    </main>
 
-    {% include footer.html %}
+    <footer>
+      <ul role="nav">
+        {% for link in site.social.links %}
+          <li>
+            <a href="{{ link.url }}">
+              {% if link.url contains "twitter.com" %}
+                <i class="fab fa-twitter"></i>
+              {% elsif link.url contains "github.com" %}
+                <i class="fab fa-github"></i>
+              {% elsif link.url contains "facebook.com" %}
+                <i class="fab fa-facebook"></i>
+              {% elsif link.url contains "linkedin.com" %}
+                <i class="fab fa-linkedin"></i>
+              {% else %}
+                {{ link.title }}
+              {% endif %}
+            </a>
+        {% endfor %}
+        {% for item in site.footer_nav %}
+          <li><a href="{{ item.url }}">{{ item.title }}</a>
+        {% endfor %}
+      </ul>
+
+      <p class="powered-by">
+        Powered by <a href="{{ site.powered_by.url }}">{{ site.powered_by.title }}</a>
+      </p>
+
+      <p class="legal">
+        © All Rights Reserved
+      </p>
+
+      <div class="logo">
+        <img src="{{ "/assets/logo-iso-noninverted.svg" | relative_url }}">
+      </div>
+    </footer>
 
     {% include script.html %}
-
   </body>
 </html>

@@ -1,15 +1,7 @@
 ---
 title: "Home"
-layout: page
+layout: home
 permalink: /
+nav_items: [about]
 ---
 :page-liquid:
-
-== Introduction
-
-Welcome to Geolexica, the authoritative glossary for geographic
-information technology from ISO/TC 211.
-
-{% for post in site.posts %}
-* link:{{ post.url | relative_url }}[{{ post.title }}]
-{% endfor %}

@@ -1,39 +1,52 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: "Geolexica"
+
 email: open.source@ribose.com
-description: >- # this means to ignore newlines until "baseurl:"
+
+description: >-
   Welcome to Geolexica, the authoritative glossary for geographic
   information technology from ISO/TC 211.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.geolexica.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: ISOTC211
-github_username:  ISO-TC211
 
-# TODO add these
-# https://www.iso.org/committee/54904.html#meetings
-# https://www.facebook.com/groups/236669159734679/
-# https://www.linkedin.com/groups/4222374
+baseurl: ""
+url: "https://geolexica.com"
+
+social:
+  links:
+    - url: https://twitter.com/ISOTC211
+    - url: https://github.com/ISO-TC211
+    - url: https://www.facebook.com/groups/236669159734679/
+    - url: https://www.linkedin.com/groups/4222374
+
+# Layouts and pages can include nav_items array referring to link IDs in frontmatter
+nav:
+  home:
+    url: /
+    title: Home
+  about:
+    url: /about
+    title: About
+  concepts:
+    url: /concepts
+    title: Concepts
+
+footer_nav:
+  - url: "javascript: void 0;"
+    title: ISO organization
+  - url: https://www.iso.org/committee/54904.html#meetings
+    title: TC 211
+  - url: "javascript: void 0;"
+    title: Privacy
+  - url: "javascript: void 0;"
+    title: Contact
+
+powered_by:
+  url: open.ribose.com
+  title: Ribose
 
 
-# Build settings
 markdown: kramdown
-# theme: minima
-plugins:
-  - jekyll-feed
+
+# TODO: Move styling into theme
+#theme: isotc211
 
 sass:
   style: compressed
@@ -53,9 +66,6 @@ defaults:
     values:
       layout: concept
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -69,3 +79,4 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - .sass-cache/

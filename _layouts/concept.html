@@ -1,5 +1,7 @@
 ---
 layout: default
+nav_items: [home, about, concepts]
+bodyClass: concept
 languages:
   - eng
   - spa
@@ -29,36 +31,57 @@ term_attributes:
   - review_decision_notes
   - release
 ---
-<div class="term-container">
-  <h2 class="term-id">Term ID: {{ page.eng.id }}</h2>
+<header>
+  <h2>
+    Concept
+    <span class="term-name"><span class="q-open">“</span>{{ page.term }}”</span>
+  </h2>
+</header>
+
+<section class="field ref">
+  <p class="field-name">Ref</p>
+  <p class="field-value">{{ page.termid }}</p>
+</section>
 
 {% for lang in layout.languages %}
-{% include term.html %}
+  {% assign localized_term = page[lang] %}
+
+  {% if localized_term %}
+    <article class="localized-term field lang-{{ lang }}">
+      <p class="field-name">{{ lang }}</p>
+
+      <div class="field-value">
+        <h3 class="localized">{{ localized_term.term }}</h3>
+        <p class="definition localized">{{ localized_term.definition }}</p>
+        <p class="source">[SOURCE: {{ localized_term.authoritative_source }}]</p>
+
+        {% if localized_term.notes %}
+          {% for note in localized_term.notes %}
+            <p class="note">
+              <span>Note {{ forloop.index }} to entry:</span>
+              <em class="localized">{{ note }}</em>
+            </p>
+          {% endfor %}
+        {% endif %}
+
+        <ul class="labels">
+          {% if localized_term.alt %}
+            <li class="localized">{{ localized_term.alt }}
+          {% endif %}
+
+          {% if localized_term.entry_status %}
+            <li>{{ localized_term.entry_status }}
+          {% endif %}
+
+          {% if localized_term.date_accepted %}
+            <li>accepted {{ localized_term.date_accepted }}
+          {% endif %}
+
+          {% if localized_term.date_amended %}
+            <li>last amended {{ localized_term.date_amended }}
+          {% endif %}
+        </ul>
+      </div>
+    </article>
+  {% endif %}
 {% endfor %}
-
-<!-- {{ content }} -->
-
-<!-- eng:
-  :id: 2
-  :term: abbreviation
-  :alt: preferred
-  :definition: designation formed by omitting words or letters from a longer form
-    and designating the same concept
-  :language_code: eng
-  :notes: []
-  :examples: []
-  :entry_status: valid
-  :authoritative_source: ISO 1087-1:2000, 3.4.9
-  :lineage_source: ISO/TS 19104:2008
-  :lineage_source_similarity: 1
-  :date_accepted: 2008-11-15 00:00:00.000000000 +08:00
-  :review_date: 2013-01-29 00:00:00.000000000 +08:00
-  :review_status: final
-  :review_decision: accepted
-  :review_decision_date: 2016-10-01 00:00:00.000000000 +08:00
-  :review_decision_event: Publication of ISO 19104:2016
-  :review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to
-    ISO 1087-1:2000, 3.4.9. Lineage source added as ISO/TS 19104:2008
-  :release: '2' -->
-
-</div>

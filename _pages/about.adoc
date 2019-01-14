@@ -13,10 +13,12 @@ The name "`geolexica`" is the combination of the Greek prefix "`geo-`"
 derived from Greek "`lexiko`", the counterpart of English "`lexicon`"
 (vocabulary).
 
-Terms on this site are managed by the ISO/TC 211 Terminology Management Group (TMG).
+Terms on this site are managed by the ISO/TC 211 Terminology
+Management Group (TMG).
 The TMG can be contacted at its Chair, Reese Plews.
 
-This site is managed by Ribose, the official ISO/TC 211 web service provider
-and Registration Authority of the Geodetic Register.
+This site is managed by https://www.ribose.com[Ribose], the
+official ISO/TC 211 web service provider and Registration Authority
+of the Geodetic Register.
 
 // TODO: Add contact methods

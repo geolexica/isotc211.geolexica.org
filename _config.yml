@@ -29,13 +29,12 @@ nav:
     title: Concepts
 
 footer_nav:
-  - url: https://www.iso.org/committee/54904.html#meetings
-    title: TC 211
   - url: "javascript: void 0;"
     title: Privacy
   - url: "javascript: void 0;"
     title: Contact
-
+  - url: https://committee.iso.org/home/tc211
+    title: ISO/TC 211
 
 key_links:
   powered_by:

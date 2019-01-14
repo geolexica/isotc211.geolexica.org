@@ -29,12 +29,13 @@ nav:
     title: Concepts
 
 footer_nav:
-  - url: "javascript: void 0;"
-    title: Privacy
-  - url: "javascript: void 0;"
-    title: Contact
   - url: https://committee.iso.org/home/tc211
     title: ISO/TC 211
+  # TODO: Re-enable once we have the pages
+  # - url: "javascript: void 0;"
+  #   title: Privacy
+  # - url: "javascript: void 0;"
+  #   title: Contact
 
 key_links:
   powered_by:

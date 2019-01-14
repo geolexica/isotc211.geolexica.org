@@ -24,21 +24,20 @@
 
   let el = React.createElement;
 
+  function maybeConceptLinkForField(fieldName) {
+    return (concept) => {
+      const link = getConceptPermalink(concept);
+      if (link) {
+        return el('a', { href: link, target: '_blank', }, concept[fieldName]);
+      } else {
+        return el('span', null, concept[fieldName]);
+      }
+    }
+  }
+
   let fieldConfig = {
-    termid: {
-      title: 'Ref',
-      view: (item) => { return el('a', {
-        href: getConceptPermalink(item),
-        target: '_blank',
-      }, item.termid) },
-    },
-    term: {
-      title: 'Term',
-      view: (item) => { return el('a', {
-        href: getConceptPermalink(item),
-        target: '_blank',
-      }, item.term) },
-    },
+    termid: { title: 'Ref', view: maybeConceptLinkForField('termid'), },
+    term: { title: 'Term', view: maybeConceptLinkForField('term'), },
     language_code: { title: 'Lang' },
     entry_status: { title: 'Validity' },
     review_decision: { title: 'Review' },
@@ -260,7 +259,13 @@
   ReactDOM.render(el(ConceptBrowser, null), document.querySelector('.browse-concepts'))
 
   function getConceptPermalink(concept) {
-    return `/concepts/${concept.termid}/`;
+    if (concept.termid) {
+      return `/concepts/${concept.termid}/`;
+    } else if (concept.id && concept.language_code) {
+      return `/concepts/${concept.id}/#entry-lang-${concept.language_code}`;
+    } else {
+      return null;
+    }
   }
 
   function updateBodyClass({ searchQuery, expanded }) {

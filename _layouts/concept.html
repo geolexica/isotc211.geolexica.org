@@ -53,24 +53,24 @@ term_attributes:
       <div class="field-value">
         <h3 class="localized">{{ localized_term.term }}</h3>
         <p class="definition localized">{{ localized_term.definition }}</p>
-        <p class="source">[SOURCE: {{ localized_term.authoritative_source }}]</p>
+        <p class="source localized">[SOURCE: {{ localized_term.authoritative_source }}]</p>
 
         {% if localized_term.notes %}
+        <div class="notes">
           {% for note in localized_term.notes %}
-            <p class="note">
               <span>Note {{ forloop.index }} to entry:</span>
-              <em class="localized">{{ note }}</em>
-            </p>
+          <p class="note localized">{{ note }}</p>
           {% endfor %}
+        </div>
         {% endif %}
 
         {% if localized_term.examples %}
+        <div class="examples">
           {% for example in localized_term.examples %}
-            <p class="example">
               <!-- <span>Example {{ forloop.index }}</span> -->
-              <em class="localized">{{ example }}</em>
-            </p>
+          <p class="example localized">{{ example }}</p>
           {% endfor %}
+        </div>
         {% endif %}
 
         <ul class="labels">

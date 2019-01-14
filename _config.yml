@@ -29,8 +29,6 @@ nav:
     title: Concepts
 
 footer_nav:
-  - url: "javascript: void 0;"
-    title: ISO organization
   - url: https://www.iso.org/committee/54904.html#meetings
     title: TC 211
   - url: "javascript: void 0;"
@@ -44,6 +42,10 @@ key_links:
     url: https://open.ribose.com
     title: Ribose
     image: /assets/logo-ribose.svg
+  iso:
+    url: https://www.iso.org
+    title: ISO
+    image: /assets/logo-iso-noninverted.svg
 
 markdown: kramdown
 

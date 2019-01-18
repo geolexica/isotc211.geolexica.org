@@ -62,6 +62,10 @@ collections:
   concepts:
     output: true
     permalink: /:collection/:name/
+  concepts_json:
+    output: true
+    output_ext: .json
+    permalink: /api/concepts/:name.json
 
 defaults:
   - scope:
@@ -69,6 +73,11 @@ defaults:
       type: "concepts"
     values:
       layout: concept
+  - scope:
+      path: ""
+      type: "concepts_json"
+    values:
+      layout: concept_json
 
 exclude:
   - Gemfile

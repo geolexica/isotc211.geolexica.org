@@ -1,0 +1,38 @@
+---
+languages:
+  - eng
+  - spa
+  - ara
+  - chi
+  - dan
+  - fin
+  - fre
+  - ger
+  - jpn
+  - kor
+  - rus
+  - swe
+term_attributes:
+  - definition
+  - notes
+  - examples
+  - entry_status
+  - authoritative_source
+  - lineage_source
+  - lineage_source_similarity
+  - date_accepted
+  - review_date
+  - review_status
+  - review_decision
+  - review_decision_event
+  - review_decision_notes
+  - release
+---
+{
+  "term": "{{ page.term }}",
+  "termid": {{ page.termid }},
+  {%- for lang in layout.languages -%}
+  {% assign localized_term = page[lang] %}
+  "{{ lang }}": {{ localized_term | jsonify }}{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

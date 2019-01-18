@@ -77,7 +77,8 @@ defaults:
       path: ""
       type: "concepts_json"
     values:
-      layout: concept_json
+      layout: concept.json
+      permalink: /api/concepts/:name.json
 
 exclude:
   - Gemfile

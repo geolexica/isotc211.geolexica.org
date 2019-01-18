@@ -43,6 +43,11 @@ term_attributes:
   <p class="field-value">{{ page.termid }}</p>
 </section>
 
+<section class="field json">
+  <p class="field-name">JSON</p>
+  <p class="field-value"><a href="/api/concepts/{{ page.termid }}.json">api/concepts/{{ page.termid }}.json</a></p>
+</section>
+
 {% for lang in layout.languages %}
   {% assign localized_term = page[lang] %}
 

@@ -37,20 +37,15 @@ footer_nav:
   # - url: "javascript: void 0;"
   #   title: Contact
 
-key_links:
-  powered_by:
-    url: https://open.ribose.com
-    title: Ribose
-    image: /assets/logo-ribose.svg
-  iso:
-    url: https://www.iso.org
-    title: ISO
-    image: /assets/logo-iso-noninverted.svg
+powered_by:
+  url: https://open.ribose.com
+  title: Ribose
+  logo_path: /assets/logo-ribose.svg
 
 markdown: kramdown
 
 # TODO: Move styling into theme
-#theme: isotc211
+theme: jekyll-theme-isotc211
 
 sass:
   style: compressed

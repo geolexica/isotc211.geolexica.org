@@ -3,51 +3,5 @@
 
 @import url('https://fonts.googleapis.com/css?family=Tienne:400,700');
 
-$bodyFontFamily: Helvetica, sans-serif;
-$bigscreenBreakpoint: 900px;
-$logoOffset: 112px;
-$logoSize: 100px;
+@import 'jekyll-theme-isotc211';
 
-$textColor: black;
-
-$linkColor: blue;
-$linkColorInverse: white;
-
-@mixin titleFontFamily($useBold: false) {
-  font-family: 'Tienne', Georgia, serif;
-
-  @if $useBold == true {
-    font-weight: 700;
-  } @else {
-    font-weight: 400;
-  }
-}
-
-body {
-  font-family: $bodyFontFamily;
-}
-
-input, textarea, button {
-  font-size: inherit;
-  font-family: inherit;
-}
-
-html {
-  height: 100%;
-  display: flex;
-  flex-flow: column nowrap;
-  align-items: stretch;
-}
-
-.section-title {
-  font-size: 18px;
-  font-weight: normal;
-  text-transform: uppercase;
-  flex-shrink: 0;
-}
-
-@import 'offsets';
-@import 'main';
-@import 'home';
-@import 'concepts';
-@import 'concept';

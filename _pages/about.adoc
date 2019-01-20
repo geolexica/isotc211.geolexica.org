@@ -20,5 +20,3 @@ The TMG can be contacted at its Chair, Reese Plews.
 This site is managed by https://www.ribose.com[Ribose], the
 official ISO/TC 211 web service provider and Registration Authority
 of the Geodetic Register.
-
-// TODO: Add contact methods

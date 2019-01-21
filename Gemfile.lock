@@ -6,15 +6,6 @@ GIT
       creek
       iso-639
 
-PATH
-  remote: ../jekyll-theme-isotc211
-  specs:
-    jekyll-theme-isotc211 (0.1)
-      git (~> 1.4)
-      jekyll (~> 3.8)
-      jekyll-data (~> 1.0)
-      jekyll-seo-tag (~> 2.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -35,7 +26,6 @@ GEM
     eventmachine (1.2.7)
     ffi (1.9.25)
     forwardable-extended (2.6.0)
-    git (1.5.0)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -72,6 +62,10 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
+    jekyll-theme-isotc211 (0.1.1)
+      jekyll (~> 3.8)
+      jekyll-data (~> 1.0)
+      jekyll-seo-tag (~> 2.0)
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -111,7 +105,7 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-data
   jekyll-feed (~> 0.6)
-  jekyll-theme-isotc211!
+  jekyll-theme-isotc211
   tc211-termbase!
   tzinfo-data
 

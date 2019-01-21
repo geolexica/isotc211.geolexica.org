@@ -37,9 +37,6 @@ powered_by:
   title: Ribose
   logo_path: /assets/logo-ribose.svg
 
-markdown: kramdown
-
-# TODO: Move styling into theme
 theme: jekyll-theme-isotc211
 
 sass:

@@ -1,0 +1,13 @@
+---
+permalink: "/api/concepts.json"
+---
+{
+  {% for concept in site.concepts %}
+  "{{ concept.termid }}": {
+    "term": "{{ concept.term }}",
+    "termid": {{ concept.termid }},
+    "uri-html": "{{ concept.url }}",
+    "uri-json": "{{ site.concepts_json[concept.termid].url }}",
+  }{% unless forloop.last %},{% endunless %}
+  {% endfor %}
+}

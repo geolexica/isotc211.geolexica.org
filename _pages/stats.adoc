@@ -1,0 +1,25 @@
+---
+permalink: "/stats/index.html"
+layout: default
+nav_items: [home, about, concepts]
+bodyClass: concepts
+---
+:page-liquid:
+
+== Statistics
+
+The following languages are provided in Geolexica, with the number of terms displayed below.
+
+JSON: link:/api/stats.json[/api/stats.json]
+
+{% for lang in site.term_languages %}
+{% assign counter = 0 %}
+{% for concept in site.concepts %}
+  {% unless concept[lang] == nil or concept[lang] == "" %}
+  {% assign counter = counter | plus: 1 %}
+  {% endunless %}
+{% endfor %}
+
+{{ lang }}: {{ counter }}
+
+{% endfor %}

@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-nav_items: [home]
+nav_items: [home, concepts, stats]
 ---
 
 Welcome to Geolexica, the authoritative glossary for geographic

@@ -1,20 +1,7 @@
 ---
 layout: default
-nav_items: [home, about, concepts]
+nav_items: [home, about, concepts, stats]
 bodyClass: concept
-languages:
-  - eng
-  - spa
-  - ara
-  - chi
-  - dan
-  - fin
-  - fre
-  - ger
-  - jpn
-  - kor
-  - rus
-  - swe
 term_attributes:
   - definition
   - notes
@@ -43,12 +30,14 @@ term_attributes:
   <p class="field-value">{{ page.termid }}</p>
 </section>
 
+{% assign json_concept = site.concepts_json | where: 'termid', page.termid | first %}
+{% assign json_url = json_concept.url %}
 <section class="field json">
   <p class="field-name">JSON</p>
-  <p class="field-value"><a href="/api/concepts/{{ page.termid }}.json">api/concepts/{{ page.termid }}.json</a></p>
+  <p class="field-value"><a href="{{ json_url }}">{{ json_url }}</a></p>
 </section>
 
-{% for lang in layout.languages %}
+{% for lang in site.term_languages %}
   {% assign localized_term = page[lang] %}
 
   {% if localized_term %}

@@ -31,3 +31,11 @@ body.concepts {
     }
   }
 }
+
+body.concepts > main > div {
+  > h2,
+  > .sectionbody > .paragraph {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+}

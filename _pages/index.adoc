@@ -2,6 +2,6 @@
 title: "Home"
 layout: home
 permalink: /
-nav_items: [about]
+nav_items: [about, concepts, stats]
 ---
 :page-liquid:

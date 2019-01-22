@@ -27,6 +27,9 @@ nav:
   concepts:
     url: /concepts
     title: Concepts
+  stats:
+    url: /stats
+    title: Statistics
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211
@@ -79,6 +82,20 @@ defaults:
     values:
       layout: concept.json
       permalink: /api/concepts/:name.json
+
+term_languages:
+  - eng
+  - spa
+  - ara
+  - chi
+  - dan
+  - fin
+  - fre
+  - ger
+  - jpn
+  - kor
+  - rus
+  - swe
 
 exclude:
   - Gemfile

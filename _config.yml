@@ -20,7 +20,6 @@ social:
     - url: https://www.facebook.com/groups/236669159734679/
     - url: https://www.linkedin.com/groups/4222374
 
-# Layouts and pages can include nav_items array referring to link IDs in frontmatter
 nav:
   home:
     url: /

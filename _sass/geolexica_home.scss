@@ -165,3 +165,31 @@ body.home {
     }
   }
 }
+
+body.home.browser-expandable > main > section.browse-concepts {
+  .section-title {
+    margin-left: 15vw;
+
+    @media screen and (min-width: $bigscreenBreakpoint) {
+      margin-left: calc(#{$sideOffsetBase} - #{$logoOffset});
+
+      button.toggle {
+        width: $logoOffset;
+      }
+    }
+  }
+}
+
+body.home > main > section.browse-concepts {
+  .section-title, .search-controls {
+    margin-left: $sideOffsetBase;
+    margin-right: $sideOffsetBase;
+  }
+  > a.browse-concepts {
+    margin-left: calc(#{$sideOffsetBase} - .75em);
+    display: block;
+  }
+  .search-results.status-message {
+    padding-left: $sideOffsetBase;
+  }
+}

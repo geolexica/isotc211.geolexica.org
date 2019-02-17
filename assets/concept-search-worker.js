@@ -29,9 +29,10 @@ async function filterAndSort(params) {
   var concepts = await fetchConcepts();
 
   if (params.string !== '') {
-    concepts = concepts.map((item) => {
+    concepts = concepts.map((_item) => {
       // Search all localized term names for the presence of given search string
 
+      const item = Object.assign({}, _item);
       const queryString = params.string.toLowerCase();
       const matchingLanguages = LANGUAGES.
         filter((lang) => {
@@ -61,8 +62,10 @@ async function filterAndSort(params) {
           filter((lang) => item[lang].entry_status === params.valid);
         return validLocalizedItems.length > 0;
       }).
-      map((item) => {
+      map((_item) => {
         // Delete localized versions that don’t match given validity query
+
+        const item = Object.assign({}, _item);
         for (let lang of LANGUAGES) {
           if (item[lang] && item[lang].entry_status !== params.valid) {
             delete item[lang];

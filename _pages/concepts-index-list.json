@@ -11,6 +11,7 @@ permalink: "/api/concepts-index-list.json"
     
     "{{ lang }}": {% if concept[lang] %}{
       "term": {{ concept[lang].term | jsonify }},
+      "id": {{ concept[lang].id | jsonify }},
       "entry_status": {{ concept[lang].entry_status | jsonify }},
       "language_code": {{ concept[lang].language_code | jsonify }},
       "review_decision": {{ concept[lang].review_decision | jsonify }}

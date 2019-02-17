@@ -1,4 +1,4 @@
-const CONCEPTS_URL = '/concepts.json';
+const CONCEPTS_URL = '/api/concepts-index-list.json';
 
 const LANGUAGES = [
   'eng',

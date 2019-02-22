@@ -10,6 +10,7 @@ gem "jekyll-theme-isotc211", "~> 0.1.5"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-data"
+  gem "jekyll-algolia"
   gem "jekyll-asciidoc"
 end
 

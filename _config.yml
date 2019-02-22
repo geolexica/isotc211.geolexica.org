@@ -19,6 +19,11 @@ social:
     - url: https://www.facebook.com/groups/236669159734679/
     - url: https://www.linkedin.com/groups/4222374
 
+algolia:
+  application_id: NOP
+  index_name: NOP
+  search_only_api_key: NOP
+
 nav:
   home:
     url: /

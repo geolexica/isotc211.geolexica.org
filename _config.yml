@@ -1,5 +1,10 @@
 title: "Geolexica"
 
+committee:
+  id: 211
+  name: Geographic information/Geomatics
+  link: https://committee.iso.org/home/tc211
+
 email: open.source@ribose.com
 
 tagline: >-

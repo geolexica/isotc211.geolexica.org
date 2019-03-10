@@ -60,6 +60,9 @@ body.home {
             align-items: center;
           }
 
+          label {
+            padding-left: 1em;
+          }
           input[type=checkbox], label {
             cursor: pointer;
           }

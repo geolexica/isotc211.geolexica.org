@@ -22,8 +22,9 @@ body.concept {
     align-items: flex-start;
 
     .field-name {
-      @extend .section-title;
       margin: 0 1em 0 0;
+      font-size: 18px;
+      text-transform: uppercase;
       text-align: center;
       font-size: unset;
       flex-shrink: 0;

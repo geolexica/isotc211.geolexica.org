@@ -124,6 +124,10 @@ body.home {
           flex-flow: row wrap;
           align-items: center;
 
+          &:before {
+            display: none;
+          }
+
           button.toggle {
             background: transparent;
             border: 0;

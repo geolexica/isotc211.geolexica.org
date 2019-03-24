@@ -2,7 +2,7 @@
 permalink: "/stats/index.html"
 layout: default
 nav_items: [home, about, concepts]
-bodyClass: concepts
+bodyClass: page
 ---
 :page-liquid:
 

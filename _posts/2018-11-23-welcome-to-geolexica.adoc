@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: custom-post
 title:  "Welcome to Geolexica!"
 date:   2018-11-23 23:25:29 +0800
 categories: update

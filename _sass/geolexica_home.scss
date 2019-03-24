@@ -7,8 +7,6 @@ body.home {
       flex-flow: column nowrap;
       align-items: flex-start;
 
-      background: rgba(white, 0.8);
-
       input.search-string,
       a.browse-concepts {
         background-color: #f7f7f7;
@@ -42,7 +40,8 @@ body.home {
         display: flex;
         flex-flow: row wrap;
         align-items: center;
-        margin-bottom: 1em;
+        margin-top: 1em;
+        margin-bottom: 1.5em;
 
         input.search-string {
           margin-right: 1em;
@@ -75,6 +74,7 @@ body.home {
         overflow: auto;
 
         padding-bottom: 1em;
+        background: white;
 
         table {
           width: 100%;

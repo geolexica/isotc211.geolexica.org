@@ -32,6 +32,10 @@ body.concepts {
   }
 }
 
+body.concepts > main {
+  padding-top: 1em;
+  padding-left: 30px;
+}
 body.concepts > main > div {
   > h2,
   > .sectionbody > .paragraph {

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: custom-home
 permalink: /
 nav_items: [about, concepts, stats]
 ---

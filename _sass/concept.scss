@@ -91,6 +91,20 @@ body.concept {
       }
     }
 
+		&.status-valid {
+		}
+		&.status-notValid {
+			color: red;
+			opacity: 0.5;
+		}
+		&.status-retired {
+			color: orange;
+			opacity: 0.5;
+		}
+		&.status-superseded {
+			color: gray;
+			opacity: 0.5;
+		}
   }
 }
 

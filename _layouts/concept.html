@@ -39,12 +39,21 @@ term_attributes:
 
 {% for lang in site.term_languages %}
   {% assign localized_term = page[lang] %}
+	{% assign term_status = localized_term.entry_status %}
 
   {% if localized_term %}
-    <article class="localized-term field lang-{{ lang }}" id="entry-lang-{{ lang }}">
+    <article class="localized-term field lang-{{ lang }} status-{{ term_status }}" id="entry-lang-{{ lang }}">
       <p class="field-name">{{ lang }}</p>
 
       <div class="field-value">
+        {% if term_status == 'notValid' %}
+        <h3><em>This term is deemed not valid.</em></h3>
+        {% elsif term_status == 'retired' %}
+        <h3><em>This term has been {{ term_status }}.</em></h3>
+        {% elsif term_status == 'superseded' %}
+        <h3><em>This term has been {{ term_status }}.</em></h3>
+        {% endif %}
+
         <h3 class="localized">{{ localized_term.term }}</h3>
         <p class="definition localized">{{ localized_term.definition }}</p>
         <p class="source localized">[SOURCE: {{ localized_term.authoritative_source }}]</p>

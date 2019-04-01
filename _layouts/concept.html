@@ -55,6 +55,9 @@ term_attributes:
         {% endif %}
 
         <h3 class="localized">{{ localized_term.term | escape }}</h3>
+        {% if localized_term.abbrev %}
+        <p class="localized abbrev">{{ localized_term.abbrev | escape }}</p>
+        {% endif %}
         <p class="definition localized">{{ localized_term.definition | escape }}</p>
         <p class="source localized">[SOURCE: {{ localized_term.authoritative_source }}]</p>
 

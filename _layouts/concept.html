@@ -89,17 +89,17 @@ term_attributes:
           {% endif %}
 
           {% if localized_term.date_accepted %}
-            <li>accepted {{ localized_term.date_accepted }}</li>
+            <li>accepted {{ localized_term.date_accepted | date: "%F" }}</li>
           {% endif %}
 
           {% if localized_term.date_amended %}
-            <li>last amended {{ localized_term.date_amended }}</li>
+            <li>last amended {{ localized_term.date_amended | date: "%F" }}</li>
           {% endif %}
         </ul>
 
         {% if localized_term.review_date %}
         <dl class="review">
-          <h4>last review performed ({{ localized_term.review_date | date_to_string }})</h4>
+          <h4>last review performed ({{ localized_term.review_date | date: "%F" }})</h4>
           {% if localized_term.review_status %}
           <div class="review-info">
             <dt>status:</dt>

@@ -39,7 +39,7 @@ term_attributes:
 
 {% for lang in site.term_languages %}
   {% assign localized_term = page[lang] %}
-	{% assign term_status = localized_term.entry_status %}
+  {% assign term_status = localized_term.entry_status %}
 
   {% if localized_term %}
     <article class="localized-term field lang-{{ lang }} status-{{ term_status }}" id="entry-lang-{{ lang }}">
@@ -54,15 +54,15 @@ term_attributes:
         <h3><em>This term has been {{ term_status }}.</em></h3>
         {% endif %}
 
-        <h3 class="localized">{{ localized_term.term }}</h3>
-        <p class="definition localized">{{ localized_term.definition }}</p>
+        <h3 class="localized">{{ localized_term.term | escape }}</h3>
+        <p class="definition localized">{{ localized_term.definition | escape }}</p>
         <p class="source localized">[SOURCE: {{ localized_term.authoritative_source }}]</p>
 
         {% if localized_term.notes %}
         <div class="notes">
           {% for note in localized_term.notes %}
           <!-- <span>Note {{ forloop.index }} to entry:</span> -->
-          <p class="note localized">{{ note }}</p>
+          <p class="note localized">{{ note | escape }}</p>
           {% endfor %}
         </div>
         {% endif %}
@@ -71,18 +71,18 @@ term_attributes:
         <div class="examples">
           {% for example in localized_term.examples %}
           <!-- <span>Example {{ forloop.index }}</span> -->
-          <p class="example localized">{{ example }}</p>
+          <p class="example localized">{{ example | escape }}</p>
           {% endfor %}
         </div>
         {% endif %}
 
         <ul class="labels">
           {% if localized_term.alt %}
-            <li class="localized">{{ localized_term.alt }}</li>
+            <li class="localized">{{ localized_term.alt | escape }}</li>
           {% endif %}
 
           {% if localized_term.entry_status %}
-            <li>{{ localized_term.entry_status }}</li>
+            <li>{{ localized_term.entry_status | escape }}</li>
           {% endif %}
 
           {% if localized_term.date_accepted %}

@@ -84,6 +84,29 @@ body.concept {
       }
     }
 
+    dl.review {
+      margin: 0;
+      padding: 0;
+      font-style: italic;
+      color: gray;
+      padding-left: 20px;
+      font-size: 14px;
+
+      h4 {
+      }
+
+      dt, dd {
+        display: inline;
+        margin: 0;
+        padding: 0;
+      }
+
+      .review-info {
+        /* TODO */
+      }
+
+    }
+
     &.lang-ara {
       flex-direction: row-reverse;
       .localized {
@@ -91,20 +114,20 @@ body.concept {
       }
     }
 
-		&.status-valid {
-		}
-		&.status-notValid {
-			color: red;
-			opacity: 0.5;
-		}
-		&.status-retired {
-			color: orange;
-			opacity: 0.5;
-		}
-		&.status-superseded {
-			color: gray;
-			opacity: 0.5;
-		}
+    &.status-valid {
+    }
+    &.status-notValid {
+      color: red;
+      opacity: 0.5;
+    }
+    &.status-retired {
+      color: orange;
+      opacity: 0.5;
+    }
+    &.status-superseded {
+      color: gray;
+      opacity: 0.5;
+    }
   }
 }
 

@@ -93,6 +93,37 @@ term_attributes:
             <li>last amended {{ localized_term.date_amended }}</li>
           {% endif %}
         </ul>
+
+        {% if localized_term.review_date %}
+        <dl class="review">
+          <h4>last review performed ({{ localized_term.review_date | date_to_string }})</h4>
+          {% if localized_term.review_status %}
+          <div class="review-info">
+            <dt>status:</dt>
+            <dd>{{ localized_term.review_status }}</dd>
+          </div>
+          {% endif %}
+          {% if localized_term.review_decision %}
+          <div class="review-info">
+            <dt>decision:</dt>
+            <dd>{{ localized_term.review_decision | escape }}</dd>
+          </div>
+          {% endif %}
+          {% if localized_term.review_decision_event %}
+          <div class="review-info">
+            <dt>decision event:</dt>
+            <dd>{{ localized_term.review_decision_event | escape }}</dd>
+          </div>
+          {% endif %}
+          {% if localized_term.review_decision_notes %}
+          <div class="review-info">
+            <dt>notes:</dt>
+            <dd>{{ localized_term.review_decision_notes | escape }}</dd>
+          </div>
+          {% endif %}
+        </dl>
+        {% endif %}
+
       </div>
     </article>
   {% endif %}

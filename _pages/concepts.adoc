@@ -1,12 +1,11 @@
 ---
-layout: default
+layout: base-page
 permalink: "/concepts/index.html"
-nav_items: [home, about, stats]
+nav_items: [about, stats]
 bodyClass: concepts
+title: All Concepts
 ---
 :page-liquid:
-
-== All concepts
 
 The concepts below are sorted by term name, alphabetically with title-case terms listed first.
 

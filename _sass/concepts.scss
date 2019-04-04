@@ -1,6 +1,6 @@
 body.concepts {
-  > main > div > h2 {
-    @extend .section-title;
+  > main > header > h1 {
+    font-weight: normal;
   }
 
   .ulist ul {
@@ -15,7 +15,7 @@ body.concepts {
       padding: 1em;
       border-top: 2px solid #f0f0f0;
       flex: 1 0 8em;
-      margin: 0.5em;
+      margin: 0.5em 1em 0 0;
       overflow: hidden;
 
       p {
@@ -33,13 +33,8 @@ body.concepts {
 }
 
 body.concepts > main {
-  padding-top: 1em;
-  padding-left: 30px;
-}
-body.concepts > main > div {
-  > h2,
-  > .sectionbody > .paragraph {
-    margin-left: $sideOffsetBase;
-    margin-right: $sideOffsetBase;
+  > * {
+    padding-left: $sideOffsetBase;
+    padding-right: $sideOffsetBase;
   }
 }

@@ -1,12 +1,11 @@
 ---
 permalink: "/stats/index.html"
-layout: default
-nav_items: [home, about, concepts]
+layout: base-page
+nav_items: [concepts, about]
 bodyClass: page
+title: Statistics
 ---
 :page-liquid:
-
-== Statistics
 
 The following languages are provided in Geolexica, with the number of terms displayed below.
 

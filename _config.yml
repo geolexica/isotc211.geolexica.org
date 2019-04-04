@@ -3,7 +3,9 @@ title: "Geolexica"
 committee:
   id: 211
   name: Geographic information/Geomatics
-  link: https://committee.iso.org/home/tc211
+  home: https://committee.iso.org/home/tc211
+
+has_brand_name: yes
 
 email: open.source@ribose.com
 
@@ -30,18 +32,16 @@ social:
 #   search_only_api_key: NOP
 
 nav:
-  home:
-    url: /
-    title: Home
-  about:
-    url: /about
-    title: About
-  concepts:
+  items:
+  - id: concepts
     url: /concepts
     title: Concepts
-  stats:
+  - id: stats
     url: /stats
     title: Statistics
+  - id: about
+    url: /about
+    title: About
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211

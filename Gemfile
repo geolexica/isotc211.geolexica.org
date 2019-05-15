@@ -5,7 +5,7 @@ gem "tc211-termbase", git: "https://github.com/riboseinc/tc211-termbase"
 
 gem "jekyll", "~> 3.8.5"
 
-gem "jekyll-theme-isotc211", "~> 0.4"
+gem "jekyll-theme-isotc211", "~> 0.4.2"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"

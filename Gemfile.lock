@@ -126,7 +126,11 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-data
   jekyll-feed (~> 0.6)
+<<<<<<< HEAD
   jekyll-theme-isotc211 (~> 0.4)
+=======
+  jekyll-theme-isotc211 (~> 0.4.6)
+>>>>>>> chore: Bump to latest theme version
   tc211-termbase!
   tzinfo-data
 

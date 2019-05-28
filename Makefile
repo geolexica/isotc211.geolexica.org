@@ -21,7 +21,7 @@ clean:
 	rm -rf _site _concepts
 
 distclean: clean
-	rm -rf concepts
+	rm -rf concepts_data tc211-termbase.yaml
 
 _site: _concepts | bundle
 	bundle exec jekyll build

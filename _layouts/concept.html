@@ -40,24 +40,39 @@ term_attributes:
 {% for lang in site.term_languages %}
   {% assign localized_term = page[lang] %}
   {% assign term_status = localized_term.entry_status %}
+  {% assign classification = localized_term.classification %}
 
   {% if localized_term %}
-    <article class="localized-term field lang-{{ lang }} status-{{ term_status }}" id="entry-lang-{{ lang }}">
+    <article
+      class="localized-term field lang-{{ lang }} status-{{ term_status }} classification-{{ classification }}"
+      id="entry-lang-{{ lang }}"
+    >
       <p class="field-name">{{ lang }}</p>
 
       <div class="field-value">
-        {% if term_status == 'notValid' %}
-        <h3><em>This term is deemed not valid.</em></h3>
-        {% elsif term_status == 'retired' %}
-        <h3><em>This term has been {{ term_status }}.</em></h3>
-        {% elsif term_status == 'superseded' %}
-        <h3><em>This term has been {{ term_status }}.</em></h3>
-        {% endif %}
-
         <h3 class="localized">{{ localized_term.term | escape }}</h3>
         {% if localized_term.abbrev %}
         <p class="localized abbrev">{{ localized_term.abbrev | escape }}</p>
         {% endif %}
+
+        {% if term_status == 'notValid' %}
+        <h4><em>This term is deemed not valid.</em></h4>
+        {% elsif term_status == 'retired' %}
+        <h4><em>This term has been {{ term_status }}.</em></h4>
+        {% elsif term_status == 'superseded' %}
+        <h4><em>This term has been {{ term_status }}.</em></h4>
+        {% endif %}
+
+        {% if classification == 'preferred' %}
+        <h4><em>This term is {{ classification }}.</em></h4>
+        {% elsif term_status == 'admitted' %}
+        <h4><em>This term is deemed {{ classification }}.</em></h4>
+        {% elsif term_status == 'deprecated' %}
+        <h4><em>This term has been {{ classification }}.</em></h4>
+        {% else %}
+        <h4><em>This is not a preferred term.</em></h4>
+        {% endif %}
+
         <p class="definition localized">{{ localized_term.definition | escape }}</p>
         <p class="source localized">[SOURCE: {{ localized_term.authoritative_source }}]</p>
 
@@ -81,25 +96,29 @@ term_attributes:
 
         <ul class="labels">
           {% if localized_term.alt %}
-            <li class="localized">{{ localized_term.alt | escape }}</li>
+            <li><span class="localized">{{ localized_term.alt | escape }}</span></li>
           {% endif %}
 
           {% if localized_term.entry_status %}
-            <li>{{ localized_term.entry_status | escape }}</li>
+            <li>status: <span>{{ localized_term.entry_status | escape }}</span></li>
+          {% endif %}
+
+          {% if localized_term.classification %}
+            <li>classification: <span>{{ localized_term.classification | escape }}</span></li>
           {% endif %}
 
           {% if localized_term.date_accepted %}
-            <li>accepted {{ localized_term.date_accepted | date: "%F" }}</li>
+            <li>accepted: <span>{{ localized_term.date_accepted | date: "%F" }}</span></li>
           {% endif %}
 
           {% if localized_term.date_amended %}
-            <li>last amended {{ localized_term.date_amended | date: "%F" }}</li>
+            <li>last amended: <span>{{ localized_term.date_amended | date: "%F" }}</span></li>
           {% endif %}
         </ul>
 
         {% if localized_term.review_date %}
         <dl class="review">
-          <h4>last review performed ({{ localized_term.review_date | date: "%F" }})</h4>
+          <h4>last review performed: <span>({{ localized_term.review_date | date: "%F" }})</span></h4>
           {% if localized_term.review_status %}
           <div class="review-info">
             <dt>status:</dt>

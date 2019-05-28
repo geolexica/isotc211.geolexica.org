@@ -56,21 +56,21 @@ term_attributes:
         {% endif %}
 
         {% if term_status == 'notValid' %}
-        <h4><em>This term is deemed not valid.</em></h4>
+        <!-- <h4><em>This term is deemed not valid.</em></h4> -->
         {% elsif term_status == 'retired' %}
-        <h4><em>This term has been {{ term_status }}.</em></h4>
+        <!-- <h4><em>This term has been {{ term_status }}.</em></h4> -->
         {% elsif term_status == 'superseded' %}
-        <h4><em>This term has been {{ term_status }}.</em></h4>
+        <!-- <h4><em>This term has been {{ term_status }}.</em></h4> -->
         {% endif %}
 
         {% if classification == 'preferred' %}
         <h4><em>This term is {{ classification }}.</em></h4>
         {% elsif term_status == 'admitted' %}
-        <h4><em>This term is deemed {{ classification }}.</em></h4>
+        <!-- <h4><em>This term is deemed {{ classification }}.</em></h4> -->
         {% elsif term_status == 'deprecated' %}
-        <h4><em>This term has been {{ classification }}.</em></h4>
+        <!-- <h4><em>This term has been {{ classification }}.</em></h4> -->
         {% else %}
-        <h4><em>This is not a preferred term.</em></h4>
+        <!-- <h4><em>This is not a preferred term.</em></h4> -->
         {% endif %}
 
         <p class="definition localized">{{ localized_term.definition | escape }}</p>

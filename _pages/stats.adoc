@@ -18,7 +18,5 @@ JSON: link:/api/stats.json[/api/stats.json]
   {% assign counter = counter | plus: 1 %}
   {% endunless %}
 {% endfor %}
-
-{{ lang }}: {{ counter }}
-
+* {{ lang }}: {{ counter }}
 {% endfor %}

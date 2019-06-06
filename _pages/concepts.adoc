@@ -7,9 +7,9 @@ title: All Concepts
 ---
 :page-liquid:
 
-The concepts below are sorted by term name, alphabetically with title-case terms listed first.
+The concepts below are sorted by term name, alphabetically, in a case-insensitive way.
 
-{% assign sortedConcepts = site.concepts | sort: "term" %}
+{% assign sortedConcepts = site.concepts | sort_natural: "term" %}
 {% for concept in sortedConcepts %}
     * link:{{ concept.url | relative_url }}[{{ concept.termid }} {{ concept.term }}]
 {% endfor %}

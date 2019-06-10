@@ -26,7 +26,7 @@ term_attributes:
 </header>
 
 <section class="field ref">
-  <p class="field-name">Ref</p>
+  <p class="field-name">Term ID</p>
   <p class="field-value">{{ page.termid }}</p>
 </section>
 
@@ -37,10 +37,72 @@ term_attributes:
   <p class="field-value"><a href="{{ json_url }}">{{ json_url }}</a></p>
 </section>
 
+{% assign english = page["eng"] %}
+{% assign term_status = english.entry_status %}
+{% assign classification = english.classification %}
+<section class="field info">
+  <p class="field-name">info</p>
+  <p class="field-value">
+  <ul class="labels">
+    {% if english.entry_status %}
+    <li>status: {{ english.entry_status | escape }}</li>
+    {% endif %}
+
+    {% if english.classification %}
+    <li>classification: {{ english.classification | escape }}</li>
+    {% endif %}
+
+    {% if english.date_accepted %}
+    <li>date accepted: {{ english.date_accepted | date: "%F" }}</li>
+    {% endif %}
+
+    {% if english.date_amended %}
+    <li>date amended: {{ english.date_amended | date: "%F" }}</li>
+    {% endif %}
+  </ul>
+  </p>
+</section>
+
+{% if english.review_date %}
+<section class="field json">
+  <p class="field-name">Review</p>
+  <p class="field-value">
+    <dl class="review">
+    <div class="review-info">
+      <dt>last review performed:</dt>
+      <dd>({{ english.review_date | date: "%F" }})</dd>
+    </div>
+    {% if english.review_status %}
+    <div class="review-info">
+      <dt>status:</dt>
+      <dd>{{ english.review_status }}</dd>
+    </div>
+    {% endif %}
+    {% if english.review_decision %}
+    <div class="review-info">
+      <dt>decision:</dt>
+      <dd>{{ english.review_decision | escape }}</dd>
+    </div>
+    {% endif %}
+    {% if english.review_decision_event %}
+    <div class="review-info">
+      <dt>decision event:</dt>
+      <dd>{{ english.review_decision_event | escape }}</dd>
+    </div>
+    {% endif %}
+    {% if english.review_decision_notes %}
+    <div class="review-info">
+      <dt>notes:</dt>
+      <dd>{{ english.review_decision_notes | escape }}</dd>
+    </div>
+    {% endif %}
+  </dl>
+</p>
+</section>
+{% endif %}
+
 {% for lang in site.term_languages %}
   {% assign localized_term = page[lang] %}
-  {% assign term_status = localized_term.entry_status %}
-  {% assign classification = localized_term.classification %}
 
   {% if localized_term %}
     <article
@@ -64,7 +126,7 @@ term_attributes:
         {% endif %}
 
         {% if classification == 'preferred' %}
-        <h4><em>This term is {{ classification }}.</em></h4>
+        <!-- <h4><em>This term is {{ classification }}.</em></h4> -->
         {% elsif term_status == 'admitted' %}
         <!-- <h4><em>This term is deemed {{ classification }}.</em></h4> -->
         {% elsif term_status == 'deprecated' %}
@@ -98,53 +160,7 @@ term_attributes:
           {% if localized_term.alt %}
             <li><span class="localized">{{ localized_term.alt | escape }}</span></li>
           {% endif %}
-
-          {% if localized_term.entry_status %}
-            <li>status: <span>{{ localized_term.entry_status | escape }}</span></li>
-          {% endif %}
-
-          {% if localized_term.classification %}
-            <li>classification: <span>{{ localized_term.classification | escape }}</span></li>
-          {% endif %}
-
-          {% if localized_term.date_accepted %}
-            <li>accepted: <span>{{ localized_term.date_accepted | date: "%F" }}</span></li>
-          {% endif %}
-
-          {% if localized_term.date_amended %}
-            <li>last amended: <span>{{ localized_term.date_amended | date: "%F" }}</span></li>
-          {% endif %}
         </ul>
-
-        {% if localized_term.review_date %}
-        <dl class="review">
-          <h4>last review performed: <span>({{ localized_term.review_date | date: "%F" }})</span></h4>
-          {% if localized_term.review_status %}
-          <div class="review-info">
-            <dt>status:</dt>
-            <dd>{{ localized_term.review_status }}</dd>
-          </div>
-          {% endif %}
-          {% if localized_term.review_decision %}
-          <div class="review-info">
-            <dt>decision:</dt>
-            <dd>{{ localized_term.review_decision | escape }}</dd>
-          </div>
-          {% endif %}
-          {% if localized_term.review_decision_event %}
-          <div class="review-info">
-            <dt>decision event:</dt>
-            <dd>{{ localized_term.review_decision_event | escape }}</dd>
-          </div>
-          {% endif %}
-          {% if localized_term.review_decision_notes %}
-          <div class="review-info">
-            <dt>notes:</dt>
-            <dd>{{ localized_term.review_decision_notes | escape }}</dd>
-          </div>
-          {% endif %}
-        </dl>
-        {% endif %}
 
       </div>
     </article>

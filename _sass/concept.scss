@@ -46,24 +46,6 @@ body.concept {
       // Multi-paragraph
       margin-top: 0;
     }
-  }
-
-  article {
-    border-top: 2px solid #f0f0f0;
-    padding-top: 1em;
-    padding-bottom: 1em;
-
-    @media screen and (max-width: $bigscreenBreakpoint) {
-      &.field {
-        display: block;
-      }
-    }
-
-    h3 {
-      @include titleFontFamily(true);
-      font-size: 100%;
-      line-height: 1.2;
-    }
 
     ul.labels {
       list-style: none;
@@ -95,9 +77,6 @@ body.concept {
       padding-left: 20px;
       font-size: 14px;
 
-      h4 {
-      }
-
       dt, dd {
         display: inline;
         margin: 0;
@@ -108,6 +87,26 @@ body.concept {
         /* TODO */
       }
 
+    }
+
+
+  }
+
+  article {
+    border-top: 2px solid #f0f0f0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+    @media screen and (max-width: $bigscreenBreakpoint) {
+      &.field {
+        display: block;
+      }
+    }
+
+    h3 {
+      @include titleFontFamily(true);
+      font-size: 100%;
+      line-height: 1.2;
     }
 
     &.lang-ara {

@@ -57,7 +57,7 @@
       this.stringInputRef = React.createRef();
 
       this.state = {
-        valid: undefined,  // Required value of the entry_status field, or undefined
+        valid: 'valid',  // Required value of the entry_status field, or undefined
         string: '',
       };
     }

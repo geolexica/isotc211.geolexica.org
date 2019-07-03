@@ -46,6 +46,9 @@ nav:
   - id: about
     url: /about
     title: About
+  - id: feedback
+    url: /feedback
+    title: Feedback
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211

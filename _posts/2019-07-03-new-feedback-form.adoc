@@ -1,0 +1,15 @@
+---
+layout: custom-post
+title:  "New feedback form"
+date:   2019-07-03 00:00:00 +0800
+categories: update
+---
+
+Due to popular request at the ISO/TC 211 Plenary at Maribor,
+we have now added a link:/feedback[feedback form]
+for collection of feedback: whether it is to do with Geolexica,
+MLGT terms or just comments (aka kudos) to the TMG.
+
+The TMG will periodically review these messages. You may be contacted
+shall any resulting updates occur or communication be necessary, so
+make sure you provide a correct email address!

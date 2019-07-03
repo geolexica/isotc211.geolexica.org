@@ -1,21 +1,37 @@
 language: ruby
-sudo: required
-cache: bundler
+dist: xenial
 rvm:
-  - 2.5.1
-before_install:
-  - travis_retry sudo apt-get update
-  - travis_retry sudo apt-get install -y curl git make ruby-bundler ruby-dev libxml2-dev libxslt-dev npm
-  - travis_retry gem install bundler
-  - travis_retry gem install nokogiri -v '1.8.5'
-before_script:
-  - bundle
-install:
-  - pip install --user awscli
+  - 2.5
+addons:
+  apt:
+    update: true
+  packages:
+    - curl
+    - git
+    - make
+    - ruby-bundler
+    - ruby-dev
+    - libxml2-dev
+    - libxslt-dev
+    - npm
+  snaps:
+    - jq
+    - yq
+    - name: aws-cli
+      confinement: classic # or devmode
+    - name: node
+      confinement: classic # or devmode
+      channel: 10/stable
 env:
   global:
     - COMMIT_AUTHOR_EMAIL="travis-ci@ribose.com"
     - ENCRYPTION_LABEL=a8a01b55ae26
+before_install:
+  - gem update --system
+  - gem install bundler
+before_script:
+  - bundle
+install:
 script:
   - make _site
 deploy:

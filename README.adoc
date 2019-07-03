@@ -32,13 +32,15 @@ stored in this repository.
 
 === Multi-Lingual Glossary of Terms
 
-The authoritative source of this online termbase is the Multi-Lingual Glossary of Terms
-published by ISO/TC 211.
+The authoritative source of this online termbase is the Multi-Lingual Glossary of Terms (MLGT) published by ISO/TC 211.
 
-This is committed to the repository as `tc211-termbase.xlsx`, which is derived
-from the latest `TC211_ Multi-Lingual_Glossary - 20181105_Published.xls` file,
-by manual conversion of the source file into the destination XLSX file
-provided in this repository.
+The intermediate file `tc211-termbase.xlsx` is used as the
+direct data source for all concepts and terms in Geolexica.
+
+The source data files are provided in a separate private repository:
+https://github.com/ISO-TC211/mlgt-data[mlgt-data].
+
+The particular MLGT file used for generation is set in the `Makefile`.
 
 This file is necessary for running the `tc211-termbase-xlsx2yaml` command.
 

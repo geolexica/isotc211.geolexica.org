@@ -57,5 +57,11 @@ _concepts: concepts_data
 serve:
 	bundle exec jekyll serve
 
-.PHONY: bundle all open serve distclean clean
+update-init:
+	git submodule update --init
+
+update-modules:
+	git submodule foreach git pull origin master
+
+.PHONY: bundle all open serve distclean clean update-init update-modules
 

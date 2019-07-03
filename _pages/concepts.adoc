@@ -1,7 +1,7 @@
 ---
 layout: base-page
 permalink: "/concepts/index.html"
-nav_items: [about, stats]
+nav_items: [home, about, stats, feedback]
 bodyClass: concepts
 title: All Concepts
 ---

@@ -14,6 +14,7 @@ addons:
     - libxml2-dev
     - libxslt-dev
     - npm
+    - openssl
   snaps:
     - jq
     - yq
@@ -24,8 +25,6 @@ addons:
       channel: 10/stable
 env:
   global:
-    - COMMIT_AUTHOR_EMAIL="travis-ci@ribose.com"
-    - ENCRYPTION_LABEL=a8a01b55ae26
 git:
   submodules: false
 before_install:

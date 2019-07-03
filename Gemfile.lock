@@ -9,7 +9,7 @@ GEM
     algoliasearch (1.26.0)
       httpclient (~> 2.8, >= 2.8.3)
       json (>= 1.5.1)
-    asciidoctor (2.0.9)
+    asciidoctor (2.0.10)
     colorator (1.1.0)
     concurrent-ruby (1.1.5)
     creek (2.4.4)
@@ -38,7 +38,7 @@ GEM
     i18n (0.9.5)
       concurrent-ruby (~> 1.0)
     iso-639 (0.2.8)
-    jekyll (3.8.5)
+    jekyll (3.8.6)
       addressable (~> 2.4)
       colorator (~> 1.0)
       em-websocket (~> 0.5)
@@ -71,7 +71,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-theme-isotc211 (0.4.6)
+    jekyll-theme-isotc211 (0.4.8)
       jekyll (~> 3.8)
       jekyll-data (~> 1.0)
       jekyll-seo-tag (~> 2.0)
@@ -91,11 +91,11 @@ GEM
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     progressbar (1.10.1)
-    public_suffix (3.1.0)
+    public_suffix (3.1.1)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    rouge (3.3.0)
+    rouge (3.5.1)
     ruby_dep (1.5.0)
     rubyzip (1.2.3)
     safe_yaml (1.0.5)
@@ -126,4 +126,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

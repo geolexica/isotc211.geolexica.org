@@ -7,6 +7,7 @@
 # RELATON_CSD_RXL := $(addprefix relaton-csd/, $(notdir $(CSD_SRC)))
 
 SHELL := /bin/bash
+TERMBASE_XLSX_PATH := "mlgt-data/TC211_ Multi-Lingual_Glossary - 20181015_Published.xlsx"
 
 # NAME_ORG := "CalConnect : The Calendaring and Scheduling Consortium"
 # CSD_REGISTRY_NAME := "CalConnect Document Registry: Standards"
@@ -18,10 +19,10 @@ SHELL := /bin/bash
 all: _site
 
 clean:
-	rm -rf _site _concepts
+	rm -rf _site _concepts tc211-termbase.yaml tc211-termbase.xlsx
 
 distclean: clean
-	rm -rf concepts_data tc211-termbase.yaml
+	rm -rf concepts_data
 
 _site: _concepts | bundle
 	bundle exec jekyll build
@@ -29,8 +30,11 @@ _site: _concepts | bundle
 bundle:
 	bundle
 
-concepts_data:
-	bundle exec tc211-termbase-xlsx2yaml tc211-termbase.xlsx
+tc211-termbase.xlsx:
+	cp ${TERMBASE_XLSX_PATH} tc211-termbase.xlsx
+
+concepts_data: tc211-termbase.xlsx
+	bundle exec tc211-termbase-xlsx2yaml $<
 	mv concepts concepts_data
 
 # Make collection YAML files into adoc files

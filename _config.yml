@@ -111,6 +111,7 @@ exclude:
   - "*.xlsx"
   - "*.yaml"
   - concepts_data
+  - mlgt-data
   - node_modules
   - vendor/bundle/
   - vendor/cache/

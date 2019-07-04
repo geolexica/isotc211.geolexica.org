@@ -1,0 +1,89 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Database languages</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">SQL -- Part 2: Foundation (SQL/Foundation)</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Database languages - Information technology - SQL -- Part 2: Foundation (SQL/Foundation)</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Langages de base de données</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Technologies de l'information</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">SQL -- Partie 2: Fondations (SQL/Foundation)</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Langages de base de données - Technologies de l'information - SQL -- Partie 2: Fondations (SQL/Foundation)</title>
+  <uri type="src">https://www.iso.org/standard/53682.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/36/53682.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 9075-2:2011</docidentifier>
+  <date type="published">
+    <on>2011</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>4</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 9075 defines Structured Query Language (SQL). The scope of SQL is the definition of data structure and the operations on data stored in that structure. ISO/IEC 9075-1, ISO/IEC 9075-2 and ISO/IEC 9075-11 encompass the minimum requirements of the language. Other parts define extensions.ISO/IEC 9075-2:2011 defines the data structures and basic operations on SQL-data. It provides functional capabilities for creating, accessing, maintaining, controlling, and protecting SQL-data. Both static and dynamic variants of the language are proved. In addition to direct invocation, bindings are provided for the programming languages Ada, C, COBOL, Fortran, M, Pascal, and PL/I.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2011</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9075-2:2008</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9075-2:2008/Cor 1:2010</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9075-2:2011/Cor 1:2013</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9075-2:2011/Cor 2:2015</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9075-2:2016</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 32Data management and interchange</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.060</code>
+      <text>Languages used in information technology</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC 9075</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

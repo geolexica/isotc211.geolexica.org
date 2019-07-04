@@ -1,0 +1,97 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Positioning services</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Positioning services - Geographic information</title>
+  <uri type="src">https://www.iso.org/standard/37805.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:37805:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/78/37805.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19116</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2004</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/DIS 19116</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-04</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Positioning services</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Positioning services - Geographic information</title>
+      <uri type="src">https://www.iso.org/standard/37805.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:37805:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/03/78/37805.detail.rss</uri>
+      <docidentifier type="ISO">ISO 19116:2004</docidentifier>
+      <date type="published">
+        <on>2004</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">ISO 19116:2004 specifies the data structure and content of an interface that permits communication between position-providing device(s) and position-using device(s) so that the position-using device(s) can obtain and unambiguously interpret position information and determine whether the results meet the requirements of the use. A standardized interface of geographic information with position allows the integration of positional information from a variety of positioning technologies into a variety of geographic information applications, such as surveying, navigation and intelligent transportation systems. ISO 19116:2004 will benefit a wide range of applications for which positional information is important.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>92</substage>
+      </status>
+      <copyright>
+        <from>2004</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO/DIS 19116</formattedref>
+        </bibitem>
+      </relation>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19116</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

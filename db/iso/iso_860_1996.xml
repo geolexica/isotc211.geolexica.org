@@ -1,0 +1,66 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Harmonization of concepts and terms</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Terminology work</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Harmonization of concepts and terms - Terminology work</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Harmonisation des notions et des termes</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Travaux terminologiques</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Harmonisation des notions et des termes - Travaux terminologiques</title>
+  <uri type="src">https://www.iso.org/standard/5240.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/52/5240.detail.rss</uri>
+  <docidentifier type="ISO">ISO 860:1996</docidentifier>
+  <date type="published">
+    <on>1996</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="fr" script="Latn">&#13;
+La présente Norme internationale prescrit une approche méthodologique présidant à l'harmonisation internationale des notions, des systèmes de notions, des définitions, des termes et des systèmes de termes. La présente Norme internationale s'applique au développement des terminologies nationales et internationales.&#13;
+</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>1996</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/R 860:1968</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 860:2007</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="37" type="TC">ISO/TC 37/SC 1Principles and methods</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.020</code>
+      <text>Terminology (principles and coordination)</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 860</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,0 +1,65 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Open distributed processing</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Reference model: Foundations</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Open distributed processing - Information technology - Reference model: Foundations</title>
+  <uri type="src">https://www.iso.org/standard/55723.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:55723:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/57/55723.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 10746-2:2009</docidentifier>
+  <date type="published">
+    <on>2009</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC 10746 provides a coordinating framework for the standardization of open distributed processing (ODP). This supports distribution, interworking, portability, and platform and technology independence. It establishes an enterprise architecture framework for the specification of ODP systems.ISO/IEC 10746 defines the essential concepts necessary to specify open distributed processing systems from five prescribed viewpoints. It provides a well-developed framework for the structuring of specifications for large-scale, distributed systems.The framework for system specification provided by ISO/IEC 10746 has four fundamental elements:ISO/IEC 10746-2:2009 contains the definition of the concepts and analytical framework for normalized description of any distributed processing system. It introduces the principles of conformance to ODP standards and the way in which they are applied. These concepts and principles are used in ISO/IEC 10746-3 and to establish requirements for new ODP specification techniques. </abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2009</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 10746-2:1996</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 7Software and systems engineering</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.080</code>
+      <text>Software</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC 10746</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

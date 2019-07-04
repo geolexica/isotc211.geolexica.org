@@ -1,0 +1,52 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Simple feature access</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Common architecture</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Simple feature access - Geographic information - Part 1: Common architecture</title>
+  <uri type="src">https://www.iso.org/standard/40114.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40114:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40114.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19125-1:2004</docidentifier>
+  <date type="published">
+    <on>2004</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19125-1:2004 establishes a common architecture for geographic information and defines terms to use within the architecture. It also standardizes names and geometric definitions for Types for Geometry.ISO 19125-1:2004 does not place any requirements on how to define the Geometry Types in the internal schema nor does it place any requirements on when or how or who defines the Geometry Types. ISO 19125-1:2004 does not attempt to standardize and does not depend upon any part of the mechanism by which Types are added and maintained.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2004</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19125</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

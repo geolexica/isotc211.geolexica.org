@@ -1,0 +1,60 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Calibration and validation of remote sensing imagery sensors and data</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Lidar</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Calibration and validation of remote sensing imagery sensors and data - Geographic information - Part 2: Lidar</title>
+  <uri type="src">https://www.iso.org/standard/64768.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:64768:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/47/64768.detail.rss</uri>
+  <docidentifier type="ISO">ISO/TS 19159-2:2016</docidentifier>
+  <date type="published">
+    <on>2016</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>TS</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/TS 19159-2:2016 defines the data capture method, the relationships between the coordinate reference systems and their parameters, as well as the calibration of airborne lidar (light detection and ranging) sensors.ISO/TS 19159-2:2016 also standardizes the service metadata for the data capture method, the relationships between the coordinate reference systems and their parameters and the calibration procedures of airborne lidar systems as well as the associated data types and code lists that have not been defined in other ISO geographic information international standards.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>20</substage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>ISO/TS</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>technical-specification</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/TS 19159</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,0 +1,73 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Quality management systems</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary - Quality management systems</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Principes essentiels et vocabulaire</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Systèmes de management de la qualité</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Principes essentiels et vocabulaire - Systèmes de management de la qualité</title>
+  <uri type="src">https://www.iso.org/standard/42180.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/21/42180.detail.rss</uri>
+  <docidentifier type="ISO">ISO 9000:2005</docidentifier>
+  <date type="published">
+    <on>2005</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 9000:2005 describes fundamentals of quality management systems, which form the subject of the ISO 9000 family, and defines related terms.It is applicable to the following:a) organizations seeking advantage through the implementation of a quality management system;b) organizations seeking confidence from their suppliers that their product requirements will be satisfied;c) users of the products;d) those concerned with a mutual understanding of the terminology used in quality management (e.g. suppliers, customers, regulators);e) those internal or external to the organization who assess the quality management system or audit it for conformity with the requirements of ISO 9001 (e.g. auditors, regulators, certification/registration bodies);f) those internal or external to the organization who give advice or training on the quality management system appropriate to that organization;g) developers of related standards.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 9000:2005 décrit les principes essentiels des systèmes de management de la qualité, objet de la famille des normes ISO 9000, et en définit les termes associés.Elle est applicablea) aux organismes cherchant à progresser par la mise en oeuvre d'un système de management de la qualité;b) aux organismes qui cherchent à s'assurer que leurs fournisseurs satisferont leurs exigences relatives aux produits;c) aux utilisateurs des produits;d) aux personnes concernées par une compréhension mutuelle de la terminologie utilisée dans le domaine du management de la qualité (par exemple fournisseurs, clients, autorités réglementaires);e) aux personnes internes ou externes à l'organisme, qui évaluent ou auditent le système de management de la qualité en termes de conformité aux exigences de l'ISO 9001 (par exemple auditeurs, autorités réglementaires, organismes de certification/enregistrement);f) aux personnes internes ou externes à l'organisme qui donnent des conseils ou fournissent une formation sur le système de management de la qualité qui lui convient;g) aux personnes qui élaborent des normes apparentées.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2005</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 9000:2000</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 9000:2015</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="176" type="TC">ISO/TC 176/SC 1Concepts and terminology</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>03.120.10</code>
+      <text>Quality management and quality assurance</text>
+    </ics>
+    <ics>
+      <code>01.040.03</code>
+      <text>Services. Company organization, management and quality. Administration. Transport. Sociology. (Vocabularies)</text>
+    </ics>
+    <ics>
+      <code>03.100.70</code>
+      <text>Management systems</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 9000</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,0 +1,98 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Location-based services</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Reference model</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Location-based services - Geographic information - Reference model</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Modèle de référence</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation - Information géographique - Modèle de référence</title>
+  <uri type="src">https://www.iso.org/standard/40601.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40601:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/06/40601.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19132</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-04</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Location-based services</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Reference model</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Location-based services - Geographic information - Reference model</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation</title>
+      <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">Modèle de référence</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation - Information géographique - Modèle de référence</title>
+      <uri type="src">https://www.iso.org/standard/40601.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40601:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/04/06/40601.detail.rss</uri>
+      <docidentifier type="ISO">ISO 19132:2007</docidentifier>
+      <date type="published">
+        <on>2007</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">ISO 19132:2007 defines a reference model and a conceptual framework for location-based services (LBS), and describes the basic principles by which LBS applications may interoperate. This framework references or contains an ontology, a taxonomy, a set of design patterns and a core set of LBS service abstract specifications in UML. ISO 19132:2007 further specifies the framework's relationship to other frameworks, applications and services for geographic information and to client applications.ISO 19132:2007 addresses, for an LBS system, the first three basic viewpoints as defined in the Reference Model for Open Distributed Processing (RM-ODP, see ISO/IEC 10746-1). These viewpoints are the Enterprise Viewpoint – detailing the purpose, scope, and policies of the system; Information Viewpoint – detailing the semantics of information and processing within the system; Computational Viewpoint – detailing the functional decomposition of the system.The fourth and fifth viewpoints are addressed only in requirements or examples. These are the Engineering Viewpoint – detailing the infrastructure for distribution; Technology Viewpoint – detailing the technology for implementation;Reference models and frameworks can be defined at a variety of levels, from conceptual design to software documentation. ISO 19132:2007 defines the conceptual framework for and the type of applications included within LBS, establishes general principles for LBS for both mobile and fixed clients, specifies the interface for data access while roaming, defines the architectural relationship with other ISO geographic information standards, and identifies areas in which further standards for LBS are required. ISO 19132:2007 does not address rules by which LBS are developed, nor general principles for roaming agreements for mobile clients and tracking targets.</abstract>
+      <abstract format="text/plain" language="fr" script="Latn">L'ISO 19132:2007 définit un modèle de référence et un cadre conceptuel pour les services basés sur la localisation (LBS) et décrit les principes de base selon lesquels les applications LBS peuvent interopérer. Ce cadre contient ou fait référence à une ontologie, une taxinomie, un ensemble de modèles de conception et de spécifications abstraites de service LBS en langage UML. En outre, l'ISO 19132:2007 spécifie les relations que le cadre entretient avec les autres cadres, les applications et services d'informations géographiques et les applications client.Concernant un système LBS, l'ISO 19132:2007 aborde les trois premiers points de vue de base définis dans le Modèle de référence pour le traitement réparti ouvert (RM-ODP, voir l'ISO/CEI 10746-1). Ces points de vue sont le point de vue entreprise – définit l'objet, le domaine d'application et les règles du système –, le point de vue informationnel – détaille la sémantique des informations et leur traitement dans le système –, et le point de vue informatique – détaille la décomposition fonctionnelle du système –.Les quatrième et cinquième points de vue sont abordés dans les exigences ou à titre d'exemple. Il s'agit du point de vue ingénierie – détaille l'infrastructure de distribution – et du point de vue technologie – détaille la technologie de mise en oeuvre –.Les modèles de référence et les cadres peuvent être définis à différents niveaux, de la conception à la documentation logicielle. L'ISO 19132:2007 définit le cadre conceptuel du service LBS et le type des applications qu'il contient, établit les principes généraux du système LBS pour les clients fixes et mobiles, précise l'interface d'accès aux données lors des déplacements, définit les relations architecturales avec d'autres normes ISO relatives aux informations géographiques, et identifie les domaines pour lesquels d'autres normes relatives au système LBS sont nécessaires.L'ISO 19132:2007 n'aborde ni les règles de développement du système LBS, ni les principes généraux liés aux accords d'itinérance des clients mobiles et de suivi des cibles.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2007</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19132</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

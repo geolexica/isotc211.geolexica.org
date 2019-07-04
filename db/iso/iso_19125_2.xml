@@ -1,0 +1,97 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Simple feature access</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: SQL option</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Simple feature access - Geographic information - Part 2: SQL option</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Accès aux entités simples</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Option SQL</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Accès aux entités simples - Information géographique - Partie 2: Option SQL</title>
+  <uri type="src">https://www.iso.org/standard/40115.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40115.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19125-2</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2004</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-04</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Simple feature access</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: SQL option</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Simple feature access - Geographic information - Part 2: SQL option</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Accès aux entités simples</title>
+      <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Option SQL</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Accès aux entités simples - Information géographique - Partie 2: Option SQL</title>
+      <uri type="src">https://www.iso.org/standard/40115.html</uri>
+      <uri type="obp"/>
+      <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40115.detail.rss</uri>
+      <docidentifier type="ISO">ISO 19125-2:2004</docidentifier>
+      <date type="published">
+        <on>2004</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">This part of ISO 19125:2004 specifies an SQL schema that supports storage, retrieval, query and update of simple geospatial feature collections via the SQL Call Level Interface (SQL/CLI) and establishes an architecture for the implementation of feature tables.This part of ISO 19125:2004 defines terms to use within the architecture. of geographic information and defines a simple feature profile of ISO 19107. In addition, this part of ISO 19125:2004 describes a set of SQL Geometry Types together with SQL functions on those types. The Geometry Types and Functions described represent a profile of ISO 13249-3.This part of ISO 19125:2004 standardizes the names and geometric definitions of the SQL Types for Geometry and the names, signatures and geometric definitions of the SQL Functions for Geometry.This part of ISO 19125:2004 does not attempt to standardize and does not depend upon any part of the mechanism by which Types are added and maintained in the SQL environment, including the following:</abstract>
+      <status>
+        <stage>95</stage>
+        <substage>99</substage>
+      </status>
+      <copyright>
+        <from>2004</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19125</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,0 +1,55 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Web Feature Service</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Web Feature Service - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Service d'accès aux entités géographiques par le web</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Service d'accès aux entités géographiques par le web - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/42136.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:42136:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/21/42136.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19142:2010</docidentifier>
+  <date type="published">
+    <on>2010</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19142:2010 specifies the behaviour of a web feature service that provides transactions on and access to geographic features in a manner independent of the underlying data store. It specifies discovery operations, query operations, locking operations, transaction operations and operations to manage stored parameterized query expressions. </abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 19142:2010 spécifie le comportement d'un service qui fournit des transactions sur des entités géographiques et un accès à des entités géographiques indépendamment de l'entrepôt de données sous-jacent. Elle spécifie des opérations de découverte, des opérations d'interrogation, des opérations de verrouillage, des opérations de transactions et des opérations destinées à gérer des expressions d'interrogations paramétrées qui sont prédéfinies.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2010</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19142</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

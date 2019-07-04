@@ -1,0 +1,55 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Land Administration Domain Model (LADM)</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Land Administration Domain Model (LADM) - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Modèle du domaine de l'administration des terres (LADM)</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Modèle du domaine de l'administration des terres (LADM) - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/51206.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:51206:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/12/51206.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19152:2012</docidentifier>
+  <date type="published">
+    <on>2012</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19152:2012:</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 19152:2012:</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2012</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19152</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

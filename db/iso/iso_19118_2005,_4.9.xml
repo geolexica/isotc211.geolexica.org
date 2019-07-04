@@ -1,0 +1,59 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Encoding</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Encoding - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Codage</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Codage - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/37796.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/77/37796.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19118:2005</docidentifier>
+  <date type="published">
+    <on>2005</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19118:2005 specifies the requirements for defining encoding rules to be used for interchange of geographic data within the ISO 19100 series of International Standards.ISO 19118:2005 specifiesISO 19118:2005 does not specify any digital media, it does not define any transfer services or transfer protocols, nor does it specify how to encode inline large images.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2005</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19118:2011</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19118</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,0 +1,71 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary and symbols</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Statistics</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Probability and general statistical terms</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Vocabulary and symbols - Statistics - Part 1: Probability and general statistical terms</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire et symboles</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Statistique</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Probabilité et termes statistiques généraux</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire et symboles - Statistique - Partie 1: Probabilité et termes statistiques généraux</title>
+  <uri type="src">https://www.iso.org/standard/8919.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/89/8919.detail.rss</uri>
+  <docidentifier type="ISO">ISO 3534-1:1993</docidentifier>
+  <date type="published">
+    <on>1993</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">Defines 204 probability and general statistical terms in English and French which may be used in the drafting of other international standards. The terms are classified under the following main headings: Terms used in the theory of probability, General statistical terms, General terms relating to observations and test results, General terms relating to methods of sampling. The entries are arranged analytically and alphabetical indexes in English and French are provided. Annex A gives a list of symbols and abbreviations used.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">La présente partie de I'ISO 3534 définit les termes concernant la probabilité et les termes statistiques généraux susceptibles d'être utilisés dans la rédaction d'autres normes internationales. En outre, elle définit un ensemble de symboles pour un nombre limité de ces termes. Les termes sont classés sous les principales rubriques suivantes: </abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>1993</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 3534:1977</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 3534-1:2006</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="69" type="TC">ISO/TC 69Applications of statistical methods</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>03.120.30</code>
+      <text>Application of statistical methods</text>
+    </ics>
+    <ics>
+      <code>01.040.03</code>
+      <text>Services. Company organization, management and quality. Administration. Transport. Sociology. (Vocabularies)</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 3534</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

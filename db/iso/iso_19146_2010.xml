@@ -1,0 +1,60 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Cross-domain vocabularies</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Cross-domain vocabularies - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaires interdomaines</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaires interdomaines - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/44873.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/48/44873.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19146:2010</docidentifier>
+  <date type="published">
+    <on>2010</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19146:2010 defines a methodology for cross-mapping technical vocabularies that have been adopted by industry-specific geospatial communities. It also specifies an implementation of ISO 19135 for the registration of geographic information concepts for the purpose of integrating multiple domain-based vocabularies.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 19146:2010 définit une méthodologie de mise en correspondance des vocabulaires techniques adoptés par les communautés géospatiales sectorielles. Elle spécifie également une mise en place de l'ISO 19135 pour l'enregistrement de concepts d'informations géographiques en vue de l'intégration de plusieurs vocabulaires liés au domaine.Les méthodologies de développement des ontologies et taxonomies liées aux informations géographiques et à la géomatique n'entrent pas dans le domaine d'application de l'ISO 19146:2010.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2010</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19146:2018</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19146</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

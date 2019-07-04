@@ -1,0 +1,62 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Metadata</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Extensions for imagery and gridded data</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Metadata - Geographic information - Part 2: Extensions for imagery and gridded data</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Métadonnées</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Extensions pour les images et les matrices</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Métadonnées - Information géographique - Partie 2: Extensions pour les images et les matrices</title>
+  <uri type="src">https://www.iso.org/standard/39229.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/92/39229.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19115-2:2009</docidentifier>
+  <date type="published">
+    <on>2009</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19115-2:2009 extends the existing geographic metadata standard by defining the schema required for describing imagery and gridded data. It provides information about the properties of the measuring equipment used to acquire the data, the geometry of the measuring process employed by the equipment, and the production process used to digitize the raw data. This extension deals with metadata needed to describe the derivation of geographic information from raw data, including the properties of the measuring system, and the numerical methods and computational procedures used in the derivation. The metadata required to address coverage data in general is addressed sufficiently in the general part of ISO 19115.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 19115-2:2009 étend la norme existante sur les métadonnées géographiques en définissant le schéma requis de description des images et des matrices. Elle donne des informations relatives aux propriétés des équipements de mesure utilisés pour obtenir les données, la géométrie du processus de mesure utilisée par ces équipements, et le processus de production utilisé pour numériser les données brutes. Cette extension porte sur les métadonnées nécessaires pour décrire la déduction des informations géographiques à partir de données brutes, y compris les propriétés du système de mesure, et les méthodes numériques et procédures informatiques utilisées pour la déduction. Les métadonnées requises pour aborder les données de couverture en général sont suffisamment abordées dans la partie générale de l'ISO 19115.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2009</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19115-2:2019</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19115</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

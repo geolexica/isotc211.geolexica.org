@@ -1,0 +1,60 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Harmonization of concepts and terms</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Terminology work</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Harmonization of concepts and terms - Terminology work</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Harmonisation des concepts et des termes</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Travaux terminologiques</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Harmonisation des concepts et des termes - Travaux terminologiques</title>
+  <uri type="src">https://www.iso.org/standard/40130.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40130:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40130.detail.rss</uri>
+  <docidentifier type="ISO">ISO 860:2007</docidentifier>
+  <date type="published">
+    <on>2007</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 860:2007 specifies a methodological approach to the harmonization of concepts, concept systems, definitions and terms. It applies to the development of harmonized terminologies, at either the national or international level, in either a monolingual or a multilingual context.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 860:2007 spécifie une approche méthodologique présidant à l'harmonisation des concepts, des systèmes de concepts, des définitions et des termes.Elle s'applique à l'élaboration de terminologies harmonisées, au niveau national ou international, dans un contexte monolingue ou multilingue.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 860:1996</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="37" type="TC">ISO/TC 37/SC 1Principles and methods</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.020</code>
+      <text>Terminology (principles and coordination)</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 860</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

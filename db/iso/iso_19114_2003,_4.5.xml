@@ -1,0 +1,64 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Quality evaluation procedures</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Quality evaluation procedures - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Procédures d'évaluation de la qualité</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Procédures d'évaluation de la qualité - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/26019.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26019.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19114:2003</docidentifier>
+  <date type="published">
+    <on>2003</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19114:2003 provides a framework of procedures for determining and evaluating quality that is applicable to digital geographic datasets, consistent with the data quality principles defined in ISO 19113. It also establishes a framework for evaluating and reporting data quality results, either as part of data quality metadata only, or also as a quality evaluation report.ISO 19114:2003 is applicable to data producers when providing quality information on how well a dataset conforms to the product specification, and to data users attempting to determine whether or not the dataset contains data of sufficient quality to be fit for use in their particular applications.Although ISO 19114:2003 is applicable to all types of digital geographic data, its principles can be extended to many other forms of geographic data such as maps, charts and textual documents.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2003</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19114:2003/Cor 1:2005</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19157:2013</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19114</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

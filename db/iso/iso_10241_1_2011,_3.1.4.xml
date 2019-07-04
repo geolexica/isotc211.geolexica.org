@@ -1,0 +1,64 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Terminological entries in standards</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: General requirements and examples of presentation</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Terminological entries in standards - Part 1: General requirements and examples of presentation</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Articles terminologiques dans les normes</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Exigences générales et exemples de présentation</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Articles terminologiques dans les normes - Partie 1: Exigences générales et exemples de présentation</title>
+  <uri type="src">https://www.iso.org/standard/40362.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40362:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/03/40362.detail.rss</uri>
+  <docidentifier type="ISO">ISO 10241-1:2011</docidentifier>
+  <date type="published">
+    <on>2011</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 10241-1:2011 specifies requirements for the drafting and structuring of terminological entries in standards, exemplified by terminological entries in ISO and IEC documents. Terms and other designations occurring in terminological entries can include letters, numerals, mathematical symbols, typographical signs and syntactic signs (e.g. punctuation marks, hyphens, parentheses, square brackets and other connectors or delimiters), sometimes in character styles (i.e. fonts and bold, italic, bold italic or other style conventions) governed by language-, domain- or subject-specific conventions. Terms can also include standardized symbols (which can be language independent or internationally harmonized, such as symbols for quantities and units as well as graphical symbols) which are under the responsibility of different committees in ISO and IEC.ISO 10241-1:2011 is based on the principles and methods given in ISO 704 and provides rules for both monolingual and multilingual terminological entries in standards and their indexes.ISO 10241-1:2011 is applicable to all standards that contain terminological entries. It does not deal with the administrative procedures nor the technical specifications required by standardizing bodies for the preparation of terminology standards.Since presentation and layout rules by nature are very much tied to the script and to the publishing rules of the standardizing body, they are dealt with only on an abstract level in ISO 10241-1:2011. Examples and rules for a typical layout and presentation in ISO documents are provided for information in Annex A.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 10241-1:2011 spécifie les exigences relatives à la rédaction et à la structure des articles terminologiques dans les normes, et les illustre par des articles terminologiques contenus dans des documents de l'ISO et de la CEI. Les termes et autres désignations présents dans les articles terminologiques peuvent être constitués de lettres, chiffres, symboles mathématiques et signes typographiques et syntaxiques (par exemple signes de ponctuation, traits d'union, parenthèses, crochets et autres connecteurs ou séparateurs) avec les styles de caractère correspondants (c'est-à-dire les caractéristiques de police de caractère telles que gras, italique, gras italique ou autres conventions stylistiques) régis par des conventions spécifiques à la langue, au domaine ou au sujet. Les termes peuvent également comprendre d'autres désignations, telles que les symboles normalisés (qui peuvent être indépendants de la langue ou harmonisés au niveau international), les symboles de grandeurs et d'unités ainsi que les symboles graphiques qui sont de la responsabilité de différents comités de l'ISO et de la CEI.L'ISO 10241-1:2011 se fonde sur les principes et méthodes donnés dans l'ISO 704 et fournit les règles applicables aux articles terminologiques dans les normes monolingues et multilingues et leurs index.L'ISO 10241-1:2011 est applicable à toutes les normes qui contiennent des articles terminologiques. Elle ne traite pas des modalités administratives ou des spécifications techniques imposées par les organismes de normalisation pour l'élaboration d'une norme donnée de terminologie.Étant donné que les règles de présentation et de mise en page sont en grande partie liées au système d'écriture et aux règles de publication des organismes de normalisation, elles sont abordées uniquement d'un point de vue abstrait dans l'ISO 10241-1:2011. Des exemples et des règles de présentation et de mise en page dans les documents sont fournis à titre indicatif dans l'Annexe A.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2011</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 10241:1992</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="37" type="TC">ISO/TC 37/SC 2Terminology workflow and language coding</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.120</code>
+      <text>Standardization. General rules</text>
+    </ics>
+    <ics>
+      <code>01.020</code>
+      <text>Terminology (principles and coordination)</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 10241</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

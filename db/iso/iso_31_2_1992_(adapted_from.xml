@@ -1,0 +1,69 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Quantities and units</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Periodic and related phenomena</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Quantities and units - Part 2: Periodic and related phenomena</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Grandeurs et unités</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Phénomènes périodiques et connexes</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Grandeurs et unités - Partie 2: Phénomènes périodiques et connexes</title>
+  <uri type="src">https://www.iso.org/standard/3626.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/36/3626.detail.rss</uri>
+  <docidentifier type="ISO">ISO 31-2:1992</docidentifier>
+  <date type="published">
+    <on>1992</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">Gives name, symbol and definition for 17 quantities and units of periodic and related phenomena. Where appropriate, conversion factors are also given.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>1992</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 31-2:1978</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 31-2:1992/Amd 1:1998</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 80000-3:2006</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="12" type="TC">ISO/TC 12Quantities and units</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.060</code>
+      <text>Quantities and units</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 31</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

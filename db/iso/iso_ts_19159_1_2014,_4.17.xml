@@ -1,0 +1,60 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Calibration and validation of remote sensing imagery sensors and data</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Optical sensors</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Calibration and validation of remote sensing imagery sensors and data - Geographic information - Part 1: Optical sensors</title>
+  <uri type="src">https://www.iso.org/standard/60080.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:60080:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/00/60080.detail.rss</uri>
+  <docidentifier type="ISO">ISO/TS 19159-1:2014</docidentifier>
+  <date type="published">
+    <on>2014</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>TS</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/TS 19159-1:2014 defines the calibration and validation of airborne and spaceborne remote sensing imagery sensors. The term "calibration" refers to geometry, radiometry, and spectral, and includes the instrument calibration in a laboratory as well as in situ calibration methods. The validation methods address validation of the calibration information.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2014</from>
+    <owner>
+      <organization>
+        <name>ISO/TS</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>technical-specification</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/TS 19159</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

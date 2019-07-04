@@ -1,0 +1,61 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Spatial referencing by coordinates</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Extension for parametric values</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Spatial referencing by coordinates - Geographic information - Part 2: Extension for parametric values</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Système de références spatiales par coordonnées</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Supplément pour valeurs paramétriques</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Système de références spatiales par coordonnées - Information géographique - Partie 2: Supplément pour valeurs paramétriques</title>
+  <uri type="src">https://www.iso.org/standard/44075.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/40/44075.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19111-2:2009</docidentifier>
+  <date type="published">
+    <on>2009</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19111-2:2009 specifies the conceptual schema for the description of spatial referencing using parametric values or functions. It applies the schema of ISO 19111 to combine a position referenced by coordinates with a parametric value to form a spatio‑parametric coordinate reference system (CRS). The spatio‑parametric CRS can optionally be extended to include time.The intended users of ISO 19111-2:2009 are producers and users of environmental information.Parameters which are attributes of spatial locations or features, but which are not involved in their spatial referencing, are not addressed by ISO 19111-2:2009.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2009</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19111:2019</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19111</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

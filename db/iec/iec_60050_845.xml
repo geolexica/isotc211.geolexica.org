@@ -1,0 +1,89 @@
+<bibdata type="standard">
+  <title type="title-main" format="text/plain" language="en" script="Latn">International Electrotechnical Vocabulary (IEV)</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 845: Lighting</title>
+  <title type="main" format="text/plain" language="en" script="Latn">International Electrotechnical Vocabulary (IEV) - Part 845: Lighting</title>
+  <uri type="src">https://webstore.iec.ch/publication/268</uri>
+  <uri type="obp">/preview/info_iec60050-845%7Bed1.0%7Dt.img.pdf</uri>
+  <docidentifier type="IEC">IEC 60050-845</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1.0</edition>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>1987</from>
+    <owner>
+      <organization>
+        <name>International Electrotechnical Commission</name>
+        <abbreviation>IEC</abbreviation>
+        <uri>www.iec.ch</uri>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="standard">
+      <title type="title-main" format="text/plain" language="en" script="Latn">International Electrotechnical Vocabulary (IEV)</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 845: Lighting</title>
+      <title type="main" format="text/plain" language="en" script="Latn">International Electrotechnical Vocabulary (IEV) - Part 845: Lighting</title>
+      <uri type="src">https://webstore.iec.ch/publication/268</uri>
+      <uri type="obp">/preview/info_iec60050-845%7Bed1.0%7Dt.img.pdf</uri>
+      <docidentifier type="IEC">IEC 60050-845:1987</docidentifier>
+      <date type="published">
+        <on>1987</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>1.0</edition>
+      <language>en</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">Comprises some 950 terms and definitions to promote international standardization in the use of quantities, units, symbols and terminology in the field of lighting. Is also CIE Publication 17.4: International Lighting Vocabulary. It has the status of a horizontal standard in accordance with IEC Guide 108.</abstract>
+      <status>
+        <stage>60</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>1987</from>
+        <owner>
+          <organization>
+            <name>International Electrotechnical Commission</name>
+            <abbreviation>IEC</abbreviation>
+            <uri>www.iec.ch</uri>
+          </organization>
+        </owner>
+      </copyright>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="technicalCommittee">TC 1 - Terminology</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.040.91</code>
+      <text>Construction materials and building (Vocabularies)</text>
+    </ics>
+    <ics>
+      <code>91.160.01</code>
+      <text>Lighting in general</text>
+    </ics>
+    <structuredidentifier type="IEC">
+      <project-number>60050</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,0 +1,59 @@
+<bibdata type="standard">
+  <fetched>2019-07-04</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Quality assurance of data supply</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Quality assurance of data supply - Geographic information</title>
+  <uri type="src">https://www.iso.org/standard/32576.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32576:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32576.detail.rss</uri>
+  <docidentifier type="ISO">ISO/TS 19158:2012</docidentifier>
+  <date type="published">
+    <on>2012</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>TS</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/TS 19158:2012 provides a framework for quality assurance specific to geographic information. It is based upon the quality principles and quality evaluation procedures of geographic information identified in ISO 19157 and the general quality management principles defined in ISO 9000.The framework defined in ISO/TS 19158:2012 enables a customer to satisfy itself that its suppliers, both internal and external, are capable of delivering geographic information to the required quality. Fundamental to the framework is the assurance of the supplier's ability to understand and meet the quality requirements. Through the quality assurance framework both the customer and the supplier are able to consider the quality required at the earliest opportunity in the production/update process.Principles and responsibilities of the relationship between the customer and the supplier that facilitate the framework are provided. The responsibility for the quality assessment procedure is shared between the customer and the supplier.ISO/TS 19158:2012 is applicable to customers and suppliers of all geographic information where the quality of the product may be impacted upon by the supplier's processes in any of the following scenarios:1) there is an agreement or legislation for the supply of data acquisition services,2) data acquisition services are being tendered for, and3) one or more suppliers exist in the supply chain.ISO/TS 19158:2012 is not applicable for the supply of legacy datasets or ?off the shelf' products where there is no further data production or update activity to manage.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>20</substage>
+  </status>
+  <copyright>
+    <from>2012</from>
+    <owner>
+      <organization>
+        <name>ISO/TS</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>technical-specification</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/TS 19158</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

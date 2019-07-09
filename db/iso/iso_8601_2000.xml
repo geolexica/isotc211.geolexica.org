@@ -1,0 +1,70 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Information interchange</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Data elements and interchange formats</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Representation of dates and times</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information interchange - Data elements and interchange formats - Representation of dates and times</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Échange d'information</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Éléments de données et formats d'échange</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Représentation de la date et de l'heure</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Échange d'information - Éléments de données et formats d'échange - Représentation de la date et de l'heure</title>
+  <uri type="src">https://www.iso.org/standard/26780.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/02/67/26780.detail.rss</uri>
+  <docidentifier type="ISO">ISO 8601:2000</docidentifier>
+  <date type="published">
+    <on>2000</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2000</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 8601:1988</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 8601:1988/Cor 1:1991</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 8601:2004</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="154" type="TC">ISO/TC 154Processes, data elements and documents in commerce, industry and administration</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.140.30</code>
+      <text>Documents in administration, commerce and industry</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 8601</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

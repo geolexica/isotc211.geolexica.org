@@ -1,0 +1,55 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Registry of representations of geographic point location</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Registry of representations of geographic point location - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Registre de représentations de localisation de point géographique</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Registre de représentations de localisation de point géographique - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/32563.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32563:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32563.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19145:2013</docidentifier>
+  <date type="published">
+    <on>2013</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19145:2013 specifies the process for establishing, maintaining and publishing registers of representation of geographic point location in compliance with ISO 19135. It identifies and describes the information elements and the structure of a register of representations of geographic point location including the elements for the conversion of one representation to another.ISO 19145:2013 also specifies the XML implementation of the required XML extension to ISO/TS 19135-2, for the implementation of a register of geographic point location representations.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 19145:2013 spécifie les procédures à suivre pour l'établissement, la mise à jour et la publication de registres de représentations de localisation de point géographique conformes à l'ISO 19135. Elle identifie et décrit les éléments d'information et la structure d'un registre de représentations de localisation de point géographique, y compris les éléments de conversion d'une représentation en une autre.L'ISO 19145:2013 spécifie également l'implémentation à l'aide du langage de balisage extensible (XML) de l'extension XML requise de l'ISO/TS 19135‑2, pour l'implémentation d'un registre de représentations de localisation de point géographique.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2013</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19145</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

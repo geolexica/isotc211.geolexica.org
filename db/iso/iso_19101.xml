@@ -1,15 +1,17 @@
 <bibdata type="standard">
-  <fetched>2019-07-04</fetched>
+  <fetched>2019-07-09</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Reference model</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Reference model - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Modèle de référence</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Imagery</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Reference model - Geographic information - Part 2: Imagery</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Modèle de réference</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Modèle de référence - Information géographique</title>
-  <uri type="src">https://www.iso.org/standard/26002.html</uri>
-  <uri type="obp"/>
-  <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26002.detail.rss</uri>
-  <docidentifier type="ISO">ISO 19101</docidentifier>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Imagerie</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Modèle de réference - Information géographique - Partie 2: Imagerie</title>
+  <uri type="src">https://www.iso.org/standard/69325.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:69325:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/93/69325.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19101-2</docidentifier>
   <contributor>
     <role type="publisher"/>
     <organization>
@@ -23,37 +25,39 @@
   <language>fr</language>
   <script>Latn</script>
   <status>
-    <stage>95</stage>
-    <substage>99</substage>
+    <stage>60</stage>
+    <substage>60</substage>
   </status>
   <copyright>
-    <from>2002</from>
+    <from>2018</from>
     <owner>
       <organization>
         <name>ISO</name>
       </organization>
     </owner>
   </copyright>
-  <relation type="updates">
+  <relation type="obsoletes">
     <bibitem type="standard">
-      <formattedref format="text/plain">ISO 19101-1:2014</formattedref>
+      <formattedref format="text/plain">ISO/TS 19101-2:2008</formattedref>
     </bibitem>
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-07-04</fetched>
+      <fetched>2019-07-09</fetched>
       <title type="title-main" format="text/plain" language="en" script="Latn">Reference model</title>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Reference model - Geographic information</title>
-      <title type="title-main" format="text/plain" language="fr" script="Latn">Modèle de référence</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Imagery</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Reference model - Geographic information - Part 2: Imagery</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Modèle de réference</title>
       <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-      <title type="main" format="text/plain" language="fr" script="Latn">Modèle de référence - Information géographique</title>
-      <uri type="src">https://www.iso.org/standard/26002.html</uri>
-      <uri type="obp"/>
-      <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26002.detail.rss</uri>
-      <docidentifier type="ISO">ISO 19101:2002</docidentifier>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Imagerie</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Modèle de réference - Information géographique - Partie 2: Imagerie</title>
+      <uri type="src">https://www.iso.org/standard/69325.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:69325:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/06/93/69325.detail.rss</uri>
+      <docidentifier type="ISO">ISO 19101-2:2018</docidentifier>
       <date type="published">
-        <on>2002</on>
+        <on>2018</on>
       </date>
       <contributor>
         <role type="publisher"/>
@@ -67,22 +71,23 @@
       <language>en</language>
       <language>fr</language>
       <script>Latn</script>
-      <abstract format="text/plain" language="en" script="Latn">This International Standard defines the framework for standardization in the field of geographic information and sets forth the basic principles by which this standardization takes place.This framework identifies the scope of the standardization activity being undertaken and the context in which it takes place. The framework provides the method by which what is to be standardized can be determined and describes how the contents of the standards are related.Although structured in the context of information technology and information technology standards, this International Standard is independent of any application development method or technology implementation approach.</abstract>
+      <abstract format="text/plain" language="en" script="Latn">This document defines a reference model for standardization in the field of geographic imagery processing. This reference model identifies the scope of the standardization activity being undertaken and the context in which it takes place. The reference model includes gridded data with an emphasis on imagery. Although structured in the context of information technology and information technology standards, this document is independent of any application development method or technology implementation approach.</abstract>
+      <abstract format="text/plain" language="fr" script="Latn">Le présent document définit un modèle de référence pour la normalisation dans le domaine du traitement de l'imagerie géographique. Ce modèle de référence identifie le domaine d'application de l'activité de normalisation entreprise, ainsi que le contexte dans lequel elle se produit. Le modèle de référence inclut des données maillées, avec l'accent mis sur l'imagerie. Même si le présent document est structuré dans le contexte des technologies de l'information et des normes s'y rapportant, il ne dépend d'aucune méthode de développement d'applications, ni d'aucune approche de mise en œuvre de technologie.</abstract>
       <status>
-        <stage>95</stage>
-        <substage>99</substage>
+        <stage>60</stage>
+        <substage>60</substage>
       </status>
       <copyright>
-        <from>2002</from>
+        <from>2018</from>
         <owner>
           <organization>
             <name>ISO</name>
           </organization>
         </owner>
       </copyright>
-      <relation type="updates">
+      <relation type="obsoletes">
         <bibitem type="standard">
-          <formattedref format="text/plain">ISO 19101-1:2014</formattedref>
+          <formattedref format="text/plain">ISO/TS 19101-2:2008</formattedref>
         </bibitem>
       </relation>
     </bibitem>

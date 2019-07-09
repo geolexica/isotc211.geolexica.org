@@ -1,0 +1,68 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Quality management systems</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary - Quality management systems</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Principes essentiels et vocabulaire</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Systèmes de management de la qualité</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Principes essentiels et vocabulaire - Systèmes de management de la qualité</title>
+  <uri type="src">https://www.iso.org/standard/45481.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:45481:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/54/45481.detail.rss</uri>
+  <docidentifier type="ISO">ISO 9000:2015</docidentifier>
+  <date type="published">
+    <on>2015</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>4</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 9000:2015 describes the fundamental concepts and principles of quality management which are universally applicable to the following:ISO 9000:2015 specifies the terms and definitions that apply to all quality management and quality management system standards developed by ISO/TC 176.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 9000:2015 décrit les concepts fondamentaux et les principes du management de la qualité qui sont applicables à toutes les entités suivantes:L'ISO 9000:2015 spécifie les termes et définitions s'appliquant à toutes les normes relatives au management de la qualité et aux systèmes de management de la qualité élaborées par l'ISO/TC 176.</abstract>
+  <status>
+    <stage>60</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2015</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 9000:2005</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="176" type="TC">ISO/TC 176/SC 1Concepts and terminology</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>03.120.10</code>
+      <text>Quality management and quality assurance</text>
+    </ics>
+    <ics>
+      <code>01.040.03</code>
+      <text>Services. Company organization, management and quality. Administration. Transport. Sociology. (Vocabularies)</text>
+    </ics>
+    <ics>
+      <code>03.100.70</code>
+      <text>Management systems</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 9000</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

@@ -1,0 +1,60 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Content components and encoding rules for imagery and gridded data</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Content model</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Content components and encoding rules for imagery and gridded data - Geographic information - Part 1: Content model</title>
+  <uri type="src">https://www.iso.org/standard/32581.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32581:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32581.detail.rss</uri>
+  <docidentifier type="ISO">ISO/TS 19163-1:2016</docidentifier>
+  <date type="published">
+    <on>2016</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>TS</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/TS 19163-1:2016 classifies imagery and regularly spaced gridded thematic data into types based on attribute property, sensor type and spatial property, and defines an encoding-neutral content model for the required components for each type of data. It also specifies logical data structures and the rules for encoding the content components in the structures.The binding between the content and a specific encoding format will be defined in the subsequent parts of ISO 19163.ISO/TS 19163-1:2016 does not address LiDAR, SONAR data and ungeoreferenced gridded data.The logical data structures and the rules for encoding the content components will be addressed in the subsequent parts of ISO 19163.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2016</from>
+    <owner>
+      <organization>
+        <name>ISO/TS</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>technical-specification</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/TS 19163</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

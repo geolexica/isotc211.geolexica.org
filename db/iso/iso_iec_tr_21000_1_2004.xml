@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-04</fetched>
+  <fetched>2019-07-09</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Vision, Technologies and Strategy</title>
@@ -7,10 +7,7 @@
   <uri type="src">https://www.iso.org/standard/40611.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40611:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/06/40611.detail.rss</uri>
-  <docidentifier type="ISO">ISO/IEC TR 21000-1:2004</docidentifier>
-  <date type="published">
-    <on>2004</on>
-  </date>
+  <docidentifier type="ISO">ISO/IEC TR 21000-1</docidentifier>
   <contributor>
     <role type="publisher"/>
     <organization>
@@ -31,7 +28,6 @@
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
-  <abstract format="text/plain" language="en" script="Latn">ISO/IEC TR 2100-1:2004 describes a multimedia usage environment founded upon ubiquitous networks and aimed at encouraging new business models for trading digital content. In this environment, the traditional boundaries between content types blur as they are all treated as multimedia resources in new products and services. Additionally, individuals are becoming increasingly aware of the value, both commercial and intrinsic, of their own digital asset resources. ISO/IEC TR 21000-1:2004 addresses these issues through a vision of the "Multimedia Framework". This is intended to support transactions that are interoperable and highly automated, which are required to support these new types of commerce. Thus, the new MPEG-21 tools enable new techniques for the creation, collection, packaging and distribution of content.The MPEG-21 Multimedia Framework is based on two essential concepts: the definition of a fundamental unit of distribution and transaction (the Digital Item) and the concept of Users interacting with Digital Items. The Digital Items can be considered the "what" of the Multimedia Framework (e.g. a video collection, a music album) and the Users can be considered the "who" of the Multimedia Framework.The second edition of ISO/IEC TR 21000-1 has been prepared within ISO/IEC JTC 1/SC 29/WG 11 to reflect the progress made on the definition of the MPEG-21 Multimedia Framework.</abstract>
   <status>
     <stage>90</stage>
     <substage>60</substage>
@@ -47,6 +43,60 @@
   <relation type="obsoletes">
     <bibitem type="standard">
       <formattedref format="text/plain">ISO/IEC TR 21000-1:2001</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-09</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Vision, Technologies and Strategy</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 1: Vision, Technologies and Strategy</title>
+      <uri type="src">https://www.iso.org/standard/40611.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40611:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/04/06/40611.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC TR 21000-1:2004</docidentifier>
+      <date type="published">
+        <on>2004</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>2</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">ISO/IEC TR 2100-1:2004 describes a multimedia usage environment founded upon ubiquitous networks and aimed at encouraging new business models for trading digital content. In this environment, the traditional boundaries between content types blur as they are all treated as multimedia resources in new products and services. Additionally, individuals are becoming increasingly aware of the value, both commercial and intrinsic, of their own digital asset resources. ISO/IEC TR 21000-1:2004 addresses these issues through a vision of the "Multimedia Framework". This is intended to support transactions that are interoperable and highly automated, which are required to support these new types of commerce. Thus, the new MPEG-21 tools enable new techniques for the creation, collection, packaging and distribution of content.The MPEG-21 Multimedia Framework is based on two essential concepts: the definition of a fundamental unit of distribution and transaction (the Digital Item) and the concept of Users interacting with Digital Items. The Digital Items can be considered the "what" of the Multimedia Framework (e.g. a video collection, a music album) and the Users can be considered the "who" of the Multimedia Framework.The second edition of ISO/IEC TR 21000-1 has been prepared within ISO/IEC JTC 1/SC 29/WG 11 to reflect the progress made on the definition of the MPEG-21 Multimedia Framework.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>60</substage>
+      </status>
+      <copyright>
+        <from>2004</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO/IEC TR 21000-1:2001</formattedref>
+        </bibitem>
+      </relation>
     </bibitem>
   </relation>
   <ext>

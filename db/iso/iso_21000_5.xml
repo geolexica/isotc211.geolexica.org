@@ -1,0 +1,135 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 5: Rights Expression Language</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 5: Rights Expression Language</title>
+  <uri type="src">https://www.iso.org/standard/36095.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:36095:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/60/36095.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 21000-5</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2004</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 21000-5:2004/Amd 1:2007</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 21000-5:2004/Amd 2:2007</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 21000-5:2004/Amd 3:2008</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-09</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 5: Rights Expression Language</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 5: Rights Expression Language</title>
+      <uri type="src">https://www.iso.org/standard/36095.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:36095:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/03/60/36095.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC 21000-5:2004</docidentifier>
+      <date type="published">
+        <on>2004</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">ISO/IEC 21000-5:2004 specifies the syntax and semantics of a Rights Expression Language.ISO/IEC 21000-5:2004 does not give any permission, including permissions about who is legally or technically allowed to create Rights Expressions. It does not specify the security measures of trusted systems, propose specific applications, or describe the details of the systems required for accounting (monetary transactions, state transactions, and so on). It also does not specify if or when Rights Expressions shall be consulted.However, ISO/IEC 21000-5:2004 does define an authorization model to specify whether the semantics of a set of Rights Expressions permit a given Principal to perform a given Right upon a given optional Resource during a given time interval based on a given authorization context and a given trust root.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2004</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO/IEC 21000-5:2004/Amd 1:2007</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO/IEC 21000-5:2004/Amd 2:2007</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO/IEC 21000-5:2004/Amd 3:2008</formattedref>
+        </bibitem>
+      </relation>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 29Coding of audio, picture, multimedia and hypermedia information</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.040.40</code>
+      <text>Coding of audio, video, multimedia and hypermedia information</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC 21000</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

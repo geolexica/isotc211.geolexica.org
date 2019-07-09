@@ -1,0 +1,55 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 5: System of sequential sampling plans indexed by acceptance quality limit (AQL) for lot-by-lot inspection</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes - Part 5: System of sequential sampling plans indexed by acceptance quality limit (AQL) for lot-by-lot inspection</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 5: Système de plans d'échantillonnage progressif pour le contrôle lot par lot, indexés d'après la limite d'acceptation de qualité (LAQ)</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs - Partie 5: Système de plans d'échantillonnage progressif pour le contrôle lot par lot, indexés d'après la limite d'acceptation de qualité (LAQ)</title>
+  <uri type="src">https://www.iso.org/standard/39295.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:39295:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/92/39295.detail.rss</uri>
+  <docidentifier type="ISO">ISO 2859-5:2005</docidentifier>
+  <date type="published">
+    <on>2005</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 2859-5:2005 contains sequential sampling schemes that supplement the ISO 2859-1 acceptance sampling system for inspection by attributes, whereby a supplier, through the economic and psychological pressure of lot non-acceptance, can maintain a process average at least as good as the specified acceptance quality limit, while at the same time provide an upper limit for the risk to the consumer of accepting the occasional poor lot.The sampling schemes defined in ISO 2859-5:2005 are applicable, but not limited, to the inspection of: end items, components and raw materials, operations, materials in process, supplies in storage, maintenance operations, data or records, and administrative procedures.These schemes are designed to be applied to a continuing series of lots, that is, a series long enough to permit the described switching rules to be applied. These switching rules provide: a) enhanced protection to the consumer (by means of tightened sampling inspection criteria or discontinuation of sampling inspection) should deterioration in quality occur; and b) an incentive, at the discretion of the responsible authority, to reduce inspection costs (by means of reduced sampling inspection criteria) should consistently good quality be demonstrated over time.The individual sampling plans are not designed to be applicable outside of the schemes in which they are presented. If lots are produced in isolation or in a series too short for ISO 2859-5:2005 to apply, the user is advised to consult ISO 2859-2 for appropriate sampling plans.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 2859-5:2005 spécifie des procédures d'échantillonnage progressif qui complètent le système d'échantillonnage pour acceptation pour les contrôles par attributs décrits dans l'ISO 2859-1. Son but est d'inciter un fournisseur, par les moyens de pression économiques et psychologiques relevant de la non-acceptation de lots, à maintenir la moyenne d'un processus à un niveau au moins aussi bon que le niveau de qualité acceptable spécifié, tout en fournissant en même temps une limite supérieure au risque encouru par le client d'accepter occasionnellement un lot défectueux.Les procédures d'échantillonnage contenues dans l'ISO 2859-5:2005 sont applicables, mais d'une manière non limitative, aux contrôles des produits finis, des composants et des matières premières, des opérations, des matériels en cours de fabrication, des fournitures en stock, des opérations d'entretien, des informations ou des enregistrements et des règles administratives.Ces procédures sont destinées au contrôle de séries continues de lots, c'est-à-dire de séries suffisamment longues pour permettre l'application des règles de passage du contrôle qui y sont décrites. Ces règles de passage ont pour but: a) d'assurer une meilleure protection du client en cas de détection d'une détérioration de la qualité (par le passage à un contrôle renforcé ou l'interruption du contrôle); et b) de constituer une incitation à réduire les coûts de contrôle, à la discrétion de l'autorité responsable (au moyen de critères de contrôle par échantillonnage moins sévères), si la qualité reste uniformément bonne sur la durée.Les plans d'échantillonnage individuels ne sont pas conçus pour être utilisés en dehors des procédures dans lesquelles ils sont présentés. Si les lots sont produits de manière isolée ou dans une série trop courte pour que l'ISO 2859-5:2005 s'applique, il est recommandé à l'utilisateur de consulter l'ISO 2859-2 pour des plans d'échantillonnage appropriés.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2005</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="69" type="TC">ISO/TC 69/SC 5Acceptance sampling</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>03.120.30</code>
+      <text>Application of statistical methods</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 2859</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

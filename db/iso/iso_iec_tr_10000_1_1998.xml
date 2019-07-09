@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-04</fetched>
+  <fetched>2019-07-09</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: General principles and documentation framework</title>
@@ -7,10 +7,7 @@
   <uri type="src">https://www.iso.org/standard/30726.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:30726:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/07/30726.detail.rss</uri>
-  <docidentifier type="ISO">ISO/IEC TR 10000-1:1998</docidentifier>
-  <date type="published">
-    <on>1998</on>
-  </date>
+  <docidentifier type="ISO">ISO/IEC TR 10000-1</docidentifier>
   <contributor>
     <role type="publisher"/>
     <organization>
@@ -46,6 +43,59 @@
   <relation type="obsoletes">
     <bibitem type="standard">
       <formattedref format="text/plain">ISO/IEC TR 10000-1:1995</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-09</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: General principles and documentation framework</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles - Information technology - Part 1: General principles and documentation framework</title>
+      <uri type="src">https://www.iso.org/standard/30726.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:30726:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/03/07/30726.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC TR 10000-1:1998</docidentifier>
+      <date type="published">
+        <on>1998</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>4</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>1998</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO/IEC TR 10000-1:1995</formattedref>
+        </bibitem>
+      </relation>
     </bibitem>
   </relation>
   <ext>

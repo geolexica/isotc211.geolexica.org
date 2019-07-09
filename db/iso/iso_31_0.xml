@@ -1,0 +1,133 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Quantities and units</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 0: General principles</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Quantities and units - Part 0: General principles</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Grandeurs et unités</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 0: Principes généraux</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Grandeurs et unités - Partie 0: Principes généraux</title>
+  <uri type="src">https://www.iso.org/standard/3621.html</uri>
+  <uri type="obp"/>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/36/3621.detail.rss</uri>
+  <docidentifier type="ISO">ISO 31-0</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>3</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>1992</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 31-0:1981</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 31-0:1992/Amd 1:1998</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 31-0:1992/Amd 2:2005</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 80000-1:2009</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-09</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Quantities and units</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 0: General principles</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Quantities and units - Part 0: General principles</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Grandeurs et unités</title>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 0: Principes généraux</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Grandeurs et unités - Partie 0: Principes généraux</title>
+      <uri type="src">https://www.iso.org/standard/3621.html</uri>
+      <uri type="obp"/>
+      <uri type="rss">https://www.iso.org/contents/data/standard/00/36/3621.detail.rss</uri>
+      <docidentifier type="ISO">ISO 31-0:1992</docidentifier>
+      <date type="published">
+        <on>1992</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>3</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">Gives general information about principles concerning physical quantities, equations, quantity and unit symbols, and coherent unit systems, especially the International System of Units, SI, including recommendations for printing symbols and numbers. Annex A includes a guide to terms used in names for physical quantities, Annex B a guide to the rounding of numbers, Annex C international organizations in the field of quantities and units.</abstract>
+      <status>
+        <stage>95</stage>
+        <substage>99</substage>
+      </status>
+      <copyright>
+        <from>1992</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 31-0:1981</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 31-0:1992/Amd 1:1998</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 31-0:1992/Amd 2:2005</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 80000-1:2009</formattedref>
+        </bibitem>
+      </relation>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="12" type="TC">ISO/TC 12Quantities and units</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.060</code>
+      <text>Quantities and units</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 31</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

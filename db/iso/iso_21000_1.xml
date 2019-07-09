@@ -1,1 +1,105 @@
-not_found 2019-07-04
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 14: Conformance Testing</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 14: Conformance Testing</title>
+  <uri type="src">https://www.iso.org/standard/45617.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:45617:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/56/45617.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 21000-14</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2007</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-07-09</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 14: Conformance Testing</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 14: Conformance Testing</title>
+      <uri type="src">https://www.iso.org/standard/45617.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:45617:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/04/56/45617.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC 21000-14:2007</docidentifier>
+      <date type="published">
+        <on>2007</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">ISO/IEC 21000-4:2007 specifies conformance points and conformance tests for different parts of ISO/IEC 21000. Based on the various conformance points, it is identified which requirements defined in ISO/IEC 21000 apply to those conformance points. The tests are developed to ascertain whether a particular artifact (such as a piece of software or hardware or a document) meets all the requirements for a specific conformance point or not.ISO/IEC 21000-14:2007 specifies conformance points and tests for ISO/IEC 21000-2:2005, ISO/IEC 21000-3:2003, ISO/IEC 21000-4:2006, ISO/IEC 21000-4:2006/FPDAM 1, ISO/IEC 21000-5:2004, ISO/IEC 21000-5:2004/Amd.1:2007, ISO/IEC 21000-5:2004/FDAM 2, ISO/IEC 21000-7:2004, ISO/IEC 21000-7:2004/Amd.1:2006, ISO/IEC 21000-7:2004/FDAM 2, ISO/IEC 21000-9:2005, ISO/IEC 21000-10:2006, ISO/IEC 21000-10:2006/Amd.1:2006, ISO/IEC 21000-15:2006, ISO/IEC 21000-16:2005, and ISO/IEC 21000-17:2006.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>93</substage>
+      </status>
+      <copyright>
+        <from>2007</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 29Coding of audio, picture, multimedia and hypermedia information</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.040.40</code>
+      <text>Coding of audio, video, multimedia and hypermedia information</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC 21000</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

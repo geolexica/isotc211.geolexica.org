@@ -1,0 +1,57 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Open archival information system (OAIS)</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Space data and information transfer systems</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Reference model</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Open archival information system (OAIS) - Space data and information transfer systems - Reference model</title>
+  <uri type="src">https://www.iso.org/standard/57284.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:57284:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/72/57284.detail.rss</uri>
+  <docidentifier type="ISO">ISO 14721:2012</docidentifier>
+  <date type="published">
+    <on>2012</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 14721:2012 defines the reference model for an open archival information system (OAIS). An OAIS is an archive, consisting of an organization, which may be part of a larger organization, of people and systems that has accepted the responsibility to preserve information and make it available for a designated community. It meets a set of such responsibilities as defined in this International Standard, and this allows an OAIS archive to be distinguished from other uses of the term "archive". The term "open" in OAIS is used to imply that ISO 14721:2012, as well as future related International Standards, are developed in open forums, and it does not imply that access to the archive is unrestricted.ISO 14721:2012</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>93</substage>
+  </status>
+  <copyright>
+    <from>2012</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 14721:2003</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="20" type="TC">ISO/TC 20/SC 13Space data and information transfer systems</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>49.140</code>
+      <text>Space systems and operations</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 14721</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

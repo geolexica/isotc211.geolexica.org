@@ -1,0 +1,117 @@
+<bibdata type="standard">
+  <fetched>2019-07-09</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Portable Operating System Interface (POSIX®) Base Specifications, Issue 7</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Portable Operating System Interface (POSIX®) Base Specifications, Issue 7 - Information technology</title>
+  <uri type="src">https://www.iso.org/standard/50516.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:50516:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/05/05/50516.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC/IEEE 9945:2009</docidentifier>
+  <date type="published">
+    <on>2009</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>IEEE</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO/IEC/IEEE 9945:2008 defines a standard operating system interface and environment, including a command interpreter (or "shell"), and common utility programs to support applications portability at the source code level. ISO/IEC/IEEE 9945:2008 is intended to be used by both application developers and system implementers and comprises four major components (each in an associated volume).The following areas are outside the scope of ISO/IEC/IEEE 9945:2008:ISO/IEC/IEEE 9945:2008 describes the external characteristics and facilities that are of importance to application developers, rather than the internal construction techniques employed to achieve these capabilities. Special emphasis is placed on those functions and facilities that are needed in a wide variety of commercial applications.</abstract>
+  <status>
+    <stage>90</stage>
+    <substage>60</substage>
+  </status>
+  <copyright>
+    <from>2009</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC/IEEE</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-1:2003</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-1:2003/Cor 1:2004</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-2:2003</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-2:2003/Cor 1:2004</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-3:2003</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-3:2003/Cor 1:2004</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-4:2003</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 9945-4:2003/Cor 1:2004</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC/IEEE 9945:2009/Cor 1:2013</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC/IEEE 9945:2009/Cor 2:2017</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 22Programming languages, their environments and system software interfaces</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.060</code>
+      <text>Languages used in information technology</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC/IEEE 9945</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

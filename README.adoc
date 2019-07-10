@@ -1,14 +1,14 @@
 = Geolexica: ISO/TC 211 Terminology Database
 
-image:https://travis-ci.com/ISO-TC211/geolexica.com.svg?branch=master[
-	Build Status, link="https://travis-ci.com/ISO-TC211/geolexica.com"]
+image:https://travis-ci.com/ISO-TC211/geolexica.org.svg?branch=master[
+	Build Status, link="https://travis-ci.com/ISO-TC211/geolexica.org"]
 
 == Introduction
 
 Geolexica is the site name of the online version of the ISO/TC 211 Multi Lingual Glossary of Terms.
 
 This repository provides all necessary information for the
-https://www.geolexica.com site. (not yet complete)
+https://www.geolexica.org site. (not yet complete)
 
 The site is managed by the ISO/TC 211 TMG together with Ribose.
 

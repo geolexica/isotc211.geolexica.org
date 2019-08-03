@@ -7,7 +7,8 @@
 # RELATON_CSD_RXL := $(addprefix relaton-csd/, $(notdir $(CSD_SRC)))
 
 SHELL := /bin/bash
-TERMBASE_XLSX_PATH := "mlgt-data/TC211_ Multi-Lingual_Glossary - 20181015_Published.xlsx"
+TERMBASE_VERSION := 20190802
+TERMBASE_XLSX_PATH := "mlgt-data/TC211_ Multi-Lingual_Glossary - ${TERMBASE_VERSION}_Published.xlsx"
 
 # NAME_ORG := "CalConnect : The Calendaring and Scheduling Consortium"
 # CSD_REGISTRY_NAME := "CalConnect Document Registry: Standards"
@@ -22,7 +23,7 @@ clean:
 	rm -rf _site _concepts tc211-termbase.yaml tc211-termbase.xlsx
 
 distclean: clean
-	rm -rf concepts_data
+	rm -rf concepts_data concepts
 
 _site: _concepts | bundle
 	bundle exec jekyll build

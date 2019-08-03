@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "tc211-termbase"#, git: "https://github.com/riboseinc/tc211-termbase"
-# gem "tc211-termbase", path: "../iso-tc211-termbase/tc211-termbase"
+# gem "tc211-termbase", path: "../tc211-termbase"
 
 gem "jekyll", "~> 3.8.5"
 

@@ -91,7 +91,6 @@ defaults:
 
 term_languages:
   - eng
-  - spa
   - ara
   - chi
   - dan
@@ -100,7 +99,9 @@ term_languages:
   - ger
   - jpn
   - kor
+  - may
   - rus
+  - spa
   - swe
 
 exclude:

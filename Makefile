@@ -25,11 +25,15 @@ clean:
 distclean: clean
 	rm -rf concepts_data concepts
 
-_site: _concepts | bundle
+_site: _data/metadata.yaml _concepts | bundle
 	bundle exec jekyll build
 
 bundle:
 	bundle
+
+_data/metadata.yaml:
+	mkdir -p _data; \
+	echo "version: ${TERMBASE_VERSION}" > $@
 
 tc211-termbase.xlsx:
 	cp ${TERMBASE_XLSX_PATH} tc211-termbase.xlsx

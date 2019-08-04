@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Metadata</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Extensions for imagery and gridded data</title>
@@ -9,7 +9,6 @@
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Extensions pour les images et les matrices</title>
   <title type="main" format="text/plain" language="fr" script="Latn">Métadonnées - Information géographique - Partie 2: Extensions pour les images et les matrices</title>
   <uri type="src">https://www.iso.org/standard/39229.html</uri>
-  <uri type="obp"/>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/92/39229.detail.rss</uri>
   <docidentifier type="ISO">ISO 19115-2:2009</docidentifier>
   <date type="published">

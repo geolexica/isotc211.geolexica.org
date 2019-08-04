@@ -1,13 +1,15 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Schema for coverage geometry and functions</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Coverage implementation schema</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Schema for coverage geometry and functions - Geographic information - Part 2: Coverage implementation schema</title>
-  <uri type="src">https://www.iso.org/standard/70948.html</uri>
-  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:70948:en</uri>
-  <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70948.detail.rss</uri>
-  <docidentifier type="ISO">ISO 19123-2</docidentifier>
+  <title type="main" format="text/plain" language="en" script="Latn">Schema for coverage geometry and functions - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Schéma de la géométrie et des fonctions de couverture</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Schéma de la géométrie et des fonctions de couverture - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/40121.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40121:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40121.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19123</docidentifier>
   <contributor>
     <role type="publisher"/>
     <organization>
@@ -21,30 +23,37 @@
   <language>fr</language>
   <script>Latn</script>
   <status>
-    <stage>60</stage>
-    <substage>60</substage>
+    <stage>90</stage>
+    <substage>93</substage>
   </status>
   <copyright>
-    <from>2018</from>
+    <from>2005</from>
     <owner>
       <organization>
         <name>ISO</name>
       </organization>
     </owner>
   </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/NP 19123-1</formattedref>
+    </bibitem>
+  </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-07-09</fetched>
+      <fetched>2019-08-03</fetched>
       <title type="title-main" format="text/plain" language="en" script="Latn">Schema for coverage geometry and functions</title>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-      <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Coverage implementation schema</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Schema for coverage geometry and functions - Geographic information - Part 2: Coverage implementation schema</title>
-      <uri type="src">https://www.iso.org/standard/70948.html</uri>
-      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:70948:en</uri>
-      <uri type="rss">https://www.iso.org/contents/data/standard/07/09/70948.detail.rss</uri>
-      <docidentifier type="ISO">ISO 19123-2:2018</docidentifier>
+      <title type="main" format="text/plain" language="en" script="Latn">Schema for coverage geometry and functions - Geographic information</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Schéma de la géométrie et des fonctions de couverture</title>
+      <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Schéma de la géométrie et des fonctions de couverture - Information géographique</title>
+      <uri type="src">https://www.iso.org/standard/40121.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40121:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40121.detail.rss</uri>
+      <docidentifier type="ISO">ISO 19123:2005</docidentifier>
       <date type="published">
-        <on>2018</on>
+        <on>2005</on>
       </date>
       <contributor>
         <role type="publisher"/>
@@ -58,19 +67,25 @@
       <language>en</language>
       <language>fr</language>
       <script>Latn</script>
-      <abstract format="text/plain" language="en" script="Latn">This document specifies a concrete[1] implementable, conformance-testable coverage structure based on the abstract schema for coverages defined in the ISO 19123 schema for coverage geometry. This document defines a structure that is suitable for encoding in many encoding formats.[1] "concrete" is used here as a contrast to "abstract" in the sense described in the Introduction.</abstract>
+      <abstract format="text/plain" language="en" script="Latn">ISO 19123:2005 defines a conceptual schema for the spatial characteristics of coverages. Coverages support mapping from a spatial, temporal or spatiotemporal domain to feature attribute values where feature attribute types are common to all geographic positions within the domain. A coverage domain consists of a collection of direct positions in a coordinate space that may be defined in terms of up to three spatial dimensions as well as a temporal dimension. Examples of coverages include rasters, triangulated irregular networks, point coverages and polygon coverages. Coverages are the prevailing data structures in a number of application areas, such as remote sensing, meteorology and mapping of bathymetry, elevation, soil and vegetation. ISO 19123:2005 defines the relationship between the domain of a coverage and an associated attribute range. The characteristics of the spatial domain are defined whereas the characteristics of the attribute range are not part of ISO 19123:2005.</abstract>
+      <abstract format="text/plain" language="fr" script="Latn">L'ISO 19123:2005 définit un schéma conceptuel des caractéristiques spatiales des couvertures. Les couvertures servent de base à la cartographie réalisée à partir d'un domaine spatial, temporel ou spatio-emporel permettant ainsi d'obtenir les valeurs attributaires d'entités dont les types d'attributs sont communs à toutes les positions géographiques existant dans le domaine. Un domaine de couverture se compose d'un ensemble de positions directes dans un espace de coordonnées qui peut être défini comme tridimensionnel ou bien temporel. Parmi les exemples de couverture, citons les matrices, les réseaux irréguliers de triangles, les couvertures de points et les couvertures de polygones. Les couvertures sont les structures de données courantes dans divers champs d'application, notamment la télédétection, la météorologie, la bathymétrie, l'altitude, le sol et la végétation.L'ISO 19123:2005 définit la relation entre le domaine d'une couverture et une plage d'attributs associée. Les caractéristiques du domaine spatial sont définies, mais les caractéristiques des attributs ne font pas partie du domaine d'application de l'ISO 19123:2005.</abstract>
       <status>
-        <stage>60</stage>
-        <substage>60</substage>
+        <stage>90</stage>
+        <substage>93</substage>
       </status>
       <copyright>
-        <from>2018</from>
+        <from>2005</from>
         <owner>
           <organization>
             <name>ISO</name>
           </organization>
         </owner>
       </copyright>
+      <relation type="obsoletes">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO/NP 19123-1</formattedref>
+        </bibitem>
+      </relation>
     </bibitem>
   </relation>
   <ext>

@@ -1,11 +1,10 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Geospatial Digital Rights Management Reference Model (GeoDRM RM)</title>
   <title type="main" format="text/plain" language="en" script="Latn">Geospatial Digital Rights Management Reference Model (GeoDRM RM)</title>
   <title type="title-main" format="text/plain" language="fr" script="Latn">Modèle de référence pour la gestion numérique des droits d'utilisation de l'information géographique</title>
   <title type="main" format="text/plain" language="fr" script="Latn">Modèle de référence pour la gestion numérique des droits d'utilisation de l'information géographique</title>
   <uri type="src">https://www.iso.org/standard/32571.html</uri>
-  <uri type="obp"/>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32571.detail.rss</uri>
   <docidentifier type="ISO">ISO 19153:2014</docidentifier>
   <date type="published">

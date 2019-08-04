@@ -1,14 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes</title>
-  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Sampling schemes indexed by acceptance quality limit (AQL) for lot-by-lot inspection</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes - Part 1: Sampling schemes indexed by acceptance quality limit (AQL) for lot-by-lot inspection</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Sampling plans indexed by acceptable quality level (AQL) for lot-by-lot inspection</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes - Part 1: Sampling plans indexed by acceptable quality level (AQL) for lot-by-lot inspection</title>
   <title type="title-main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs</title>
-  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Procédures d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs - Partie 1: Procédures d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
-  <uri type="src">https://www.iso.org/standard/1141.html</uri>
-  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:1141:en</uri>
-  <uri type="rss">https://www.iso.org/contents/data/standard/00/11/1141.detail.rss</uri>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Plans d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs - Partie 1: Plans d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
+  <uri type="src">https://www.iso.org/standard/7866.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/00/78/7866.detail.rss</uri>
   <docidentifier type="ISO">ISO 2859-1</docidentifier>
   <contributor>
     <role type="publisher"/>
@@ -18,16 +17,16 @@
       <uri>www.iso.org</uri>
     </organization>
   </contributor>
-  <edition>2</edition>
+  <edition>1</edition>
   <language>en</language>
   <language>fr</language>
   <script>Latn</script>
   <status>
-    <stage>90</stage>
-    <substage>93</substage>
+    <stage>95</stage>
+    <substage>99</substage>
   </status>
   <copyright>
-    <from>1999</from>
+    <from>1989</from>
     <owner>
       <organization>
         <name>ISO</name>
@@ -36,39 +35,33 @@
   </copyright>
   <relation type="obsoletes">
     <bibitem type="standard">
-      <formattedref format="text/plain">ISO 2859-1:1989</formattedref>
+      <formattedref format="text/plain">ISO 2859:1974</formattedref>
     </bibitem>
   </relation>
-  <relation type="obsoletes">
+  <relation type="updates">
     <bibitem type="standard">
       <formattedref format="text/plain">ISO 2859-1:1989/Cor 1:1993</formattedref>
     </bibitem>
   </relation>
   <relation type="updates">
     <bibitem type="standard">
-      <formattedref format="text/plain">ISO 2859-1:1999/Amd 1:2011</formattedref>
-    </bibitem>
-  </relation>
-  <relation type="updates">
-    <bibitem type="standard">
-      <formattedref format="text/plain">ISO 2859-1:1999/Cor 1:2001</formattedref>
+      <formattedref format="text/plain">ISO 2859-1:1999</formattedref>
     </bibitem>
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-07-09</fetched>
+      <fetched>2019-08-03</fetched>
       <title type="title-main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes</title>
-      <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Sampling schemes indexed by acceptance quality limit (AQL) for lot-by-lot inspection</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes - Part 1: Sampling schemes indexed by acceptance quality limit (AQL) for lot-by-lot inspection</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Sampling plans indexed by acceptable quality level (AQL) for lot-by-lot inspection</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Sampling procedures for inspection by attributes - Part 1: Sampling plans indexed by acceptable quality level (AQL) for lot-by-lot inspection</title>
       <title type="title-main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs</title>
-      <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Procédures d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
-      <title type="main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs - Partie 1: Procédures d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
-      <uri type="src">https://www.iso.org/standard/1141.html</uri>
-      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:1141:en</uri>
-      <uri type="rss">https://www.iso.org/contents/data/standard/00/11/1141.detail.rss</uri>
-      <docidentifier type="ISO">ISO 2859-1:1999</docidentifier>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Plans d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Règles d'échantillonnage pour les contrôles par attributs - Partie 1: Plans d'échantillonnage pour les contrôles lot par lot, indexés d'après le niveau de qualité acceptable (NQA)</title>
+      <uri type="src">https://www.iso.org/standard/7866.html</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/00/78/7866.detail.rss</uri>
+      <docidentifier type="ISO">ISO 2859-1:1989</docidentifier>
       <date type="published">
-        <on>1999</on>
+        <on>1989</on>
       </date>
       <contributor>
         <role type="publisher"/>
@@ -78,19 +71,16 @@
           <uri>www.iso.org</uri>
         </organization>
       </contributor>
-      <edition>2</edition>
+      <edition>1</edition>
       <language>en</language>
       <language>fr</language>
       <script>Latn</script>
-      <abstract format="text/plain" language="fr" script="Latn">&#13;
-Les procédures d'échantillonnage contenues dans la présente partie de l'ISO 2859 sont applicables, mais d'une manière non limitative, aux contrôles de différents domaines tels que:  -produits Unis  -composants ou madères premières  -opérations  -matériels en cours de fabrication  -fournitures en stock  -opérations d'entretien  -informations ou enregistrements  -procédures administratives.  Ces procédures sont principalement destinées au contrôle de séries continues de lots, c'est-à-dire de séries suffisamment importantes pour permettre l'application des règles de modification du contrôle.  Ces règles ont pour but:  a) d'assurer la protection du client en cas de détection d'une détérioration de la qualité (par le passage à un contrôle renforcé ou l'interruption du contrôle);  b) de constituer une incitation à réduire les coûts de contrôle (à la discrétion de l'autorité responsable) si la qualité se maintient continuellement bonne (par passage à un contrôle réduit).  Les plans créchantillonnage de la présente partie de l'ISO 2859 peuvent aussi être utilisés pour le contrôle de lots isolés mais, dans ce cas, l'utilisateur doit avoir soin de consulter les courbes d'efficacité afin de trouver un plan qui lui donnera la protection désirée.  Dans ce cas, l'utilisateur est également renvoyé aux plans d'échantillonnage indexés d'après la qualité limite (QL) spécifiés dans l'ISO 2859-2.&#13;
-</abstract>
       <status>
-        <stage>90</stage>
-        <substage>93</substage>
+        <stage>95</stage>
+        <substage>99</substage>
       </status>
       <copyright>
-        <from>1999</from>
+        <from>1989</from>
         <owner>
           <organization>
             <name>ISO</name>
@@ -99,22 +89,17 @@ Les procédures d'échantillonnage contenues dans la présente partie de l'ISO 2
       </copyright>
       <relation type="obsoletes">
         <bibitem type="standard">
-          <formattedref format="text/plain">ISO 2859-1:1989</formattedref>
+          <formattedref format="text/plain">ISO 2859:1974</formattedref>
         </bibitem>
       </relation>
-      <relation type="obsoletes">
+      <relation type="updates">
         <bibitem type="standard">
           <formattedref format="text/plain">ISO 2859-1:1989/Cor 1:1993</formattedref>
         </bibitem>
       </relation>
       <relation type="updates">
         <bibitem type="standard">
-          <formattedref format="text/plain">ISO 2859-1:1999/Amd 1:2011</formattedref>
-        </bibitem>
-      </relation>
-      <relation type="updates">
-        <bibitem type="standard">
-          <formattedref format="text/plain">ISO 2859-1:1999/Cor 1:2001</formattedref>
+          <formattedref format="text/plain">ISO 2859-1:1999</formattedref>
         </bibitem>
       </relation>
     </bibitem>

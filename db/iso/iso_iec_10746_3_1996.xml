@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Open Distributed Processing</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Reference Model: Architecture</title>
@@ -9,7 +9,6 @@
   <title type="title-part" format="text/plain" language="fr" script="Latn">Modèle de référence: Architecture</title>
   <title type="main" format="text/plain" language="fr" script="Latn">Traitement réparti ouvert - Technologies de l'information - Modèle de référence: Architecture</title>
   <uri type="src">https://www.iso.org/standard/20697.html</uri>
-  <uri type="obp"/>
   <uri type="rss">https://www.iso.org/contents/data/standard/02/06/20697.detail.rss</uri>
   <docidentifier type="ISO">ISO/IEC 10746-3:1996</docidentifier>
   <date type="published">

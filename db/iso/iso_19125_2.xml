@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Simple feature access</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: SQL option</title>
@@ -9,7 +9,6 @@
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Option SQL</title>
   <title type="main" format="text/plain" language="fr" script="Latn">Accès aux entités simples - Information géographique - Partie 2: Option SQL</title>
   <uri type="src">https://www.iso.org/standard/40115.html</uri>
-  <uri type="obp"/>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40115.detail.rss</uri>
   <docidentifier type="ISO">ISO 19125-2</docidentifier>
   <contributor>
@@ -38,7 +37,7 @@
   </copyright>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-07-09</fetched>
+      <fetched>2019-08-03</fetched>
       <title type="title-main" format="text/plain" language="en" script="Latn">Simple feature access</title>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
       <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: SQL option</title>
@@ -48,7 +47,6 @@
       <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Option SQL</title>
       <title type="main" format="text/plain" language="fr" script="Latn">Accès aux entités simples - Information géographique - Partie 2: Option SQL</title>
       <uri type="src">https://www.iso.org/standard/40115.html</uri>
-      <uri type="obp"/>
       <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40115.detail.rss</uri>
       <docidentifier type="ISO">ISO 19125-2:2004</docidentifier>
       <date type="published">

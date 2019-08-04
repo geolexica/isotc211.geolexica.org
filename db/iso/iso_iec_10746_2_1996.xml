@@ -1,0 +1,68 @@
+<bibdata type="standard">
+  <fetched>2019-08-03</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Open Distributed Processing</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Reference Model: Foundations</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Open Distributed Processing - Information technology - Reference Model: Foundations</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Traitement réparti ouvert</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Technologies de l'information</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Modèle de référence: Fondements</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Traitement réparti ouvert - Technologies de l'information - Modèle de référence: Fondements</title>
+  <uri type="src">https://www.iso.org/standard/18836.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/01/88/18836.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 10746-2:1996</docidentifier>
+  <date type="published">
+    <on>1996</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">Contains the concepts which are needed to perform the modelling of ODP systems, and the principles of conformance to ODP systems.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>1996</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 10746-2:2009</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 7Software and systems engineering</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.080</code>
+      <text>Software</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC 10746</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

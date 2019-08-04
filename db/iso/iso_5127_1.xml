@@ -1,0 +1,109 @@
+<bibdata type="standard">
+  <fetched>2019-08-03</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Documentation and information</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Basic concepts</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Vocabulary - Documentation and information - Part 1: Basic concepts</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Documentation et information</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Notions fondamentales</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire - Documentation et information - Partie 1: Notions fondamentales</title>
+  <uri type="src">https://www.iso.org/standard/11116.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/01/11/11116.detail.rss</uri>
+  <docidentifier type="ISO">ISO 5127-1</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>1983</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 5127:2001</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-08-03</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Documentation and information</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Basic concepts</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Vocabulary - Documentation and information - Part 1: Basic concepts</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
+      <title type="title-intro" format="text/plain" language="fr" script="Latn">Documentation et information</title>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Notions fondamentales</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire - Documentation et information - Partie 1: Notions fondamentales</title>
+      <uri type="src">https://www.iso.org/standard/11116.html</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/01/11/11116.detail.rss</uri>
+      <docidentifier type="ISO">ISO 5127-1:1983</docidentifier>
+      <date type="published">
+        <on>1983</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">Presents, in two languages, terms and definitions of selected, mainly basic, concepts relevant to the field of information and documentation and identifies relationships between the entries. Is intended to facilitate international communication in that area. Contains indexes in English and French.</abstract>
+      <status>
+        <stage>95</stage>
+        <substage>99</substage>
+      </status>
+      <copyright>
+        <from>1983</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 5127:2001</formattedref>
+        </bibitem>
+      </relation>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="46" type="TC">ISO/TC 46Information and documentation</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>01.140.20</code>
+      <text>Information sciences</text>
+    </ics>
+    <ics>
+      <code>01.040.01</code>
+      <text>Generalities. Terminology. Standardization. Documentation (Vocabularies)</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 5127</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

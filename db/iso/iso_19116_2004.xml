@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Positioning services</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
   <title type="main" format="text/plain" language="en" script="Latn">Positioning services - Geographic information</title>
@@ -37,7 +37,7 @@
   </copyright>
   <relation type="obsoletes">
     <bibitem type="standard">
-      <formattedref format="text/plain">ISO/DIS 19116</formattedref>
+      <formattedref format="text/plain">ISO/PRF 19116</formattedref>
     </bibitem>
   </relation>
   <ext>

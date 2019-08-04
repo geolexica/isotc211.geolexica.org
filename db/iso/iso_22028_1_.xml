@@ -1,0 +1,119 @@
+<bibdata type="standard">
+  <fetched>2019-08-03</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Extended colour encodings for digital image storage, manipulation and interchange</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Photography and graphic technology</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Architecture and requirements</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Extended colour encodings for digital image storage, manipulation and interchange - Photography and graphic technology - Part 1: Architecture and requirements</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Codages par couleurs étendues pour stockage, manipulation et échange d'image numérique</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Photographie et technologie graphique</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Architecture et exigences</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Codages par couleurs étendues pour stockage, manipulation et échange d'image numérique - Photographie et technologie graphique - Partie 1: Architecture et exigences</title>
+  <uri type="src">https://www.iso.org/standard/37161.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/71/37161.detail.rss</uri>
+  <docidentifier type="ISO">ISO 22028-1</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2004</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 22028-1:2004/Cor 1:2007</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 22028-1:2016</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="standard">
+      <fetched>2019-08-03</fetched>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Extended colour encodings for digital image storage, manipulation and interchange</title>
+      <title type="title-intro" format="text/plain" language="en" script="Latn">Photography and graphic technology</title>
+      <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Architecture and requirements</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Extended colour encodings for digital image storage, manipulation and interchange - Photography and graphic technology - Part 1: Architecture and requirements</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Codages par couleurs étendues pour stockage, manipulation et échange d'image numérique</title>
+      <title type="title-intro" format="text/plain" language="fr" script="Latn">Photographie et technologie graphique</title>
+      <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 1: Architecture et exigences</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Codages par couleurs étendues pour stockage, manipulation et échange d'image numérique - Photographie et technologie graphique - Partie 1: Architecture et exigences</title>
+      <uri type="src">https://www.iso.org/standard/37161.html</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/03/71/37161.detail.rss</uri>
+      <docidentifier type="ISO">ISO 22028-1:2004</docidentifier>
+      <date type="published">
+        <on>2004</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <edition>1</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="text/plain" language="en" script="Latn">ISO 22028-1:2004 specifies a set of requirements to be met by any extended-gamut colour encoding that is to be used for digital photography and/or graphic technology applications involving digital image storage, manipulation and/or interchange. ISO 22028-1:2004 is applicable to pictorial digital images that originate from an original scene, as well as digital images with content such as text, line art, vector graphics and other forms of original artwork. ISO 22028-1:2004 also describes a reference image-state-based digital imaging architecture, encompassing many common workflows, that can be used to classify extended colour encodings into a number of different image states. However, ISO 22028-1:2004 does not specify any particular workflow(s) that are to be used for digital photography and/or graphic technology applications. </abstract>
+      <status>
+        <stage>95</stage>
+        <substage>99</substage>
+      </status>
+      <copyright>
+        <from>2004</from>
+        <owner>
+          <organization>
+            <name>ISO</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 22028-1:2004/Cor 1:2007</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem type="standard">
+          <formattedref format="text/plain">ISO 22028-1:2016</formattedref>
+        </bibitem>
+      </relation>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="42" type="TC">ISO/TC 42Photography</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>37.040.99</code>
+      <text>Other standards related to photography</text>
+    </ics>
+    <ics>
+      <code>37.100.01</code>
+      <text>Graphic technology in general</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 22028</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

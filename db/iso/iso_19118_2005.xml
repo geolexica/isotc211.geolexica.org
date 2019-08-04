@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Encoding</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
   <title type="main" format="text/plain" language="en" script="Latn">Encoding - Geographic information</title>
@@ -7,7 +7,6 @@
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
   <title type="main" format="text/plain" language="fr" script="Latn">Codage - Information géographique</title>
   <uri type="src">https://www.iso.org/standard/37796.html</uri>
-  <uri type="obp"/>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/77/37796.detail.rss</uri>
   <docidentifier type="ISO">ISO 19118:2005</docidentifier>
   <date type="published">

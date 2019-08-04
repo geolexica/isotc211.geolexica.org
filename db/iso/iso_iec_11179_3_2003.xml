@@ -1,0 +1,78 @@
+<bibdata type="standard">
+  <fetched>2019-08-03</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Metadata registries (MDR)</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-part" format="text/plain" language="en" script="Latn">Part 3: Registry metamodel and basic attributes</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Metadata registries (MDR) - Information technology - Part 3: Registry metamodel and basic attributes</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Registres de métadonnées (RM)</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Technologies de l'information</title>
+  <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 3: Métamodèle de registre et attributs de base</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Registres de métadonnées (RM) - Technologies de l'information - Partie 3: Métamodèle de registre et attributs de base</title>
+  <uri type="src">https://www.iso.org/standard/31367.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/13/31367.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 11179-3:2003</docidentifier>
+  <date type="published">
+    <on>2003</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>2</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">The primary purpose of ISO/IEC 11179-3:2002 is to specify the structure of a metadata registry. It also specifies basic attributes which are required to describe metadata items, and which may be used in situations where a complete metadata registry is not appropriate (e.g. in the specification of other International Standards).</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2003</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 11179-3:1994</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 11179-3:2003/Cor 1:2004</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO/IEC 11179-3:2013</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 32Data management and interchange</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.040.50</code>
+      <text>Automatic identification and data capture techniques</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO/IEC 11179</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

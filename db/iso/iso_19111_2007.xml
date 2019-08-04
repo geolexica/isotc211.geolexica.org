@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Spatial referencing by coordinates</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
   <title type="main" format="text/plain" language="en" script="Latn">Spatial referencing by coordinates - Geographic information</title>
@@ -7,7 +7,6 @@
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
   <title type="main" format="text/plain" language="fr" script="Latn">Système de références spatiales par coordonnées - Information géographique</title>
   <uri type="src">https://www.iso.org/standard/41126.html</uri>
-  <uri type="obp"/>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/11/41126.detail.rss</uri>
   <docidentifier type="ISO">ISO 19111:2007</docidentifier>
   <date type="published">

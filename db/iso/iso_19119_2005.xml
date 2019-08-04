@@ -1,0 +1,64 @@
+<bibdata type="standard">
+  <fetched>2019-08-03</fetched>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Services</title>
+  <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Services - Geographic information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Services</title>
+  <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Services - Information géographique</title>
+  <uri type="src">https://www.iso.org/standard/39890.html</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/03/98/39890.detail.rss</uri>
+  <docidentifier type="ISO">ISO 19119:2005</docidentifier>
+  <date type="published">
+    <on>2005</on>
+  </date>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <abstract format="text/plain" language="en" script="Latn">ISO 19119:2005 identifies and defines the architecture patterns for service interfaces used for geographic information, defines its relationship to the Open Systems Environment model, presents a geographic services taxonomy and a list of example geographic services placed in the services taxonomy. It also prescribes how to create a platform-neutral service specification, how to derive conformant platform-specific service specifications, and provides guidelines for the selection and specification of geographic services from both platform-neutral and platform-specific perspectives.</abstract>
+  <abstract format="text/plain" language="fr" script="Latn">L'ISO 19119:2005 identifie et définit des schémas architecturaux relatifs aux interfaces de service utilisées pour les informations géographiques et des relations avec le modèle OSE (Environnement de systèmes ouverts), présente une taxonomie des services géographiques et une liste d'exemples de services géographiques placés dans la taxonomie des services. Elle prescrit également comment créer une spécification de service applicable à toutes les plates‑formes et comment dériver les spécifications de service propres à une plate-forme, et fournit des lignes directrices pour la sélection et la spécification des services géographiques suivant des perspectives aussi bien propres à la plate-forme qu'applicables à toutes les plates-formes.</abstract>
+  <status>
+    <stage>95</stage>
+    <substage>99</substage>
+  </status>
+  <copyright>
+    <from>2005</from>
+    <owner>
+      <organization>
+        <name>ISO</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19119:2005/Amd 1:2008</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem type="standard">
+      <formattedref format="text/plain">ISO 19119:2016</formattedref>
+    </bibitem>
+  </relation>
+  <ext>
+    <doctype>international-standard</doctype>
+    <editorialgroup>
+      <technical_committee number="211" type="TC">ISO/TC 211Geographic information/Geomatics</technical_committee>
+    </editorialgroup>
+    <ics>
+      <code>35.240.70</code>
+      <text>IT applications in science</text>
+    </ics>
+    <structuredidentifier type="ISO">
+      <project-number>ISO 19119</project-number>
+    </structuredidentifier>
+  </ext>
+</bibdata>

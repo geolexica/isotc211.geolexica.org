@@ -1,5 +1,5 @@
 <bibdata type="standard">
-  <fetched>2019-07-09</fetched>
+  <fetched>2019-08-03</fetched>
   <title type="title-main" format="text/plain" language="en" script="Latn">Eddy current testing</title>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Non-destructive testing</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Vocabulary</title>
@@ -9,7 +9,6 @@
   <title type="title-part" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
   <title type="main" format="text/plain" language="fr" script="Latn">Contrôle par courants de Foucault - Essais non destructifs - Vocabulaire</title>
   <uri type="src">https://www.iso.org/standard/43738.html</uri>
-  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:43738:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/37/43738.detail.rss</uri>
   <docidentifier type="ISO">ISO 12718:2008</docidentifier>
   <date type="published">
@@ -30,8 +29,8 @@
   <abstract format="text/plain" language="en" script="Latn">ISO 12718:2008 defines terms used in eddy current testing.In addition to terms used in English and French, two of the three official ISO languages, this document gives the equivalent terms in German; these are published under the responsibility of the member body for Germany (DIN), and are given for information only. Only the terms and definitions given in the official languages can be considered as ISO terms and definitions.</abstract>
   <abstract format="text/plain" language="fr" script="Latn">L'ISO 12718:2008 définit les termes utilisés en contrôle par courants de Foucault.En complément des termes utilisés en anglais et en français, deux des trois langues officielles de l'ISO (anglais, français et russe), le présent document donne les termes équivalents en allemand; ces termes sont publiés sous la responsabilité du comité membre allemand (DIN), et sont donnés uniquement pour information. Seuls les termes et définitions dans les langues officielles peuvent être considérés comme étant des termes et définitions de l'ISO.</abstract>
   <status>
-    <stage>90</stage>
-    <substage>92</substage>
+    <stage>95</stage>
+    <substage>99</substage>
   </status>
   <copyright>
     <from>2008</from>
@@ -43,7 +42,7 @@
   </copyright>
   <relation type="updates">
     <bibitem type="standard">
-      <formattedref format="text/plain">ISO 12718</formattedref>
+      <formattedref format="text/plain">ISO 12718:2019</formattedref>
     </bibitem>
   </relation>
   <ext>

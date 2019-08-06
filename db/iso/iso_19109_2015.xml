@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Rules for application schema</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Rules for application schema - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Règles de schéma d'application</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Rules for application schema</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Rules for application schema</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Règles de schéma d'application - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Règles de schéma d'application</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Règles de schéma d'application</title>
   <uri type="src">https://www.iso.org/standard/59193.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:59193:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/91/59193.detail.rss</uri>

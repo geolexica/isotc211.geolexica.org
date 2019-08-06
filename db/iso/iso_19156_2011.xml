@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Observations and measurements</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Observations and measurements - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Observations et mesures</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Observations and measurements</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Observations and measurements</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Observations et mesures - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Observations et mesures</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Observations et mesures</title>
   <uri type="src">https://www.iso.org/standard/32574.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32574:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32574.detail.rss</uri>

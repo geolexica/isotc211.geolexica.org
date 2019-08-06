@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Geography Markup Language (GML)</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Geography Markup Language (GML) - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Langage de balisage en géographie (GML)</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Geography Markup Language (GML)</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Geography Markup Language (GML)</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Langage de balisage en géographie (GML) - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Langage de balisage en géographie (GML)</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Langage de balisage en géographie (GML)</title>
   <uri type="src">https://www.iso.org/standard/32554.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32554:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32554.detail.rss</uri>

@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Eddy current testing</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Non-destructive testing</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Eddy current testing</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Vocabulary</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Eddy current testing - Non-destructive testing - Vocabulary</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Contrôle par courants de Foucault</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Non-destructive testing - Eddy current testing - Vocabulary</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Essais non destructifs</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Contrôle par courants de Foucault</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Contrôle par courants de Foucault - Essais non destructifs - Vocabulaire</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Essais non destructifs - Contrôle par courants de Foucault - Vocabulaire</title>
   <uri type="src">https://www.iso.org/standard/43738.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/37/43738.detail.rss</uri>
   <docidentifier type="ISO">ISO 12718:2008</docidentifier>

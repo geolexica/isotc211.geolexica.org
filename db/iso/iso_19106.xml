@@ -1,8 +1,8 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Profiles</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Profiles - Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Profiles</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Profiles</title>
   <uri type="src">https://www.iso.org/standard/26011.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:26011:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26011.detail.rss</uri>
@@ -33,10 +33,10 @@
   </copyright>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Profiles</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Profiles - Geographic information</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Profiles</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Profiles</title>
       <uri type="src">https://www.iso.org/standard/26011.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:26011:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26011.detail.rss</uri>

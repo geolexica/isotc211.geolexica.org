@@ -1,9 +1,9 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Vision, Technologies and Strategy</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 1: Vision, Technologies and Strategy</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Multimedia framework (MPEG-21) - Part 1: Vision, Technologies and Strategy</title>
   <uri type="src">https://www.iso.org/standard/40611.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40611:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/06/40611.detail.rss</uri>
@@ -47,11 +47,11 @@
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
       <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: Vision, Technologies and Strategy</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 1: Vision, Technologies and Strategy</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Information technology - Multimedia framework (MPEG-21) - Part 1: Vision, Technologies and Strategy</title>
       <uri type="src">https://www.iso.org/standard/40611.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:40611:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/04/06/40611.detail.rss</uri>

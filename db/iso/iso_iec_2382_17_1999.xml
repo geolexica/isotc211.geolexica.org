@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 17: Databases</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Vocabulary - Information technology - Part 17: Databases</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Vocabulary - Part 17: Databases</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Technologies de l'information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 17: Bases de données</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire - Technologies de l'information - Partie 17: Bases de données</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Technologies de l'information - Vocabulaire - Partie 17: Bases de données</title>
   <uri type="src">https://www.iso.org/standard/30853.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/08/30853.detail.rss</uri>
   <docidentifier type="ISO">ISO/IEC 2382-17:1999</docidentifier>

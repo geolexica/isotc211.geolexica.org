@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Quality management systems</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary - Quality management systems</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Principes essentiels et vocabulaire</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Fundamentals and vocabulary</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Quality management systems - Fundamentals and vocabulary</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Systèmes de management de la qualité</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Principes essentiels et vocabulaire - Systèmes de management de la qualité</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Principes essentiels et vocabulaire</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Systèmes de management de la qualité - Principes essentiels et vocabulaire</title>
   <uri type="src">https://www.iso.org/standard/42180.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/21/42180.detail.rss</uri>
   <docidentifier type="ISO">ISO 9000:2005</docidentifier>

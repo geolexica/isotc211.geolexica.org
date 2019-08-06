@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Spatial referencing by coordinates</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Spatial referencing by coordinates</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Extension for parametric values</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Spatial referencing by coordinates - Geographic information - Part 2: Extension for parametric values</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Système de références spatiales par coordonnées</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Spatial referencing by coordinates - Part 2: Extension for parametric values</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Système de références spatiales par coordonnées</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Supplément pour valeurs paramétriques</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Système de références spatiales par coordonnées - Information géographique - Partie 2: Supplément pour valeurs paramétriques</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Système de références spatiales par coordonnées - Partie 2: Supplément pour valeurs paramétriques</title>
   <uri type="src">https://www.iso.org/standard/44075.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/40/44075.detail.rss</uri>
   <docidentifier type="ISO">ISO 19111-2:2009</docidentifier>

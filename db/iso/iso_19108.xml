@@ -1,8 +1,8 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Temporal schema</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Temporal schema - Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Temporal schema</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Temporal schema</title>
   <uri type="src">https://www.iso.org/standard/26013.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:26013:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26013.detail.rss</uri>
@@ -38,10 +38,10 @@
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Temporal schema</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Temporal schema - Geographic information</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Temporal schema</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Temporal schema</title>
       <uri type="src">https://www.iso.org/standard/26013.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:26013:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26013.detail.rss</uri>

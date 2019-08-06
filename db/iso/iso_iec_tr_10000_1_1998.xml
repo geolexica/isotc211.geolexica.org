@@ -1,9 +1,9 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: General principles and documentation framework</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles - Information technology - Part 1: General principles and documentation framework</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Framework and taxonomy of International Standardized Profiles - Part 1: General principles and documentation framework</title>
   <uri type="src">https://www.iso.org/standard/30726.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:30726:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/07/30726.detail.rss</uri>
@@ -47,11 +47,11 @@
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles</title>
       <title type="title-part" format="text/plain" language="en" script="Latn">Part 1: General principles and documentation framework</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Framework and taxonomy of International Standardized Profiles - Information technology - Part 1: General principles and documentation framework</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Information technology - Framework and taxonomy of International Standardized Profiles - Part 1: General principles and documentation framework</title>
       <uri type="src">https://www.iso.org/standard/30726.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:30726:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/03/07/30726.detail.rss</uri>

@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Filter encoding</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Filter encoding - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Codage de filtres</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Filter encoding</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Filter encoding</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Codage de filtres - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Codage de filtres</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Codage de filtres</title>
   <uri type="src">https://www.iso.org/standard/42137.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:42137:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/21/42137.detail.rss</uri>

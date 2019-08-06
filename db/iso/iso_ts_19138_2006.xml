@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Data quality measures</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Data quality measures - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Mesures de la qualité des données</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Data quality measures</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Data quality measures</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Mesures de la qualité des données - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Mesures de la qualité des données</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Mesures de la qualité des données</title>
   <uri type="src">https://www.iso.org/standard/32556.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32556.detail.rss</uri>
   <docidentifier type="ISO">ISO/TS 19138:2006</docidentifier>

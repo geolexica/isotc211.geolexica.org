@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Well-known text representation of coordinate reference systems</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Well-known text representation of coordinate reference systems - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Représentation textuelle bien lisible de systèmes de référence par coordonnées</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Well-known text representation of coordinate reference systems</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Well-known text representation of coordinate reference systems</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Représentation textuelle bien lisible de systèmes de référence par coordonnées - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Représentation textuelle bien lisible de systèmes de référence par coordonnées</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Représentation textuelle bien lisible de systèmes de référence par coordonnées</title>
   <uri type="src">https://www.iso.org/standard/63094.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/06/30/63094.detail.rss</uri>
   <docidentifier type="ISO">ISO 19162:2015</docidentifier>

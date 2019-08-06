@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Web map server interface</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Web map server interface - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Interface de carte du serveur Web</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Web map server interface</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Web map server interface</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Interface de carte du serveur Web - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Interface de carte du serveur Web</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Interface de carte du serveur Web</title>
   <uri type="src">https://www.iso.org/standard/32546.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32546:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32546.detail.rss</uri>

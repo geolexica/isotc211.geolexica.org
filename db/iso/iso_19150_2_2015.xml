@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Ontology</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Ontology</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Ontology - Geographic information - Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Ontologie</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Ontology - Part 2: Rules for developing ontologies in the Web Ontology Language (OWL)</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Ontologie</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Règles pour le développement d'ontologies dans le langage d'ontologie Web (OWL)</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Ontologie - Information géographique - Partie 2: Règles pour le développement d'ontologies dans le langage d'ontologie Web (OWL)</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Ontologie - Partie 2: Règles pour le développement d'ontologies dans le langage d'ontologie Web (OWL)</title>
   <uri type="src">https://www.iso.org/standard/57466.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:57466:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/74/57466.detail.rss</uri>

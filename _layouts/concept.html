@@ -34,8 +34,12 @@ term_attributes:
 <section class="field source">
   <p class="field-name">source</p>
   <p class="field-value">
-    <a href="{{ english.authoritative_source.link}}">{{ english.authoritative_source.ref }}</a>{% if english.authoritative_source.clause %}, {{ english.authoritative_source.clause }}{% endif %}
-  </p>
+  {% if english.authoritative_source.link %}
+    <a href="{{ english.authoritative_source.link }}">{{ english.authoritative_source.ref }}</a>{% if english.authoritative_source.clause %}, {{ english.authoritative_source.clause }}{% endif %}
+  {% else %}
+    {{ english.authoritative_source.ref }}{% if english.authoritative_source.clause %}, {{ english.authoritative_source.clause }}{% endif %}
+  {% endif %}
+</p>
 </section>
 
 {% for lang in site.term_languages %}
@@ -73,13 +77,21 @@ term_attributes:
         {% endif %}
 
         <p class="definition localized">{{ localized_term.definition | escape }}</p>
+
+        {% if localized_term.authoritative_source.ref != english.authoritative_source.ref %}
         {% if localized_term.authoritative_source.link %}
-          <p class="source localized">
-            [SOURCE: <a href="{{ localized_term.authoritative_source.link }}">
-              {{ localized_term.authoritative_source.ref }}</a>]
-          </p>
+        <p class="source localized">
+          [SOURCE: <a href="{{ localized_term.authoritative_source.link }}">
+            {{ localized_term.authoritative_source.ref }}</a>{% if localized_term.authoritative_source.clause %}, {{ localized_term.authoritative_source.clause }}{% endif %}]
+        </p>
         {% else %}
-          <p class="source localized">[SOURCE: {{ localized_term.authoritative_source.ref }}]</p>
+        <p class="source localized">
+          [SOURCE: {{ localized_term.authoritative_source.ref }}{% if localized_term.authoritative_source.clause %}, {{ localized_term.authoritative_source.clause }}{% endif %}]
+        </p>
+        {% endif %}
+        <span class="warning">
+          This translated term may not be from the same source as the definitive term. Use at your own risk.
+        </span>
         {% endif %}
 
         {% if localized_term.notes %}

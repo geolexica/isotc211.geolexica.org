@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Portrayal</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Portrayal - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Présentation</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Portrayal</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Portrayal</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Présentation - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Présentation</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Présentation</title>
   <uri type="src">https://www.iso.org/standard/40395.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/03/40395.detail.rss</uri>
   <docidentifier type="ISO">ISO 19117:2005</docidentifier>

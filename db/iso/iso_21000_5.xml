@@ -1,9 +1,9 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 5: Rights Expression Language</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 5: Rights Expression Language</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Multimedia framework (MPEG-21) - Part 5: Rights Expression Language</title>
   <uri type="src">https://www.iso.org/standard/36095.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:36095:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/60/36095.detail.rss</uri>
@@ -57,11 +57,11 @@
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21)</title>
       <title type="title-part" format="text/plain" language="en" script="Latn">Part 5: Rights Expression Language</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Multimedia framework (MPEG-21) - Information technology - Part 5: Rights Expression Language</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Information technology - Multimedia framework (MPEG-21) - Part 5: Rights Expression Language</title>
       <uri type="src">https://www.iso.org/standard/36095.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:36095:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/03/60/36095.detail.rss</uri>

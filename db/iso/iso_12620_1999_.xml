@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Data categories</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Computer applications in terminology</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Data categories - Computer applications in terminology</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Catégories de données</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Data categories</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Computer applications in terminology - Data categories</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Aides informatiques en terminologie</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Catégories de données - Aides informatiques en terminologie</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Catégories de données</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Aides informatiques en terminologie - Catégories de données</title>
   <uri type="src">https://www.iso.org/standard/2517.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/00/25/2517.detail.rss</uri>
   <docidentifier type="ISO">ISO 12620:1999</docidentifier>

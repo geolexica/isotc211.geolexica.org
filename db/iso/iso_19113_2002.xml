@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Quality principles</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Quality principles - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Principes qualité</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Quality principles</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Quality principles</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Principes qualité - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Principes qualité</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Principes qualité</title>
   <uri type="src">https://www.iso.org/standard/26018.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26018.detail.rss</uri>
   <docidentifier type="ISO">ISO 19113:2002</docidentifier>

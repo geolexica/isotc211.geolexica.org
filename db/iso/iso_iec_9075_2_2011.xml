@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Database languages</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Database languages</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">SQL -- Part 2: Foundation (SQL/Foundation)</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Database languages - Information technology - SQL -- Part 2: Foundation (SQL/Foundation)</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Langages de base de données</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Database languages - SQL -- Part 2: Foundation (SQL/Foundation)</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Technologies de l'information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Langages de base de données</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">SQL -- Partie 2: Fondations (SQL/Foundation)</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Langages de base de données - Technologies de l'information - SQL -- Partie 2: Fondations (SQL/Foundation)</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Technologies de l'information - Langages de base de données - SQL -- Partie 2: Fondations (SQL/Foundation)</title>
   <uri type="src">https://www.iso.org/standard/53682.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/05/36/53682.detail.rss</uri>
   <docidentifier type="ISO">ISO/IEC 9075-2:2011</docidentifier>

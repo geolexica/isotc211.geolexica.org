@@ -1,8 +1,8 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Referencing by coordinates</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Referencing by coordinates - Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Referencing by coordinates</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Referencing by coordinates</title>
   <uri type="src">https://www.iso.org/standard/74039.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:74039:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/07/40/74039.detail.rss</uri>
@@ -43,10 +43,10 @@
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Referencing by coordinates</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Referencing by coordinates - Geographic information</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Referencing by coordinates</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Referencing by coordinates</title>
       <uri type="src">https://www.iso.org/standard/74039.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:74039:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/07/40/74039.detail.rss</uri>

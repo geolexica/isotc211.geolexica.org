@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Quality evaluation procedures</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Quality evaluation procedures - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Procédures d'évaluation de la qualité</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Quality evaluation procedures</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Quality evaluation procedures</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Procédures d'évaluation de la qualité - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Procédures d'évaluation de la qualité</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Procédures d'évaluation de la qualité</title>
   <uri type="src">https://www.iso.org/standard/26019.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/02/60/26019.detail.rss</uri>
   <docidentifier type="ISO">ISO 19114:2003</docidentifier>

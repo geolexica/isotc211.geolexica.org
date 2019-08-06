@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Terminology work</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Vocabulary</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: Computer applications</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Vocabulary - Terminology work - Part 2: Computer applications</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Terminology work - Vocabulary - Part 2: Computer applications</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Travaux terminologiques</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Applications logicielles</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire - Travaux terminologiques - Partie 2: Applications logicielles</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Travaux terminologiques - Vocabulaire - Partie 2: Applications logicielles</title>
   <uri type="src">https://www.iso.org/standard/32819.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/28/32819.detail.rss</uri>
   <docidentifier type="ISO">ISO 1087-2:2000</docidentifier>

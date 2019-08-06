@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Metadata registries (MDR)</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Information technology</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Metadata registries (MDR)</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 3: Registry metamodel and basic attributes</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Metadata registries (MDR) - Information technology - Part 3: Registry metamodel and basic attributes</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Registres de métadonnées (RM)</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Information technology - Metadata registries (MDR) - Part 3: Registry metamodel and basic attributes</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Technologies de l'information</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Registres de métadonnées (RM)</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 3: Métamodèle de registre et attributs de base</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Registres de métadonnées (RM) - Technologies de l'information - Partie 3: Métamodèle de registre et attributs de base</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Technologies de l'information - Registres de métadonnées (RM) - Partie 3: Métamodèle de registre et attributs de base</title>
   <uri type="src">https://www.iso.org/standard/31367.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/13/31367.detail.rss</uri>
   <docidentifier type="ISO">ISO/IEC 11179-3:2003</docidentifier>

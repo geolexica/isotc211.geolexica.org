@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Basic and general concepts and associated terms (VIM)</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">International vocabulary of metrology</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Basic and general concepts and associated terms (VIM) - International vocabulary of metrology</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Concepts fondamentaux et généraux et termes associés (VIM)</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Basic and general concepts and associated terms (VIM)</title>
+  <title type="main" format="text/plain" language="en" script="Latn">International vocabulary of metrology - Basic and general concepts and associated terms (VIM)</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Vocabulaire international de métrologie</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Concepts fondamentaux et généraux et termes associés (VIM) - Vocabulaire international de métrologie</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Concepts fondamentaux et généraux et termes associés (VIM)</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire international de métrologie - Concepts fondamentaux et généraux et termes associés (VIM)</title>
   <uri type="src">https://www.iso.org/standard/45324.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:45324:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/53/45324.detail.rss</uri>
@@ -49,13 +49,13 @@
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Basic and general concepts and associated terms (VIM)</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">International vocabulary of metrology</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Basic and general concepts and associated terms (VIM) - International vocabulary of metrology</title>
-      <title type="title-main" format="text/plain" language="fr" script="Latn">Concepts fondamentaux et généraux et termes associés (VIM)</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Basic and general concepts and associated terms (VIM)</title>
+      <title type="main" format="text/plain" language="en" script="Latn">International vocabulary of metrology - Basic and general concepts and associated terms (VIM)</title>
       <title type="title-intro" format="text/plain" language="fr" script="Latn">Vocabulaire international de métrologie</title>
-      <title type="main" format="text/plain" language="fr" script="Latn">Concepts fondamentaux et généraux et termes associés (VIM) - Vocabulaire international de métrologie</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Concepts fondamentaux et généraux et termes associés (VIM)</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire international de métrologie - Concepts fondamentaux et généraux et termes associés (VIM)</title>
       <uri type="src">https://www.iso.org/standard/45324.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:45324:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/04/53/45324.detail.rss</uri>

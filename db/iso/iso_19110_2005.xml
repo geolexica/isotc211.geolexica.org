@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Methodology for feature cataloguing</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Methodology for feature cataloguing - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Méthodologie de catalogage des entités</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Methodology for feature cataloguing</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Methodology for feature cataloguing</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Méthodologie de catalogage des entités - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Méthodologie de catalogage des entités</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Méthodologie de catalogage des entités</title>
   <uri type="src">https://www.iso.org/standard/39965.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/99/39965.detail.rss</uri>
   <docidentifier type="ISO">ISO 19110:2005</docidentifier>

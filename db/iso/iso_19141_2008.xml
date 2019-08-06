@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Schema for moving features</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Schema for moving features - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Schéma des entités mobiles</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Schema for moving features</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Schema for moving features</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Schéma des entités mobiles - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Schéma des entités mobiles</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Schéma des entités mobiles</title>
   <uri type="src">https://www.iso.org/standard/41445.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:41445:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/14/41445.detail.rss</uri>

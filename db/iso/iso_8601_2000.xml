@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Information interchange</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Data elements and interchange formats</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Information interchange</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Representation of dates and times</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Information interchange - Data elements and interchange formats - Representation of dates and times</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Échange d'information</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Data elements and interchange formats - Information interchange - Representation of dates and times</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Éléments de données et formats d'échange</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Échange d'information</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Représentation de la date et de l'heure</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Échange d'information - Éléments de données et formats d'échange - Représentation de la date et de l'heure</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Éléments de données et formats d'échange - Échange d'information - Représentation de la date et de l'heure</title>
   <uri type="src">https://www.iso.org/standard/26780.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/02/67/26780.detail.rss</uri>
   <docidentifier type="ISO">ISO 8601:2000</docidentifier>

@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">General vocabulary</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Standardization and related activities</title>
-  <title type="main" format="text/plain" language="en" script="Latn">General vocabulary - Standardization and related activities</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire général</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">General vocabulary</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Standardization and related activities - General vocabulary</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Normalisation et activités connexes</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire général - Normalisation et activités connexes</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire général</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Normalisation et activités connexes - Vocabulaire général</title>
   <uri type="src">https://www.iso.org/standard/39976.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:39976:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/99/39976.detail.rss</uri>
@@ -49,13 +49,13 @@
   </relation>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">General vocabulary</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Standardization and related activities</title>
-      <title type="main" format="text/plain" language="en" script="Latn">General vocabulary - Standardization and related activities</title>
-      <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire général</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">General vocabulary</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Standardization and related activities - General vocabulary</title>
       <title type="title-intro" format="text/plain" language="fr" script="Latn">Normalisation et activités connexes</title>
-      <title type="main" format="text/plain" language="fr" script="Latn">Vocabulaire général - Normalisation et activités connexes</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Vocabulaire général</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Normalisation et activités connexes - Vocabulaire général</title>
       <uri type="src">https://www.iso.org/standard/39976.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:39976:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/03/99/39976.detail.rss</uri>

@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Location-based services</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Location-based services</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Tracking and navigation</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Location-based services - Geographic information - Tracking and navigation</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Location-based services - Tracking and navigation</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Suivi et navigation</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation - Information géographique - Suivi et navigation</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Services basés sur la localisation - Suivi et navigation</title>
   <uri type="src">https://www.iso.org/standard/32551.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32551:en</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32551.detail.rss</uri>
@@ -38,15 +38,15 @@
   </copyright>
   <relation type="instance">
     <bibitem type="standard">
-      <fetched>2019-08-03</fetched>
-      <title type="title-main" format="text/plain" language="en" script="Latn">Location-based services</title>
+      <fetched>2019-08-06</fetched>
       <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+      <title type="title-main" format="text/plain" language="en" script="Latn">Location-based services</title>
       <title type="title-part" format="text/plain" language="en" script="Latn">Tracking and navigation</title>
-      <title type="main" format="text/plain" language="en" script="Latn">Location-based services - Geographic information - Tracking and navigation</title>
-      <title type="title-main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation</title>
+      <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Location-based services - Tracking and navigation</title>
       <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+      <title type="title-main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation</title>
       <title type="title-part" format="text/plain" language="fr" script="Latn">Suivi et navigation</title>
-      <title type="main" format="text/plain" language="fr" script="Latn">Services basés sur la localisation - Information géographique - Suivi et navigation</title>
+      <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Services basés sur la localisation - Suivi et navigation</title>
       <uri type="src">https://www.iso.org/standard/32551.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:32551:en</uri>
       <uri type="rss">https://www.iso.org/contents/data/standard/03/25/32551.detail.rss</uri>

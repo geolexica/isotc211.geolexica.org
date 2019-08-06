@@ -1,13 +1,13 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Simple feature access</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Simple feature access</title>
   <title type="title-part" format="text/plain" language="en" script="Latn">Part 2: SQL option</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Simple feature access - Geographic information - Part 2: SQL option</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Accès aux entités simples</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Simple feature access - Part 2: SQL option</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Accès aux entités simples</title>
   <title type="title-part" format="text/plain" language="fr" script="Latn">Partie 2: Option SQL</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Accès aux entités simples - Information géographique - Partie 2: Option SQL</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Accès aux entités simples - Partie 2: Option SQL</title>
   <uri type="src">https://www.iso.org/standard/40115.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/04/01/40115.detail.rss</uri>
   <docidentifier type="ISO">ISO 19125-2:2004</docidentifier>

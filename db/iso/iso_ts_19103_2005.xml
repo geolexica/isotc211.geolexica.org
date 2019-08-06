@@ -1,11 +1,11 @@
 <bibdata type="standard">
-  <fetched>2019-08-03</fetched>
-  <title type="title-main" format="text/plain" language="en" script="Latn">Conceptual schema language</title>
+  <fetched>2019-08-06</fetched>
   <title type="title-intro" format="text/plain" language="en" script="Latn">Geographic information</title>
-  <title type="main" format="text/plain" language="en" script="Latn">Conceptual schema language - Geographic information</title>
-  <title type="title-main" format="text/plain" language="fr" script="Latn">Langage de schéma conceptuel</title>
+  <title type="title-main" format="text/plain" language="en" script="Latn">Conceptual schema language</title>
+  <title type="main" format="text/plain" language="en" script="Latn">Geographic information - Conceptual schema language</title>
   <title type="title-intro" format="text/plain" language="fr" script="Latn">Information géographique</title>
-  <title type="main" format="text/plain" language="fr" script="Latn">Langage de schéma conceptuel - Information géographique</title>
+  <title type="title-main" format="text/plain" language="fr" script="Latn">Langage de schéma conceptuel</title>
+  <title type="main" format="text/plain" language="fr" script="Latn">Information géographique - Langage de schéma conceptuel</title>
   <uri type="src">https://www.iso.org/standard/37800.html</uri>
   <uri type="rss">https://www.iso.org/contents/data/standard/03/78/37800.detail.rss</uri>
   <docidentifier type="ISO">ISO/TS 19103:2005</docidentifier>

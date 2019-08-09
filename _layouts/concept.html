@@ -76,7 +76,11 @@ term_attributes:
         <!-- <h4><em>This is not a preferred term.</em></h4> -->
         {% endif %}
 
+        {% if localized_term.definition %}
         <p class="definition localized">{{ localized_term.definition | escape }}</p>
+        {% else %}
+        <p class="definition warning">Definition not provided in this language.</p>
+        {% endif %}
 
         {% if localized_term.authoritative_source.ref != english.authoritative_source.ref %}
         {% if localized_term.authoritative_source.link %}

@@ -97,8 +97,7 @@ term_attributes:
         {% if localized_term.notes %}
         <div class="notes">
           {% for note in localized_term.notes %}
-          <!-- <span>Note {{ forloop.index }} to entry:</span> -->
-          <p class="note localized">{{ note | escape }}</p>
+          <p class="note localized"><span>Note {{ forloop.index }} to entry:</span>{{ note | escape }}</p>
           {% endfor %}
         </div>
         {% endif %}
@@ -106,8 +105,7 @@ term_attributes:
         {% if localized_term.examples %}
         <div class="examples">
           {% for example in localized_term.examples %}
-          <!-- <span>Example {{ forloop.index }}</span> -->
-          <p class="example localized">{{ example | escape }}</p>
+          <p class="example localized"><span>EXAMPLE {{ forloop.index }}</span>{{ example | escape }}</p>
           {% endfor %}
         </div>
         {% endif %}

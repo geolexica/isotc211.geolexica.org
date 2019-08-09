@@ -22,14 +22,14 @@ At present, the Glossary is available in the following languages.
 * English   1064
 * Finnish    482
 * French     479
-* German     151 (617 Partially Translated Terminology Records)
-* Japanese   936
-* Korean     318
-* Malay      251
-* Polish     941
-* Russian    681 (1069 Terminology Records including term equivalents)
-* Spanish    684
-* Swedish    479
+* German     617 (Partially Translated Terminology Records)
+* Japanese   151
+* Korean     936
+* Malay      318
+* Polish     251
+* Russian    941
+* Spanish    1069 (Terminology Records including term equivalents)
+* Swedish    681
 
 For further information or comment, please contact:
 

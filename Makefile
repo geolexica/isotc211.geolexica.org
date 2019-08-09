@@ -7,8 +7,8 @@
 # RELATON_CSD_RXL := $(addprefix relaton-csd/, $(notdir $(CSD_SRC)))
 
 SHELL := /bin/bash
-TERMBASE_VERSION := 20190802
-TERMBASE_XLSX_PATH := "mlgt-data/TC211_ Multi-Lingual_Glossary - ${TERMBASE_VERSION}_Published.xlsx"
+TERMBASE_VERSION := $(shell yq r metadata.yaml version)
+TERMBASE_XLSX_PATH := $(shell yq r metadata.yaml filename)
 
 # NAME_ORG := "CalConnect : The Calendaring and Scheduling Consortium"
 # CSD_REGISTRY_NAME := "CalConnect Document Registry: Standards"
@@ -20,10 +20,10 @@ TERMBASE_XLSX_PATH := "mlgt-data/TC211_ Multi-Lingual_Glossary - ${TERMBASE_VERS
 all: _site
 
 clean:
-	rm -rf _site _concepts tc211-termbase.yaml tc211-termbase.xlsx
+	rm -rf _site _concepts
 
 distclean: clean
-	rm -rf concepts_data concepts
+	rm -rf concepts_data concepts tc211-termbase.yaml tc211-termbase.xlsx _data/metadata.yaml
 
 _site: _data/metadata.yaml _concepts | bundle
 	bundle exec jekyll build
@@ -33,10 +33,10 @@ bundle:
 
 _data/metadata.yaml:
 	mkdir -p _data; \
-	echo "version: ${TERMBASE_VERSION}" > $@
+	cp metadata.yaml $@
 
 tc211-termbase.xlsx:
-	cp ${TERMBASE_XLSX_PATH} tc211-termbase.xlsx
+	cp '${TERMBASE_XLSX_PATH}' tc211-termbase.xlsx
 
 concepts_data: tc211-termbase.xlsx
 	bundle exec tc211-termbase-xlsx2yaml $<

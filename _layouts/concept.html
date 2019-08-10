@@ -101,7 +101,16 @@ term_attributes:
         {% if localized_term.notes %}
         <div class="notes">
           {% for note in localized_term.notes %}
-          <p class="note localized"><span>Note {{ forloop.index }} to entry:</span>{{ note | escape }}</p>
+          {% assign notenum = "" %}
+          {% if localized_term.notes.size > 1 %}
+          {% assign notenum = " " | append: forloop.index %}
+          {% endif %}
+          <p class="note localized">
+            <span>
+            {{ site.data.lang[lang].note_to_entry | replace: " DD", notenum }}
+          </span>
+            {{ note | escape }}
+          </p>
           {% endfor %}
         </div>
         {% endif %}
@@ -109,7 +118,14 @@ term_attributes:
         {% if localized_term.examples %}
         <div class="examples">
           {% for example in localized_term.examples %}
-          <p class="example localized"><span>EXAMPLE {{ forloop.index }}</span>{{ example | escape }}</p>
+          <p class="example localized">
+            <span>{{ site.data.lang[lang].example }}
+              {% if localized_term.examples.size > 1 %}
+              {{ forloop.index }}
+              {% endif %}
+            </span>
+            {{ example | escape }}
+          </p>
           {% endfor %}
         </div>
         {% endif %}

@@ -1,0 +1,75 @@
+eng:
+  lang_native: English
+  lang_en: English
+  example: EXAMPLE
+  note_to_entry: "Note DD to entry:"
+ara:
+  lang_native: العربية
+  lang_en: Arabic
+  example: "مثال"
+  note_to_entry: "ملاحظة DD:"
+chi:
+  lang_native: 中文
+  lang_en: Chinese
+  example: 示例
+  note_to_entry: "注 DD："
+dan:
+  lang_native: dansk
+  lang_en: Danish
+  example: EKSEMPEL
+  note_to_entry: "NOTE DD to entry:"
+dut:
+  lang_native: Nederlands
+  lang_en: Dutch
+  example: VOORBEELD
+  note_to_entry: "OPMERKING DD:"
+fin:
+  lang_native: suomi
+  lang_en: Finnish
+  example: ESIM.
+  note_to_entry: "HUOM. DD:"
+fre:
+  lang_native: français
+  lang_en: French
+  example: EXEMPLE
+  note_to_entry: "A noter DD:"
+ger:
+  lang_native: Deutsch
+  lang_en: German
+  example: BEISPIEL
+  note_to_entry: "NOTE DD:"
+jpn:
+  lang_native: 日本語
+  lang_en: Japanese
+  example: 例
+  note_to_entry: "備考 DD："
+kor:
+  lang_native: 한국어
+  lang_en: Korean
+  example: 보기
+  note_to_entry: "비고 DD:"
+may:
+  lang_native: Bahasa melayu
+  lang_en: Malay
+  example: Contoh
+  note_to_entry: "catatan DD:"
+pol:
+  lang_native: polski
+  lang_en: Polish
+  example: PRZYKŁAD
+  note_to_entry: "UWAGA DD:"
+rus:
+  lang_native: Русский язык
+  lang_en: Russian
+  example: Пример
+  note_to_entry: "нота DD:"
+spa:
+  lang_native: español
+  lang_en: Spanish
+  example: EJEMPLO
+  note_to_entry: "Nota DD:"
+swe:
+  lang_native: Svenska
+  lang_en: Swedish
+  example: EXEMPEL
+  note_to_entry: "Anm. DD till termpost:"

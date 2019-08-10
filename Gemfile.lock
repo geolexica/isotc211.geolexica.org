@@ -140,7 +140,7 @@ GEM
     sass-listen (4.0.0)
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
-    tc211-termbase (0.1.9)
+    tc211-termbase (0.1.10)
       creek
       iso-639
       relaton (~> 0.5)

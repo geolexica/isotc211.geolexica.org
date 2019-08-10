@@ -7,22 +7,70 @@ nav_items: [home, concepts, stats, feedback]
 ---
 :page-liquid:
 
-Welcome to Geolexica, the authoritative glossary for geographic
-information technology from ISO/TC 211.
+Geolexica is the online glossary for geographic information technology from
+https://www.iso.org/committee/54904.html[ISO/TC 211 Geographic information/Geomatics].
 
-The name "`geolexica`" is the combination of the Greek prefix "`geo-`"
+The name "`geolexica`" is a combination of the Greek prefix "`geo-`"
 (of and pertaining to the Earth) and the suffix "`lexica`"
-derived from Greek "`lexiko`", the counterpart of English "`lexicon`"
-(vocabulary).
+derived from the Greek "`lexiko`", counterpart of the English
+"`lexicon`" (vocabulary).
 
-Terms on this site are managed by the ISO/TC 211 Terminology
-Management Group (TMG). The Chair of the TMG is Reese Plews.
+Terminology entries in Geolexica fully reflect entries given in the
+ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT), where its
+authoritative English terms originate from ISO/TC 211 standards.
 
-Feedback for Geolexica or the TMG can be submitted on the
+Specifically:
+
+* English terms and definitions are from published
+  ISO/TC 211 standards (normative);
+
+* Terminology entries are translated across fourteen languages.
+  While these are considered informative, they may be based on
+  authoritative national standards in their respective countries.
+
+
+== Current release ({{ site.data.metadata.version }} edition)
+
+The current contents in Geolexica are from the 4th release of the
+MLGT ({{ site.data.metadata.version }} edition), consisting of:
+
+* over 1,060 English language terminology entries (terms/definitions)
+from published ISO/TC 211 standards as of October 2017;
+
+* over 7,600 translated terminology entries (full or partial)
+covering fourteen languages, which represents close to all of
+the participating countries in ISO/TC 211.
+
+
+////
+The current edition of MLGT loaded in Geolexica is:
+`{{ site.data.metadata.version }}`.
+////
+
+
+== Resource links
+
+The MLGT spreadsheet and corresponding documentation can be downloaded
+from the
+https://committee.iso.org/sites/tc211/home/re.html[ISO/TC 211 Resources page].
+
+
+== Responsibility
+
+The MLGT is managed by the ISO/TC 211 Terminology Maintenance Group (TMG).
+The convenor of the TMG is Mr. Reese Plews of Japan.
+
+Geolexica is jointly managed by the TMG and https://www.ribose.com[Ribose],
+the official ISO/TC 211 web service provider and
+Registration Authority of the
+https://geodetic.isotc211.org[ISO Geodetic Register].
+
+
+== Feedback
+
+Feedback for Geolexica can be submitted on the
 link:/feedback[Feedback] page.
 
-This site is managed by https://www.ribose.com[Ribose], the
-official ISO/TC 211 web service provider and Registration Authority
-of the https://geodetic.isotc211.org[ISO Geodetic Register].
+Identified issues that are publicly visible are maintained at the
+https://github.com/ISO-TC211/TMG/issues[TMG GitHub Issues] page.
 
-MLGT version: {{ site.data.metadata.version }}

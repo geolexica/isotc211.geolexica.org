@@ -9,8 +9,6 @@ title: Statistics
 
 The following languages are provided in Geolexica, with the number of terms displayed below.
 
-JSON: link:/api/stats.json[/api/stats.json]
-
 {% for lang in site.term_languages %}
 {% assign counter = 0 %}
 {% for concept in site.concepts %}
@@ -18,5 +16,8 @@ JSON: link:/api/stats.json[/api/stats.json]
   {% assign counter = counter | plus: 1 %}
   {% endunless %}
 {% endfor %}
-* {{ lang }}: {{ counter }}
+* {{ site.data.lang[lang].lang_native }}{% if lang != "eng" %} ({{ site.data.lang[lang].lang_en }}){% endif %}: {{ counter }}
 {% endfor %}
+
+JSON: link:/api/stats.json[/api/stats.json]
+

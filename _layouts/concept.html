@@ -113,8 +113,14 @@ term_attributes:
           <p class="note localized">
             <span>
             {{ site.data.lang[lang].note_to_entry | replace: " DD", notenum }}
-          </span>
+            </span>
+          {% if lang != "eng" and note == english.notes[forloop.index0] %}
+            <span class="warning">
+              This note has not been translated.
+            </span>
+          {% else %}
             {{ note | escape }}
+          {% endif %}
           </p>
           {% endfor %}
         </div>
@@ -129,7 +135,13 @@ term_attributes:
               {{ forloop.index }}
               {% endif %}
             </span>
+          {% if lang != "eng" and example == english.examples[forloop.index0] %}
+            <span class="warning">
+              This example has not been translated.
+            </span>
+          {% else %}
             {{ example | escape }}
+          {% endif %}
           </p>
           {% endfor %}
         </div>

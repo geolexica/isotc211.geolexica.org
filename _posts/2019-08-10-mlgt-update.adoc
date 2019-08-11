@@ -1,0 +1,42 @@
+---
+layout: custom-post
+title:  "Geolexica updated to MLGT Edition 2019-08-09"
+date:   2019-08-10 00:00:00 +0800
+categories: update
+---
+
+Geolexica has been updated to contain the latest officially translated terms from the
+20190809 Edition of the ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT).
+
+The MLGT (20190809 Edition) contains the following terminology records:
+
+* Arabic     684
+* Chinese    479
+* Danish     206
+* Dutch       76
+* English   1064
+* Finnish    482
+* French     479
+* German     617 (definitions only)
+* Japanese   151
+* Korean     936
+* Malay      318
+* Polish     251
+* Russian    941
+* Spanish    1069 (including term equivalents)
+* Swedish    681
+
+The Malay terms are a new addition to Geolexica. While they were added to the MLGT
+in 2018-11, they have not been offered through Geolexica.
+
+
+For further information or comment:
+
+* Feedback for Geolexica can be submitted on the
+link:/feedback[Feedback] page.
+
+* MLGT issues can be reported on the
+https://github.com/ISO-TC211/TMG/issues[TMG GitHub Issues] page.
+
+
+Reese Plews, Convener, ISO/TC 211 Terminology Maintenance Group

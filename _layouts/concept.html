@@ -31,6 +31,8 @@ term_attributes:
 </section>
 
 {% assign english = page["eng"] %}
+{% assign term_status = english.entry_status %}
+{% assign classification = english.classification %}
 <section class="field source">
   <p class="field-name">source</p>
   <p class="field-value">
@@ -165,8 +167,6 @@ term_attributes:
   <p class="field-value"><a href="{{ json_url }}">{{ json_url }}</a></p>
 </section>
 
-{% assign term_status = english.entry_status %}
-{% assign classification = english.classification %}
 <section class="field info">
   <p class="field-name">info</p>
   <p class="field-value">

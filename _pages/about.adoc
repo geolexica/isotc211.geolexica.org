@@ -3,7 +3,7 @@ layout: base-page
 title: About
 permalink: /about/
 bodyClass: page
-nav_items: [home, concepts, stats, feedback]
+nav_items: [home, concepts, stats, feedback, registers]
 ---
 :page-liquid:
 

@@ -155,6 +155,12 @@ term_attributes:
           {% endif %}
         </ul>
 
+        <p class="origin localized">
+          ORIGIN:
+          <a href="/registers/#language-{{ lang }}">{{ site.data.info.languages[lang].register-name }}</a>
+          (last updated: {{ site.data.info.languages[lang].date-of-last-change }})
+        </p>
+
       </div>
     </article>
   {% endif %}

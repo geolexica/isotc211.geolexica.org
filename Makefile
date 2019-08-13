@@ -23,9 +23,9 @@ clean:
 	rm -rf _site _concepts
 
 distclean: clean
-	rm -rf concepts_data concepts tc211-termbase.yaml tc211-termbase.xlsx _data/metadata.yaml
+	rm -rf concepts_data concepts tc211-termbase.yaml tc211-termbase.xlsx _data/metadata.yaml _data/info.yaml
 
-_site: _data/metadata.yaml _concepts | bundle
+_site: _data/metadata.yaml _data/info.yaml _concepts | bundle
 	bundle exec jekyll build
 
 bundle:
@@ -35,12 +35,16 @@ _data/metadata.yaml:
 	mkdir -p _data; \
 	cp metadata.yaml $@
 
+_data/info.yaml: tc211-termbase.meta.yaml
+	cp -f $< $@
+
 tc211-termbase.xlsx:
 	cp '${TERMBASE_XLSX_PATH}' tc211-termbase.xlsx
 
-concepts_data: tc211-termbase.xlsx
-	bundle exec tc211-termbase-xlsx2yaml $<
-	mv concepts concepts_data
+tc211-termbase.yaml tc211-termbase.meta.yaml concepts_data: tc211-termbase.xlsx
+	bundle exec tc211-termbase-xlsx2yaml $<; \
+	rm -rf concepts_data; \
+	mv concepts concepts_data;
 
 # Make collection YAML files into adoc files
 _concepts: concepts_data

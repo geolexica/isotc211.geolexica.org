@@ -1,0 +1,32 @@
+---
+layout: base-page
+title: Registers
+permalink: "/registers/index.html"
+bodyClass: page
+nav_items: [home, concepts, stats, about, feedback]
+---
+:page-liquid:
+
+Concepts and terms in Geolexica are directly imported from these
+registries within the MLGT.
+
+Details of these registries are shown below:
+
+{% for lang in site.data.info.languages %}
+
+[[language-{{ lang[0] }}]]
+== {{ lang[1].register-name }}
+
+Language:: {{ lang[1].operating-language-name }} (ISO 639-2: `{{ lang[1].operating-language-code }}`)
+Last updated:: {{ lang[1].date-of-last-change }}
+Responsible organization name:: {{ lang[1].submitting-organisation-name }}
+Responsible organization contact:: {{ lang[1].submitting-organisation-contact }}
+
+{% assign uri = lang[1].uniform-resource-identifier-uri %}
+{% unless uri == "" or uri == nil %}
+Responsible organization URI:: link:{{ uri }}[{{ uri }}]
+{% endunless %}
+
+Description:: {{ lang[1].content-summary }}
+
+{% endfor %}

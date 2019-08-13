@@ -49,6 +49,9 @@ nav:
   - id: feedback
     url: /feedback
     title: Feedback
+  - id: registers
+    url: /registers
+    title: Registers
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211

@@ -86,7 +86,7 @@ onmessage = async function(msg) {
     concepts = await filterAndSort(msg.data);
   } catch (e) {
     console.error(e);
-    postMessage({ error: "Failed to fetch concepts, please reload & try again!" });
+    postMessage({ error: "Failed to fetch concepts, please <a href='javascript:window.location.reload();'>reload</a> & try again!" });
     throw e;
     return;
   }

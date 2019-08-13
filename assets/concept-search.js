@@ -219,20 +219,21 @@
       ];
 
       if (this.state.error) {
-        els.push(el(
-          'div',
-          { key: 'search-results', className: 'search-results status-message error' },
-          this.state.error));
+        els.push(el('div', {
+          key: 'search-results',
+          className: 'search-results status-message error',
+          dangerouslySetInnerHTML: { __html: this.state.error },
+        }));
       } else if (this.state.loading) {
-        els.push(el(
-          'div',
-          { key: 'search-results', className: 'search-results status-message loading' },
-          'Loading…'));
+        els.push(el('div', {
+          key: 'search-results',
+          className: 'search-results status-message loading',
+        }, 'Loading…'));
       } else if (this.state.expanded) {
-        els.push(el(
-          'div',
-          { key: 'search-results', className: 'search-results' },
-          el(ConceptList, { items: this.state.items, fields })));
+        els.push(el('div', {
+          key: 'search-results',
+          className: 'search-results',
+        }, el(ConceptList, { items: this.state.items, fields })));
       }
 
       return el(React.Fragment, null, els);

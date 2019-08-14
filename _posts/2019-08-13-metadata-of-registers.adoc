@@ -1,0 +1,28 @@
+---
+layout: custom-post
+title:  "Translated terms now indicate origin information"
+date:   2019-08-13 17:30:00 +0800
+categories: update
+---
+
+With the latest update of Geolexica, we are happy to announce that
+origin information is now provided for every translated term.
+
+The MLGT contains multiple registers (each in accordance with ISO 19135),
+counting one per language.
+
+As all terminology entries in Geolexica are imported directly from the MLGT,
+we are now also able to import the metadata of the individual registers from within
+the MLGT.
+
+All Geolexica included registers are shown on the link:/registers/[Registers] page
+
+On an individual concept page, under each term, you will now see a
+row labeled "ORIGIN" displaying the origin information. The 
+"ORIGIN" row contains the name of the register the term was sourced from,
+and provides a link to examine more information about each register.
+
+Specific contact information of the custodial organizations is not provided
+as we encourage you to use our link:/feedback/[Feedback] link to provide your comments.
+
+We look forward hearing from you on how Geolexica can better serve your needs!

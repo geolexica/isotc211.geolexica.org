@@ -52,6 +52,9 @@ nav:
   - id: registers
     url: /registers
     title: Registers
+  - id: posts
+    url: /posts
+    title: News
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211

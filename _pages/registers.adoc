@@ -23,8 +23,12 @@ Responsible organization name:: {{ lang[1].submitting-organisation-name }}
 Responsible organization contact:: {{ lang[1].submitting-organisation-contact }}
 
 {% assign uri = lang[1].uniform-resource-identifier-uri %}
-{% unless uri == "" or uri == nil %}
+{% unless uri == "" or uri == nil or uri contains "URI" %}
+{% if uri contains '://' %}
 Responsible organization URI:: link:{{ uri }}[{{ uri }}]
+{% else %}
+Responsible organization URI:: link:{{ uri | prepend: "http://" }}[{{ uri }}]
+{% endif %}
 {% endunless %}
 
 Description:: {{ lang[1].content-summary }}

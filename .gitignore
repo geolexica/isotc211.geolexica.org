@@ -3,8 +3,13 @@ _site
 .jekyll-metadata
 .saas-cache
 .DS_Store
+
+# These are generated from the tc211-termbase gem
 _concepts
 concepts_data
-tc211-termbase.yaml
+tc211-termbase*.yaml
 tc211-termbase.xlsx
 
+# These are generated from the Makefile
+_data/info.yaml
+_data/metadata.yaml

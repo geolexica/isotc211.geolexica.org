@@ -3,26 +3,4 @@ layout: default
 bodyClass: home
 ---
 
-<section class="browse-concepts">
-  <h2 class="section-title">Concepts</h2>
-  <a href="/concepts/" class="browse-concepts">Browse concepts</a>
-</section>
-
-<section class="news">
-  <h2 class="section-title">News</h2>
-
-  <div class="items">
-    {% for post in site.posts %}
-      {% include newsroll-entry.html %}
-    {% endfor %}
-  </div>
-</section>
-
-<script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@^16/umd/react-dom.production.min.js"></script>
-<script src="{{ "/assets/concept-search.js" | relative_url }}"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-<script src="{{ "/assets/algolia-search.js" | relative_url }}"></script>
+{{ content }}

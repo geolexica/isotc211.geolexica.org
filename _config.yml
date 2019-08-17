@@ -8,6 +8,8 @@ committee:
   name: Geographic information/Geomatics
   home: https://committee.iso.org/home/tc211
 
+font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
+
 has_brand_name: yes
 always_show_committee_link_on_landing: yes
 

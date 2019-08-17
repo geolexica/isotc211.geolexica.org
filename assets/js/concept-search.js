@@ -1,6 +1,6 @@
 (function () {
 
-  const searchWorker = new Worker('/assets/concept-search-worker.js');
+  const searchWorker = new Worker('/assets/js/concept-search-worker.js');
 
   // TODO: Move to a shared module
   const LANGUAGES = [

@@ -71,6 +71,8 @@ GEM
       jekyll (~> 3.3)
     jekyll-feed (0.12.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-plugin-frontend-build (0.0.1)
+      jekyll (~> 3.8)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
@@ -161,6 +163,7 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-data
   jekyll-feed (~> 0.6)
+  jekyll-plugin-frontend-build
   jekyll-theme-isotc211 (~> 0.5.0)
   jekyll-theme-isotc211-helpers (~> 0.5.0)
   tc211-termbase

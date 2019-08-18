@@ -10,7 +10,7 @@ gem "jekyll-theme-isotc211", "~> 0.5.0"
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
   gem "jekyll-theme-isotc211-helpers", "~> 0.5.0"
-  gem "jekyll-plugin-frontend-build"
+  gem "jekyll-plugin-frontend-build", "~> 0.0.2"
   gem "jekyll-data"
   gem "jekyll-algolia"
   gem "jekyll-asciidoc"

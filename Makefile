@@ -25,7 +25,9 @@ clean:
 distclean: clean
 	rm -rf concepts_data concepts tc211-termbase.yaml tc211-termbase.xlsx _data/metadata.yaml _data/info.yaml
 
-_site: _data/metadata.yaml _data/info.yaml _concepts | bundle
+data: _data/metadata.yaml _data/info.yaml _concepts
+
+_site: data | bundle
 	bundle exec jekyll build
 
 bundle:
@@ -72,5 +74,4 @@ update-init:
 update-modules:
 	git submodule foreach git pull origin master
 
-.PHONY: bundle all open serve distclean clean update-init update-modules
-
+.PHONY: data bundle all open serve distclean clean update-init update-modules

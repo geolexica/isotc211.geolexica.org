@@ -1,6 +1,18 @@
 ---
 layout: home
 bodyClass: home
+
+extra_stylesheets:
+  - href: https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css
+  - href: https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css
+
+extra_scripts:
+  - src: https://unpkg.com/react@^16/umd/react.production.min.js
+  - src: https://unpkg.com/react-dom@^16/umd/react-dom.production.min.js
+  - src: /assets/js/concept-search.js
+
+  - src: https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js
+  - src: /assets/algolia-search.js
 ---
 
 <section class="browse-concepts">
@@ -17,12 +29,3 @@ bodyClass: home
     {% endfor %}
   </div>
 </section>
-
-<script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
-<script src="https://unpkg.com/react-dom@^16/umd/react-dom.production.min.js"></script>
-<script src="{{ "/assets/js/concept-search.js" | relative_url }}"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.js"></script>
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch.min.css">
-<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/instantsearch.js@2.6.0/dist/instantsearch-theme-algolia.min.css">
-<script src="{{ "/assets/js/algolia-search.js" | relative_url }}"></script>

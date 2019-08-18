@@ -34,7 +34,7 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | relative_url }}" />
 
-  {% if site.google_analytics %}
+  {% if jekyll.environment == 'production' and site.google_analytics %}
     <script src="{{ "/assets/js/ga.js" | relative_url }}"></script>
   {% endif %}
 

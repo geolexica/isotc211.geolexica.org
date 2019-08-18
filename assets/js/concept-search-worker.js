@@ -1,3 +1,5 @@
+importScripts('/assets/js/babel-polyfill.js');
+
 const CONCEPTS_URL = '/api/concepts-index-list.json';
 
 const LANGUAGES = [

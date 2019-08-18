@@ -77,12 +77,12 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-theme-isotc211 (0.5.0)
+    jekyll-theme-isotc211 (0.5.1)
       jekyll (~> 3.8)
       jekyll-data (~> 1.0)
       jekyll-seo-tag (~> 2.0)
-      jekyll-theme-isotc211-helpers (~> 0.5.0)
-    jekyll-theme-isotc211-helpers (0.5.0)
+      jekyll-theme-isotc211-helpers (~> 0.5.1)
+    jekyll-theme-isotc211-helpers (0.5.1)
       jekyll (~> 3.8)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
@@ -164,8 +164,8 @@ DEPENDENCIES
   jekyll-data
   jekyll-feed (~> 0.6)
   jekyll-plugin-frontend-build (~> 0.0.2)
-  jekyll-theme-isotc211 (~> 0.5.0)
-  jekyll-theme-isotc211-helpers (~> 0.5.0)
+  jekyll-theme-isotc211 (~> 0.5.1)
+  jekyll-theme-isotc211-helpers (~> 0.5.1)
   tc211-termbase
   tzinfo-data
 

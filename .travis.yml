@@ -43,6 +43,7 @@ before_install:
   - make update-init update-modules
 before_script:
   - bundle
+  - npm install
 install:
 script:
   - make _site

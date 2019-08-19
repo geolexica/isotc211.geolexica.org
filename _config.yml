@@ -42,21 +42,24 @@ nav:
   - id: concepts
     url: /concepts
     title: Concepts
+    description: List of all concepts
+  - id: posts
+    url: /posts
+    title: News & Articles
+  - id: registers
+    url: /registers
+    title: Registers
+    description: Language registries of the Multi-Lingual Glossary of Terms
   - id: stats
     url: /stats
     title: Statistics
+    description: Per-language term statistics
   - id: about
     url: /about
     title: About
   - id: feedback
     url: /feedback
     title: Feedback
-  - id: registers
-    url: /registers
-    title: Registers
-  - id: posts
-    url: /posts
-    title: News
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211

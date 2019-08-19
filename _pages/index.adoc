@@ -1,7 +1,7 @@
 ---
 layout: custom-home
 permalink: /
-nav_items: [concepts, stats, about, posts, feedback, registers]
+nav_items: [about, stats, feedback, registers]
 ---
 :page-liquid:
 

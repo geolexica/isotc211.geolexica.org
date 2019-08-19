@@ -127,7 +127,10 @@
       return el('table', null, [
 
         el('thead', { key: 'thead' }, el('tr', null, this.props.fields.map((field) => {
-          return el('th', { key: field.name }, field.title);
+          return el('th', {
+            className: `field-${field.name}`,
+            key: field.name,
+          }, field.title);
         }))),
 
         el('tbody', { key: 'tbody' }, this.props.items.map((item) => {
@@ -148,8 +151,10 @@
                 const view = field.view;
                 const defaultView = (item) => { return item[field.name]; };
                 return el(
-                  'td',
-                  { key: `${conceptId}-${item.language_code}-${field.name}` },
+                  'td', {
+                    className: `lang-${item.language_code} field-${field.name}`,
+                    key: `${conceptId}-${item.language_code}-${field.name}`,
+                  },
                   (view || defaultView)(item));
               })
             );

@@ -42,13 +42,16 @@ body.concept {
       // Single-paragraph
       margin: 0;
     }
-    .field-value > :first-child {
+
+    div.field-value {
       // Multi-paragraph
-      margin-top: 0;
-    }
-    .field-value .warning {
-      color: red;
-      font-style: italic;
+    	> :first-child {
+        margin-top: 0;
+      }
+      .warning {
+        color: red;
+        font-style: italic;
+      }
     }
 
     ul.labels {

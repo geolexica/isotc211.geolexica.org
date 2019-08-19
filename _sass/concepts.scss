@@ -3,31 +3,9 @@ body.concepts {
     font-weight: normal;
   }
 
-  .ulist ul {
-    display: flex;
-    flex-wrap: wrap;
-    margin: -0.5em;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-
-    > li {
-      padding: 1em;
-      border-top: 2px solid #f0f0f0;
-      flex: 1 0 8em;
-      margin: 0.5em 1em 0 0;
-      overflow: hidden;
-
-      p {
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
-        text-overflow: ellipsis;
-
-        a {
-          text-decoration: none;
-        }
-      }
+  .all-concepts {
+    table {
+      @include concept-table();
     }
   }
 }

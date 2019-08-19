@@ -82,40 +82,7 @@ body.home {
         background: white;
 
         table {
-          width: 100%;
-          font-size: 90%;
-
-          tr.main {
-            font-weight: bold;
-            td {
-              border-top: 2px solid #f0f0f0;
-            }
-            &:first-child td {
-              border-top: 0;
-            }
-          }
-
-          td, th {
-            padding: .5em;
-            &:nth-child(1) { // Term ID
-              width: 4em;
-            }
-            &:nth-child(2) { // Language
-              width: 3em;
-            }
-          }
-
-          th {
-            background: #f7f7f7;
-            font-weight: bold;
-            text-align: left;
-          }
-
-          td {
-            a {
-              text-decoration: none;
-            }
-          }
+          @include concept-table();
         }
       }
     }

@@ -115,17 +115,28 @@ term_languages:
   - swe
 
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - Makefile
-  - deploy.sh
   - "*.xlsx"
   - "*.yaml"
   - concepts_data
   - mlgt-data
+
+  - Gemfile
+  - Gemfile.lock
+  - Makefile
+
+  - babel.config.js
+  - package.json
+  - package-lock.json
+  - monitor.sh
   - node_modules
+
+  - github_deploy_key.enc
+  - deploy.sh
+  - monitor.sh
+
+  - .sass-cache/
+
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
-  - .sass-cache/

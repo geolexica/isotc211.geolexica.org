@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    name: Build and deploy site
+    name: Build site
     runs-on: ubuntu-latest
     steps:
       - name: Setup prerequisites
@@ -23,6 +23,15 @@ jobs:
         with:
           ruby-version: '2.6'
           architecture: 'x64'
+      - uses: actions/checkout@master
+      - name: Setup git submodules (authenticated)
+        env:
+          MLGT_DATA_DEPLOY_KEY: ${{ secrets.MLGT_DATA_DEPLOY_KEY }}
+          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
+        run: |
+          eval "$(ssh-agent -s)"
+          ssh-add - <<< "${MLGT_DATA_DEPLOY_KEY}"
+          make update-init update-modules
       - name: Update gems
         run: |
           gem install bundler -v "~> 2"
@@ -30,16 +39,10 @@ jobs:
       - name: Setup npm
         run: |
           npm install
-      - name: Run specs
-        run: |
-          bundle exec rake
-      - uses: actions/checkout@master
-      - name: Setup git submodules
-        run: |
-          make update-init update-modules
       - name: Build site
         run: |
           make _site
+
 
       - name: Deploy to geolexica.org
         env:

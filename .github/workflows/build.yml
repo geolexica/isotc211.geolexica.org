@@ -27,6 +27,10 @@ jobs:
         with:
           ruby-version: '2.6'
           architecture: 'x64'
+      - uses: actions/checkout@master
+      - name: Setup git submodules
+        run: |
+          make update-init update-modules
       - name: Update gems
         run: |
           gem install bundler -v "~> 2"
@@ -34,13 +38,6 @@ jobs:
       - name: Setup npm
         run: |
           npm install
-      - name: Run specs
-        run: |
-          bundle exec rake
-      - uses: actions/checkout@master
-      - name: Setup git submodules
-        run: |
-          make update-init update-modules
       - name: Build site
         run: |
           make _site

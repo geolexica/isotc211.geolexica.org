@@ -28,8 +28,12 @@ jobs:
           ruby-version: '2.6'
           architecture: 'x64'
       - uses: actions/checkout@master
-      - name: Setup git submodules
+      - name: Setup git submodules (authenticated)
+        env:
+          MLGT_DATA_DEPLOY_KEY: ${{ secrets.MLGT_DATA_DEPLOY_KEY }}
         run: |
+          eval "$(ssh-agent -s)"
+          ssh-add - <<< "${MLGT_DATA_DEPLOY_KEY}"
           make update-init update-modules
       - name: Update gems
         run: |

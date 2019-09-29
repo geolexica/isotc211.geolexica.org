@@ -1,8 +1,8 @@
-name: deploy-master
+name: deploy-staging
 
 on:
   push:
-    branches: master
+    branches: staging
 
 jobs:
   build:

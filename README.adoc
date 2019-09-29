@@ -1,7 +1,11 @@
 = Geolexica: ISO/TC 211 Terminology Database
 
-image:https://travis-ci.com/ISO-TC211/geolexica.org.svg?branch=master[
-	Build Status, link="https://travis-ci.com/ISO-TC211/geolexica.org"]
+image:https://github.com/ISO-TC211/geolexica.org/workflows/build/badge.svg["Build Status", link="https://github.com/ISO-TC211/geolexica.org/actions?workflow=build"]
+
+image:https://github.com/ISO-TC211/geolexica.org/workflows/deploy-master/badge.svg["Build Status", link="https://github.com/ISO-TC211/geolexica.org/actions?workflow=deploy-master"]
+
+image:https://github.com/ISO-TC211/geolexica.org/workflows/deploy-staging/badge.svg["Build Status", link="https://github.com/ISO-TC211/geolexica.org/actions?workflow=deploy-staging"]
+
 
 == Introduction
 

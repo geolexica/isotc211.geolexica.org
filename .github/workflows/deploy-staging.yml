@@ -12,7 +12,7 @@ jobs:
       - name: Setup prerequisites
         run: |
           sudo apt-get update
-          sudo apt-get install -y curl make libxml2-dev libxslt-dev npm openssl
+          sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
       - name: Setup snaps
         run: |
           sudo snap install yq
@@ -23,6 +23,10 @@ jobs:
         with:
           ruby-version: '2.6'
           architecture: 'x64'
+      - name: Use Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: '10.x'
       - uses: actions/checkout@master
       - name: Setup git submodules (authenticated)
         env:

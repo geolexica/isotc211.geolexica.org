@@ -3,7 +3,7 @@ layout: base-page
 title: Feedback
 permalink: /feedback/
 bodyClass: page
-nav_items: [concepts, stats, registers, about]
+nav_items: [concepts, posts, stats, registers, about]
 ---
 Please feel free to send your thoughts about Geolexica,
 bug reports, or just kudos, through the form below. Thanks!

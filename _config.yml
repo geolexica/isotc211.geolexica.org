@@ -103,11 +103,11 @@ defaults:
 term_languages:
   - eng
   - ara
-  - chi
+  - chn
   - dan
   - dut
   - fin
-  - fre
+  - fra
   - ger
   - jpn
   - kor

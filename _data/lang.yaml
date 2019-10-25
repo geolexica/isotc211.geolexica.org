@@ -8,7 +8,7 @@ ara:
   lang_en: Arabic
   example: "مثال"
   note_to_entry: "ملاحظة DD:"
-chi:
+chn:
   lang_native: 中文
   lang_en: Chinese
   example: 示例
@@ -28,7 +28,7 @@ fin:
   lang_en: Finnish
   example: ESIM.
   note_to_entry: "HUOM. DD:"
-fre:
+fra:
   lang_native: français
   lang_en: French
   example: EXEMPLE
@@ -48,7 +48,7 @@ kor:
   lang_en: Korean
   example: 보기
   note_to_entry: "비고 DD:"
-may:
+msa:
   lang_native: Bahasa melayu
   lang_en: Malay
   example: Contoh

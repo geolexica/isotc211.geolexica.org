@@ -65,7 +65,7 @@ GEM
       sass (~> 3.4)
     jekyll-seo-tag (2.6.1)
       jekyll (>= 3.3, < 5.0)
-    jekyll-theme-isotc211 (0.5.4)
+    jekyll-theme-isotc211 (0.5.8)
       jekyll (~> 3.8)
       jekyll-data (~> 1.0)
       jekyll-seo-tag (~> 2.0)
@@ -91,7 +91,7 @@ GEM
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
-    relaton (0.5.7)
+    relaton (0.5.8)
       relaton-gb (~> 0.6.0)
       relaton-iec (~> 0.4.0)
       relaton-ietf (~> 0.6.0)
@@ -151,7 +151,7 @@ DEPENDENCIES
   jekyll-data
   jekyll-feed (~> 0.6)
   jekyll-plugin-frontend-build (~> 0.0.2)
-  jekyll-theme-isotc211 (~> 0.5.4)
+  jekyll-theme-isotc211 (~> 0.5.8)
   jekyll-theme-isotc211-helpers (~> 0.5.4)
   tc211-termbase
   tzinfo-data

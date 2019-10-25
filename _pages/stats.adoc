@@ -1,7 +1,7 @@
 ---
 permalink: "/stats/index.html"
 layout: base-page
-nav_items: [concepts, feedback, registers, about]
+nav_items: [concepts, posts, feedback, registers, about]
 bodyClass: page
 title: Statistics
 ---

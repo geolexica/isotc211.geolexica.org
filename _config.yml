@@ -86,6 +86,10 @@ collections:
     output: true
     output_ext: .json
     permalink: /api/concepts/:name.json
+  concepts_jsonld:
+    output: true
+    output_ext: .jsonld
+    permalink: /api/concepts/:name.ldjson
 
 defaults:
   - scope:
@@ -99,6 +103,12 @@ defaults:
     values:
       layout: concept.json
       permalink: /api/concepts/:name.json
+  - scope:
+      path: ""
+      type: "concepts_jsonld"
+    values:
+      layout: concept-skos.json
+      permalink: /api/concepts/:name.jsonld
 
 term_languages:
   - eng

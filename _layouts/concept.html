@@ -173,6 +173,13 @@ term_attributes:
   <p class="field-value"><a href="{{ json_url }}">{{ json_url }}</a></p>
 </section>
 
+{% assign json_concept = site.concepts_jsonld | where: 'termid', page.termid | first %}
+{% assign json_url = json_concept.url %}
+<section class="field json">
+  <p class="field-name">SKOS in JSON-LD</p>
+  <p class="field-value"><a href="{{ json_url }}">{{ json_url }}</a></p>
+</section>
+
 <section class="field info">
   <p class="field-name">info</p>
   <div class="field-value">

@@ -132,6 +132,11 @@
   rdfs:label "Chinese Register Origin" ;
   skos:prefLabel "Chinese Register Origin" ;
 .
+:classification
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "classification" ;
+  skos:prefLabel "classification" ;
+.
 :danOrigin
   rdf:type owl:ObjectProperty ;
   rdfs:label "Dansk Register Origin" ;
@@ -201,6 +206,11 @@
   rdf:type owl:ObjectProperty ;
   rdfs:label "Spanish Register Origin" ;
   skos:prefLabel "Spanish Register Origin" ;
+.
+:status
+  rdf:type owl:ObjectProperty ;
+  rdfs:label "status" ;
+  skos:prefLabel "status" ;
 .
 :sweOrigin
   rdf:type owl:ObjectProperty ;

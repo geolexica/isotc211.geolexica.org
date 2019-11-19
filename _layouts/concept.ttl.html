@@ -40,11 +40,11 @@ layout: null
 {%- endfor %}
   rdf-profile:termID <{{ page.url }}> ;
   rdfs:label "closure" ;
-  skos:notation: {{ page.termid }} ;
+  skos:notation {{ page.termid }} ;
 {%- for lang in site.term_languages %}
 {%- assign localized_term = page[lang] -%}
 {%- if localized_term.definition %}
-  skos:definition:"{{ localized_term.definition | escape }}"@{{ site.data.lang[lang].iso-639-1 }} ;
+  skos:definition "{{ localized_term.definition | escape }}"@{{ site.data.lang[lang].iso-639-1 }} ;
 {%- endif %}
 {%- endfor %}
   skos:inScheme rdf-profile:GeolexicaConceptScheme ;
@@ -52,33 +52,33 @@ layout: null
 {%- for lang in site.term_languages %}
 {%- assign localized_term = page[lang] -%}
 {%- if localized_term.term %}
-  skos:prefLabel"{{ localized_term.term | escape }}"@{{ site.data.lang[lang].iso-639-1 }} ;
+  skos:prefLabel "{{ localized_term.term | escape }}"@{{ site.data.lang[lang].iso-639-1 }} ;
 {%- endif %}
 {%- endfor %}
 
 {%- for lang in site.term_languages %}
 {%- assign localized_term = page[lang] -%}
 {%- if localized_term.alt %}
-  skos:altLabel"{{ localized_term.alt | escape }}"@{{ site.data.lang[lang].iso-639-1 }} ;
+  skos:altLabel "{{ localized_term.alt | escape }}"@{{ site.data.lang[lang].iso-639-1 }} ;
 {%- endif %}
 {%- endfor %}
 
 {%- if concept.date_accepted %}
-  dcterms:dateAccepted"{{ concept.date_accepted | date: "%F" }}" ;
+  dcterms:dateAccepted "{{ concept.date_accepted | date: "%F" }}" ;
 {%- endif %}
 
 {%- if concept.date_amended %}
-  dcterms:modified"{{ concept.date_amended | date: "%F" }}" ;
+  dcterms:modified "{{ concept.date_amended | date: "%F" }}" ;
 {%- endif %}
 
 {%- assign term_status = concept.entry_status -%}
 {%- if concept.entry_status %} ;
-  status"{{ concept.entry_status | escape }}"
+  :status "{{ concept.entry_status | escape }}" ;
 {%- endif %}
 
 {%- assign classification = concept.classification -%}
 {%- if concept.classification %}
-  classification"{{ concept.classification | escape }}" ;
+  :classification "{{ concept.classification | escape }}" ;
 {%- endif %}
 .
 :linked-data-api

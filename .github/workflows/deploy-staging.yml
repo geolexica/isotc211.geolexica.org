@@ -57,9 +57,9 @@ jobs:
           S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME_STAGING }}
         run: |
           aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.html" --content-type "text/html; charset=utf-8"
-          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.json" --content-type "text/json; charset=utf-8"
-          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.jsonld" --content-type "text/ld+json; charset=utf-8"
-          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.jsonld" --content-type "text/turtle; charset=utf-8"
-          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*.html,*.json,*.jsonld,*.ttl" --include "*"
+          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.json" --content-type "application/json; charset=utf-8"
+          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.jsonld" --content-type "application/ld+json; charset=utf-8"
+          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --exclude "*" --include "*.ttl" --content-type "text/turtle; charset=utf-8"
+          aws s3 sync _site s3://$S3_BUCKET_NAME --region=$AWS_REGION --delete --no-progress --include "*" --exclude "*.html" --exclude "*.json" --exclude "*.jsonld" --exclude "*.ttl"
           aws configure set preview.cloudfront true
           aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"

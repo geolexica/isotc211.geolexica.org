@@ -111,13 +111,13 @@ defaults:
       path: ""
       type: "concepts_jsonld"
     values:
-      layout: concept-skos.json
+      layout: concept.jsonld
       permalink: /api/concepts/:name.jsonld
   - scope:
       path: ""
       type: "concepts_ttl"
     values:
-      layout: concept-skos.ttl
+      layout: concept.ttl
       permalink: /api/concepts/:name.ttl
 
 term_languages:

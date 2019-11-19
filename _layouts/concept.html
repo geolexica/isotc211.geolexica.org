@@ -180,6 +180,13 @@ term_attributes:
   <p class="field-value"><a href="{{ json_url }}">{{ json_url }}</a></p>
 </section>
 
+{% assign ttl_concept = site.concepts_ttl | where: 'termid', page.termid | first %}
+{% assign ttl_url = ttl_concept.url %}
+<section class="field ttl">
+  <p class="field-name">SKOS in RDF</p>
+  <p class="field-value"><a href="{{ ttl_url }}">{{ ttl_url }}</a></p>
+</section>
+
 <section class="field info">
   <p class="field-name">info</p>
   <div class="field-value">

@@ -89,7 +89,11 @@ collections:
   concepts_jsonld:
     output: true
     output_ext: .jsonld
-    permalink: /api/concepts/:name.ldjson
+    permalink: /api/concepts/:name.jsonld
+  concepts_ttl:
+    output: true
+    output_ext: .ttl
+    permalink: /api/concepts/:name.ttl
 
 defaults:
   - scope:
@@ -109,6 +113,12 @@ defaults:
     values:
       layout: concept-skos.json
       permalink: /api/concepts/:name.jsonld
+  - scope:
+      path: ""
+      type: "concepts_ttl"
+    values:
+      layout: concept-skos.ttl
+      permalink: /api/concepts/:name.ttl
 
 term_languages:
   - eng

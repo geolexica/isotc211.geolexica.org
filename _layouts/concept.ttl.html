@@ -5,6 +5,7 @@ layout: null
 {%- assign rdfprofile = "/api/rdf-profile" -%}
 {%- assign concept_html = site.concepts | where: 'termid', page.termid | first -%}
 {%- assign concept_id = concept_html.url -%}
+{%- assign english = page["eng"] -%}
 # baseURI: "{{ concept_id }}"
 # imports: http://purl.org/dc/terms/
 # imports: https://www.geolexica.org/api/rdf-profile
@@ -39,7 +40,7 @@ layout: null
 {%- endif %}
 {%- endfor %}
   rdf-profile:termID <{{ page.url }}> ;
-  rdfs:label "closure" ;
+  rdfs:label "{{ english.term | escape }}" ;
   skos:notation {{ page.termid }} ;
 {%- for lang in site.term_languages %}
 {%- assign localized_term = page[lang] -%}
@@ -72,7 +73,7 @@ layout: null
 {%- endif %}
 
 {%- assign term_status = concept.entry_status -%}
-{%- if concept.entry_status %} ;
+{%- if concept.entry_status %}
   :status "{{ concept.entry_status | escape }}" ;
 {%- endif %}
 

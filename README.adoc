@@ -140,6 +140,10 @@ It is not a community-managed or community-sourced terminology database.
 
 NOTE: These steps are only intended for the internal operator of the site!
 
+Running the build with make will cause concept data to be fetched
+and migrated from legacy sources into Geolexica format.
+Relevant steps require `yq` binary to be available on the machine.
+
 === Building the index
 
 [source,sh]

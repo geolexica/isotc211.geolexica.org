@@ -19,6 +19,26 @@ The site is managed by the ISO/TC 211 TMG together with Ribose.
 NOTE: This repository is only meant for internal consumption!
 
 
+== How to add/remove entries or suggest changes?
+
+For change suggestions, contact ISO/TC 211 TMG.
+
+This terminology database is managed by the ISO/TC 211 TMG, and it only considers
+requests from within ISO/TC 211. The database is not directly community-managed or community-sourced.
+
+
+=== Change workflow overview
+
+. If a change is approved, TMG publishes the change in a new version of ISO/TC 211 "`Multi-Lingual Glossary of Terms`".
+
+. TMG uploads the new MLGT version to mlgt-data repository.
+
+. After MLGT is uploaded, a database snapshot is created in geolexica-database repository.
+
+. After new snapshot of the database is committed to geolexica-database,
+  ISO/TC 211’s Geolexica.org is deployed with the latest database version.
+
+
 == Structure (and how it works)
 
 === General
@@ -107,7 +127,6 @@ authoritative_source: ISO 1087-1:2000, 3.4.9
 
 === Rendering of HTML
 
-
 Jekyll is used to render YAML into HTML.
 
 NOTE: Since Jekyll Collections have this flaw where YAML files can't be directly
@@ -115,45 +134,16 @@ rendered, a hack is implemented in the Makefile `_concepts` target,
 so that every YAML file is converted into AsciiDoc by padding `---` at the end.
 
 
-== Usage
-
-
-=== How to add/remove entries or suggest changes?
-
-This terminology database is managed by the ISO/TC 211 TMG, it only considers
-requests from within ISO/TC 211.
-
-It is not a community-managed or community-sourced terminology database.
-
-. Contact the ISO/TC 211 TMG.
-
-. If a change is approved, they will publish the change in the new ISO/TC 211 "`Multi-Lingual Glossary of Terms`".
-
-. The TMG will manually upload the new MLGT to this repository.
-
-. Once the new MLGT is uploaded, the Geolexica site will be automatically deployed with the latest changes.
-.. (i.e. On the next run of `make clean all` you will see the entry added.)
-
-
-
 == Internal operations
 
 NOTE: These steps are only intended for the internal operator of the site!
 
-Running the build with make will cause concept data to be fetched
-and migrated from legacy sources into Geolexica format.
-Relevant steps require `yq` binary to be available on the machine.
 
-=== Building the index
+=== Building the site
 
-[source,sh]
-----
-# removes all generated CSD files
-make dist-clean
+. Ensure geolexica-database submodule is up-to-date.
 
-# generates all required files for Jekyll and runs `jekyll build`
-make _site
-----
+. Run ``make _site``
 
 
 === Deployment
@@ -161,4 +151,3 @@ make _site
 Please push all changes to the `staging` branch, and changes will be automatically deployed and reflected on the staging site.
 
 If your changes are to be made public to the production site, please contact Ribose.
-

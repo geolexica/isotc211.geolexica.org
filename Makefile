@@ -29,15 +29,15 @@ _site: data | bundle
 bundle:
 	bundle
 
-_data/info.yaml: geolexica-database/tc211-termbase.meta.yaml
-	cp -f $< $@
+_data/info.yaml:
+	cp -f geolexica-database/tc211-termbase.meta.yaml $@
 
 # Make collection YAML files into adoc files
 _concepts:
 	mkdir -p $@
 	for filename in geolexica-database/concepts/*.yaml; do \
 	    [ -e "$$filename" ] || continue; \
-			newpath=$${filename//$<\/concept-/$@\/}; \
+			newpath=$${filename//geolexica-database\/concepts\/concept-/$@\/}; \
 	    cp $$filename $${newpath//yaml/adoc}; \
 			echo "---" >> $${newpath//yaml/adoc}; \
 	done

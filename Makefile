@@ -6,10 +6,6 @@
 # CSD_YAML := $(patsubst %.xml,%.yaml,$(CSD_SRC))
 # RELATON_CSD_RXL := $(addprefix relaton-csd/, $(notdir $(CSD_SRC)))
 
-SHELL := /bin/bash
-TERMBASE_VERSION := $(shell yq r metadata.yaml version)
-TERMBASE_XLSX_PATH := $(shell yq r metadata.yaml filename)
-
 # NAME_ORG := "CalConnect : The Calendaring and Scheduling Consortium"
 # CSD_REGISTRY_NAME := "CalConnect Document Registry: Standards"
 # ADMIN_REGISTRY_NAME := "CalConnect Document Registry: Administrative Documents"
@@ -23,9 +19,9 @@ clean:
 	rm -rf _site _concepts
 
 distclean: clean
-	rm -rf concepts_data concepts tc211-termbase.yaml tc211-termbase.xlsx _data/metadata.yaml _data/info.yaml
+	rm -rf _data/info.yaml
 
-data: _data/metadata.yaml _data/info.yaml _concepts
+data: _data/info.yaml _concepts
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -33,25 +29,13 @@ _site: data | bundle
 bundle:
 	bundle
 
-_data/metadata.yaml:
-	mkdir -p _data; \
-	cp metadata.yaml $@
-
-_data/info.yaml: tc211-termbase.meta.yaml
+_data/info.yaml: geolexica-database/tc211-termbase.meta.yaml
 	cp -f $< $@
 
-tc211-termbase.xlsx:
-	cp '${TERMBASE_XLSX_PATH}' tc211-termbase.xlsx
-
-tc211-termbase.yaml tc211-termbase.meta.yaml concepts_data: tc211-termbase.xlsx
-	bundle exec tc211-termbase-xlsx2yaml $<; \
-	rm -rf concepts_data; \
-	mv concepts concepts_data;
-
 # Make collection YAML files into adoc files
-_concepts: concepts_data
+_concepts:
 	mkdir -p $@
-	for filename in $</*.yaml; do \
+	for filename in geolexica-database/concepts/*.yaml; do \
 	    [ -e "$$filename" ] || continue; \
 			newpath=$${filename//$<\/concept-/$@\/}; \
 	    cp $$filename $${newpath//yaml/adoc}; \

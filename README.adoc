@@ -11,8 +11,7 @@ image:https://github.com/ISO-TC211/geolexica.org/workflows/deploy-staging/badge.
 
 Geolexica is the site name of the online version of the ISO/TC 211 Multi Lingual Glossary of Terms.
 
-This repository provides all necessary information for the
-https://www.geolexica.org site. (not yet complete)
+This repository contains the source of the https://www.geolexica.org site.
 
 The site is managed by the ISO/TC 211 TMG together with Ribose.
 
@@ -27,111 +26,51 @@ This terminology database is managed by the ISO/TC 211 TMG, and it only consider
 requests from within ISO/TC 211. The database is not directly community-managed or community-sourced.
 
 
-=== Change workflow overview
+== ISO/TC 211 MLGT component overview
 
-. If a change is approved, TMG publishes the change in a new version of ISO/TC 211 "`Multi-Lingual Glossary of Terms`".
+Components involved in ISO/TC 211 MLGT solution:
+
+. Geolexica.org: **this repository**.
+  Renders Geolexica database into HTML, JSON-LD and other Web-friendly formats.
+
+. Geolexica database:
+  see https://github.com/geolexica/geolexica-database[geolexica/geolexica-database].
+  Hosts all concept data in YAML;
+  bundles facilities for converting authoritative spreadsheet data into YAML.
+  Candidate to become authoritative source, contingent upon factual usage of Glossarist by TMG.
+
+. Glossarist desktop application:
+  see https://github.com/geolexica/osgeo-glossarist[geolexica/osgeo-glossarist].
+  Used to manage the Geolexica database.
+
+. Manually managed XLST spreadsheets:
+  see https://github.com/ISO-TC211/mlgt-data[ISO-TC211/mlgt-data].
+  Currently the authoritative source, being phased out in favor of Geolexica database.
+
+
+=== Change lifecycle (1.0, current)
+
+. Requested changes are directed to ISO/TC 211 TMG.
+
+. When a change is approved, TMG publishes a new version of ISO/TC 211 "`Multi-Lingual Glossary of Terms`".
 
 . TMG uploads the new MLGT version to mlgt-data repository.
 
-. After MLGT is uploaded, a database snapshot is created in geolexica-database repository.
+. From the updated mlgt-data, a new snapshot of the database is created in geolexica-database repository.
 
 . After new snapshot of the database is committed to geolexica-database,
   ISO/TC 211’s Geolexica.org is deployed with the latest database version.
 
 
-== Structure (and how it works)
+=== Change lifecycle (2.0, near future)
 
-=== General
+. Requested changes are directed to ISO/TC 211 TMG.
 
-There are two types of entries in this site:
+. Adding, updating, approving concepts & terms in ISO/TC 211 Geolexica database
+  is done by TMG using the desktop application under development.
 
-. Concepts
-
-. Terms, which represent concepts in a certain language
-
-NOTE: Data stored in this structure is read from the latest published
-ISO/TC 211 "`Multi-Lingual Glossary of Terms`". Authoritative data is not
-stored in this repository.
-
-
-=== Multi-Lingual Glossary of Terms
-
-The authoritative source of this online termbase is the Multi-Lingual Glossary of Terms (MLGT) published by ISO/TC 211.
-
-The intermediate file `tc211-termbase.xlsx` is used as the
-direct data source for all concepts and terms in Geolexica.
-
-The source data files are provided in a separate private repository:
-https://github.com/ISO-TC211/mlgt-data[mlgt-data].
-
-The particular MLGT file used for generation is set in the `Makefile`.
-
-This file is necessary for running the `tc211-termbase-xlsx2yaml` command.
-
-
-=== Concepts
-
-Every concept is recognized by a unique ID (the "`term id`"), and contains terms
-in different languages.
-
-Here's an example of it from the `_concepts/` directory (which has to be built).
-
-[source,yaml]
-----
-eng:
-  id: 2
-  term: abbreviation
-  alt: preferred
-  definition: designation formed by omitting words or letters from a longer form and
-    designating the same concept
-  language_code: eng
-  notes: []
-  examples: []
-  entry_status: valid
-  authoritative_source: ISO 1087-1:2000, 3.4.9
-  lineage_source: ISO/TS 19104:2008
-  lineage_source_similarity: 1
-  date_accepted: 2008-11-15 00:00:00.000000000 +08:00
-  review_date: 2013-01-29 00:00:00.000000000 +08:00
-  review_status: final
-  review_decision: accepted
-  review_decision_date: 2016-10-01 00:00:00.000000000 +08:00
-  review_decision_event: Publication of ISO 19104:2016
-  review_decision_notes: Authoritative reference changed from ISO 1087-1:2000 to ISO
-    1087-1:2000, 3.4.9. Lineage source added as ISO/TS 19104:2008
-  release: '2'
-ara:
-  ...
-----
-
-
-=== Term
-
-A term contains multiple attributes, such as:
-
-[source,yaml]
-----
-id: 2
-term: abbreviation
-alt: preferred
-definition: designation formed by omitting words or letters from a longer form and
-  designating the same concept
-language_code: eng
-notes: []
-examples: []
-entry_status: valid
-authoritative_source: ISO 1087-1:2000, 3.4.9
-...
-----
-
-
-=== Rendering of HTML
-
-Jekyll is used to render YAML into HTML.
-
-NOTE: Since Jekyll Collections have this flaw where YAML files can't be directly
-rendered, a hack is implemented in the Makefile `_concepts` target,
-so that every YAML file is converted into AsciiDoc by padding `---` at the end.
+. As changes are made, new versions of Geolexica database are created,
+  and ISO/TC 211’s Geolexica.org is deployed with the latest database version.
 
 
 == Internal operations
@@ -151,3 +90,12 @@ NOTE: These steps are only intended for the internal operator of the site!
 Please push all changes to the `staging` branch, and changes will be automatically deployed and reflected on the staging site.
 
 If your changes are to be made public to the production site, please contact Ribose.
+
+
+=== Rendering of HTML
+
+Jekyll is used to render YAML into HTML.
+
+NOTE: Since Jekyll Collections have this flaw where YAML files can't be directly
+rendered, a hack is implemented in the Makefile `_concepts` target,
+so that every YAML file is converted into AsciiDoc by padding `---` at the end.

@@ -30,7 +30,7 @@ jobs:
       - uses: actions/checkout@master
       - name: Setup git submodules (authenticated)
         env:
-          MLGT_DATA_DEPLOY_KEY: ${{ secrets.MLGT_DATA_DEPLOY_KEY }}
+          MLGT_DATA_DEPLOY_KEY: ${{ secrets.GEOLEXICA_DATABASE_DEPLOY_KEY }}
           GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
         run: |
           eval "$(ssh-agent -s)"

@@ -1,3 +1,3 @@
 [submodule "geolexica-database"]
 	path = geolexica-database
-	url = git@github.com:riboseinc/geolexica-database.git
+	url = git@github.com:ISO-TC211/geolexica-database.git

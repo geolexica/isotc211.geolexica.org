@@ -25,8 +25,10 @@ _concepts:
 	pushd $@; \
 	for filename in *.yaml; do \
 	    [ -e "$$filename" ] || continue; \
-	    mv $$filename $${filename//yaml/adoc}; \
-			echo "---" >> $${filename//yaml/adoc}; \
+			NEW_NAME=$${filename//yaml/adoc}; \
+			NEW_NAME=$${NEW_NAME//concept-/}; \
+	    mv $$filename $${NEW_NAME}; \
+			echo "---" >> $${NEW_NAME}; \
 	done; \
 	popd
 

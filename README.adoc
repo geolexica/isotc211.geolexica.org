@@ -39,13 +39,14 @@ Components involved in ISO/TC 211 MLGT solution:
   bundles facilities for converting authoritative spreadsheet data into YAML.
   Candidate to become authoritative source, contingent upon factual usage of Glossarist by TMG.
 
-. Glossarist desktop application:
-  see https://github.com/geolexica/osgeo-glossarist[geolexica/osgeo-glossarist].
-  Used to manage the Geolexica database.
-
-. Manually managed XLST spreadsheets:
+. Manually managed XLST spreadsheets (1.0 workflow):
   see https://github.com/ISO-TC211/mlgt-data[ISO-TC211/mlgt-data].
-  Currently the authoritative source, being phased out in favor of Geolexica database.
+  Currently the authoritative source in 1.0 workflow.
+  Will be phased out in favor of Geolexica database in 2.0.
+
+. Glossarist desktop application (2.0 workflow):
+  see https://github.com/geolexica/geolexica-desktop[geolexica/geolexica-desktop].
+  Will be used to manage the Geolexica database in 2.0 workflow.
 
 
 === Change lifecycle (1.0, current)

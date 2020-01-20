@@ -8,7 +8,7 @@ clean:
 distclean: clean
 	rm -rf _data/info.yaml
 
-data: _data/info.yaml _concepts
+data: _data/info.yaml _data/metadata.yaml _concepts
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -18,6 +18,9 @@ bundle:
 
 _data/info.yaml:
 	cp -f geolexica-database/tc211-termbase.meta.yaml $@
+
+_data/metadata.yaml:
+	cp -f geolexica-database/metadata.yaml $@
 
 # Make collection YAML files into adoc files
 _concepts:

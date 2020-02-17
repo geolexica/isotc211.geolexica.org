@@ -138,6 +138,8 @@ term_languages:
   - swe
 
 exclude:
+  - spec/
+
   - "*.xlsx"
   - "*.yaml"
   - concepts_data

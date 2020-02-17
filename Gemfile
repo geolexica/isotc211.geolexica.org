@@ -15,6 +15,7 @@ end
 
 group :development do
   gem "pry"
+  gem "rspec", "~> 3.9"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

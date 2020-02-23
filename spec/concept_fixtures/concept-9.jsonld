@@ -1,0 +1,87 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "format": "http://purl.org/dc/terms/format",
+    "dateAccepted": "http://purl.org/dc/terms/dateAccepted",
+    "modified": "http://purl.org/dc/terms/modified",
+    "created": "http://purl.org/dc/terms/created",
+    "source": "http://purl.org/dc/terms/source"
+  },
+
+  "@id": "/api/concepts/9.jsonld",
+  "@type": "skos:Concept",
+  "format": "linked-data-api",
+  "skos:notation": "9",
+
+  "skos:prefLabel": [{
+      "@language": "eng",
+      "@value": "actor &lt;UML&gt;"
+    },{
+      "@language": "ara",
+      "@value": "لغة &quot;الممثل&quot; UML"
+    },{
+      "@language": "chn",
+      "@value": "参与者&lt;UML&gt;"
+    },{
+      "@language": "dan",
+      "@value": "aktør &lt;UML&gt;"
+    },{
+      "@language": "fin",
+      "@value": "toimija &lt;UML&gt;"
+    },{
+      "@language": "fra",
+      "@value": "acteur &lt;UML&gt;"
+    },{
+      "@language": "ger",
+      "@value": "Akteur &lt;UML&gt;"
+    },{
+      "@language": "kor",
+      "@value": "행위자 &lt;UML&gt;"
+    },{
+      "@language": "rus",
+      "@value": "действующее лицо &lt;UML&gt;"
+    },{
+      "@language": "spa",
+      "@value": "actor &lt;UML&gt;"
+    },{
+      "@language": "swe",
+      "@value": "aktör &lt;UML&gt;"
+    }],
+
+  "skos:altLabel": [],
+
+  "skos:definition": [{
+      "@language": "eng",
+      "@value": "coherent set of roles that users of use cases play when interacting with these use cases"
+    },{
+      "@language": "ara",
+      "@value": "مجموعة أدوار مترابطة منطقيا يقوم بها مستخدمو أدوات النمذجة عند التفاعل معها ."
+    },{
+      "@language": "chn",
+      "@value": "&lt;UML&gt;当用例的用户与这些用例交互时，所扮演的相关角色的集合。"
+    },{
+      "@language": "dan",
+      "@value": "sammenhængende sæt af roller, som brugere af use cases spiller i forhold til disse use cases"
+    },{
+      "@language": "fin",
+      "@value": "yhtenäinen joukko rooleja, joita käyttäjillä on käyttötapausten toiminnoissa"
+    },{
+      "@language": "fra",
+      "@value": "ensemble cohérent de rôles que les utilisateurs de cas d&#39;utilisation jouent en interagissant avec ces cas d&#39;utilisation"
+    },{
+      "@language": "kor",
+      "@value": "유즈 케이스와 상호 작용 시, 그 유즈 케이스의 사용자가 수행하는 역할의 집합"
+    },{
+      "@language": "rus",
+      "@value": "множество логически связанных  ролей, выполняемых пользователями вариантов использования при взаимодействии с  ними"
+    },{
+      "@language": "spa",
+      "@value": "conjunto coherente de roles que los usuarios de unos casos de uso juegan cuando interaccionan con esos casos de uso"
+    },{
+      "@language": "swe",
+      "@value": "något utanför ett system som växelverkar med systemet genom att delta i ett användningsfall"
+    }],"dateAccepted": "2005-07-15","modified": "2015-12-01","notes": {"eng": [],"ara": [],"chn": [],"dan": [],"fin": [],"ger": [],"kor": [],"rus": [],"spa": [],"swe": []},"examples": {},"source": {"link": "https://www.iso.org/standard/32620.html","clause": "(Adapted from)","ref": "ISO/IEC 19501:2005 "
+  },"status": {
+    "@value": "retired"
+  },"uri": "/api/concepts/9.jsonld"
+}

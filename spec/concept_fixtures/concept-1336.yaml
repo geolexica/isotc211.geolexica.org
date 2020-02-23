@@ -1,0 +1,93 @@
+---
+term: Multipurpose Internet Mail Extensions (MIME) type
+termid: 1336
+eng:
+  id: 1336
+  term: Multipurpose Internet Mail Extensions (MIME) type
+  definition: media type and subtype of data in the body of a message that designates
+    the native representation (canonical form) of such data
+  language_code: eng
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  lineage_source: ISO 19142:2010
+  date_accepted: 2010-12-15 00:00:00.000000000 +08:00
+  release: '2'
+ara:
+  id: 1336
+  term: نوع امتدادات بريد الإنترنت المتعددة الأغراض
+  definition: نوع وسيط إعلامي أو وسيط إعلامي فرعي من البيانات التي تكون في متن رسالة
+    تدل على التمثيل الاصلي (الصيغة المقبولة عرفا وقانونا) لتلك البيانات.
+  language_code: ara
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: 2010-12-15 00:00:00.000000000 +08:00
+  release: '2'
+ger:
+  id: 1336
+  term: Multipurpose Internet Mail Extensions type (MIME Type)
+  definition: Medientyp und Untertyp von Daten im Hauptteil einer Nachricht, der die
+    ursprüngliche Darstellung (kanonische Form) dieser Daten darstellt
+  language_code: ger
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: 2010-12-15 00:00:00.000000000 +08:00
+  release: '2'
+kor:
+  id: 1336
+  term: 다목적 인터넷 메일 확장 타입
+  definition: 관련 자료의 본래적 표현(원형)만을 지정하는 메시지 본문 자료의 미디어 유형과 그 하위유형
+  language_code: kor
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: 2010-12-15 00:00:00.000000000 +08:00
+  release: '2'
+msa:
+  id: 1336
+  term: sambungan mel internet serbaguna (MIME)
+  definition: Format piawai untuk memasukkan maklumat bukan teks ke dalam e-mel, seterusnya
+    menyokong penghantaran mesej media bercampur melalui rangkaian TCP/IP. MIME juga
+    piawai penghantaran teks bukan Rumi (contohnya teks Jawi,Cina, Rusia,Kanji) yang
+    tidak boleh diwakilkan dalam kod ASCII. Protokol MIME meliputi pertukaran data
+    dalam bentuk perduaan, audio, video, imej, perisian aplikasi, atau ASCII.
+  language_code: msa
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  lineage_source: Pusat Rujukan Persuratan Melayu (DBP)
+  date_accepted: 2010-12-15 00:00:00.000000000 +08:00
+  release: '2'
+rus:
+  id: 1336
+  term: Тип многоцелевых расширений почты Интернета (MIME)
+  definition: тип носителя и подтип данных в теле сообщения, обозначающий собственное
+    представление (каноническую форму) таких данных
+  language_code: rus
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  lineage_source: ISO 19142:2010
+  date_accepted: 2010-12-15 00:00:00.000000000 +08:00
+  release: '2'
+spa:
+  id: 1336
+  term: tipo de Extensión Multipropósito de Correo de Internet (Multipurpose Internet
+    Mail Extensions - MIME)
+  definition: tipo y subtipo de medio en el cuerpo de un mensaje que indica la representación
+    nativa (forma canónica) de estos datos
+  language_code: spa
+  notes: []
+  examples: []
+  entry_status: valid
+  classification: preferred
+  date_accepted: 2010-12-15 00:00:00.000000000 +08:00
+  release: '2'

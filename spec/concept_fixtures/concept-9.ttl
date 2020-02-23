@@ -1,0 +1,67 @@
+# baseURI: "/concepts/9/"
+# imports: http://purl.org/dc/terms/
+# imports: https://www.geolexica.org/api/rdf-profile
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix : </concepts/9/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf-profile: </api/rdf-profile#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+</concepts/9/>
+  rdf:type owl:Ontology ;
+  owl:imports dcterms: ;
+  owl:imports </api/rdf-profile> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+:closure
+  rdf:type skos:Concept ;
+  dcterms:source "https://www.iso.org/standard/32620.html" ;
+  rdf-profile:engOrigin rdf-profile:English ;
+  rdf-profile:araOrigin rdf-profile:Arabic ;
+  rdf-profile:chnOrigin rdf-profile:Chinese ;
+  rdf-profile:danOrigin rdf-profile:Danish ;
+  rdf-profile:finOrigin rdf-profile:Finnish ;
+  rdf-profile:fraOrigin rdf-profile:French ;
+  rdf-profile:gerOrigin rdf-profile:German ;
+  rdf-profile:korOrigin rdf-profile:Korean ;
+  rdf-profile:rusOrigin rdf-profile:Russian ;
+  rdf-profile:spaOrigin rdf-profile:Spanish ;
+  rdf-profile:sweOrigin rdf-profile:Swedish ;
+  rdf-profile:termID </api/concepts/9.ttl> ;
+  rdfs:label "actor &lt;UML&gt;" ;
+  skos:notation 9 ;
+  skos:definition "coherent set of roles that users of use cases play when interacting with these use cases"@en ;
+  skos:definition "مجموعة أدوار مترابطة منطقيا يقوم بها مستخدمو أدوات النمذجة عند التفاعل معها ."@ar ;
+  skos:definition "&lt;UML&gt;当用例的用户与这些用例交互时，所扮演的相关角色的集合。"@zh ;
+  skos:definition "sammenhængende sæt af roller, som brugere af use cases spiller i forhold til disse use cases"@da ;
+  skos:definition "yhtenäinen joukko rooleja, joita käyttäjillä on käyttötapausten toiminnoissa"@fi ;
+  skos:definition "ensemble cohérent de rôles que les utilisateurs de cas d&#39;utilisation jouent en interagissant avec ces cas d&#39;utilisation"@fr ;
+  skos:definition "유즈 케이스와 상호 작용 시, 그 유즈 케이스의 사용자가 수행하는 역할의 집합"@kr ;
+  skos:definition "множество логически связанных  ролей, выполняемых пользователями вариантов использования при взаимодействии с  ними"@ru ;
+  skos:definition "conjunto coherente de roles que los usuarios de unos casos de uso juegan cuando interaccionan con esos casos de uso"@es ;
+  skos:definition "något utanför ett system som växelverkar med systemet genom att delta i ett användningsfall"@sv ;
+  skos:inScheme rdf-profile:GeolexicaConceptScheme ;
+  skos:prefLabel "actor &lt;UML&gt;"@en ;
+  skos:prefLabel "لغة &quot;الممثل&quot; UML"@ar ;
+  skos:prefLabel "参与者&lt;UML&gt;"@zh ;
+  skos:prefLabel "aktør &lt;UML&gt;"@da ;
+  skos:prefLabel "toimija &lt;UML&gt;"@fi ;
+  skos:prefLabel "acteur &lt;UML&gt;"@fr ;
+  skos:prefLabel "Akteur &lt;UML&gt;"@de ;
+  skos:prefLabel "행위자 &lt;UML&gt;"@kr ;
+  skos:prefLabel "действующее лицо &lt;UML&gt;"@ru ;
+  skos:prefLabel "actor &lt;UML&gt;"@es ;
+  skos:prefLabel "aktör &lt;UML&gt;"@sv ;
+  dcterms:dateAccepted "2005-07-15" ;
+  dcterms:modified "2015-12-01" ;
+  :status "retired" ;
+.
+:linked-data-api
+  rdf:type dcterms:MediaTypeOrExtent ;
+  skos:prefLabel "linked-data-api" ;
+.

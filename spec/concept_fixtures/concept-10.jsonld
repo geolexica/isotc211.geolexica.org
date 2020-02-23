@@ -1,0 +1,71 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "format": "http://purl.org/dc/terms/format",
+    "dateAccepted": "http://purl.org/dc/terms/dateAccepted",
+    "modified": "http://purl.org/dc/terms/modified",
+    "created": "http://purl.org/dc/terms/created",
+    "source": "http://purl.org/dc/terms/source"
+  },
+
+  "@id": "/api/concepts/10.jsonld",
+  "@type": "skos:Concept",
+  "format": "linked-data-api",
+  "skos:notation": "10",
+
+  "skos:prefLabel": [{
+      "@language": "eng",
+      "@value": "admitted term"
+    },{
+      "@language": "ara",
+      "@value": "مصطلح معترف به"
+    },{
+      "@language": "dan",
+      "@value": "tilladt term"
+    },{
+      "@language": "ger",
+      "@value": "zugelassener Begriff"
+    },{
+      "@language": "kor",
+      "@value": "승인 용어"
+    },{
+      "@language": "rus",
+      "@value": "допустимый термин"
+    },{
+      "@language": "spa",
+      "@value": "término admitido"
+    },{
+      "@language": "swe",
+      "@value": "tillåten term"
+    }],
+
+  "skos:altLabel": [],
+
+  "skos:definition": [{
+      "@language": "eng",
+      "@value": "term rated according to the scale of the term acceptability rating as a synonym for a preferred term"
+    },{
+      "@language": "ara",
+      "@value": "مصطلح صنف وفقا لمقياس تصنيف قبول المصطلحات كمرادف للمصطلح المفضل"
+    },{
+      "@language": "dan",
+      "@value": "term, klassificeret efter en skala for tilladte termer, anvendt som synonym for en foretrukket term"
+    },{
+      "@language": "kor",
+      "@value": "상용 용어의 동의어로써 용어 수용가능성 등급체계에 의거하여 등급이 부여된 용어"
+    },{
+      "@language": "rus",
+      "@value": "термин, оцененный по шкале рейтинга приемлемости термина как синоним предпочтительного термина"
+    },{
+      "@language": "spa",
+      "@value": "término clasificado de acuerdo a la escala de aceptanción como un sinónimo de un término preferente"
+    },{
+      "@language": "swe",
+      "@value": "term som bedömts vara lämplig för ett visst begrepp och som används vid sidan av en rekommenderad term"
+    }],"dateAccepted": "2008-11-15","notes": {},"examples": {},"source": {"link": "https://www.iso.org/standard/20057.html","clause": "3.4.16, modified — the Note 1 to entry has been added.","ref": "ISO 1087-1:2000"
+  },"status": {
+    "@value": "valid"
+  },"classification": {
+    "@value": "preferred"
+  },"uri": "/api/concepts/10.jsonld"
+}

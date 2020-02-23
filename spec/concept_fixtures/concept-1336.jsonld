@@ -1,0 +1,67 @@
+{
+  "@context": {
+    "skos": "http://www.w3.org/2004/02/skos/core#",
+    "format": "http://purl.org/dc/terms/format",
+    "dateAccepted": "http://purl.org/dc/terms/dateAccepted",
+    "modified": "http://purl.org/dc/terms/modified",
+    "created": "http://purl.org/dc/terms/created",
+    "source": "http://purl.org/dc/terms/source"
+  },
+
+  "@id": "/api/concepts/1336.jsonld",
+  "@type": "skos:Concept",
+  "format": "linked-data-api",
+  "skos:notation": "1336",
+
+  "skos:prefLabel": [{
+      "@language": "eng",
+      "@value": "Multipurpose Internet Mail Extensions (MIME) type"
+    },{
+      "@language": "ara",
+      "@value": "نوع امتدادات بريد الإنترنت المتعددة الأغراض"
+    },{
+      "@language": "ger",
+      "@value": "Multipurpose Internet Mail Extensions type (MIME Type)"
+    },{
+      "@language": "kor",
+      "@value": "다목적 인터넷 메일 확장 타입"
+    },{
+      "@language": "msa",
+      "@value": "sambungan mel internet serbaguna (MIME)"
+    },{
+      "@language": "rus",
+      "@value": "Тип многоцелевых расширений почты Интернета (MIME)"
+    },{
+      "@language": "spa",
+      "@value": "tipo de Extensión Multipropósito de Correo de Internet (Multipurpose Internet Mail Extensions - MIME)"
+    },],
+
+  "skos:altLabel": [],
+
+  "skos:definition": [{
+      "@language": "eng",
+      "@value": "media type and subtype of data in the body of a message that designates the native representation (canonical form) of such data"
+    },{
+      "@language": "ara",
+      "@value": "نوع وسيط إعلامي أو وسيط إعلامي فرعي من البيانات التي تكون في متن رسالة تدل على التمثيل الاصلي (الصيغة المقبولة عرفا وقانونا) لتلك البيانات."
+    },{
+      "@language": "ger",
+      "@value": "Medientyp und Untertyp von Daten im Hauptteil einer Nachricht, der die ursprüngliche Darstellung (kanonische Form) dieser Daten darstellt"
+    },{
+      "@language": "kor",
+      "@value": "관련 자료의 본래적 표현(원형)만을 지정하는 메시지 본문 자료의 미디어 유형과 그 하위유형"
+    },{
+      "@language": "msa",
+      "@value": "Format piawai untuk memasukkan maklumat bukan teks ke dalam e-mel, seterusnya menyokong penghantaran mesej media bercampur melalui rangkaian TCP/IP. MIME juga piawai penghantaran teks bukan Rumi (contohnya teks Jawi,Cina, Rusia,Kanji) yang tidak boleh diwakilkan dalam kod ASCII. Protokol MIME meliputi pertukaran data dalam bentuk perduaan, audio, video, imej, perisian aplikasi, atau ASCII."
+    },{
+      "@language": "rus",
+      "@value": "тип носителя и подтип данных в теле сообщения, обозначающий собственное представление (каноническую форму) таких данных"
+    },{
+      "@language": "spa",
+      "@value": "tipo y subtipo de medio en el cuerpo de un mensaje que indica la representación nativa (forma canónica) de estos datos"
+    },],"dateAccepted": "2010-12-15","notes": {},"examples": {},"status": {
+    "@value": "valid"
+  },"classification": {
+    "@value": "preferred"
+  },"uri": "/api/concepts/1336.jsonld"
+}

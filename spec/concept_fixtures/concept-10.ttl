@@ -1,0 +1,58 @@
+# baseURI: "/concepts/10/"
+# imports: http://purl.org/dc/terms/
+# imports: https://www.geolexica.org/api/rdf-profile
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix : </concepts/10/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf-profile: </api/rdf-profile#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+</concepts/10/>
+  rdf:type owl:Ontology ;
+  owl:imports dcterms: ;
+  owl:imports </api/rdf-profile> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+:closure
+  rdf:type skos:Concept ;
+  dcterms:source "https://www.iso.org/standard/20057.html" ;
+  rdf-profile:engOrigin rdf-profile:English ;
+  rdf-profile:araOrigin rdf-profile:Arabic ;
+  rdf-profile:danOrigin rdf-profile:Danish ;
+  rdf-profile:gerOrigin rdf-profile:German ;
+  rdf-profile:korOrigin rdf-profile:Korean ;
+  rdf-profile:rusOrigin rdf-profile:Russian ;
+  rdf-profile:spaOrigin rdf-profile:Spanish ;
+  rdf-profile:sweOrigin rdf-profile:Swedish ;
+  rdf-profile:termID </api/concepts/10.ttl> ;
+  rdfs:label "admitted term" ;
+  skos:notation 10 ;
+  skos:definition "term rated according to the scale of the term acceptability rating as a synonym for a preferred term"@en ;
+  skos:definition "مصطلح صنف وفقا لمقياس تصنيف قبول المصطلحات كمرادف للمصطلح المفضل"@ar ;
+  skos:definition "term, klassificeret efter en skala for tilladte termer, anvendt som synonym for en foretrukket term"@da ;
+  skos:definition "상용 용어의 동의어로써 용어 수용가능성 등급체계에 의거하여 등급이 부여된 용어"@kr ;
+  skos:definition "термин, оцененный по шкале рейтинга приемлемости термина как синоним предпочтительного термина"@ru ;
+  skos:definition "término clasificado de acuerdo a la escala de aceptanción como un sinónimo de un término preferente"@es ;
+  skos:definition "term som bedömts vara lämplig för ett visst begrepp och som används vid sidan av en rekommenderad term"@sv ;
+  skos:inScheme rdf-profile:GeolexicaConceptScheme ;
+  skos:prefLabel "admitted term"@en ;
+  skos:prefLabel "مصطلح معترف به"@ar ;
+  skos:prefLabel "tilladt term"@da ;
+  skos:prefLabel "zugelassener Begriff"@de ;
+  skos:prefLabel "승인 용어"@kr ;
+  skos:prefLabel "допустимый термин"@ru ;
+  skos:prefLabel "término admitido"@es ;
+  skos:prefLabel "tillåten term"@sv ;
+  dcterms:dateAccepted "2008-11-15" ;
+  :status "valid" ;
+  :classification "preferred" ;
+.
+:linked-data-api
+  rdf:type dcterms:MediaTypeOrExtent ;
+  skos:prefLabel "linked-data-api" ;
+.

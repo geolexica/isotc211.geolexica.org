@@ -1,0 +1,55 @@
+# baseURI: "/concepts/1336/"
+# imports: http://purl.org/dc/terms/
+# imports: https://www.geolexica.org/api/rdf-profile
+# imports: http://www.w3.org/2004/02/skos/core
+
+@prefix : </concepts/1336/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdf-profile: </api/rdf-profile#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+</concepts/1336/>
+  rdf:type owl:Ontology ;
+  owl:imports dcterms: ;
+  owl:imports </api/rdf-profile> ;
+  owl:imports <http://www.w3.org/2004/02/skos/core> ;
+.
+:closure
+  rdf:type skos:Concept ;
+  rdf-profile:engOrigin rdf-profile:English ;
+  rdf-profile:araOrigin rdf-profile:Arabic ;
+  rdf-profile:gerOrigin rdf-profile:German ;
+  rdf-profile:korOrigin rdf-profile:Korean ;
+  rdf-profile:msaOrigin rdf-profile:Malay ;
+  rdf-profile:rusOrigin rdf-profile:Russian ;
+  rdf-profile:spaOrigin rdf-profile:Spanish ;
+  rdf-profile:termID </api/concepts/1336.ttl> ;
+  rdfs:label "Multipurpose Internet Mail Extensions (MIME) type" ;
+  skos:notation 1336 ;
+  skos:definition "media type and subtype of data in the body of a message that designates the native representation (canonical form) of such data"@en ;
+  skos:definition "نوع وسيط إعلامي أو وسيط إعلامي فرعي من البيانات التي تكون في متن رسالة تدل على التمثيل الاصلي (الصيغة المقبولة عرفا وقانونا) لتلك البيانات."@ar ;
+  skos:definition "Medientyp und Untertyp von Daten im Hauptteil einer Nachricht, der die ursprüngliche Darstellung (kanonische Form) dieser Daten darstellt"@de ;
+  skos:definition "관련 자료의 본래적 표현(원형)만을 지정하는 메시지 본문 자료의 미디어 유형과 그 하위유형"@kr ;
+  skos:definition "Format piawai untuk memasukkan maklumat bukan teks ke dalam e-mel, seterusnya menyokong penghantaran mesej media bercampur melalui rangkaian TCP/IP. MIME juga piawai penghantaran teks bukan Rumi (contohnya teks Jawi,Cina, Rusia,Kanji) yang tidak boleh diwakilkan dalam kod ASCII. Protokol MIME meliputi pertukaran data dalam bentuk perduaan, audio, video, imej, perisian aplikasi, atau ASCII."@ms ;
+  skos:definition "тип носителя и подтип данных в теле сообщения, обозначающий собственное представление (каноническую форму) таких данных"@ru ;
+  skos:definition "tipo y subtipo de medio en el cuerpo de un mensaje que indica la representación nativa (forma canónica) de estos datos"@es ;
+  skos:inScheme rdf-profile:GeolexicaConceptScheme ;
+  skos:prefLabel "Multipurpose Internet Mail Extensions (MIME) type"@en ;
+  skos:prefLabel "نوع امتدادات بريد الإنترنت المتعددة الأغراض"@ar ;
+  skos:prefLabel "Multipurpose Internet Mail Extensions type (MIME Type)"@de ;
+  skos:prefLabel "다목적 인터넷 메일 확장 타입"@kr ;
+  skos:prefLabel "sambungan mel internet serbaguna (MIME)"@ms ;
+  skos:prefLabel "Тип многоцелевых расширений почты Интернета (MIME)"@ru ;
+  skos:prefLabel "tipo de Extensión Multipropósito de Correo de Internet (Multipurpose Internet Mail Extensions - MIME)"@es ;
+  dcterms:dateAccepted "2010-12-15" ;
+  :status "valid" ;
+  :classification "preferred" ;
+.
+:linked-data-api
+  rdf:type dcterms:MediaTypeOrExtent ;
+  skos:prefLabel "linked-data-api" ;
+.

@@ -15,6 +15,7 @@ end
 
 group :development do
   gem "pry"
+  gem "rdf-spec"
   gem "rspec", "~> 3.9"
 end
 
@@ -23,3 +24,10 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
+
+gem "rdf", "~> 3.1"
+gem "rdf-vocab"
+
+# RDF readers/writers
+gem "json-ld"
+gem "rdf-turtle"

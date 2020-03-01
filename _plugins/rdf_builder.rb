@@ -1,3 +1,4 @@
+require "json/ld"
 require "rdf"
 require "rdf/turtle"
 require "rdf/vocab"
@@ -29,6 +30,10 @@ class RDFBuilder
 
   def graph
     @graph or build_graph
+  end
+
+  def to_jsonld
+    graph.dump(:jsonld, standard_prefixes: true)
   end
 
   def to_turtle

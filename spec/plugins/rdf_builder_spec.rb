@@ -17,6 +17,15 @@ RSpec.describe RDFBuilder do
     expect(retval).to be_kind_of(::RDF::Graph)
   end
 
+  specify "#to_jsonld returns an RDF Graph represented in JSON-LD format" do
+    retval = rdfb.to_jsonld
+    expect(retval).to be_a(String)
+    expect(retval).to start_with("{") & end_with("}")
+    expect(retval).to include("concepts/10")
+    json = JSON.parse(retval)
+    expect(json.keys).to include("@context", "@graph")
+  end
+
   specify "#to_turtle returns an RDF Graph represented in Turtle format" do
     retval = rdfb.to_turtle
     expect(retval).to be_a(String)

@@ -31,6 +31,23 @@ class RDFBuilder
     @graph or build_graph
   end
 
+  def to_turtle
+    graph.dump(:ttl, {
+      # No, currently there is no base URI set (TODO maybe)
+      # base_uri: concept,
+      prefixes: {
+        nil => concept,
+        :dcterms => DC.to_uri,
+        :owl => OWL.to_uri,
+        :rdf => RDF.to_uri,
+        :"rdf-profile" => Profile.to_uri,
+        :rdfs => RDFS.to_uri,
+        :skos => SKOS.to_uri,
+        :xsd => XSD.to_uri,
+      },
+    })
+  end
+
   private
 
   # Graph subjects

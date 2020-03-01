@@ -17,6 +17,13 @@ RSpec.describe RDFBuilder do
     expect(retval).to be_kind_of(::RDF::Graph)
   end
 
+  specify "#to_turtle returns an RDF Graph represented in Turtle format" do
+    retval = rdfb.to_turtle
+    expect(retval).to be_a(String)
+    expect(retval).to include("@prefix dcterms: <http://purl.org/dc/terms/> .")
+    expect(retval).to include("concepts/10")
+  end
+
   %w[9 10 1336].each do |concept_num|
     specify "#graph returns an RDF Graph with correct structure for " +
       "concept #{concept_num}" do

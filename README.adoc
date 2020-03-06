@@ -1,4 +1,4 @@
-= Geolexica: ISO/TC 211 Terminology Database
+= ISO/TC 211 Geolexica Terminology Database
 
 image:https://github.com/ISO-TC211/geolexica.org/workflows/build/badge.svg["Build Status", link="https://github.com/ISO-TC211/geolexica.org/actions?workflow=build"]
 

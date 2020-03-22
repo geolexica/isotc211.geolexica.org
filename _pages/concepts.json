@@ -1,5 +1,0 @@
----
-permalink: "/concepts.json"
----
-
-{{ site.concepts | jsonify }}

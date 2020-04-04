@@ -138,6 +138,9 @@ term_languages:
   - swe
 
 exclude:
+  - geolexica-database/
+  - README.adoc
+
   - "*.xlsx"
   - "*.yaml"
   - concepts_data

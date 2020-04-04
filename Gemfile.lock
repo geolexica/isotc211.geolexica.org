@@ -1,3 +1,11 @@
+GIT
+  remote: https://github.com/geolexica/geolexica-server.git
+  revision: 5b29e4de1cc2e20b869a81e08c0cdf2b3bf9b339
+  specs:
+    jekyll-geolexica (0.1.0)
+      jekyll (~> 3.8.5)
+      jekyll-asciidoc
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -39,15 +47,8 @@ GEM
       jekyll (~> 3.8)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
-    jekyll-seo-tag (2.6.1)
-      jekyll (>= 3.3, < 5.0)
     jekyll-sitemap (1.4.0)
       jekyll (>= 3.7, < 5.0)
-    jekyll-theme-isotc211 (0.5.9)
-      jekyll (~> 3.8)
-      jekyll-data (~> 1.0)
-      jekyll-seo-tag (~> 2.0)
-      jekyll-theme-isotc211-helpers (~> 0.5.4)
     jekyll-theme-isotc211-helpers (0.5.4)
       jekyll (~> 3.8)
     jekyll-watch (2.2.1)
@@ -80,9 +81,9 @@ DEPENDENCIES
   jekyll-asciidoc
   jekyll-data
   jekyll-feed (~> 0.6)
+  jekyll-geolexica!
   jekyll-plugin-frontend-build (~> 0.0.2)
   jekyll-sitemap
-  jekyll-theme-isotc211 (~> 0.5.9)
   jekyll-theme-isotc211-helpers (~> 0.5.4)
   tzinfo-data
 

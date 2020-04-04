@@ -70,7 +70,7 @@ powered_by:
   title: Ribose
   logo_path: /assets/logo-ribose.svg
 
-theme: jekyll-theme-isotc211
+theme: jekyll-geolexica
 
 sass:
   style: compressed

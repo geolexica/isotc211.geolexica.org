@@ -1,6 +1,0 @@
----
-layout: posts
-title: News & Articles
-permalink: "/posts/index.html"
-nav_items: [home, concepts, stats, about, feedback, registers]
----

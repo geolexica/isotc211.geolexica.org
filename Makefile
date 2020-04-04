@@ -3,12 +3,12 @@ SHELL := /bin/bash
 all: _site
 
 clean:
-	rm -rf _site _concepts
+	rm -rf _site
 
 distclean: clean
 	rm -rf _data/info.yaml
 
-data: _data/info.yaml _data/metadata.yaml _concepts
+data: _data/info.yaml _data/metadata.yaml
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -21,19 +21,6 @@ _data/info.yaml:
 
 _data/metadata.yaml:
 	cp -f geolexica-database/metadata.yaml $@
-
-# Make collection YAML files into adoc files
-_concepts:
-	cp -a geolexica-database/concepts _concepts; \
-	pushd $@; \
-	for filename in *.yaml; do \
-	    [ -e "$$filename" ] || continue; \
-			NEW_NAME=$${filename//yaml/adoc}; \
-			NEW_NAME=$${NEW_NAME//concept-/}; \
-	    mv $$filename $${NEW_NAME}; \
-			echo "---" >> $${NEW_NAME}; \
-	done; \
-	popd
 
 serve:
 	bundle exec jekyll serve

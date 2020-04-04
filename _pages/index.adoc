@@ -1,7 +1,0 @@
----
-layout: custom-home
-permalink: /
-nav_items: [about, posts, stats, feedback, registers]
----
-:page-liquid:
-

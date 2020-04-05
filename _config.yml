@@ -133,22 +133,23 @@ defaults:
       layout: concept.ttl
       permalink: /api/concepts/:name.ttl
 
-term_languages:
-  - eng
-  - ara
-  - chn
-  - dan
-  - dut
-  - fin
-  - fra
-  - ger
-  - jpn
-  - kor
-  - msa
-  - pol
-  - rus
-  - spa
-  - swe
+geolexica:
+  term_languages:
+    - eng
+    - ara
+    - chn
+    - dan
+    - dut
+    - fin
+    - fra
+    - ger
+    - jpn
+    - kor
+    - msa
+    - pol
+    - rus
+    - spa
+    - swe
 
 exclude:
   - geolexica-database/

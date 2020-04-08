@@ -4,17 +4,9 @@ google_analytics:
   id: UA-138578173-2
 
 committee:
-  identifier: TC 211
+  id: 211
   name: Geographic information/Geomatics
-  parent_org_name: ISO
   home: https://committee.iso.org/home/tc211
-  main_logo:
-    path: /assets/logo-iso-noninverted.svg
-    alt_text: ISO
-  footer_logo:
-    path: /assets/logo-iso-noninverted.svg
-    alt_text: ISO organization
-    url: https://www.iso.org/
 
 font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
 

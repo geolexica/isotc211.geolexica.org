@@ -158,6 +158,11 @@ geolexica:
     - rus
     - spa
     - swe
+  formats:
+    - html
+    - json
+    - json-ld
+    - turtle
 
 exclude:
   - geolexica-database/

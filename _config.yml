@@ -30,19 +30,6 @@ tagline: >-
 description: >-
   The authoritative glossary for geographic information technology from ISO/TC 211.
 
-# Used for copyright notice and possibly more.
-org:
-  name: International Organization for Standardization
-  website:
-    url: https://www.iso.org/
-    title: www.iso.org
-  email: copyright@iso.org
-  address: |-
-    Chemin de Blandonnet 8
-    CP 401
-    1214 Vernier, Geneva
-    Switzerland
-
 baseurl: ""
 url: "https://www.geolexica.org"
 

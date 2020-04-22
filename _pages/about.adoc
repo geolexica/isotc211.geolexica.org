@@ -68,3 +68,22 @@ link:/feedback[Feedback] page.
 Identified issues that are publicly visible are maintained at the
 https://github.com/ISO-TC211/TMG/issues[TMG GitHub Issues] page.
 
+
+== Copyright
+
+(C) {{ site.time | date: "%Y" }} International Organization for Standardization.
+
+All rights reserved. Unless otherwise specified, no part of this
+site or its documents may be reproduced or utilized otherwise in any form or by any
+means, electronic or mechanical, including photocopying, or posting on the
+internet or an intranet, without prior written permission. Permission can
+be requested from the address below.
+
+[%hardbreaks]
+International Organization for Standardization
+Chemin de Blandonnet 8
+CP 401
+1214 Vernier, Geneva
+Switzerland
+mailto:copyright@iso.org[copyright@iso.org]
+https://www.iso.org/[www.iso.org]

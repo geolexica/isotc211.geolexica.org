@@ -10,6 +10,7 @@ group :jekyll_plugins do
   gem "jekyll-data"
   gem "jekyll-sitemap"
   gem "jekyll-asciidoc"
+  gem "jekyll-tidy-json"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

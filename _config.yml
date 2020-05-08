@@ -151,6 +151,9 @@ geolexica:
     - json-ld
     - turtle
 
+tidy_json:
+  pretty: true
+
 exclude:
   - geolexica-database/
   - README.adoc

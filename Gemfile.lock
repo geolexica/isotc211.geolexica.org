@@ -51,6 +51,8 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-theme-isotc211-helpers (0.5.4)
       jekyll (~> 3.8)
+    jekyll-tidy-json (1.0.0)
+      jekyll (>= 3.8, < 5)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -85,6 +87,7 @@ DEPENDENCIES
   jekyll-plugin-frontend-build (~> 0.0.2)
   jekyll-sitemap
   jekyll-theme-isotc211-helpers (~> 0.5.4)
+  jekyll-tidy-json
   tzinfo-data
 
 BUNDLED WITH

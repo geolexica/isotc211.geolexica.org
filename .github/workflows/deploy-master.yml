@@ -30,11 +30,11 @@ jobs:
       - uses: actions/checkout@master
       - name: Setup git submodules (authenticated)
         env:
-          MLGT_DATA_DEPLOY_KEY: ${{ secrets.GEOLEXICA_DATABASE_DEPLOY_KEY }}
+          GLOSSARY_DEPLOY_KEY: ${{ secrets.GLOSSARY_DEPLOY_KEY }}
           GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
         run: |
           eval "$(ssh-agent -s)"
-          ssh-add - <<< "${MLGT_DATA_DEPLOY_KEY}"
+          ssh-add - <<< "${GLOSSARY_DEPLOY_KEY}"
           make update-init update-modules
       - name: Update gems
         run: |

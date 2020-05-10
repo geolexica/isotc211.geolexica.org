@@ -34,7 +34,7 @@ Components involved in ISO/TC 211 MLGT solution:
   Renders Geolexica database into HTML, JSON-LD and other Web-friendly formats.
 
 . Geolexica database:
-  see https://github.com/geolexica/geolexica-database[geolexica/geolexica-database].
+  see https://github.com/geolexica/isotc211-glossary[geolexica/isotc211-glossary].
   Hosts all concept data in YAML;
   bundles facilities for converting authoritative spreadsheet data into YAML.
   Candidate to become authoritative source, contingent upon factual usage of Glossarist by TMG.
@@ -57,9 +57,9 @@ Components involved in ISO/TC 211 MLGT solution:
 
 . TMG uploads the new MLGT version to mlgt-data repository.
 
-. From the updated mlgt-data, a new snapshot of the database is created in geolexica-database repository.
+. From the updated mlgt-data, a new snapshot of the database is created in isotc211-glossary repository.
 
-. After new snapshot of the database is committed to geolexica-database,
+. After new snapshot of the database is committed to isotc211-glossary,
   ISO/TC 211’s Geolexica.org is deployed with the latest database version.
 
 
@@ -81,7 +81,7 @@ NOTE: These steps are only intended for the internal operator of the site!
 
 === Building the site
 
-. Ensure geolexica-database submodule is up-to-date.
+. Ensure isotc211-glossary submodule is up-to-date.
 
 . Run ``make _site``
 

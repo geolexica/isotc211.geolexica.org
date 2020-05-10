@@ -155,7 +155,7 @@ tidy_json:
   pretty: true
 
 exclude:
-  - geolexica-database/
+  - isotc211-glossary/
   - README.adoc
 
   - "*.xlsx"

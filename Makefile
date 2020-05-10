@@ -16,11 +16,11 @@ _site: data | bundle
 bundle:
 	bundle
 
-_data/info.yaml:
-	cp -f geolexica-database/tc211-termbase.meta.yaml $@
+_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml
+	cp -f $< $@
 
-_data/metadata.yaml:
-	cp -f geolexica-database/metadata.yaml $@
+_data/metadata.yaml: isotc211-glossary/metadata.yaml
+	cp -f $< $@
 
 serve:
 	bundle exec jekyll serve

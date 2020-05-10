@@ -1,0 +1,19 @@
+---
+layout: custom-post
+title:  "MLGT updated to 2020/04/27 version"
+date:   2020-05-10 00:00:00 +0800
+categories: update
+---
+
+ISO/TC 211 Geolexica has been updated to reflect the latest MLGT version
+of 2020-04-27.
+
+This MLGT version provides a number of improvements, including:
+
+* Updates to terminology
+** Malay: a large number of terms, including those without a definition before, now contains an updated definition
+
+* Fixes of metadata:
+** Russian registry metadata updates
+
+As always, please use our link:/feedback/[Feedback] link to send in any comments!

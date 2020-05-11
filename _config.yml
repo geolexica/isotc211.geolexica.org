@@ -129,6 +129,7 @@ defaults:
       permalink: /api/concepts/:name.ttl
 
 geolexica:
+  concepts_glob: "./isotc211-glossary/concepts/*.yaml"
   term_languages:
     - eng
     - ara

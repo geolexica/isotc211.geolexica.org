@@ -173,7 +173,6 @@ exclude:
   - monitor.sh
   - node_modules
 
-  - github_deploy_key.enc
   - deploy.sh
   - monitor.sh
 

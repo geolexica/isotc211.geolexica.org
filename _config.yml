@@ -153,6 +153,7 @@ geolexica:
     - turtle
 
 tidy_json:
+  enabled: false
   pretty: true
 
 exclude:

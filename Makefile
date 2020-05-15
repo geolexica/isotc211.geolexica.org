@@ -1,6 +1,8 @@
 SHELL := /bin/bash
+JSON_PP := json_pp -json_opt pretty,relaxed,utf8
+GENERATED_JSONS := _site/api/concepts/*.json _site/api/concepts/*.jsonld
 
-all: _site
+all: _site | postprocess
 
 clean:
 	rm -rf _site
@@ -12,6 +14,13 @@ data: _data/info.yaml _data/metadata.yaml
 
 _site: data | bundle
 	bundle exec jekyll build
+
+postprocess:
+	echo "Postprocessing JSONs..."; \
+	for f in ${GENERATED_JSONS}; do \
+		mv $${f} .tmp.json; \
+		${JSON_PP} < .tmp.json > $${f} && rm .tmp.json || mv .tmp.json $${f}; \
+	done
 
 bundle:
 	bundle
@@ -31,4 +40,4 @@ update-init:
 update-modules:
 	git submodule foreach git pull origin master
 
-.PHONY: data bundle all open serve distclean clean update-init update-modules
+.PHONY: data bundle all open serve distclean clean update-init update-modules postprocess

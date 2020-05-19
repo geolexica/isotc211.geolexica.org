@@ -1,6 +1,7 @@
 SHELL := /bin/bash
 JSON_PP := json_pp -json_opt pretty,relaxed,utf8
-GENERATED_JSONS := _site/api/concepts/*.json _site/api/concepts/*.jsonld
+# _site/api/concepts/*.json files are processed with jekyll-tidy-json plugin
+GENERATED_JSONS := _site/api/concepts/*.jsonld
 
 all: _site | postprocess
 

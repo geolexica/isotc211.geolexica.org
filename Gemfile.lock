@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/geolexica/geolexica-server.git
-  revision: 2c2075b98ba1b192aa8abbb7c608f33dfa4847e8
+  revision: beada56f05e363d342b596a7a116c9ca1a10ad1d
   specs:
     jekyll-geolexica (0.1.0)
       jekyll (~> 3.8.5)

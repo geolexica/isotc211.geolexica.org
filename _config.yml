@@ -127,6 +127,11 @@ defaults:
     values:
       layout: concept.ttl
       permalink: /api/concepts/:name.ttl
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      show_header_meta: true
 
 geolexica:
   concepts_glob: "./isotc211-glossary/concepts/*.yaml"

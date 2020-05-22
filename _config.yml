@@ -161,6 +161,13 @@ tidy_json:
   enabled: true
   pretty: true
 
+plugins:
+  - jekyll-feed
+  - jekyll-geolexica
+  - jekyll-sitemap
+  - jekyll-tidy-json
+  - jekyll-plugin-frontend-build
+
 exclude:
   - isotc211-glossary/
   - README.adoc

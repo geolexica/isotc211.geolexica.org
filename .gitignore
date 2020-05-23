@@ -2,6 +2,7 @@ _site
 .sass-cache
 .jekyll-metadata
 node_modules
+Gemfile.lock
 
 # These are generated from the tc211-termbase gem
 _concepts

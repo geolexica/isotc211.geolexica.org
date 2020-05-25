@@ -9,9 +9,9 @@ clean:
 	rm -rf _site
 
 distclean: clean
-	rm -rf _data/info.yaml
+	rm -rf _source/_data/info.yaml
 
-data: _data/info.yaml _data/metadata.yaml
+data: _source/_data/info.yaml _source/_data/metadata.yaml
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -26,10 +26,10 @@ postprocess:
 bundle:
 	bundle
 
-_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml
+_source/_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml
 	cp -f $< $@
 
-_data/metadata.yaml: isotc211-glossary/metadata.yaml
+_source/_data/metadata.yaml: isotc211-glossary/metadata.yaml
 	cp -f $< $@
 
 serve:

@@ -1,3 +1,5 @@
+source: _source
+
 title: "ISO/TC 211 Geolexica"
 
 google_analytics:
@@ -134,7 +136,7 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  concepts_glob: "./isotc211-glossary/concepts/*.yaml"
+  concepts_glob: "../isotc211-glossary/concepts/*.yaml"
   term_languages:
     - eng
     - ara
@@ -167,32 +169,3 @@ plugins:
   - jekyll-sitemap
   - jekyll-tidy-json
   - jekyll-plugin-frontend-build
-
-exclude:
-  - isotc211-glossary/
-  - README.adoc
-
-  - "*.xlsx"
-  - "*.yaml"
-  - concepts_data
-  - mlgt-data
-
-  - Gemfile
-  - Gemfile.lock
-  - Makefile
-
-  - babel.config.js
-  - package.json
-  - package-lock.json
-  - monitor.sh
-  - node_modules
-
-  - deploy.sh
-  - monitor.sh
-
-  - .sass-cache/
-
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/

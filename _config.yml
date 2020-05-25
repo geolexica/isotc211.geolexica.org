@@ -1,3 +1,5 @@
+source: _source
+
 title: "ISO/TC 211 Geolexica"
 
 google_analytics:
@@ -134,7 +136,7 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  concepts_glob: "./isotc211-glossary/concepts/*.yaml"
+  concepts_glob: "../isotc211-glossary/concepts/*.yaml"
   term_languages:
     - eng
     - ara

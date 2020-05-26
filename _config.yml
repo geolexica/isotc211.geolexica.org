@@ -164,6 +164,7 @@ tidy_json:
   pretty: true
 
 plugins:
+  - jekyll-data
   - jekyll-feed
   - jekyll-geolexica
   - jekyll-sitemap

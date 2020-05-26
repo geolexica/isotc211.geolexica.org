@@ -140,19 +140,19 @@ geolexica:
   term_languages:
     - eng
     - ara
-    - chi
     - dan
-    - dut
+    - deu
     - fin
     - fra
-    - ger
     - jpn
     - kor
     - msa
+    - nld
     - pol
     - rus
     - spa
     - swe
+    - zho
   formats:
     - html
     - json

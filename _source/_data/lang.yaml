@@ -9,7 +9,7 @@ dan:
   lang_en: Danish
   iso-639-1: da
   example: EKSEMPEL
-  note_to_entry: "NOTE DD to entry:"
+  note_to_entry: "Bemærk DD til posten:"
 ger: # TODO deu
   lang_native: Deutsch
   lang_en: German
@@ -33,7 +33,7 @@ fra:
   lang_en: French
   iso-639-1: fr
   example: EXEMPLE
-  note_to_entry: "A noter DD:"
+  note_to_entry: "Note DD à l'article:"
 jpn:
   lang_native: 日本語
   lang_en: Japanese

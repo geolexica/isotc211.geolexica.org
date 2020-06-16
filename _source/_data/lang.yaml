@@ -1,33 +1,27 @@
-eng:
-  lang_native: English
-  lang_en: English
-  iso-639-1: en
-  example: EXAMPLE
-  note_to_entry: "Note DD to entry:"
 ara:
   lang_native: العربية
   lang_en: Arabic
   iso-639-1: ar
   example: "مثال"
   note_to_entry: "ملاحظة DD:"
-chn:
-  lang_native: 中文
-  lang_en: Chinese
-  iso-639-1: zh
-  example: 示例
-  note_to_entry: "注 DD："
 dan:
   lang_native: dansk
   lang_en: Danish
   iso-639-1: da
   example: EKSEMPEL
   note_to_entry: "NOTE DD to entry:"
-dut:
-  lang_native: Nederlands
-  lang_en: Dutch
-  iso-639-1: nl
-  example: VOORBEELD
-  note_to_entry: "OPMERKING DD:"
+ger: # TODO deu
+  lang_native: Deutsch
+  lang_en: German
+  iso-639-1: de
+  example: BEISPIEL
+  note_to_entry: "NOTE DD:"
+eng:
+  lang_native: English
+  lang_en: English
+  iso-639-1: en
+  example: EXAMPLE
+  note_to_entry: "Note DD to entry:"
 fin:
   lang_native: suomi
   lang_en: Finnish
@@ -40,12 +34,6 @@ fra:
   iso-639-1: fr
   example: EXEMPLE
   note_to_entry: "A noter DD:"
-ger:
-  lang_native: Deutsch
-  lang_en: German
-  iso-639-1: de
-  example: BEISPIEL
-  note_to_entry: "NOTE DD:"
 jpn:
   lang_native: 日本語
   lang_en: Japanese
@@ -64,6 +52,12 @@ msa:
   iso-639-1: ms
   example: Contoh
   note_to_entry: "catatan DD:"
+dut: # TODO nld
+  lang_native: Nederlands
+  lang_en: Dutch
+  iso-639-1: nl
+  example: VOORBEELD
+  note_to_entry: "OPMERKING DD:"
 pol:
   lang_native: polski
   lang_en: Polish
@@ -88,3 +82,9 @@ swe:
   iso-639-1: sv
   example: EXEMPEL
   note_to_entry: "Anm. DD till termpost:"
+chn: # TODO zho
+  lang_native: 中文
+  lang_en: Chinese
+  iso-639-1: zh
+  example: 示例
+  note_to_entry: "注 DD："

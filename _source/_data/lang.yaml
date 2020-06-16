@@ -64,6 +64,12 @@ pol:
   iso-639-1: pl
   example: PRZYKŁAD
   note_to_entry: "UWAGA DD:"
+por:
+  lang_native: português
+  lang_en: Portuguese
+  iso-639-1: pt
+  exemplo: EXEMPLO
+  note_to_entry: "Anote o DD na entrada:"
 rus:
   lang_native: Русский язык
   lang_en: Russian

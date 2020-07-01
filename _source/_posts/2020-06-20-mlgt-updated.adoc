@@ -1,0 +1,55 @@
+---
+layout: custom-post
+title:  "MLGT updated to 2020/06/02 version"
+date:   2020-06-02 00:00:00 +0800
+categories: update
+---
+
+ISO/TC 211 Geolexica has been updated to reflect the latest MLGT version
+of 2020-06-02.
+
+This MLGT version provides a number of improvements, including:
+
+* Updates to terminology
+** Spanish: term ID 665 classification fixed from "`adminitido`" to "`admitido`" (https://github.com/ISO-TC211/mlgt-data/issues/11[tracked issue])
+
+* Registry metadata updates
+** Chinese: registry metadata (https://github.com/ISO-TC211/mlgt-data/issues/7[tracked issue])
+** Russian: updated date revisions (https://github.com/ISO-TC211/mlgt-data/issues/9[tracked issue])
+** Malaysian: contacts and last updated date revisions (https://github.com/ISO-TC211/mlgt-data/issues/10[tracked issue])
+
+* Language code updates according to ISO 639-2 (https://github.com/ISO-TC211/mlgt-data/issues/8[tracked issue])
+** Chinese was `chn` now `zho`
+** German was `ger` now `deu`
+** Dutch was `dut` now `nld`
+
+* Definitions with math for the first time is now incorporated into the MLGT.
+  Math elements are properly reflected in Geolexica.
+
+At present, the Glossary is available in the following languages.
+
+* Arabic    (684 Terminology Records)
+* Chinese   (479 Terminology Records)
+* Danish    (206 Terminology Records)
+* Dutch     (76 Terminology Records)
+* English   (1302 Terminology Records)
+* Finnish   (482 Terminology Records)
+* French    (479 Terminology Records)
+* German    (617 Partially Translated Terminology Records)
+* Japanese  (151 Terminology Records)
+* Korean    (936 Terminology Records)
+* Malay     (324 Terminology Records)
+* Polish    (251 Terminology Records)
+* Russian   (941 Terminology Records)
+* Spanish   (1069 Terminology Records including term equivalents)
+* Swedish   (681 Translated Terminology Records)
+
+
+As always, please use our link:/feedback/[Feedback] link to send in any comments!
+
+For further information or comment, please contact:
+
+Reese Plews +
+Convener, Terminology Maintenance Group +
+rplews@tc211tmg.org +
+https://github.com/ISO-TC211/TMG +

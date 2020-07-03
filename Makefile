@@ -24,8 +24,8 @@ bundle:
 _source/_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml
 	cp -f $< $@
 
-_source/_data/metadata.yaml: isotc211-glossary/metadata.yaml
-	cp -f $< $@
+# _source/_data/metadata.yaml: isotc211-glossary/metadata.yaml
+# 	cp -f $< $@
 
 serve:
 	bundle exec jekyll serve

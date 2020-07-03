@@ -3,17 +3,12 @@ layout: base-page
 title: About
 permalink: /about/
 bodyClass: page
-nav_items: [concepts, posts,stats, feedback, registers]
+nav_items: [concepts, posts, stats, feedback, registers]
 ---
 :page-liquid:
 
-Geolexica is the online glossary for geographic information technology from
+ISO/TC 211 Geolexica is the online glossary for geographic information technology from
 https://www.iso.org/committee/54904.html[ISO/TC 211 Geographic information/Geomatics].
-
-The name "`geolexica`" is a combination of the Greek prefix "`geo-`"
-(of and pertaining to the Earth) and the suffix "`lexica`"
-derived from the Greek "`lexiko`", counterpart of the English
-"`lexicon`" (vocabulary).
 
 Terminology entries in Geolexica fully reflect entries given in the
 ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT), where its
@@ -31,13 +26,13 @@ Specifically:
 
 == Current content ({{ site.data.metadata.version }} edition)
 
-The current contents in Geolexica are from the 4th release of the
+The current contents in Geolexica are from the 5th release of the
 MLGT ({{ site.data.metadata.version }} edition), consisting of:
 
-* over 1,060 English language terminology entries (terms/definitions)
-from published ISO/TC 211 standards as of October 2017;
+* {{ site.data.metadata.concept_count }} English language terminology entries (terms/definitions)
+from published ISO/TC 211 standards as of June 2020;
 
-* over 7,600 translated terminology entries (full or partial)
+* {{ site.data.metadata.term_count }} translated terminology entries (full or partial)
 covering fourteen languages, which represents close to all of
 the participating countries in ISO/TC 211.
 

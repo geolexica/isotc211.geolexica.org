@@ -17,11 +17,6 @@ _site: data | bundle
 	bundle exec jekyll build
 
 postprocess:
-	echo "Postprocessing JSONs..."; \
-	for f in ${GENERATED_JSONS}; do \
-		mv $${f} .tmp.json; \
-		${JSON_PP} < .tmp.json > $${f} && rm .tmp.json || mv .tmp.json $${f}; \
-	done
 
 bundle:
 	bundle

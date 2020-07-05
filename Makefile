@@ -3,7 +3,7 @@ JSON_PP := json_pp -json_opt pretty,relaxed,utf8
 # _site/api/concepts/*.json files are processed with jekyll-tidy-json plugin
 GENERATED_JSONS := _site/api/concepts/*.jsonld
 
-all: _site | postprocess
+all: _site
 
 clean:
 	rm -rf _site
@@ -29,8 +29,11 @@ bundle:
 _source/_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml
 	cp -f $< $@
 
-_source/_data/metadata.yaml: isotc211-glossary/metadata.yaml
+_source/_data/metadata.yaml: metadata.yaml
 	cp -f $< $@
+
+metadata.yaml:
+	scripts/generate_metadata.rb
 
 serve:
 	bundle exec jekyll serve

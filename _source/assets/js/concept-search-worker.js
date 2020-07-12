@@ -5,16 +5,19 @@ const CONCEPTS_URL = '/api/concepts-index-list.json';
 const LANGUAGES = [
   'eng',
   'ara',
+  'dan',
+  'deu',
+  'fin',
+  'fra',
+  'jpn',
+  'kor',
+  'msa',
+  'nld',
+  'pol',
+  'rus',
   'spa',
   'swe',
-  'kor',
-  'rus',
-  'ger',
-  'fre',
-  'fin',
-  'jpn',
-  'dan',
-  'chi',
+  'zho',
 ];
 
 var concepts = null;

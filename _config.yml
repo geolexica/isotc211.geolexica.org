@@ -89,46 +89,8 @@ collections:
   pages:
     output: true
     permalink: /:path/
-  concepts:
-    output: true
-    permalink: /:collection/:name/
-  concepts_json:
-    output: true
-    output_ext: .json
-    permalink: /api/concepts/:name.json
-  concepts_jsonld:
-    output: true
-    output_ext: .jsonld
-    permalink: /api/concepts/:name.jsonld
-  concepts_ttl:
-    output: true
-    output_ext: .ttl
-    permalink: /api/concepts/:name.ttl
 
 defaults:
-  - scope:
-      path: ""
-      type: "concepts"
-    values:
-      layout: concept
-  - scope:
-      path: ""
-      type: "concepts_json"
-    values:
-      layout: concept.json
-      permalink: /api/concepts/:name.json
-  - scope:
-      path: ""
-      type: "concepts_jsonld"
-    values:
-      layout: concept.jsonld
-      permalink: /api/concepts/:name.jsonld
-  - scope:
-      path: ""
-      type: "concepts_ttl"
-    values:
-      layout: concept.ttl
-      permalink: /api/concepts/:name.ttl
   - scope:
       path: ""
       type: "posts"

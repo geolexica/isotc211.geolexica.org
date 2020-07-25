@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 
-gem "geolexica-site", "1.4.0"
+gem "geolexica-site", "1.5.0"

@@ -26,7 +26,6 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.6'
-          architecture: 'x64'
       - name: Use Node
         uses: actions/setup-node@v1
         with:

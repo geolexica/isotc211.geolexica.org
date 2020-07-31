@@ -121,6 +121,9 @@ geolexica:
     - json
     - json-ld
     - turtle
+  search:
+    refinements:
+      - validity
 
 tidy_json:
   enabled: true

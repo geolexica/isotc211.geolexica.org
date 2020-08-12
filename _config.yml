@@ -33,7 +33,7 @@ description: >-
   The authoritative glossary for geographic information technology from ISO/TC 211.
 
 baseurl: ""
-url: "https://isotc211.geolexica.org/"
+url: "https://isotc211.geolexica.org"
 
 social:
   links:

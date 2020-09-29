@@ -120,6 +120,7 @@ geolexica:
     - html
     - json
     - json-ld
+    - tbx-iso-tml
     - turtle
   search:
     refinements:

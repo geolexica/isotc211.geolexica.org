@@ -4,7 +4,12 @@ image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica
 image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica.org/deploy-staging?label=staging%20deployment&style=flat-square[Staging Deployment Status]
 image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica.org/build?label=build&style=flat-square[Build Status]
 
+:gem-geolexica-site: https://github.com/geolexica/geolexica-site[Geolexica-Site]
+:gem-jekyll: https://jekyllrb.com/[Jekyll]
+
 == Introduction
+
+NOTE: This repository is only meant for internal consumption!
 
 Geolexica is the site name of the online version of the ISO/TC 211 Multi Lingual Glossary of Terms.
 
@@ -12,8 +17,13 @@ This repository contains the source of the https://isotc211.geolexica.org site.
 
 The site is managed by the ISO/TC 211 TMG together with Ribose.
 
-NOTE: This repository is only meant for internal consumption!
+The site is powered with {gem-geolexica-site} gem maintained by Ribose, which
+actually employs {gem-jekyll} as a work horse.
 
+== Sites
+
+`master`:: https://isotc211.geolexica.org/
+`staging`:: https://isotc211-staging.geolexica.org
 
 == How to add/remove entries or suggest changes?
 

@@ -1,11 +1,8 @@
 = ISO/TC 211 Geolexica Terminology Database
 
-image:https://github.com/geolexica/isotc211.geolexica.org/workflows/build/badge.svg["Build Status", link="https://github.com/geolexica/isotc211.geolexica.org/actions?workflow=build"]
-
-image:https://github.com/geolexica/isotc211.geolexica.org/workflows/deploy-master/badge.svg["Build Status", link="https://github.com/geolexica/isotc211.geolexica.org/actions?workflow=deploy-master"]
-
-image:https://github.com/geolexica/isotc211.geolexica.org/workflows/deploy-staging/badge.svg["Build Status", link="https://github.com/geolexica/isotc211.geolexica.org/actions?workflow=deploy-staging"]
-
+image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica.org/deploy-master?label=production%20deployment&style=flat-square[Production Deployment Status]
+image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica.org/deploy-staging?label=staging%20deployment&style=flat-square[Staging Deployment Status]
+image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica.org/build?label=build&style=flat-square[Build Status]
 
 == Introduction
 

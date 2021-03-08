@@ -7,6 +7,8 @@ on:
 jobs:
   build:
     name: Build site
+    environment:
+      name: staging
     runs-on: ubuntu-latest
     steps:
       - name: Setup prerequisites

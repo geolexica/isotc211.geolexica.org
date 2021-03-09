@@ -14,7 +14,6 @@ jobs:
     environment:
       name: ${{ github.ref == 'refs/heads/master' && 'production' || 'staging' }}
       url: ${{ github.ref == 'refs/heads/master' && 'https://isotc211.geolexica.org' || 'https://isotc211-staging.geolexica.org' }}
-    runs-on: ubuntu-latest
     steps:
       - name: Setup prerequisites
         run: |

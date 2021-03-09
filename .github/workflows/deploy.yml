@@ -1,14 +1,19 @@
-name: deploy-master
+name: deploy
 
 on:
   push:
-    branches: master
+    branches:
+      - master
+      - staging
+  repository_dispatch:
 
 jobs:
   build:
     name: Build site
+    runs-on: ubuntu-latest
     environment:
-      name: production
+      name: ${{ github.ref == 'refs/heads/master' && 'production' || 'staging' }}
+      url: ${{ github.ref == 'refs/heads/master' && 'https://isotc211.geolexica.org' || 'https://isotc211-staging.geolexica.org' }}
     runs-on: ubuntu-latest
     steps:
       - name: Setup prerequisites
@@ -50,8 +55,7 @@ jobs:
         run: |
           make all
 
-
-      - name: Deploy to geolexica.org
+      - name: Deploy
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_REGION: ${{ secrets.AWS_REGION }}
@@ -59,4 +63,8 @@ jobs:
           CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
           S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
         run: |
+          aws configure set default.s3.max_concurrent_requests 100
+          aws configure set default.s3.max_queue_size 10000
+          aws configure set default.s3.use_accelerate_endpoint true
+          aws configure set default.s3.payload_signing_enabled false
           rake geolexica:s3_deploy

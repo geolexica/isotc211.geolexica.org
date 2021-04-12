@@ -7,12 +7,13 @@ nav_items: [concepts, posts, stats, feedback, registers]
 ---
 :page-liquid:
 
-ISO/TC 211 Geolexica is the online glossary for geographic information technology from
+The ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT)
+is the glossary for geographic information technology from
 https://www.iso.org/committee/54904.html[ISO/TC 211 Geographic information/Geomatics].
 
-Terminology entries in Geolexica fully reflect entries given in the
-ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT), where its
-authoritative English terms originate from ISO/TC 211 standards.
+The online version of the MLGT served on the Geolexica platform
+fully reflect entries from the authoritative English terms
+that originate from ISO/TC 211 standards.
 
 Specifically:
 
@@ -26,8 +27,9 @@ Specifically:
 
 == Current content ({{ site.data.metadata.version }} edition)
 
-The current contents in Geolexica are from the 5th release of the
-MLGT ({{ site.data.metadata.version }} edition), consisting of:
+The current contents in the online version of the ISO/TC 211 MLGT are
+from the 5th release of the MLGT ({{ site.data.metadata.version }} edition),
+consisting of:
 
 * {{ site.data.metadata.concept_count }} English language terminology entries (terms/definitions)
 from published ISO/TC 211 standards as of June 2020;
@@ -49,7 +51,8 @@ https://committee.iso.org/sites/tc211/home/re.html[ISO/TC 211 Resources page].
 The MLGT is managed by the ISO/TC 211 Terminology Maintenance Group (TMG).
 The convenor of the TMG is Mr. Reese Plews of Japan.
 
-Geolexica is jointly managed by the TMG and https://www.ribose.com[Ribose],
+The online version of ISO/TC 211 MLGT is jointly managed by the TMG and
+https://www.ribose.com[Ribose],
 the official ISO/TC 211 web service provider and
 Registration Authority of the
 https://geodetic.isotc211.org[ISO Geodetic Register].
@@ -57,7 +60,7 @@ https://geodetic.isotc211.org[ISO Geodetic Register].
 
 == Feedback
 
-Feedback for Geolexica can be submitted on the
+Feedback for ISO/TC 211 MLGT can be submitted on the
 link:/feedback[Feedback] page.
 
 Identified issues that are publicly visible are maintained at the

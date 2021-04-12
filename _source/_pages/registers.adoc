@@ -7,8 +7,8 @@ nav_items: [concepts, posts, stats, feedback, about]
 ---
 :page-liquid:
 
-Concepts and terms in Geolexica are directly imported from these
-registries within the MLGT.
+Concepts and terms in the online version of ISO/TC 211 MLGT are
+directly imported from these registries within the MLGT.
 
 Details of these registries are shown below:
 

@@ -5,7 +5,7 @@ date:   2020-06-02 00:00:00 +0800
 categories: update
 ---
 
-ISO/TC 211 Geolexica has been updated to reflect the latest MLGT version
+The online version of ISO/TC 211 MLGT has been updated to reflect the latest MLGT version
 of 2020-06-02.
 
 This MLGT version provides a number of improvements, including:
@@ -24,7 +24,7 @@ This MLGT version provides a number of improvements, including:
 ** Dutch was `dut` now `nld`
 
 * Definitions with math for the first time is now incorporated into the MLGT.
-  Math elements are properly reflected in Geolexica.
+  Math elements are properly reflected in the online version of ISO/TC 211 MLGT.
 
 At present, the Glossary is available in the following languages.
 

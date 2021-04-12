@@ -5,7 +5,7 @@ permalink: /feedback/
 bodyClass: page
 nav_items: [concepts, posts, stats, registers, about]
 ---
-Please feel free to send your thoughts about Geolexica,
+Please feel free to send your thoughts about ISO/TC 211 MLGT,
 bug reports, or just kudos, through the form below. Thanks!
 
 ++++

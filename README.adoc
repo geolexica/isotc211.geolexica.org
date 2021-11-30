@@ -84,6 +84,8 @@ NOTE: These steps are only intended for the internal operator of the site!
 
 . Ensure isotc211-glossary submodule is up-to-date.
 
+. Run `npm install`
+
 . Run `make _site`
 
 

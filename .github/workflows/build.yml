@@ -3,10 +3,9 @@ name: build
 on:
   push:
     branches:
-      - '*'         # matches every branch
-      - '*/*'       # matches every branch containing a single '/'
-      - '!master'   # excludes master
-      - '!staging'   # excludes master
+      - '!master'
+      - '!staging'
+  pull_request:
 
 jobs:
   build:
@@ -17,34 +16,39 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
-      - name: Setup snaps
-        run: |
-          sudo snap install aws-cli --classic
-          sudo snap install node --classic --channel=10/stable
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
       - name: Use Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '2.6'
+          ruby-version: 2.7
+          bundler-cache: true
+
+      - name: Checkout data
+        uses: actions/checkout@v2
+        with:
+          token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
+          repository: geolexica/isotc211-glossary
+          path: data
+          ref: master
+          fetch-depth: 1
+
+      - name: Cache relaton
+        uses: actions/cache@v2
+        with:
+          path: relaton
+          key: ${{ runner.os }}-${{ hashFiles('isotc211-glossary/**/*.yaml') }}
+
       - name: Use Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v2
         with:
-          node-version: '10.x'
-      - uses: actions/checkout@v2
-      - name: Setup git submodules (authenticated)
-        env:
-          GLOSSARY_DEPLOY_KEY: ${{ secrets.GLOSSARY_DEPLOY_KEY }}
-          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-        run: |
-          eval "$(ssh-agent -s)"
-          ssh-add - <<< "${GLOSSARY_DEPLOY_KEY}"
-          make update-init update-modules
-      - name: Update gems
-        run: |
-          gem install bundler -v "~> 2"
-          bundle install --jobs 4 --retry 3
-      - name: Setup npm
-        run: |
-          npm install
+          node-version: '10'
+          cache: 'npm'
+
+      - run: npm install
+
       - name: Build site
         run: |
           make _site

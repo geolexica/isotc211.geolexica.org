@@ -6,10 +6,7 @@ GENERATED_JSONS := _site/api/concepts/*.jsonld
 all: _site
 
 clean:
-	rm -rf _site
-
-distclean: clean
-	rm -rf _source/_data/info.yaml
+	rm -rf _site _source/_data/info.yaml _source/_data/metadata.yaml
 
 data: _source/_data/info.yaml _source/_data/metadata.yaml
 
@@ -44,4 +41,4 @@ update-init:
 update-modules:
 	git submodule foreach git pull origin master
 
-.PHONY: data bundle all open serve distclean clean update-init update-modules postprocess
+.PHONY: data bundle all open serve clean update-init update-modules postprocess

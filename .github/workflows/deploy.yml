@@ -35,7 +35,7 @@ jobs:
         with:
           token: ${{ secrets.GLOSSARIST_CI_PAT_TOKEN }}
           repository: geolexica/isotc211-glossary
-          path: data
+          path: isotc211-glossary
           ref: master
           fetch-depth: 1
 

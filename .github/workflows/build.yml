@@ -11,96 +11,18 @@ on:
     - deploy
 
 jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Setup prerequisites
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
-
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Use Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: 2.7
-        bundler-cache: true
-
-    - name: Checkout data
-      uses: actions/checkout@v3
-      with:
-        token: ${{ github.token }}
-        repository: geolexica/isotc211-glossary
-        path: isotc211-glossary
-        ref: main
-        fetch-depth: 1
-
-    - name: Cache relaton
-      uses: actions/cache@v3
-      with:
-        path: relaton
-        key: ${{ runner.os }}-${{ hashFiles('isotc211-glossary/**/*.yaml') }}
-
-    - name: Use Node
-      uses: actions/setup-node@v2
-      with:
-        node-version: '10'
-        cache: 'npm'
-
-    - run: npm install
-
-    - name: Build site
-      run: |
-        make _site
-
-    - name: Compress files
-      run: zip -9 -r site.zip _site
-
-    - uses: actions/upload-artifact@v3
-      if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' || github.event.client_payload.ref == 'refs/heads/main' || github.event.client_payload.ref == 'refs/heads/staging' }}
-      with:
-        name: site
-        path: site.zip
-
-  deploy:
-    if: ${{ github.ref == 'refs/heads/main' || github.ref == 'refs/heads/staging' || github.event.client_payload.ref == 'refs/heads/main' || github.event.client_payload.ref == 'refs/heads/staging' }}
-    runs-on: ubuntu-latest
-    needs: build
-    environment:
-      name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
-      url: ${{ github.ref == 'refs/heads/main' && 'https://isotc211.geolexica.org' || 'https://isotc211-staging.geolexica.org' }}
-    steps:
-    - uses: actions/download-artifact@v3
-      with:
-        name: site
-
-    - name: Display structure of downloaded files
-      run: ls -R
-
-    - name: Decompress files
-      run: unzip site.zip
-
-    - name: Configure AWS Credentials
-      uses: aws-actions/configure-aws-credentials@v1
-      with:
-        aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-        aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: ${{ secrets.AWS_REGION }}
-
-    - name: Deploy to ${{ secrets.S3_BUCKET_NAME }}
-      env:
-        CLOUDFRONT_DISTRIBUTION_ID: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-        S3_BUCKET_NAME: ${{ secrets.S3_BUCKET_NAME }}
-      run: |
-        aws configure set default.s3.max_concurrent_requests 100
-        aws configure set default.s3.max_queue_size 10000
-        aws configure set default.s3.use_accelerate_endpoint true
-        aws configure set default.s3.payload_signing_enabled false
-        aws s3 sync _site s3://$S3_BUCKET_NAME --delete --no-progress --exclude "*" --include "*.html" --content-type "text/html; charset=utf-8"
-        aws s3 sync _site s3://$S3_BUCKET_NAME --delete --no-progress --exclude "*" --include "*.json" --content-type "text/json; charset=utf-8"
-        aws s3 sync _site s3://$S3_BUCKET_NAME --delete --no-progress --exclude "*.html,*.json" --include "*"
-        aws configure set preview.cloudfront true
-        aws cloudfront create-invalidation --distribution-id $CLOUDFRONT_DISTRIBUTION_ID --paths "/*"
-
+  build-deploy:
+    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
+    with:
+      repository: geolexica/isotc204-glossary
+      concepts-path: isotc204-glossary
+      environment-name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
+      environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
+      production-branch: refs/heads/main
+      staging-branch: staging
+    secrets:
+      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      aws-region: ${{ secrets.AWS_REGION }}
+      aws-cf-distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+      aws-s3-bucket-name: ${{ secrets.S3_BUCKET_NAME }}

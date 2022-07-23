@@ -26,8 +26,7 @@ always_show_committee_link_on_landing: yes
 email: open.source@ribose.com
 
 tagline: >-
-  The authoritative
-  geographic information terminology database
+  MLGT: The authoritative multi-lingual geographic information terminology database
 
 description: >-
   The authoritative glossary for geographic information technology from ISO/TC 211.

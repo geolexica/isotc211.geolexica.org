@@ -14,10 +14,10 @@ jobs:
   build-deploy:
     uses: geolexica/ci/.github/workflows/site-deploy.yml@main
     with:
-      repository: geolexica/isotc204-glossary
-      concepts-path: isotc204-glossary
+      repository: geolexica/isotc211-glossary
+      concepts-path: isotc211-glossary
       environment-name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
-      environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc204.geolexica.org' || 'https://isotc204-staging.geolexica.org' }}
+      environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc211.geolexica.org' || 'https://isotc211-staging.geolexica.org' }}
       production-branch: refs/heads/main
       staging-branch: staging
     secrets:

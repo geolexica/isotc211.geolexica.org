@@ -12,10 +12,12 @@ on:
 
 jobs:
   build-deploy:
-    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
+    uses: geolexica/ci/.github/workflows/site-deploy-breviter.yml@main
     with:
       repository: geolexica/isotc211-glossary
       concepts-path: isotc211-glossary
+      breviter-repository: geolexica/breviter
+      breviter-path: breviter
       environment-name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
       environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc211.geolexica.org' || 'https://isotc211-staging.geolexica.org' }}
       production-branch: refs/heads/main

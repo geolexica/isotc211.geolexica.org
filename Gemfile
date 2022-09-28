@@ -1,5 +1,5 @@
 source "https://rubygems.org"
 
-gem "geolexica-site", "1.7.0"
+gem "geolexica-site", git: "https://github.com/HassanAkbar/geolexica-site"
 gem "jekyll-geolexica", git: "https://github.com/geolexica/jekyll-geolexica"
 

@@ -3,7 +3,7 @@ layout: base-page
 title: Registers
 permalink: "/registers/index.html"
 bodyClass: page
-nav_items: [concepts, posts, stats, feedback, about]
+nav_items: [concepts, posts, stats, feedback, about, semantic-search]
 ---
 :page-liquid:
 

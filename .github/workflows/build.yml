@@ -12,7 +12,7 @@ on:
 
 jobs:
   build-deploy:
-    uses: geolexica/ci/.github/workflows/site-deploy-breviter.yml@main
+    uses: geolexica/ci/.github/workflows/site-deploy-breviter.yml@breviter_ci_beta
     with:
       repository: geolexica/isotc211-glossary
       concepts-path: isotc211-glossary

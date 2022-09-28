@@ -69,6 +69,9 @@ nav:
   - id: feedback
     url: /feedback
     title: Feedback
+  - id: semantic-search
+    url: /_next/server/pages/reverse
+    title: Semantic Search
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211
@@ -135,3 +138,11 @@ plugins:
   - jekyll-sitemap
   - jekyll-tidy-json
   - jekyll-plugin-frontend-build
+
+include:
+  # Next.js build files
+  - _next
+  - _app
+  - _error
+  - _buildManifest
+  - _ssgManifest

@@ -1,7 +1,6 @@
 = ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT) online version
 
 image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica.org/deploy?label=production%20deployment&style=flat-square[Deployment Status]
-image:https://img.shields.io/github/workflow/status/geolexica/isotc211.geolexica.org/build?label=build&style=flat-square[Build Status]
 
 == Introduction
 

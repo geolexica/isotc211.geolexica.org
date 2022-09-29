@@ -4,7 +4,7 @@ require 'yaml'
 
 terms = []
 Dir['isotc211-glossary/concepts/*.yaml'].map do |yaml_file|
-  terms << YAML.load(IO.read(yaml_file))
+  terms << YAML.safe_load(IO.read(yaml_file), permitted_classes: [Time])
   puts "Processing #{yaml_file}"
 end
 

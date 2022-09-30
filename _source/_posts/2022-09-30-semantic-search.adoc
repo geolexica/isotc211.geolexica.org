@@ -28,7 +28,7 @@ discovery in the Semantic Web and in Technical Language Processing (TLP).
 
 == Deliverables
 
-Deliverable 1:: Synthetic testing dataset (attached under `public/test_cases` in https://github.com/geolexica/breviter[^])
+Deliverable 1:: Synthetic testing dataset (attached under https://github.com/geolexica/breviter/tree/main/public/test_cases[`public/test_cases`^] in https://github.com/geolexica/breviter[^])
 
 Deliverable 2:: The search engine implementation (https://isotc211.geolexica.org/_next/server/pages/reverse.html[^])
 
@@ -80,18 +80,20 @@ $ yarn dev
 
 === Run test cases
 
-- Open the browser and go to http://localhost:3000/testing
-- Click on `Browse...` button to select a test case file
-- Let it run and display results
+- Open the browser and go to http://localhost:3000/testing .
+- Click on `Browse...` button to select a test case file.
+- Let it run and display results.
 
 [[test-data-preparation]]
 == Test Data Preparation
 
-Dataset 1:: `test2.txt` This synthetic dataset is the control, which is unmodified from the source definitions from the Geolexica Glossary.
+The test dataset files can be found under https://github.com/geolexica/breviter/tree/main/public/test_cases[`public/test_cases`^] of https://github.com/geolexica/breviter[^].
 
-Dataset 2:: `test-iso-automatic.txt` This synthetic dataset is generated from source definitions of the Glossary after going through several rounds of Google Translate of various languages.
+Dataset 1:: https://github.com/geolexica/breviter/tree/main/public/test_cases/test2.txt[`test2.txt`^] This synthetic dataset is the control, which is unmodified from the source definitions from the Geolexica Glossary.
 
-Dataset 3:: `test-iso-tc211.txt` This synthetic dataset is handcrafted by Geolexia domain experts.
+Dataset 2:: https://github.com/geolexica/breviter/tree/main/public/test_cases/test-iso-automatic.txt[`test-iso-automatic.txt`^] This synthetic dataset is generated from source definitions of the Glossary after going through several rounds of Google Translate of various languages.
+
+Dataset 3:: https://github.com/geolexica/breviter/tree/main/public/test_cases/test-iso-tc211.txt[`test-iso-tc211.txt`^] This synthetic dataset is handcrafted by Geolexia domain experts.
 
 [[test-results]]
 == Test Results

@@ -48,7 +48,33 @@ The higher the score, the more accurate the result is.
 
 The score is ranged from 0 to 1.
 
-=== Score calculation
+=== Test Methodology and Score Calculation
+
+==== Dataset Format
+
+Each dataset is a plaintext file,
+each row consisting of a query string,
+followed by a comma,
+followed by the expected result.
+
+==== Test Methodology
+
+For each combination of dataset and search method,
+for each query in the dataset,
+feed it into the search method,
+and receive an ordered list of output words.
+
+The order of the expected word within the list is the resulting *rank*,
+which is used to calculate the aggregate score for the dataset and search method
+combination.
+
+The aggregate scores are then normalized against the dataset size.
+These normalized scores are compared with each other in order to
+compare relative accuracy.
+The higher the score (closer to 1.0),
+the more accurate the search method is, for the given dataset.
+
+==== Aggregate Score
 
 It is a weighted arithmetic mean of the number of inputs achieving a certain
 rank range, multiplied by the corresponding score:
@@ -61,7 +87,7 @@ rank range, multiplied by the corresponding score:
 
 normalized score = (20×A + 10×B + 5×C + 3×D + 1×E) / (20 × (A + B + C + D + E))
 
-=== Prepare project environment
+=== Prepare Project Environment
 
 - Install prerequisites: NodeJS 16+, yarn, Ruby 2.7+
 - Install project
@@ -82,7 +108,7 @@ $ yarn compute
 $ yarn dev
 ```
 
-=== Prepare keyword matching sub-project
+=== Prepare Keyword Matching Sub-project
 
 - Install prerequisites: docker, NodeJS 16+, npm, Ruby 2.7+
 - Start elasticsearch server:
@@ -104,7 +130,7 @@ $ make
 ```
 
 
-=== Run test cases
+=== Run Test Cases
 
 - Open the browser and go to http://localhost:3000/testing .
 - Click on `Browse...` button to select a test case file.

@@ -46,13 +46,16 @@ This score is then used for comparison in the evaluation phase.
 
 === Score calculation
 
-It is a weighted arithmetic mean of the number of inputs achieving a certain rank range multiplied by the corresponding score. TODO: expand
+It is a weighted arithmetic mean of the number of inputs achieving a certain
+rank range, multiplied by the corresponding score:
 
-rank 1:: score 20
-rank 2-3:: score 10
-rank 4-5:: score 5
-rank 6-10:: score 3
-rank 11+:: score 1
+- A, *rank 1:*  score 20
+- B, *rank 2-3:*  score 10
+- C, *rank 4-5:*  score 5
+- D, *rank 6-10:*  score 3
+- E, *rank 11+:*  score 1
+
+normalized score = (20×A + 10×B + 5×C + 3×D + 1×E) / (20 × (A + B + C + D + E))
 
 === Prepare project environment
 

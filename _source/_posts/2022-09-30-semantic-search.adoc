@@ -44,6 +44,10 @@ A overall fit score (normalized) is calculated for each test dataset and search 
 
 This score is then used for comparison in the evaluation phase.
 
+The higher the score, the more accurate the result is.
+
+The score is ranged from 0 to 1.
+
 === Score calculation
 
 It is a weighted arithmetic mean of the number of inputs achieving a certain
@@ -77,6 +81,28 @@ $ yarn compute
 ```console
 $ yarn dev
 ```
+
+=== Prepare keyword matching sub-project
+
+- Install prerequisites: docker, NodeJS 16+, npm, Ruby 2.7+
+- Start elasticsearch server:
++
+```console
+$ git clone https://github.com/geolexica/breviter-compare
+$ cd breviter-compare
+$ make setup_docker
+```
+- Set up server:
++
+```console
+$ make setup_elasticsearch
+```
+- Run tests:
++
+```console
+$ make
+```
+
 
 === Run test cases
 

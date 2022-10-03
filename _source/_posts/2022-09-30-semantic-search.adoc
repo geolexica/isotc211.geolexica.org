@@ -1465,6 +1465,7 @@ ground reference point	3D position of a reference point on the ground for a give
 
 - normalized fit score: 0.47340261739799844
 - (20 × 467 + 10 × 175 + 5 × 85 + 3 × 106 + 1 × 466) / 25980 = 0.47340261739799844
+
 .Test result
 [%autowidth,frame=ends,format=tsv,cols="1,1,1"]
 |===

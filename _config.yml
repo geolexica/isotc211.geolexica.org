@@ -70,7 +70,7 @@ nav:
     url: /feedback
     title: Feedback
   - id: semantic-search
-    url: /_next/server/pages/reverse.html
+    url: /semantic-search
     title: Semantic Search
 
 footer_nav:

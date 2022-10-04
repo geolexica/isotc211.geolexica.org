@@ -10,6 +10,6 @@ nav_items: [concepts, posts, stats, registers, about, feedback]
 
 ++++
 <div class="semantic-search">
-  <iframe src="/_next/server/pages/reverse.html" title="Semantic search" style="border:none; width:100%; height: 950px;" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin"></iframe>
+  <iframe src="/next_app/reverse.html" title="Semantic search" style="border:none; width:100%; height: 950px;" sandbox="allow-top-navigation allow-scripts allow-forms allow-same-origin"></iframe>
 </div>
 ++++

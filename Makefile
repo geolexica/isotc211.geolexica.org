@@ -8,7 +8,7 @@ all: _site
 clean:
 	rm -rf _site _source/_data/info.yaml _source/_data/metadata.yaml
 
-data: _source/_data/info.yaml _source/_data/metadata.yaml | _source/_next
+data: _source/_data/info.yaml _source/_data/metadata.yaml | _source/next_app
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -23,12 +23,12 @@ postprocess:
 bundle:
 	bundle
 
-_source/_next: breviter/.next
+_source/next_app: breviter/out
 	mkdir $@
 	cp -rf $</. $@/
 
-breviter/.next:
-	cd breviter && yarn install && yarn build
+breviter/out:
+	cd breviter && yarn install && yarn build && yarn export
 
 _source/_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml
 	cp -f $< $@

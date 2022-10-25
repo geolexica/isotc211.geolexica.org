@@ -16,7 +16,7 @@ The site is managed by the ISO/TC 211 TMG together with Ribose.
 
 == Sites
 
-`master`:: https://isotc211.geolexica.org/
+`main`:: https://isotc211.geolexica.org/
 `staging`:: https://isotc211-staging.geolexica.org
 
 == How to add/remove entries or suggest changes?

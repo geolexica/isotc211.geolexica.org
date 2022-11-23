@@ -146,3 +146,6 @@ include:
   - _error
   - _buildManifest
   - _ssgManifest
+
+suggest_translation_url: "https://github.com/geolexica/isotc211.geolexica.org/issues/new?assignees=ReesePlews&labels=translate&template=translate.md&title=Translate%3A+"
+report_issue_url: "https://github.com/geolexica/isotc211.geolexica.org/issues/new?assignees=ReesePlews&labels=report&template=report.md&title=Report%3A+"

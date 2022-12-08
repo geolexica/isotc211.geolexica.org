@@ -46,6 +46,6 @@ update-init:
 	git submodule update --init
 
 update-modules:
-	git submodule foreach git pull origin master
+	git submodule foreach git pull origin main
 
 .PHONY: data bundle all open serve clean update-init update-modules postprocess

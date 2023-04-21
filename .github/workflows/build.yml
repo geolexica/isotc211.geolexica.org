@@ -21,18 +21,25 @@ jobs:
       run: |
         if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
           ref="${{ github.event.client_payload.ref }}"
+          >&2 echo ref="${{ github.event.client_payload.ref }}"
         else
           ref="${{ github.ref }}"
+          >&2 echo ref="${{ github.ref }}"
         fi
 
         if [ "$ref" = "refs/heads/main" ]; then
           echo "environment-name=production" >> $GITHUB_OUTPUT
           echo "environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT
+          >&2 echo '"environment-name=production" >> $GITHUB_OUTPUT'
+          >&2 echo '"environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT'
         elif [ "$ref" = "refs/heads/staging" ]; then
           echo "environment-name=staging" >> $GITHUB_OUTPUT
           echo "environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT
+          >&2 echo '"environment-name=staging" >> $GITHUB_OUTPUT'
+          >&2 echo '"environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT'
         else
           echo "environment-name=skip" >> $GITHUB_OUTPUT
+          >&2 echo '"environment-name=skip" >> $GITHUB_OUTPUT'
         fi
 
   build-deploy:

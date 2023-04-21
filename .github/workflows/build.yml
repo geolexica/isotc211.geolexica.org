@@ -11,17 +11,42 @@ on:
     - deploy
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    outputs:
+      environment-name: ${{ steps.prepare.outputs.environment-name }}
+      environment-url: ${{ steps.prepare.outputs.environment-url }}
+    steps:
+    - id: prepare
+      run: |
+        if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+          ref="${{ github.event.client_payload.ref }}"
+        else
+          ref="${{ github.ref }}"
+        fi
+
+        if [ "$ref" = "refs/heads/main" ]; then
+          echo "environment-name=production" >> $GITHUB_OUTPUT
+          echo "environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT
+        elif [ "$ref" = "refs/heads/staging" ]; then
+          echo "environment-name=staging" >> $GITHUB_OUTPUT
+          echo "environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT
+        else
+          echo "environment-name=skip" >> $GITHUB_OUTPUT
+        fi
+
   build-deploy:
+    needs: prepare
     uses: geolexica/ci/.github/workflows/site-deploy-breviter.yml@main
     with:
       repository: geolexica/isotc211-glossary
       concepts-path: isotc211-glossary
       breviter-repository: geolexica/breviter
       breviter-path: breviter
-      environment-name: ${{ github.ref == 'refs/heads/main' && 'production' || 'staging' }}
-      environment-url: ${{ github.ref == 'refs/heads/main' && 'https://isotc211.geolexica.org' || 'https://isotc211-staging.geolexica.org' }}
+      environment-name: ${{ needs.prepare.outputs.environment-name }}
+      environment-url: ${{ needs.prepare.outputs.environment-url }}
       production-branch: refs/heads/main
-      staging-branch: staging
+      staging-branch: refs/heads/staging
     secrets:
       aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
       aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

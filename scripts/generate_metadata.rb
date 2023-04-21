@@ -10,7 +10,11 @@ Dir["isotc211-glossary/geolexica/concept/*.yaml"].map do |yaml_file|
 end
 
 term_count = terms.map do |t|
-  t["data"]["localizedConcepts"].count
+  if ! t["data"]["localizedConcepts"].nil?
+    t["data"]["localizedConcepts"].count
+  else
+    0
+  end
 end.sum
 
 meta = {

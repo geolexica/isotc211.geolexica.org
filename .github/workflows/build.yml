@@ -29,14 +29,14 @@ jobs:
 
         if [ "$ref" = "refs/heads/main" ]; then
           echo "environment-name=production" >> $GITHUB_OUTPUT
-          echo "environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT
+          echo "environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT
           >&2 echo '"environment-name=production" >> $GITHUB_OUTPUT'
-          >&2 echo '"environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT'
+          >&2 echo '"environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT'
         elif [ "$ref" = "refs/heads/staging" ]; then
           echo "environment-name=staging" >> $GITHUB_OUTPUT
-          echo "environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT
+          echo "environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT
           >&2 echo '"environment-name=staging" >> $GITHUB_OUTPUT'
-          >&2 echo '"environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT'
+          >&2 echo '"environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT'
         else
           echo "environment-name=skip" >> $GITHUB_OUTPUT
           >&2 echo '"environment-name=skip" >> $GITHUB_OUTPUT'

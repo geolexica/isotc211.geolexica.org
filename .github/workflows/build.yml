@@ -12,7 +12,7 @@ on:
 
 jobs:
   build-deploy:
-    uses: geolexica/ci/.github/workflows/site-deploy.yml@bugfix/correctly-handle-staging-deployment
+    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
     with:
       ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
       repository: geolexica/isotc211-glossary

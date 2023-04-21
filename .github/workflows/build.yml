@@ -11,49 +11,18 @@ on:
     - deploy
 
 jobs:
-  prepare:
-    runs-on: ubuntu-latest
-    outputs:
-      environment-name: ${{ steps.prepare.outputs.environment-name }}
-      environment-url: ${{ steps.prepare.outputs.environment-url }}
-    steps:
-    - id: prepare
-      run: |
-        if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
-          ref="${{ github.event.client_payload.ref }}"
-          >&2 echo ref="${{ github.event.client_payload.ref }}"
-        else
-          ref="${{ github.ref }}"
-          >&2 echo ref="${{ github.ref }}"
-        fi
-
-        if [ "$ref" = "refs/heads/main" ]; then
-          echo "environment-name=production" >> $GITHUB_OUTPUT
-          echo "environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT
-          >&2 echo '"environment-name=production" >> $GITHUB_OUTPUT'
-          >&2 echo '"environment-url=https://isotc211.geolexica.org" >> $GITHUB_OUTPUT'
-        elif [ "$ref" = "refs/heads/staging" ]; then
-          echo "environment-name=staging" >> $GITHUB_OUTPUT
-          echo "environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT
-          >&2 echo '"environment-name=staging" >> $GITHUB_OUTPUT'
-          >&2 echo '"environment-url=https://isotc211-staging.geolexica.org" >> $GITHUB_OUTPUT'
-        else
-          echo "environment-name=skip" >> $GITHUB_OUTPUT
-          >&2 echo '"environment-name=skip" >> $GITHUB_OUTPUT'
-        fi
-
   build-deploy:
-    needs: prepare
-    uses: geolexica/ci/.github/workflows/site-deploy-breviter.yml@main
+    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
     with:
+      ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
       repository: geolexica/isotc211-glossary
       concepts-path: isotc211-glossary
       breviter-repository: geolexica/breviter
       breviter-path: breviter
-      environment-name: ${{ needs.prepare.outputs.environment-name }}
-      environment-url: ${{ needs.prepare.outputs.environment-url }}
       production-branch: refs/heads/main
       staging-branch: refs/heads/staging
+      production-url: https://isotc211.geolexica.org
+      staging-url: https://isotc211-staging.geolexica.org
     secrets:
       aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
       aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}

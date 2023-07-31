@@ -1,51 +1,31 @@
-name: build
+name: deploy
 
 on:
   push:
     branches:
-      - '*'         # matches every branch
-      - '*/*'       # matches every branch containing a single '/'
-      - '!master'   # excludes master
-      - '!staging'   # excludes master
+      - main
+      - staging
+  pull_request:
+  repository_dispatch:
+    types:
+    - deploy
 
 jobs:
-  build:
-    name: Build site
-    runs-on: ubuntu-latest
-    steps:
-      - name: Setup prerequisites
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y curl make libxml2-dev libxslt-dev openssl
-      - name: Setup snaps
-        run: |
-          sudo snap install yq
-          sudo snap install aws-cli --classic
-          sudo snap install node --classic --channel=10/stable
-      - name: Use Ruby
-        uses: actions/setup-ruby@v1
-        with:
-          ruby-version: '2.6'
-      - name: Use Node
-        uses: actions/setup-node@v1
-        with:
-          node-version: '10.x'
-      - uses: actions/checkout@v2
-      - name: Setup git submodules (authenticated)
-        env:
-          GLOSSARY_DEPLOY_KEY: ${{ secrets.GLOSSARY_DEPLOY_KEY }}
-          GIT_SSH_COMMAND: "ssh -o StrictHostKeyChecking=no"
-        run: |
-          eval "$(ssh-agent -s)"
-          ssh-add - <<< "${GLOSSARY_DEPLOY_KEY}"
-          make update-init update-modules
-      - name: Update gems
-        run: |
-          gem install bundler -v "~> 2"
-          bundle install --jobs 4 --retry 3
-      - name: Setup npm
-        run: |
-          npm install
-      - name: Build site
-        run: |
-          make _site
+  build-deploy:
+    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
+    with:
+      ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
+      repository: geolexica/isotc211-glossary
+      concepts-path: isotc211-glossary
+      breviter-repository: geolexica/breviter
+      breviter-path: breviter
+      production-branch: refs/heads/main
+      staging-branch: refs/heads/staging
+      production-url: https://isotc211.geolexica.org
+      staging-url: https://isotc211-staging.geolexica.org
+    secrets:
+      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      aws-region: ${{ secrets.AWS_REGION }}
+      aws-cf-distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
+      aws-s3-bucket-name: ${{ secrets.S3_BUCKET_NAME }}

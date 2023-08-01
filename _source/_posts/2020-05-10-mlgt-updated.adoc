@@ -5,7 +5,7 @@ date:   2020-05-10 00:00:00 +0800
 categories: update
 ---
 
-ISO/TC 211 Geolexica has been updated to reflect the latest MLGT version
+The online version of ISO/TC 211 MLGT has been updated to reflect the latest MLGT version
 of 2020-04-27.
 
 This MLGT version provides a number of improvements, including:

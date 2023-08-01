@@ -1,11 +1,11 @@
 ---
 layout: custom-post
-title:  "Geolexica updated to MLGT Edition 2019-08-09"
+title:  "ISO/TC 211 MLGT updated to Edition 2019-08-09"
 date:   2019-08-10 00:00:00 +0800
 categories: update
 ---
 
-Geolexica has been updated to contain the latest officially translated terms from the
+The online version of ISO/TC 211 MLGT has been updated to contain the latest officially translated terms from the
 20190809 Edition of the ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT).
 
 The MLGT (20190809 Edition) contains the following terminology records:
@@ -26,13 +26,13 @@ The MLGT (20190809 Edition) contains the following terminology records:
 * Spanish    1069 (including term equivalents)
 * Swedish    681
 
-The Malay terms are a new addition to Geolexica. While they were added to the MLGT
-in 2018-11, they have not been offered through Geolexica.
+The Malay terms are a new addition to the online version of ISO/TC 211 MLGT. While they were added to the MLGT
+in 2018-11, they have not been offered through the online version of ISO/TC 211 MLGT.
 
 
 For further information or comment:
 
-* Feedback for Geolexica can be submitted on the
+* Feedback for the online version of ISO/TC 211 MLGT can be submitted on the
 link:/feedback[Feedback] page.
 
 * MLGT issues can be reported on the

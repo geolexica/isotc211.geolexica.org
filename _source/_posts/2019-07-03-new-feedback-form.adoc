@@ -7,8 +7,8 @@ categories: update
 
 Due to popular request at the ISO/TC 211 Plenary at Maribor,
 we have now added a link:/feedback[feedback form]
-for collection of feedback: whether it is to do with Geolexica,
-MLGT terms or just comments (aka kudos) to the TMG.
+for collection of feedback: whether it is to do with ISO/TC 211 MLGT,
+the Geolexica platform, or just comments (aka kudos) to the TMG.
 
 The TMG will periodically review these messages. You may be contacted
 shall any resulting updates occur or communication be necessary, so

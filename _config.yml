@@ -1,6 +1,6 @@
 source: _source
 
-title: "ISO/TC 211 Geolexica"
+title: "ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT)"
 
 google_analytics:
   id: UA-168998071-2
@@ -26,8 +26,7 @@ always_show_committee_link_on_landing: yes
 email: open.source@ribose.com
 
 tagline: >-
-  The authoritative
-  geographic information terminology database
+  MLGT: The authoritative multi-lingual geographic information terminology database
 
 description: >-
   The authoritative glossary for geographic information technology from ISO/TC 211.
@@ -70,6 +69,9 @@ nav:
   - id: feedback
     url: /feedback
     title: Feedback
+  - id: semantic-search
+    url: /semantic-search
+    title: Semantic Search
 
 footer_nav:
   - url: https://committee.iso.org/home/tc211
@@ -98,7 +100,9 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  concepts_glob: "../isotc211-glossary/concepts/*.yaml"
+  concepts_glob: "../isotc211-glossary/geolexica/concept/*.yaml"
+  localized_concepts_path: "../isotc211-glossary/geolexica/localized-concept"
+  format: "paneron"
   math: true
   term_languages:
     - eng
@@ -137,3 +141,14 @@ plugins:
   - jekyll-sitemap
   - jekyll-tidy-json
   - jekyll-plugin-frontend-build
+
+include:
+  # Next.js build files
+  - _next
+  - _app
+  - _error
+  - _buildManifest
+  - _ssgManifest
+
+suggest_translation_url: "https://github.com/geolexica/isotc211.geolexica.org/issues/new?assignees=ReesePlews&labels=translate&template=translate.md&title=Translate%3A+"
+report_issue_url: "https://github.com/geolexica/isotc211.geolexica.org/issues/new?assignees=ReesePlews&labels=report&template=report.md&title=Report%3A+"

@@ -6,12 +6,9 @@ GENERATED_JSONS := _site/api/concepts/*.jsonld
 all: _site
 
 clean:
-	rm -rf _site
+	rm -rf _site _source/_data/info.yaml _source/_data/metadata.yaml
 
-distclean: clean
-	rm -rf _source/_data/info.yaml
-
-data: _source/_data/info.yaml _source/_data/metadata.yaml
+data: _source/_data/info.yaml _source/_data/metadata.yaml | _source/next_app
 
 _site: data | bundle
 	bundle exec jekyll build
@@ -25,6 +22,13 @@ postprocess:
 
 bundle:
 	bundle
+
+_source/next_app: breviter/out
+	mkdir $@
+	cp -rf $</. $@/
+
+breviter/out:
+	cd breviter && yarn install && yarn build && yarn export
 
 _source/_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml
 	cp -f $< $@
@@ -42,6 +46,6 @@ update-init:
 	git submodule update --init
 
 update-modules:
-	git submodule foreach git pull origin master
+	git submodule foreach git pull origin main
 
-.PHONY: data bundle all open serve distclean clean update-init update-modules postprocess
+.PHONY: data bundle all open serve clean update-init update-modules postprocess

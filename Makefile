@@ -27,7 +27,10 @@ _source/next_app: breviter/out
 	mkdir $@
 	cp -rf $</. $@/
 
-breviter/out:
+breviter/data/concepts:
+	cd breviter && git submodule update --init
+
+breviter/out: breviter/data/concepts
 	cd breviter && yarn install && yarn build && yarn export
 
 _source/_data/info.yaml: isotc211-glossary/tc211-termbase.meta.yaml

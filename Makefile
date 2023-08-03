@@ -6,7 +6,7 @@ GENERATED_JSONS := _site/api/concepts/*.jsonld
 all: _site
 
 clean:
-	rm -rf _site _source/_data/info.yaml _source/_data/metadata.yaml
+	rm -rf _source/next_app breviter/out _site _source/_data/info.yaml _source/_data/metadata.yaml metadata.yaml
 
 data: _source/_data/info.yaml _source/_data/metadata.yaml | _source/next_app
 

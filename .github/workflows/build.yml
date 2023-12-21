@@ -4,15 +4,15 @@ on:
   push:
     branches:
       - main
-      - staging
   pull_request:
+  workflow_dispatch:
   repository_dispatch:
     types:
     - deploy
 
 jobs:
   build-deploy:
-    uses: geolexica/ci/.github/workflows/site-deploy.yml@main
+    uses: geolexica/ci/.github/workflows/site-deploy-github-pages.yml@main
     with:
       ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
       repository: geolexica/isotc211-glossary
@@ -20,12 +20,4 @@ jobs:
       breviter-repository: geolexica/breviter
       breviter-path: breviter
       production-branch: refs/heads/main
-      staging-branch: refs/heads/staging
       production-url: https://isotc211.geolexica.org
-      staging-url: https://isotc211-staging.geolexica.org
-    secrets:
-      aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
-      aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      aws-region: ${{ secrets.AWS_REGION }}
-      aws-cf-distribution-id: ${{ secrets.CLOUDFRONT_DISTRIBUTION_ID }}
-      aws-s3-bucket-name: ${{ secrets.S3_BUCKET_NAME }}

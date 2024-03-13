@@ -1,4 +1,4 @@
-name: site-deploy-github-pages
+name: site-deploy-github-pages-staging
 
 on:
   push:
@@ -49,7 +49,7 @@ jobs:
         token: ${{ github.token }}
         repository: geolexica/isotc211-glossary
         path: isotc211-glossary
-        ref: refs/heads/main
+        ref: refs/heads/generated_concepts_from_20231214_glossary_with_math
         fetch-depth: 1
 
     - name: Checkout breviter

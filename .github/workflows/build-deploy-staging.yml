@@ -84,18 +84,18 @@ jobs:
       run: make _site
 
     - name: Compress files
-      run: zip -9 -r staging_site.zip _site
+      run: zip -9 -r site.zip _site
 
     - uses: actions/upload-artifact@v3
       if: steps.prepare.outputs.environment-name != 'skip'
       with:
         name: staging_site
-        path: staging_site.zip
+        path: site.zip
 
     - name: Upload artifact
       uses: actions/upload-pages-artifact@v2
       with:
-        path: _staging_site
+        path: _site
 
   deploy:
     if: needs.build.outputs.environment-name != 'skip'

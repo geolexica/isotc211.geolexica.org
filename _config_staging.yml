@@ -1,0 +1,154 @@
+source: _source
+
+title: "ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT)"
+
+google_analytics:
+  id: UA-168998071-2
+
+committee:
+  identifier: TC 211
+  name: Geographic information/Geomatics
+  parent_org_name: ISO
+  home: https://committee.iso.org/home/tc211
+  main_logo:
+    path: /assets/logo-iso-noninverted.svg
+    alt_text: ISO
+  footer_logo:
+    path: /assets/logo-iso-noninverted.svg
+    alt_text: ISO organization
+    url: https://www.iso.org/
+
+font_awesome_kit_url: https://kit.fontawesome.com/77a8a07e0a.js
+
+has_brand_name: yes
+always_show_committee_link_on_landing: yes
+
+email: open.source@ribose.com
+
+tagline: >-
+  MLGT: The authoritative multi-lingual geographic information terminology database
+
+description: >-
+  The authoritative glossary for geographic information technology from ISO/TC 211.
+
+baseurl: "/isotc211-staging"
+url: "https://isotc211.geolexica.org"
+
+social:
+  links:
+    - url: https://twitter.com/ISOTC211
+    - url: https://github.com/ISO-TC211
+    - url: https://www.facebook.com/groups/236669159734679/
+    - url: https://www.linkedin.com/groups/4222374
+
+# algolia:
+#   application_id: NOP
+#   index_name: NOP
+#   search_only_api_key: NOP
+
+nav:
+  items:
+  - id: concepts
+    url: /isotc211-staging/concepts
+    title: Concepts
+    description: List of all concepts
+  - id: posts
+    url: /isotc211-staging/posts
+    title: News & Articles
+  - id: registers
+    url: /isotc211-staging/registers
+    title: Registers
+    description: Language registries of the Multi-Lingual Glossary of Terms
+  - id: stats
+    url: /isotc211-staging/stats
+    title: Statistics
+    description: Per-language term statistics
+  - id: about
+    url: /isotc211-staging/about
+    title: About
+  - id: feedback
+    url: /isotc211-staging/feedback
+    title: Feedback
+  - id: semantic-search
+    url: /isotc211-staging/semantic-search
+    title: Semantic Search
+
+footer_nav:
+  - url: https://committee.iso.org/home/tc211
+    title: ISO/TC 211
+
+powered_by:
+  url: https://open.ribose.com
+  title: Ribose
+  logo_path: /isotc211-staging/assets/logo-ribose.svg
+
+theme: jekyll-geolexica
+
+sass:
+  style: compressed
+
+collections:
+  pages:
+    output: true
+    permalink: /:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      show_header_meta: true
+
+geolexica:
+  concepts_glob: "../isotc211-glossary/geolexica/concept/*.yaml"
+  localized_concepts_path: "../isotc211-glossary/geolexica/localized-concept"
+  glossary_path: "../isotc211-glossary/geolexica"
+  format: "paneron"
+  math: true
+  term_languages:
+    - eng
+    - ara
+    - dan
+    - deu
+    - fin
+    - fra
+    - jpn
+    - kor
+    - msa
+    - nld
+    - pol
+    - rus
+    - spa
+    - swe
+    - zho
+  formats:
+    - html
+    - json
+    - json-ld
+    - turtle
+  search:
+    refinements:
+      - validity
+
+tidy_json:
+  enabled: true
+  pretty: true
+
+plugins:
+  - jekyll-data
+  - jekyll-feed
+  - jekyll-geolexica
+  - jekyll-sitemap
+  - jekyll-tidy-json
+  - jekyll-plugin-frontend-build
+
+include:
+  # Next.js build files
+  - _next
+  - _app
+  - _error
+  - _buildManifest
+  - _ssgManifest
+
+suggest_translation_url: "https://github.com/geolexica/isotc211.geolexica.org/issues/new?assignees=ReesePlews&labels=translate&template=translate.md&title=Translate%3A+"
+report_issue_url: "https://github.com/geolexica/isotc211.geolexica.org/issues/new?assignees=ReesePlews&labels=report&template=report.md&title=Report%3A+"

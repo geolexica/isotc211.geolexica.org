@@ -1,0 +1,503 @@
+---
+layout: custom-post
+title:  "MLGT updated to 2024/06/xx version"
+date:   2024-06-xx 00:00:00 +0800
+categories: update
+---
+
+The online version of ISO/TC 211 MLGT has been updated to reflect the latest MLGT version
+of 2023-12-14.
+
+This MLGT version provides a number of improvements, including:
+
+* Updates to terminology
+** Superseded and replacement standards
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Old Standard* |*New Standard*
+|ISO 6709:2008 |ISO 6709:2022
+|ISO 19105:2000 |ISO 19105:2022
+|ISO 19111:2019 |ISO 19111:2019/Amd.2:2023
+|ISO 19115-3:2016 |ISO 19115-3:2023
+|ISO 19123:2005 |ISO 19123-1:2023
+|ISO 19125-2:2004 |Withdrawn. No replacement.
+|ISO 19126:2009 |ISO 19126:2021
+|ISO 19131:2007 |ISO 19131:2022
+|ISO 19148:2012 |ISO 19148:2021
+|ISO 19153:2014 |Withdrawn. No replacement.
+|ISO 19156:2011 |ISO 19156:2023
+|ISO 19157:2013 |ISO 19157-1:2023
+|ISO 19160-4:2017 |ISO 19160-4:2023
+|===
+
+
+** Records requiring changes to the authoritative source
+
+Records in which the authoritative reference changed from
+*ISO 6709:2008 to ISO 6709:2022(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|733 |altitude
+|905 |sexagesimal degree
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19105:2000 to ISO 19105:2022(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|76 |conformance testing
+|235 |implementation
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19123:2005 to ISO 19123-1:2023(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|129 |Delaunay triangulation
+|159 |evaluation<coverage>
+|337 |point coverage
+|340 |polygon coverage
+|367 |rectified grid
+|457 |tessellation
+|460 |Thiessen polygon
+|476 |triangulated irregular network
+|491 |vector
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19125-2:2004 to ISO 19101-2:2018*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|203 |geographic feature
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19126:2009 to ISO 19126:2021(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|851 |compound registry
+|852 |feature association concept
+|863 |nominal value
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19148:2012 to ISO 19148:2021(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1170 |attributed feature
+|1171 |feature event
+|1172 |linear referencing
+|1365 |Linear Referencing Method
+|1079 |Linear Referencing System
+|1173 |linear segment
+|1081 |linearly located
+|1174 |linearly located event
+|1175 |linearly referenced location
+|1176 |located feature
+|1177 |locating feature
+|1178 |spatial position
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19156:2011 to ISO 19156:2023(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1063 |domain feature
+|1296 |feature type
+|1308 |observation result
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19109:2005 to ISO 19156:2023(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1312 |property type
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19157:2013 to ISO 19157-1:2023(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1366 |conformance quality level
+|736 |correctness
+|1298 |item
+|1303 |metaquality
+|1367 |standalone quality report
+|===
+
+*Records in which the authoritative reference changed from*
+
+*ISO 19160-4:2017(E) to ISO 19160-4:2023(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|2112 |addressee
+|1950 |delivery <postal>
+|2113 |delivery address <postal>
+|2114 |delivery point <postal>
+|1955 |mail recipient
+|2116 |mailee
+|1958 |mailer
+|1959 |party <postal>
+|2117 |postal address
+|2118 |postal address component <postal address>
+|2119 |component <postal address>
+|2120 |postal address construct <postal address>
+|2121 |construct <postal address>
+|2122 |postal address domain <postal address>
+|2123 |domain <postal address>
+|2124 |postal address element <postal address>
+|2125 |element <postal address>
+|2126 |postal address element code
+|2143 |U-code
+|2127 |postal address sub-element <postal address>
+|2128 |sub-element <postal address>
+|2129 |postal address rendering <postal>
+|2130 |address rendition <postal>
+|2131 |postal address segment <postal address>
+|2132 |segment <postal address>
+|2133 |postal address template <postal>
+|2134 |template <postal>
+|2135 |postal address type
+|2138 |rendered postal address
+|2139 |rendered address
+|2140 |rendering parameter
+|2141 |rendition instruction
+|===
+
+*Attachment 4*
+
+*Records that have been superseded*
+
+*Records published in ISO 19105:2000 but superseded by new entries in*
+
+*ISO 19105:2022*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|3 |abstract test case
+|6 |abstract test suite
+|71 |conformance
+|73 |conformance clause
+|75 |conformance test report
+|161 |executable test case
+|162 |executable test suite
+|238 |inconclusive verdict
+|===
+
+*Records published in ISO 19111:2007 but superseded by new entries in*
+
+*ISO 19123-1:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|709 |image coordinate reference system
+|===
+
+*Records published in ISO 19111:2019 but superseded by new entries in
+ISO 19111:2019/Amd.2:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|2368 |geodetic coordinate reference system
+|2377 |spherical coordinate system
+|===
+
+*Records published in ISO 19115-2:2019 but superseded by new entries in
+ISO 19123-1:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|222 |grid coordinates
+|===
+
+*Records published in ISO 19117:2012 but superseded by new entries in
+ISO 19131:2022*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|342 |portrayal
+|===
+
+* +
+Records published in ISO 19123:2005 but superseded by new entries in*
+
+*ISO 19123-1:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|83 |continuous coverage
+|99 |coverage
+|100 |coverage geometry
+|141 |discrete coverage
+|221 |grid
+|223 |grid point
+|363 |range <coverage>
+|364 |raster
+|369 |referenceable grid
+|416 |solid
+|===
+
+*Records published in ISO 19126:2009 but superseded by new entries in*
+
+*ISO 19126:2021*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|853 |feature attribute concept
+|855 |feature concept
+|856 |feature concept dictionary
+|857 |feature operation concept
+|===
+
+*Records published in ISO 19131:2007 but superseded by new entries in*
+
+*ISO 19131:2022*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|110 |data product
+|111 |data product specification
+|===
+
+*Records published in ISO/TS 19139:2007 but superseded by new entries
+in*
+
+*ISO 19115-3:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|840 |polymorphism
+|===
+
+*Records published in ISO 19148:2012 but superseded by new entries in*
+
+*ISO 19148:2021*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1073 |linear element
+|===
+
+*Records published in ISO 19156:2011 but superseded by new entries in*
+
+*ISO 19156:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1442 |observation
+|===
+
+*Attachment 5*
+
+*Records that have been retired*
+
+*Records published in ISO 6709:2008 but omitted from*
+
+*new edition ISO 6709:2022*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|904 |resolution <coordinate>
+|===
+
+*Records published in ISO 19105:2000 but omitted from*
+
+*new edition ISO 19105:2022(E)*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|4 |abstract test method
+|5 |abstract test module
+|7 |acceptance testing <user>
+|27 |basic test
+|35 |capability test
+|72 |conformance assessment process
+|77 |conforming implementation
+|166 |fail verdict
+|167 |falsification test
+|237 |Implementation eXtra Information for Testing
+|310 |non-conformance
+|326 |pass verdict
+|329 |performance testing
+|386 |robustness testing
+|440 |System Under Test
+|458 |testing laboratory
+|495 |verification test
+|===
+
+*Records published in ISO 19123:2005 but omitted from new edition ISO 19123-1:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|757 |geometry value object
+|758 |geometry value pair
+|257 |inverse evaluation<coverage>
+|===
+
+*Records retired due to the withdrawal (without replacement) of ISO 19125-2:2004*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|182 |feature table
+|===
+
+*Records retired due to the withdrawal (without replacement) of ISO 19153:2014*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1206 |access control
+|1207 |agency
+|1208 |agent
+|1210 |authentication
+|1211 |authorization
+|1212 |bypass
+|1213 |chain of agency
+|1214 |chain of licence
+|1215 |contract
+|1216 |copyleft
+|1217 |digital licence
+|1218 |digital rights management
+|1219 |expected risk
+|1220 |fair use
+|1221 |general public licence
+|1222 |GeoDRM enabled
+|1223 |GeoDRM extended (applied to resources)
+|1224 |GeoLicence
+|1225 |GeoLicence resolution
+|1226 |GeoLicence infringement
+|1227 |infringement (of a licence)
+|1228 |infringement (of a right)
+|1229 |joint ownership
+|1230 |lease
+|1231 |lend
+|1232 |licence
+|1233 |licence extents
+|1234 |licence manager
+|1235 |licensee
+|1236 |licensing agent
+|1237 |licensor
+|1240 |necessary
+|1241 |owner
+|1245 |principal
+|1243 |payment provider
+|1244 |persistent protection mechanism
+|1246 |protection
+|1247 |provenance
+|1248 |resource <GeoDRM>
+|1249 |remediation
+|1250 |right <GeoDRM>
+|1251 |rights holder
+|1252 |rights management <GeoDRM>
+|1253 |risk
+|1254 |sublicence
+|1255 |sublicensee
+|1256 |sufficient
+|1257 |transaction
+|1258 |trust
+|===
+
+*Records published in ISO 19156:2011but omitted from new edition ISO 19156:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1305 |observation procedure
+|1306 |observation protocol
+|1443 |sampling feature
+|===
+
+*Records published in ISO 19157:2013 but omitted from new edition ISO 19157-1:2023*
+
+[width="100%",cols="50%,50%",options="header",]
+|===
+|*Term_ID* |*Term*
+|1291 |catalogue
+|===
+
+
+* Registry metadata updates
+** Germany: registry metadata (https://github.com/geolexica/isotc211-glossary/issues/52[tracked issue])
+** Korea: registry contacts (https://github.com/geolexica/isotc211-glossary/pull/37[tracked issue])
+** Malaysian: contacts and last updated date revisions (https://github.com/geolexica/isotc211-glossary/issues/32[tracked issue])
+** Saudia Arabia: updated date revisions (https://github.com/geolexica/isotc211-glossary/issues/38[tracked issue])
+
+* Language code updates according to ISO 639-2 (https://github.com/ISO-TC211/mlgt-data/issues/8[tracked issue])
+** Chinese was `chn` now `zho`
+** German was `ger` now `deu`
+** Dutch was `dut` now `nld`
+
+* Definitions with math for the first time is now incorporated into the MLGT.
+  Math elements are properly reflected in the online version of ISO/TC 211 MLGT.
+
+At present, the Glossary is available in the following languages.
+
+* Arabic    (684 Terminology Records)
+* Chinese   (479 Terminology Records)
+* Danish    (206 Terminology Records)
+* Dutch     (76 Terminology Records)
+* English   (1302 Terminology Records)
+* Finnish   (482 Terminology Records)
+* French    (479 Terminology Records)
+* German    (617 Partially Translated Terminology Records)
+* Japanese  (151 Terminology Records)
+* Korean    (936 Terminology Records)
+* Malay     (324 Terminology Records)
+* Polish    (251 Terminology Records)
+* Russian   (941 Terminology Records)
+* Spanish   (1069 Terminology Records including term equivalents)
+* Swedish   (681 Translated Terminology Records)
+
+
+As always, please use our link:/feedback/[Feedback] link to send in any comments!
+
+For further information or comment, please contact:
+
+Reese Plews +
+Convener, Terminology Maintenance Group +
+rplews@tc211tmg.org +
+https://github.com/ISO-TC211/TMG +

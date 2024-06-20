@@ -15,7 +15,7 @@ This MLGT version provides a number of improvements, including:
 
 == Superseded and replacement standards
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Old Standard |New Standard
 
@@ -40,7 +40,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 6709:2008* to *ISO 6709:2022(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -51,7 +51,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19105:2000* to *ISO 19105:2022(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -62,7 +62,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19123:2005* to *ISO 19123-1:2023(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -80,7 +80,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19125-2:2004* to *ISO 19101-2:2018*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -90,7 +90,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19126:2009* to *ISO 19126:2021(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -102,7 +102,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19148:2012* to *ISO 19148:2021(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -123,7 +123,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19156:2011* to *ISO 19156:2023(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -135,7 +135,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19109:2005* to *ISO 19156:2023(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -145,7 +145,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19157:2013* to *ISO 19157-1:2023(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -159,7 +159,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records in which the authoritative reference changed from *ISO 19160-4:2017(E) to ISO 19160-4:2023(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -203,7 +203,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19105:2000 but superseded by new entries in *ISO 19105:2022*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -220,7 +220,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19111:2007 but superseded by new entries in *ISO 19123-1:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -230,7 +230,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19111:2019 but superseded by new entries in *ISO 19111:2019/Amd.2:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -241,7 +241,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19115-2:2019 but superseded by new entries in *ISO 19123-1:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -251,7 +251,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19117:2012 but superseded by new entries in *ISO 19131:2022*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -261,7 +261,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19123:2005 but superseded by new entries in *ISO 19123-1:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -280,7 +280,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19126:2009 but superseded by new entries in *ISO 19126:2021*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -293,7 +293,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19131:2007 but superseded by new entries in *ISO 19131:2022*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -304,7 +304,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO/TS 19139:2007 but superseded by new entries in *ISO 19115-3:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -314,7 +314,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19148:2012 but superseded by new entries in *ISO 19148:2021*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -324,7 +324,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19156:2011 but superseded by new entries in *ISO 19156:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -337,7 +337,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 6709:2008 but omitted from new edition *ISO 6709:2022*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -347,7 +347,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19105:2000 but omitted from new edition *ISO 19105:2022(E)*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -373,7 +373,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19123:2005 but omitted from new edition *ISO 19123-1:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -385,7 +385,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records retired due to the withdrawal (without replacement) of *ISO 19125-2:2004*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -395,7 +395,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records retired due to the withdrawal (without replacement) of *ISO 19153:2014*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -453,7 +453,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19156:2011but omitted from new edition ISO 19156:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 
@@ -465,7 +465,7 @@ This MLGT version provides a number of improvements, including:
 
 === Records published in ISO 19157:2013 but omitted from new edition ISO 19157-1:2023*
 
-[cols="1,7",options="header"]
+[options="header"]
 |===
 |Term ID | Term
 

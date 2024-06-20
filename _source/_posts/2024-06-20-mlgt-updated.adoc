@@ -1,7 +1,7 @@
 ---
 layout: custom-post
-title:  "MLGT updated to 2024/06/xx version"
-date:   2024-06-xx 00:00:00 +0800
+title:  "MLGT updated to 2024/06/21 version"
+date:   2024-06-21 00:00:00 +0800
 categories: update
 ---
 

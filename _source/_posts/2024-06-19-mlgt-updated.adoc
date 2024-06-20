@@ -1,7 +1,7 @@
 ---
 layout: custom-post
 title:  "MLGT updated to 2024/06/21 version"
-date:   2024-06-21 00:00:00 +0800
+date:   2024-06-19 00:00:00 +0800
 categories: update
 ---
 
@@ -13,9 +13,12 @@ This MLGT version provides a number of improvements, including:
 * Updates to terminology
 ** Superseded and replacement standards
 
-[width="100%",cols="50%,50%",options="header",]
+== Superseded and replacement standards
+
+[cols="1,7",options="header"]
 |===
-|*Old Standard* |*New Standard*
+|Old Standard |New Standard
+
 |ISO 6709:2008 |ISO 6709:2022
 |ISO 19105:2000 |ISO 19105:2022
 |ISO 19111:2019 |ISO 19111:2019/Amd.2:2023
@@ -29,39 +32,40 @@ This MLGT version provides a number of improvements, including:
 |ISO 19156:2011 |ISO 19156:2023
 |ISO 19157:2013 |ISO 19157-1:2023
 |ISO 19160-4:2017 |ISO 19160-4:2023
+
 |===
 
 
-** Records requiring changes to the authoritative source
+== Records requiring changes to the authoritative source
 
-Records in which the authoritative reference changed from
-*ISO 6709:2008 to ISO 6709:2022(E)*
+=== Records in which the authoritative reference changed from *ISO 6709:2008* to *ISO 6709:2022(E)*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |733 |altitude
 |905 |sexagesimal degree
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19105:2000* to *ISO 19105:2022(E)*
 
-*ISO 19105:2000 to ISO 19105:2022(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |76 |conformance testing
 |235 |implementation
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19123:2005* to *ISO 19123-1:2023(E)*
 
-*ISO 19123:2005 to ISO 19123-1:2023(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |129 |Delaunay triangulation
 |159 |evaluation<coverage>
 |337 |point coverage
@@ -71,37 +75,37 @@ Records in which the authoritative reference changed from
 |460 |Thiessen polygon
 |476 |triangulated irregular network
 |491 |vector
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19125-2:2004* to *ISO 19101-2:2018*
 
-*ISO 19125-2:2004 to ISO 19101-2:2018*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |203 |geographic feature
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19126:2009* to *ISO 19126:2021(E)*
 
-*ISO 19126:2009 to ISO 19126:2021(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |851 |compound registry
 |852 |feature association concept
 |863 |nominal value
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19148:2012* to *ISO 19148:2021(E)*
 
-*ISO 19148:2012 to ISO 19148:2021(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1170 |attributed feature
 |1171 |feature event
 |1172 |linear referencing
@@ -114,51 +118,51 @@ Records in which the authoritative reference changed from
 |1176 |located feature
 |1177 |locating feature
 |1178 |spatial position
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19156:2011* to *ISO 19156:2023(E)*
 
-*ISO 19156:2011 to ISO 19156:2023(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1063 |domain feature
 |1296 |feature type
 |1308 |observation result
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19109:2005* to *ISO 19156:2023(E)*
 
-*ISO 19109:2005 to ISO 19156:2023(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1312 |property type
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19157:2013* to *ISO 19157-1:2023(E)*
 
-*ISO 19157:2013 to ISO 19157-1:2023(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1366 |conformance quality level
 |736 |correctness
 |1298 |item
 |1303 |metaquality
 |1367 |standalone quality report
+
 |===
 
-*Records in which the authoritative reference changed from*
+=== Records in which the authoritative reference changed from *ISO 19160-4:2017(E) to ISO 19160-4:2023(E)*
 
-*ISO 19160-4:2017(E) to ISO 19160-4:2023(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |2112 |addressee
 |1950 |delivery <postal>
 |2113 |delivery address <postal>
@@ -191,19 +195,18 @@ Records in which the authoritative reference changed from
 |2139 |rendered address
 |2140 |rendering parameter
 |2141 |rendition instruction
+
 |===
 
-*Attachment 4*
 
-*Records that have been superseded*
+== Records that have been superseded
 
-*Records published in ISO 19105:2000 but superseded by new entries in*
+=== Records published in ISO 19105:2000 but superseded by new entries in *ISO 19105:2022*
 
-*ISO 19105:2022*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |3 |abstract test case
 |6 |abstract test suite
 |71 |conformance
@@ -212,54 +215,56 @@ Records in which the authoritative reference changed from
 |161 |executable test case
 |162 |executable test suite
 |238 |inconclusive verdict
+
 |===
 
-*Records published in ISO 19111:2007 but superseded by new entries in*
+=== Records published in ISO 19111:2007 but superseded by new entries in *ISO 19123-1:2023*
 
-*ISO 19123-1:2023*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |709 |image coordinate reference system
+
 |===
 
-*Records published in ISO 19111:2019 but superseded by new entries in
-ISO 19111:2019/Amd.2:2023*
+=== Records published in ISO 19111:2019 but superseded by new entries in *ISO 19111:2019/Amd.2:2023*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |2368 |geodetic coordinate reference system
 |2377 |spherical coordinate system
+
 |===
 
-*Records published in ISO 19115-2:2019 but superseded by new entries in
-ISO 19123-1:2023*
+=== Records published in ISO 19115-2:2019 but superseded by new entries in *ISO 19123-1:2023*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |222 |grid coordinates
+
 |===
 
-*Records published in ISO 19117:2012 but superseded by new entries in
-ISO 19131:2022*
+=== Records published in ISO 19117:2012 but superseded by new entries in *ISO 19131:2022*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |342 |portrayal
+
 |===
 
-* +
-Records published in ISO 19123:2005 but superseded by new entries in*
+=== Records published in ISO 19123:2005 but superseded by new entries in *ISO 19123-1:2023*
 
-*ISO 19123-1:2023*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |83 |continuous coverage
 |99 |coverage
 |100 |coverage geometry
@@ -270,84 +275,82 @@ Records published in ISO 19123:2005 but superseded by new entries in*
 |364 |raster
 |369 |referenceable grid
 |416 |solid
+
 |===
 
-*Records published in ISO 19126:2009 but superseded by new entries in*
+=== Records published in ISO 19126:2009 but superseded by new entries in *ISO 19126:2021*
 
-*ISO 19126:2021*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |853 |feature attribute concept
 |855 |feature concept
 |856 |feature concept dictionary
 |857 |feature operation concept
+
 |===
 
-*Records published in ISO 19131:2007 but superseded by new entries in*
+=== Records published in ISO 19131:2007 but superseded by new entries in *ISO 19131:2022*
 
-*ISO 19131:2022*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |110 |data product
 |111 |data product specification
+
 |===
 
-*Records published in ISO/TS 19139:2007 but superseded by new entries
-in*
+=== Records published in ISO/TS 19139:2007 but superseded by new entries in *ISO 19115-3:2023*
 
-*ISO 19115-3:2023*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |840 |polymorphism
+
 |===
 
-*Records published in ISO 19148:2012 but superseded by new entries in*
+=== Records published in ISO 19148:2012 but superseded by new entries in *ISO 19148:2021*
 
-*ISO 19148:2021*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1073 |linear element
+
 |===
 
-*Records published in ISO 19156:2011 but superseded by new entries in*
+=== Records published in ISO 19156:2011 but superseded by new entries in *ISO 19156:2023*
 
-*ISO 19156:2023*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1442 |observation
+
 |===
 
-*Attachment 5*
 
-*Records that have been retired*
+== Records that have been retired
 
-*Records published in ISO 6709:2008 but omitted from*
+=== Records published in ISO 6709:2008 but omitted from new edition *ISO 6709:2022*
 
-*new edition ISO 6709:2022*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |904 |resolution <coordinate>
+
 |===
 
-*Records published in ISO 19105:2000 but omitted from*
+=== Records published in ISO 19105:2000 but omitted from new edition *ISO 19105:2022(E)*
 
-*new edition ISO 19105:2022(E)*
-
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |4 |abstract test method
 |5 |abstract test module
 |7 |acceptance testing <user>
@@ -365,31 +368,37 @@ in*
 |440 |System Under Test
 |458 |testing laboratory
 |495 |verification test
+
 |===
 
-*Records published in ISO 19123:2005 but omitted from new edition ISO 19123-1:2023*
+=== Records published in ISO 19123:2005 but omitted from new edition *ISO 19123-1:2023*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |757 |geometry value object
 |758 |geometry value pair
 |257 |inverse evaluation<coverage>
+
 |===
 
-*Records retired due to the withdrawal (without replacement) of ISO 19125-2:2004*
+=== Records retired due to the withdrawal (without replacement) of *ISO 19125-2:2004*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |182 |feature table
+
 |===
 
-*Records retired due to the withdrawal (without replacement) of ISO 19153:2014*
+=== Records retired due to the withdrawal (without replacement) of *ISO 19153:2014*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1206 |access control
 |1207 |agency
 |1208 |agent
@@ -439,40 +448,48 @@ in*
 |1256 |sufficient
 |1257 |transaction
 |1258 |trust
+
 |===
 
-*Records published in ISO 19156:2011but omitted from new edition ISO 19156:2023*
+=== Records published in ISO 19156:2011but omitted from new edition ISO 19156:2023*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1305 |observation procedure
 |1306 |observation protocol
 |1443 |sampling feature
+
 |===
 
-*Records published in ISO 19157:2013 but omitted from new edition ISO 19157-1:2023*
+=== Records published in ISO 19157:2013 but omitted from new edition ISO 19157-1:2023*
 
-[width="100%",cols="50%,50%",options="header",]
+[cols="1,7",options="header"]
 |===
-|*Term_ID* |*Term*
+|Term ID | Term
+
 |1291 |catalogue
+
 |===
 
 
-* Registry metadata updates
-** Germany: registry metadata (https://github.com/geolexica/isotc211-glossary/issues/52[tracked issue])
-** Korea: registry contacts (https://github.com/geolexica/isotc211-glossary/pull/37[tracked issue])
-** Malaysian: contacts and last updated date revisions (https://github.com/geolexica/isotc211-glossary/issues/32[tracked issue])
-** Saudia Arabia: updated date revisions (https://github.com/geolexica/isotc211-glossary/issues/38[tracked issue])
+== Other updates
 
-* Language code updates according to ISO 639-2 (https://github.com/ISO-TC211/mlgt-data/issues/8[tracked issue])
-** Chinese was `chn` now `zho`
-** German was `ger` now `deu`
-** Dutch was `dut` now `nld`
+=== Math
 
 * Definitions with math for the first time is now incorporated into the MLGT.
   Math elements are properly reflected in the online version of ISO/TC 211 MLGT.
+
+
+=== Registry metadata updates
+
+* Germany: registry metadata (https://github.com/geolexica/isotc211-glossary/issues/52[tracked issue])
+* Korea: registry contacts (https://github.com/geolexica/isotc211-glossary/pull/37[tracked issue])
+* Malaysian: contacts and last updated date revisions (https://github.com/geolexica/isotc211-glossary/issues/32[tracked issue])
+* Saudi Arabia: updated date revisions (https://github.com/geolexica/isotc211-glossary/issues/38[tracked issue])
+
+== Language statistics
 
 At present, the Glossary is available in the following languages.
 
@@ -492,6 +509,8 @@ At present, the Glossary is available in the following languages.
 * Spanish   (1069 Terminology Records including term equivalents)
 * Swedish   (681 Translated Terminology Records)
 
+
+== Feedback
 
 As always, please use our link:/feedback/[Feedback] link to send in any comments!
 

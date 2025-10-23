@@ -100,9 +100,8 @@ defaults:
       show_header_meta: true
 
 geolexica:
-  concepts_glob: "../isotc211-glossary/geolexica/concept/*.yaml"
-  localized_concepts_path: "../isotc211-glossary/geolexica/localized-concept"
-  glossary_path: "../isotc211-glossary/geolexica"
+  concepts_glob: "../isotc211-glossary/geolexica-v2/*.yaml"
+  glossary_path: "../isotc211-glossary/geolexica-v2"
   format: "paneron"
   math: true
   term_languages:

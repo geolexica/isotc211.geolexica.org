@@ -31,7 +31,7 @@ tagline: >-
 description: >-
   The authoritative glossary for geographic information technology from ISO/TC 211.
 
-baseurl: ""
+baseurl: "/isotc211-staging"
 url: "https://isotc211.geolexica.org"
 
 social:
@@ -49,28 +49,28 @@ social:
 nav:
   items:
   - id: concepts
-    url: /concepts
+    url: /isotc211-staging/concepts
     title: Concepts
     description: List of all concepts
   - id: posts
-    url: /posts
+    url: /isotc211-staging/posts
     title: News & Articles
   - id: registers
-    url: /registers
+    url: /isotc211-staging/registers
     title: Registers
     description: Language registries of the Multi-Lingual Glossary of Terms
   - id: stats
-    url: /stats
+    url: /isotc211-staging/stats
     title: Statistics
     description: Per-language term statistics
   - id: about
-    url: /about
+    url: /isotc211-staging/about
     title: About
   - id: feedback
-    url: /feedback
+    url: /isotc211-staging/feedback
     title: Feedback
   - id: semantic-search
-    url: /semantic-search
+    url: /isotc211-staging/semantic-search
     title: Semantic Search
 
 footer_nav:
@@ -80,7 +80,7 @@ footer_nav:
 powered_by:
   url: https://open.ribose.com
   title: Ribose
-  logo_path: /assets/logo-ribose.svg
+  logo_path: /isotc211-staging/assets/logo-ribose.svg
 
 theme: jekyll-geolexica
 

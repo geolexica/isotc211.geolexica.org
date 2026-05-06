@@ -6,7 +6,7 @@ description: Geographic information terminology from ISO/TC 211.
 datasets:
   - id: isotc211
     uri: "https://glossarist.org/isotc211/*"
-    gcrPackage: https://github.com/geolexica/isotc211-glossary/releases/latest/download/isotc211.gcr
+    gcrPackage: https://github.com/geolexica/isotc211-glossary/releases/latest/download/isotc211-full.gcr
     sourceRepo: https://github.com/geolexica/isotc211-glossary
     title: "ISO/TC 211 Multi-Lingual Glossary"
     description: "Geographic information terminology"
@@ -54,15 +54,29 @@ branding:
   logo:
     path: /logos/isotc211-logo.svg
     alt: "ISO"
+    localPath: logos/isotc211-logo.svg
   ownerName: "ISO/TC 211"
   ownerUrl: https://isotc211.geolexica.org
 
 features:
-  news: false
+  news: true
   stats: true
   graph: true
   about: true
   search: true
+
+pages:
+  - type: news
+    route: news
+    title: News
+    icon: newspaper
+    source: _source/_posts
+  - type: contributors
+    route: contributors
+    title: Contributors
+    icon: users
+
+newsDir: _source/_posts
 
 defaults:
   language: eng

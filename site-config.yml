@@ -1,0 +1,82 @@
+id: isotc211
+domain: isotc211.geolexica.org
+title: ISO/TC 211 Multi-Lingual Glossary
+description: Geographic information terminology from ISO/TC 211.
+
+datasets:
+  - id: isotc211
+    uri: "https://glossarist.org/isotc211/*"
+    gcrPackage: https://github.com/geolexica/isotc211-glossary/releases/latest/download/isotc211-full.gcr
+    sourceRepo: https://github.com/geolexica/isotc211-glossary
+    title: "ISO/TC 211 Multi-Lingual Glossary"
+    description: "Geographic information terminology"
+    owner: ISO/TC 211
+    color: "#0d9488"
+
+routing:
+  - uri: "urn:iec:std:iec:60050:*"
+    type: url
+    url: "https://electropedia.org/iev/iev.nsf/display?openform&ievref={conceptId}"
+    label: "IEC Electropedia"
+
+  - uri: "https://glossarist.org/iev/*"
+    type: url
+    url: "https://electropedia.org/iev/iev.nsf/display?openform&ievref={conceptId}"
+    label: "IEC Electropedia"
+
+  - uri: "urn:iso:std:iso:14812:*"
+    type: site
+    baseUrl: "https://isotc204.geolexica.org"
+    label: "ISO/TC 204 ITS Vocabulary"
+
+  - uri: "https://glossarist.org/isotc204/*"
+    type: site
+    baseUrl: "https://isotc204.geolexica.org"
+    label: "ISO/TC 204 ITS Vocabulary"
+
+  - uri: "https://glossarist.org/osgeo/*"
+    type: site
+    baseUrl: "https://osgeo.geolexica.org"
+    label: "OSGeo Lexicon"
+
+branding:
+  primaryColor: "#e3000f"
+  darkColor: "#333333"
+  fonts:
+    header:
+      family: "Roboto Condensed"
+      source: google
+      weights: [700]
+    body:
+      family: "Roboto"
+      source: google
+      weights: [400, 500, 700]
+  logo:
+    path: /logos/isotc211-logo.svg
+    alt: "ISO"
+    localPath: logos/isotc211-logo.svg
+  ownerName: "ISO/TC 211"
+  ownerUrl: https://isotc211.geolexica.org
+
+features:
+  news: true
+  stats: true
+  graph: true
+  about: true
+  search: true
+
+pages:
+  - type: news
+    route: news
+    title: News
+    icon: newspaper
+    source: _source/_posts
+  - type: contributors
+    route: contributors
+    title: Contributors
+    icon: users
+
+newsDir: _source/_posts
+
+defaults:
+  language: eng

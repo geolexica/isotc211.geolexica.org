@@ -1,23 +1,56 @@
-name: deploy
+name: build_deploy
 
 on:
   push:
-    branches:
-      - main
+    branches: [main]
   pull_request:
   workflow_dispatch:
   repository_dispatch:
-    types:
-    - deploy
+    types: [deploy]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: false
 
 jobs:
-  build-deploy:
-    uses: geolexica/ci/.github/workflows/site-deploy-github-pages.yml@main
-    with:
-      ref: ${{ github.event_name == 'repository_dispatch' && github.event.client_payload.ref || github.ref }}
-      repository: geolexica/isotc211-glossary
-      concepts-path: isotc211-glossary
-      breviter-repository: geolexica/breviter
-      breviter-path: breviter
-      production-branch: refs/heads/main
-      production-url: https://isotc211.geolexica.org
+  build:
+    runs-on: ubuntu-latest
+    environment:
+      name: production
+      url: https://isotc211.geolexica.org
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install concept-browser
+        run: npm install @glossarist/concept-browser
+
+      - name: Build site
+        run: npx concept-browser build
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    if: ${{ github.ref == 'refs/heads/main' }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

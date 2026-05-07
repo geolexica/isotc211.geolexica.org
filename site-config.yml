@@ -82,19 +82,116 @@ defaults:
   language: eng
 
 contributors:
-  - name: Reese Plews
-    role: Register Manager / TMG Convener
-    organization: ISO/TC 211 Terminology Maintenance Group
-    email: rplews@tc211tmg.org
-  - name: Ronald Tse
-    role: Manager
+  # Register Owner
+  - name: ISO/TC 211 Secretariat
+    role: Register Owner
     organization: ISO/TC 211
-    url: https://github.com/ronaldtse
-  - name: Anton G. Scheglov
-    role: Registry Manager
-    organization: Glossarist
-    url: https://github.com/strogonoff
   - name: Mats Åhlin
-    role: Secretariat
+    role: Register Owner Contact
     organization: SIS (Swedish Standards Institute)
     email: mats.ahlin@sis.se
+  # Register Manager
+  - name: ISO/TC 211 Terminology Maintenance Group
+    role: Register Manager
+    organization: ISO/TC 211
+    url: https://github.com/ISO-TC211/TMG
+  - name: Reese Plews
+    role: Register Manager Contact (TMG Convener)
+    organization: ISO/TC 211 Terminology Maintenance Group
+    email: rplews@tc211tmg.org
+  # English register
+  - name: Reese Plews
+    role: Submitting Organization Contact (eng)
+    organization: ISO/TC 211 Terminology Maintenance Group
+    email: rplews@tc211tmg.org
+  # Arabic register
+  - name: "الاستاذ/ فهد بن عبدالله المرقاش"
+    role: Submitting Organization Contact (ara)
+    organization: "الهييئة العامة للمساحة والمعلومات الجيومكانية"
+    email: f.almirqash@geosa.gov.sa
+    url: https://www.geosa.gov.sa/ar/Pages/default.aspx
+  # Chinese register
+  - name: Mrs. Li Li
+    role: Submitting Organization Contact (zho)
+    organization: "全国地理信息标准化技术委员会"
+    email: lili@nsdi.gov.cn
+    url: https://www.ngcc.cn
+  # Danish register
+  - name: Jan Hjelmager
+    role: Submitting Organization Contact (dan)
+    organization: Kort & Matrikelstyrelsen
+    email: jnh@kms.dk
+  # Dutch register
+  - name: Normcommissie 351 240 'Geo-informatie'
+    role: Submitting Organization Contact (nld)
+    organization: NEN
+    email: annet.vanderhorn@nen.nl
+    url: https://www.nen.nl
+  # Finnish register
+  - name: Kai Koistinen
+    role: Submitting Organization Contact (fin)
+    organization: Maanmittauslaitos
+    email: kai.koistinen@nls.fi
+  # French register
+  - name: Clément Drouadaine
+    role: Submitting Organization Contact (fra)
+    organization: AFNOR
+    email: clement.drouadaine@ign.fr
+    url: https://www.afnor.org/
+  # German register
+  - name: Chris Schubert
+    role: Submitting Organization Contact (deu)
+    organization: German mirror group to ISO/TC 211 (DIN)
+    email: chris.schubert@tuwien.ac.at
+  # Japanese register
+  - name: "日本測量調査技術協会事務局"
+    role: Submitting Organization Contact (jpn)
+    organization: "日本測量調査技術協会"
+    email: members@sokugikyo.or.jp
+    url: https://www.sokugikyo.or.jp/
+  # Korean register
+  - name: Ryan Ryu
+    role: Submitting Organization Contact (kor)
+    organization: ETRI
+    email: jjryu@etri.re.kr
+  - name: Eun Hyung Kim
+    role: Submitting Organization Contact (kor)
+    organization: Gacheon Univ.
+    email: ehkim1@gachon.ac.kr
+  # Malay register
+  - name: Mr. Feris Frederick
+    role: Submitting Organization Contact (msa)
+    organization: Department of Standards Malaysia
+    email: feris@jsm.gov.my
+    url: https://www.jsm.gov.my
+  - name: Mrs. Marshitah Bahar
+    role: Submitting Organization Contact (msa)
+    organization: Department of Standards Malaysia
+    email: marshitah@jsm.gov.my
+  - name: Mr. Mohd Yusri Mohd Noor
+    role: Submitting Organization Contact (msa)
+    organization: Department of Standards Malaysia
+    email: mohdyusri@nrecc.gov.my
+  # Polish register
+  - name: KT 297 - Sekretariat
+    role: Submitting Organization Contact (pol)
+    organization: Polski Komitet Normalizacyjny, KT 297
+    email: gugik.wz@gugik.gov.pl
+    url: http://kt297.gugik.gov.pl/
+  # Russian register
+  - name: "Раиса Яковлева"
+    role: Submitting Organization Contact (rus)
+    organization: "ФГБУ «Центр геодезии, картографии и ИПД»"
+    email: yrb-job@yandex.ru
+  # Spanish register
+  - name: Israel Sánchez Moreno
+    role: Submitting Organization Contact (spa)
+    organization: IPGH-Instituto Panamericano de Geografía e Historia
+    email: secretariageneral@ipgh.org
+    url: https://www.ipgh.org/mx/
+  # Swedish register
+  - name: Mats Åhlin
+    role: Submitting Organization Contact (swe)
+    organization: SIS, Swedish Standards Institute
+    email: mats.ahlin@sis.se
+    url: https://www.sis.se/

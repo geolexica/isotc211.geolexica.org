@@ -80,3 +80,21 @@ newsDir: _source/_posts
 
 defaults:
   language: eng
+
+contributors:
+  - name: Reese Plews
+    role: Register Manager / TMG Convener
+    organization: ISO/TC 211 Terminology Maintenance Group
+    email: rplews@tc211tmg.org
+  - name: Ronald Tse
+    role: Manager
+    organization: ISO/TC 211
+    url: https://github.com/ronaldtse
+  - name: Anton G. Scheglov
+    role: Registry Manager
+    organization: Glossarist
+    url: https://github.com/strogonoff
+  - name: Mats Åhlin
+    role: Secretariat
+    organization: SIS (Swedish Standards Institute)
+    email: mats.ahlin@sis.se

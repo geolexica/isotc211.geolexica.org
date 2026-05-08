@@ -80,7 +80,6 @@ pages:
     route: about
     title: About
     icon: info
-    datasetScoped: true
     source: about.md
 
 newsDir: news

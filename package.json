@@ -1,10 +1,7 @@
 {
-  "version": "1.0.0",
-  "main": "babel.config.js",
-  "dependencies": {
-    "@babel/cli": "^7.5.5",
-    "@babel/core": "^7.5.5",
-    "@babel/polyfill": "^7.4.4",
-    "@babel/preset-env": "^7.5.5"
+  "private": true,
+  "description": "ISO/TC 211 Multi-Lingual Glossary — deployment config for @glossarist/concept-browser",
+  "scripts": {
+    "build": "npx concept-browser build"
   }
 }

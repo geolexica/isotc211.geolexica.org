@@ -70,16 +70,23 @@ pages:
     route: news
     title: News
     icon: newspaper
-    source: _source/_posts
+    source: news
   - type: contributors
     route: contributors
     title: Contributors
     icon: users
+  - type: about
+    route: about
+    title: About
+    icon: info
+    datasetScoped: true
 
-newsDir: _source/_posts
+newsDir: news
 
 defaults:
   language: eng
+
+copyright: "ISO/TC 211"
 
 contributors:
   # Register Owner

@@ -1,6 +1,0 @@
-[submodule "isotc211-glossary"]
-	path = isotc211-glossary
-	url = git@github.com:geolexica/isotc211-glossary.git
-[submodule "breviter"]
-	path = breviter
-	url = git@github.com:geolexica/breviter.git

@@ -1,0 +1,54 @@
+---
+layout: custom-post
+title:  "New Glossarist Concept Browser launched"
+date:   2026-05-08 00:00:00 +0800
+categories: announcement
+---
+
+We are pleased to announce the launch of the new
+https://github.com/glossarist/concept-browser[Glossarist Concept Browser],
+now powering the ISO/TC 211 Multi-Lingual Glossary of Terms (MLGT) online.
+
+This is a complete rebuild of the MLGT web presence, designed from the ground up
+to provide a modern, fast, and feature-rich experience for browsing
+geographic information terminology.
+
+== What's new
+
+* **Cross-reference resolution** — concepts that reference terms from other
+  registers (IEC Electropedia, ISO/TC 204 ITS Vocabulary, OSGeo Lexicon)
+  are now resolved and linked automatically.
+* **Interactive graph visualization** — explore relationships between concepts
+  using an interactive directed graph powered by D3.js.
+* **Multi-language support** — view definitions in all 15 available languages
+  with proper script rendering, including Arabic, Chinese, Japanese, Korean,
+  and Russian.
+* **Full-text search** — search across all terms and definitions in the glossary.
+* **Math rendering** — mathematical expressions in definitions are rendered
+  using KaTeX.
+* **Statistics dashboard** — view detailed statistics about concepts, languages,
+  and coverage across the MLGT.
+* **Mobile-responsive design** — works on any screen size.
+
+== Technology
+
+The Glossarist Concept Browser is an open-source project built with Vue 3,
+TypeScript, and Vite. It consumes terminology data packaged in the
+https://github.com/glossarist[Glossarist] GCR (Glossarist Concept Repository)
+format, a ZIP-based packaging standard for terminology datasets.
+
+The source code is available on
+https://github.com/glossarist/concept-browser[GitHub].
+
+== Feedback
+
+As always, we welcome your feedback. Please use the
+link:/feedback/[Feedback] form or open an issue on
+https://github.com/geolexica/isotc211-glossary[GitHub].
+
+For further information, please contact:
+
+Reese Plews +
+Convener, Terminology Maintenance Group +
+rplews@tc211tmg.org +
+https://github.com/ISO-TC211/TMG

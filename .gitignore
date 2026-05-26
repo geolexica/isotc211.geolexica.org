@@ -19,3 +19,7 @@ _source/next_app
 public/
 metadata.yaml
 dist/
+
+.datasets/
+.gcr/
+tmp/

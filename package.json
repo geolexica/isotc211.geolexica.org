@@ -3,5 +3,8 @@
   "description": "ISO/TC 211 Multi-Lingual Glossary — deployment config for @glossarist/concept-browser",
   "scripts": {
     "build": "npx concept-browser build"
+  },
+  "dependencies": {
+    "@glossarist/concept-browser": "file:../../glossarist/glossarist-vocabulary-browser"
   }
 }

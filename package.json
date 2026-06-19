@@ -5,6 +5,6 @@
     "build": "npx concept-browser build"
   },
   "dependencies": {
-    "@glossarist/concept-browser": "file:../../glossarist/glossarist-vocabulary-browser"
+    "@glossarist/concept-browser": "file:../../glossarist/concept-browser"
   }
 }

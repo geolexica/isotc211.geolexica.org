@@ -42,6 +42,10 @@ routing:
     label: "OSGeo Lexicon"
 
 branding:
+  hostedBy:
+    name: Enosema Foundation
+    url: https://www.enosema.org
+    logo: https://www.enosema.org/logos/logo-text-green.svg
   primaryColor: "#e3000f"
   darkColor: "#333333"
   fonts:
